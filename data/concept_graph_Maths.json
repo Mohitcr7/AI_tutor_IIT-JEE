@@ -1,0 +1,3510 @@
+{
+  "metadata": {
+    "exam": "JEE Advanced",
+    "subjects": [
+      "Mathematics"
+    ]
+  },
+  "concept_graph": {
+    "Mathematics": {
+      "Complex Numbers": {
+        "subject": "Mathematics",
+        "chapter": "Complex Numbers",
+        "subconcepts": {
+          "complex_numbers_geometry": {
+            "formulas": {
+              "z\u00b2 - z\u0304\u00b2 = 4ixy": {
+                "expression": "z\u00b2 - z\u0304\u00b2 = 4ixy",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_1"
+                ]
+              },
+              "AM \u2265 GM": {
+                "expression": "AM \u2265 GM",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_1"
+                ]
+              },
+              "Chord Length \u2264 Arc Length": {
+                "expression": "Chord Length \u2264 Arc Length",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_4"
+                ]
+              },
+              "|a\u00b2-b\u00b2| = |a-b||a+b|": {
+                "expression": "|a\u00b2-b\u00b2| = |a-b||a+b|",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_1",
+              "JEE_Adv_2021_P1_4"
+            ],
+            "common_traps": [
+              "Missing the case z=0 or failing to identify the locus as a hyperbola xy=1.",
+              "Overcomplicating the geometric interpretation of complex numbers."
+            ],
+            "prerequisites": []
+          },
+          "rectangular_hyperbola": {
+            "formulas": {
+              "z\u00b2 - z\u0304\u00b2 = 4ixy": {
+                "expression": "z\u00b2 - z\u0304\u00b2 = 4ixy",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_1"
+                ]
+              },
+              "AM \u2265 GM": {
+                "expression": "AM \u2265 GM",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_1"
+            ],
+            "common_traps": [
+              "Missing the case z=0 or failing to identify the locus as a hyperbola xy=1."
+            ],
+            "prerequisites": []
+          },
+          "optimization_using_am_gm": {
+            "formulas": {
+              "z\u00b2 - z\u0304\u00b2 = 4ixy": {
+                "expression": "z\u00b2 - z\u0304\u00b2 = 4ixy",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_1"
+                ]
+              },
+              "AM \u2265 GM": {
+                "expression": "AM \u2265 GM",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_1"
+            ],
+            "common_traps": [
+              "Missing the case z=0 or failing to identify the locus as a hyperbola xy=1."
+            ],
+            "prerequisites": []
+          },
+          "triangle_inequality": {
+            "formulas": {
+              "Chord Length \u2264 Arc Length": {
+                "expression": "Chord Length \u2264 Arc Length",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_4"
+                ]
+              },
+              "|a\u00b2-b\u00b2| = |a-b||a+b|": {
+                "expression": "|a\u00b2-b\u00b2| = |a-b||a+b|",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_4"
+            ],
+            "common_traps": [
+              "Overcomplicating the geometric interpretation of complex numbers."
+            ],
+            "prerequisites": []
+          },
+          "arc_length_chord_inequality": {
+            "formulas": {
+              "Chord Length \u2264 Arc Length": {
+                "expression": "Chord Length \u2264 Arc Length",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_4"
+                ]
+              },
+              "|a\u00b2-b\u00b2| = |a-b||a+b|": {
+                "expression": "|a\u00b2-b\u00b2| = |a-b||a+b|",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_4"
+            ],
+            "common_traps": [
+              "Overcomplicating the geometric interpretation of complex numbers."
+            ],
+            "prerequisites": []
+          },
+          "complex_conjugate_properties": {
+            "formulas": {
+              "w \u2208 R <=> w = w\u0304": {
+                "expression": "w \u2208 R <=> w = w\u0304",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P1_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_P1_4"
+            ],
+            "common_traps": [
+              "Calculation errors in expansion; failing to use Im(z) \u2260 0 to eliminate z=z\u0304."
+            ],
+            "prerequisites": []
+          },
+          "real_number_condition": {
+            "formulas": {
+              "w \u2208 R <=> w = w\u0304": {
+                "expression": "w \u2208 R <=> w = w\u0304",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P1_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_P1_4"
+            ],
+            "common_traps": [
+              "Calculation errors in expansion; failing to use Im(z) \u2260 0 to eliminate z=z\u0304."
+            ],
+            "prerequisites": []
+          },
+          "complex_equations": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P1_5",
+              "JEE_Adv_2023_P1_17"
+            ],
+            "common_traps": [
+              "Missing the z=0 solution."
+            ],
+            "prerequisites": []
+          },
+          "roots_of_unity": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P1_5"
+            ],
+            "common_traps": [
+              "Missing the z=0 solution."
+            ],
+            "prerequisites": []
+          },
+          "complex_numbers": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P1_11"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "integers": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P1_11"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "modulus": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P1_17"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "complex_roots_of_unity": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_11"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "geometry_maximization": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_11"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "complex_algebra": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P2_11"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          }
+        }
+      },
+      "Probability": {
+        "subject": "Mathematics",
+        "chapter": "Probability",
+        "subconcepts": {
+          "binomial_distribution": {
+            "formulas": {
+              "P(X=r) = nCr p^r q^(n-r)": {
+                "expression": "P(X=r) = nCr p^r q^(n-r)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_2"
+            ],
+            "common_traps": [
+              "Calculation errors when evaluating the terms for higher n or forgetting the nC2 term coefficient.",
+              "Calculation errors when evaluating the terms for higher n."
+            ],
+            "prerequisites": []
+          },
+          "inequalities": {
+            "formulas": {
+              "P(X=r) = nCr p^r q^(n-r)": {
+                "expression": "P(X=r) = nCr p^r q^(n-r)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_2"
+            ],
+            "common_traps": [
+              "Calculation errors when evaluating the terms for higher n or forgetting the nC2 term coefficient.",
+              "Calculation errors when evaluating the terms for higher n."
+            ],
+            "prerequisites": []
+          },
+          "conditional_probability": {
+            "formulas": {
+              "P(A|B) = P(B|A)P(A)/P(B)": {
+                "expression": "P(A|B) = P(B|A)P(A)/P(B)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_15",
+              "JEE_Adv_2021_P1_3",
+              "JEE_Adv_2023_P2_10",
+              "JEE_Adv_2024_P2_9",
+              "JEE_Adv_2022_P2_17"
+            ],
+            "common_traps": [
+              "Confusing the condition 'before prime' with the final condition 'is odd'.",
+              "Incorrectly calculating the composition of sets G2 and F2 at each step.",
+              "Counting permutations with identical items."
+            ],
+            "prerequisites": []
+          },
+          "bayes_theorem": {
+            "formulas": {
+              "P(A|B) = P(B|A)P(A)/P(B)": {
+                "expression": "P(A|B) = P(B|A)P(A)/P(B)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_3",
+              "JEE_Adv_2022_P2_17"
+            ],
+            "common_traps": [
+              "Incorrectly calculating the composition of sets G2 and F2 at each step."
+            ],
+            "prerequisites": []
+          },
+          "set_operations": {
+            "formulas": {
+              "P(A|B) = P(B|A)P(A)/P(B)": {
+                "expression": "P(A|B) = P(B|A)P(A)/P(B)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_3"
+            ],
+            "common_traps": [
+              "Incorrectly calculating the composition of sets G2 and F2 at each step."
+            ],
+            "prerequisites": []
+          },
+          "probability_inequalities": {
+            "formulas": {
+              "P(A \u222a B) \u2264 P(A) + P(B)": {
+                "expression": "P(A \u222a B) \u2264 P(A) + P(B)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_13"
+                ]
+              },
+              "P(A \u2229 B^c) = P(A) - P(A \u2229 B)": {
+                "expression": "P(A \u2229 B^c) = P(A) - P(A \u2229 B)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_13"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_13"
+            ],
+            "common_traps": [
+              "Confusing lower bounds and upper bounds in inequalities."
+            ],
+            "prerequisites": []
+          },
+          "set_theory_probability": {
+            "formulas": {
+              "P(A \u222a B) \u2264 P(A) + P(B)": {
+                "expression": "P(A \u222a B) \u2264 P(A) + P(B)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_13"
+                ]
+              },
+              "P(A \u2229 B^c) = P(A) - P(A \u2229 B)": {
+                "expression": "P(A \u2229 B^c) = P(A) - P(A \u2229 B)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_13"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_13"
+            ],
+            "common_traps": [
+              "Confusing lower bounds and upper bounds in inequalities."
+            ],
+            "prerequisites": []
+          },
+          "inclusion_exclusion": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P2_17"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "classical_probability": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P2_17"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "probability_distribution": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P1_16"
+            ],
+            "common_traps": [
+              "Enumerating all cases."
+            ],
+            "prerequisites": []
+          },
+          "game_theory": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P1_16"
+            ],
+            "common_traps": [
+              "Enumerating all cases."
+            ],
+            "prerequisites": []
+          },
+          "coordinate_geometry_probability": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P1_6"
+            ],
+            "common_traps": [
+              "Counting collinear points or forgetting the integer area condition."
+            ],
+            "prerequisites": []
+          },
+          "area_of_triangle": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P1_6"
+            ],
+            "common_traps": [
+              "Counting collinear points or forgetting the integer area condition."
+            ],
+            "prerequisites": []
+          },
+          "parity_analysis": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P1_6"
+            ],
+            "common_traps": [
+              "Counting collinear points or forgetting the integer area condition."
+            ],
+            "prerequisites": []
+          },
+          "infinite_geometric_series": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_2"
+            ],
+            "common_traps": [
+              "Missing the sequences starting with T."
+            ],
+            "prerequisites": []
+          },
+          "probability_of_events": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_2"
+            ],
+            "common_traps": [
+              "Missing the sequences starting with T."
+            ],
+            "prerequisites": []
+          },
+          "permutations_and_combinations": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_10"
+            ],
+            "common_traps": [
+              "Counting permutations with identical items."
+            ],
+            "prerequisites": []
+          },
+          "divisibility_rules": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_10"
+            ],
+            "common_traps": [
+              "Counting permutations with identical items."
+            ],
+            "prerequisites": []
+          },
+          "expectation": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_16"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "grid_graph": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_16"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "graph_theory": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_17"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "probability": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_17"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "multiplication_theorem": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2024_P2_9"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          }
+        }
+      },
+      "Circles": {
+        "subject": "Mathematics",
+        "chapter": "Circles",
+        "subconcepts": {
+          "family_of_circles": {
+            "formulas": {
+              "S + \u03bbL = 0": {
+                "expression": "S + \u03bbL = 0",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_3"
+                ]
+              },
+              "Center = (-g, -f)": {
+                "expression": "Center = (-g, -f)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_3"
+            ],
+            "common_traps": [
+              "Calculating the coordinates of P and Q explicitly instead of using the family of circles method.",
+              "Using lengthy coordinate geometry methods instead of family of circles."
+            ],
+            "prerequisites": []
+          },
+          "circumcircle": {
+            "formulas": {
+              "S + \u03bbL = 0": {
+                "expression": "S + \u03bbL = 0",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_3"
+                ]
+              },
+              "Center = (-g, -f)": {
+                "expression": "Center = (-g, -f)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_3"
+            ],
+            "common_traps": [
+              "Calculating the coordinates of P and Q explicitly instead of using the family of circles method.",
+              "Using lengthy coordinate geometry methods instead of family of circles."
+            ],
+            "prerequisites": []
+          },
+          "coordinate_geometry": {
+            "formulas": {
+              "S + \u03bbL = 0": {
+                "expression": "S + \u03bbL = 0",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_3"
+                ]
+              },
+              "Center = (-g, -f)": {
+                "expression": "Center = (-g, -f)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_3"
+                ]
+              },
+              "Dist(C1, C2) = |R1 \u00b1 R2|": {
+                "expression": "Dist(C1, C2) = |R1 \u00b1 R2|",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P1_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_3",
+              "JEE_Adv_2022_P1_8"
+            ],
+            "common_traps": [
+              "Calculating the coordinates of P and Q explicitly instead of using the family of circles method.",
+              "Wrong tangency condition (external vs internal)."
+            ],
+            "prerequisites": []
+          },
+          "orthocenter_properties": {
+            "formulas": {
+              "Slope m1 * m2 = -1": {
+                "expression": "Slope m1 * m2 = -1",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_1"
+            ],
+            "common_traps": [
+              "Identifying which vertex corresponds to which intersection."
+            ],
+            "prerequisites": []
+          },
+          "equation_of_circle": {
+            "formulas": {
+              "Slope m1 * m2 = -1": {
+                "expression": "Slope m1 * m2 = -1",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_1"
+            ],
+            "common_traps": [
+              "Identifying which vertex corresponds to which intersection."
+            ],
+            "prerequisites": []
+          },
+          "straight_lines": {
+            "formulas": {
+              "Slope m1 * m2 = -1": {
+                "expression": "Slope m1 * m2 = -1",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_1"
+            ],
+            "common_traps": [
+              "Identifying which vertex corresponds to which intersection."
+            ],
+            "prerequisites": []
+          },
+          "circle_parabola_intersection": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P2_7"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "tangency_condition": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P2_7"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "circle_tangency": {
+            "formulas": {
+              "Dist(C1, C2) = |R1 \u00b1 R2|": {
+                "expression": "Dist(C1, C2) = |R1 \u00b1 R2|",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P1_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_P1_8"
+            ],
+            "common_traps": [
+              "Wrong tangency condition (external vs internal)."
+            ],
+            "prerequisites": []
+          },
+          "radical_axis": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_13"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "common_tangents": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_13"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "polygon_geometry": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P2_12"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "circle_packing": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P2_12"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          }
+        }
+      },
+      "Matrices": {
+        "subject": "Mathematics",
+        "chapter": "Matrices",
+        "subconcepts": {
+          "cayley_hamilton_theorem": {
+            "formulas": {
+              "A\u00b2 - Tr(A)A + Det(A)I = 0": {
+                "expression": "A\u00b2 - Tr(A)A + Det(A)I = 0",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_4"
+            ],
+            "common_traps": [
+              "Trying to solve for individual matrix elements a, b, c, d which is algebraically tedious.",
+              "Solving for matrix elements."
+            ],
+            "prerequisites": []
+          },
+          "trace_of_matrix": {
+            "formulas": {
+              "A\u00b2 - Tr(A)A + Det(A)I = 0": {
+                "expression": "A\u00b2 - Tr(A)A + Det(A)I = 0",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_4"
+            ],
+            "common_traps": [
+              "Trying to solve for individual matrix elements a, b, c, d which is algebraically tedious.",
+              "Solving for matrix elements."
+            ],
+            "prerequisites": []
+          },
+          "characteristic_equation": {
+            "formulas": {
+              "A\u00b2 - Tr(A)A + Det(A)I = 0": {
+                "expression": "A\u00b2 - Tr(A)A + Det(A)I = 0",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_4",
+              "JEE_Adv_2022_P2_6"
+            ],
+            "common_traps": [
+              "Trying to solve for individual matrix elements a, b, c, d which is algebraically tedious.",
+              "Calculation error in determinants."
+            ],
+            "prerequisites": []
+          },
+          "matrix_inversion_identities": {
+            "formulas": {
+              "|AB| = |A||B|": {
+                "expression": "|AB| = |A||B|",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_14"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_14"
+            ],
+            "common_traps": [
+              "Non-commutativity of matrix multiplication."
+            ],
+            "prerequisites": []
+          },
+          "determinant_properties": {
+            "formulas": {
+              "|AB| = |A||B|": {
+                "expression": "|AB| = |A||B|",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_14"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_14"
+            ],
+            "common_traps": [
+              "Non-commutativity of matrix multiplication."
+            ],
+            "prerequisites": []
+          },
+          "matrix_multiplication": {
+            "formulas": {
+              "|AB| = |A||B|": {
+                "expression": "|AB| = |A||B|",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_14"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_14"
+            ],
+            "common_traps": [
+              "Non-commutativity of matrix multiplication."
+            ],
+            "prerequisites": []
+          },
+          "matrix_construction": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_5"
+            ],
+            "common_traps": [
+              "Matrix construction from divisibility rules."
+            ],
+            "prerequisites": []
+          },
+          "system_of_linear_equations": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_5"
+            ],
+            "common_traps": [
+              "Matrix construction from divisibility rules."
+            ],
+            "prerequisites": []
+          },
+          "matrix_determinant": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_12",
+              "JEE_Adv_2022_P2_6"
+            ],
+            "common_traps": [
+              "Calculation error in determinants."
+            ],
+            "prerequisites": []
+          },
+          "combinatorics": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_12"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "matrix_powers": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P2_16"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "binomial_theorem": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P2_16"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          }
+        }
+      },
+      "Limits": {
+        "subject": "Mathematics",
+        "chapter": "Limits",
+        "subconcepts": {
+          "trigonometric_limits": {
+            "formulas": {
+              "sin(A+B)": {
+                "expression": "sin(A+B)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_6"
+                ]
+              },
+              "cos(A+B)": {
+                "expression": "cos(A+B)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_6"
+                ]
+              },
+              "limit_h_tends_to_0": {
+                "expression": "limit_h_tends_to_0",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_6"
+            ],
+            "common_traps": [
+              "Algebraic errors in expanding trigonometric functions or failing to cancel lower order terms correctly.",
+              "Calculation errors in expansion."
+            ],
+            "prerequisites": []
+          },
+          "taylor_series_expansion": {
+            "formulas": {
+              "sin(A+B)": {
+                "expression": "sin(A+B)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_6"
+                ]
+              },
+              "cos(A+B)": {
+                "expression": "cos(A+B)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_6"
+                ]
+              },
+              "limit_h_tends_to_0": {
+                "expression": "limit_h_tends_to_0",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_6"
+            ],
+            "common_traps": [
+              "Algebraic errors in expanding trigonometric functions or failing to cancel lower order terms correctly."
+            ],
+            "prerequisites": []
+          },
+          "lhopitals_rule": {
+            "formulas": {
+              "sin(A+B)": {
+                "expression": "sin(A+B)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_6"
+                ]
+              },
+              "cos(A+B)": {
+                "expression": "cos(A+B)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_6"
+                ]
+              },
+              "limit_h_tends_to_0": {
+                "expression": "limit_h_tends_to_0",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_6"
+            ],
+            "common_traps": [
+              "Algebraic errors in expanding trigonometric functions or failing to cancel lower order terms correctly."
+            ],
+            "prerequisites": []
+          },
+          "taylor_series": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2020_P2_6"
+            ],
+            "common_traps": [
+              "Calculation errors in expansion."
+            ],
+            "prerequisites": []
+          },
+          "l_hopitals_rule": {
+            "formulas": {
+              "lim (x\u2192a) (f(x)-f(a))/(x-a) = f'(a)": {
+                "expression": "lim (x\u2192a) (f(x)-f(a))/(x-a) = f'(a)",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P1_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_P1_2",
+              "JEE_Adv_2024_P2_3"
+            ],
+            "common_traps": [
+              "Algebraic errors in applying L'Hopital's rule or handling the nested logarithms."
+            ],
+            "prerequisites": []
+          },
+          "limits_of_composite_functions": {
+            "formulas": {
+              "lim (x\u2192a) (f(x)-f(a))/(x-a) = f'(a)": {
+                "expression": "lim (x\u2192a) (f(x)-f(a))/(x-a) = f'(a)",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P1_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_P1_2"
+            ],
+            "common_traps": [
+              "Algebraic errors in applying L'Hopital's rule or handling the nested logarithms."
+            ],
+            "prerequisites": []
+          },
+          "sandwich_theorem": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P1_4"
+            ],
+            "common_traps": [
+              "Evaluating the integral bounds."
+            ],
+            "prerequisites": []
+          },
+          "limits": {
+            "formulas": {
+              "(1+x)\u207f \u2248 1 + nx": {
+                "expression": "(1+x)\u207f \u2248 1 + nx",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P2_5"
+                ]
+              },
+              "e\u02e3 \u2248 1 + x": {
+                "expression": "e\u02e3 \u2248 1 + x",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P2_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_4",
+              "JEE_Adv_2022_P2_5"
+            ],
+            "common_traps": [
+              "Evaluating the integral bounds.",
+              "Sign errors in expansions."
+            ],
+            "prerequisites": []
+          },
+          "limits_using_expansion": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2024_P2_3"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "limits_exponential_form": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2024_P2_5"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "series_expansion": {
+            "formulas": {
+              "(1+x)\u207f \u2248 1 + nx": {
+                "expression": "(1+x)\u207f \u2248 1 + nx",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P2_5"
+                ]
+              },
+              "e\u02e3 \u2248 1 + x": {
+                "expression": "e\u02e3 \u2248 1 + x",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P2_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_P2_5"
+            ],
+            "common_traps": [
+              "Sign errors in expansions."
+            ],
+            "prerequisites": []
+          },
+          "limit_of_sum": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P2_18"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "definite_integration": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P2_18"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          }
+        }
+      },
+      "Hyperbola": {
+        "subject": "Mathematics",
+        "chapter": "Hyperbola",
+        "subconcepts": {
+          "tangents_and_normals": {
+            "formulas": {
+              "y - y\u2081 = m(x - x\u2081)": {
+                "expression": "y - y\u2081 = m(x - x\u2081)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_8"
+                ]
+              },
+              "e\u00b2 = 1 + b\u00b2/a\u00b2": {
+                "expression": "e\u00b2 = 1 + b\u00b2/a\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_8"
+            ],
+            "common_traps": [
+              "Confusing the slope of the normal with 1 instead of -1, leading to incorrect point coordinates."
+            ],
+            "prerequisites": []
+          },
+          "hyperbola_properties": {
+            "formulas": {
+              "y - y\u2081 = m(x - x\u2081)": {
+                "expression": "y - y\u2081 = m(x - x\u2081)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_8"
+                ]
+              },
+              "e\u00b2 = 1 + b\u00b2/a\u00b2": {
+                "expression": "e\u00b2 = 1 + b\u00b2/a\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_8"
+            ],
+            "common_traps": [
+              "Confusing the slope of the normal with 1 instead of -1, leading to incorrect point coordinates."
+            ],
+            "prerequisites": []
+          },
+          "area_of_triangle": {
+            "formulas": {
+              "y - y\u2081 = m(x - x\u2081)": {
+                "expression": "y - y\u2081 = m(x - x\u2081)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_8"
+                ]
+              },
+              "e\u00b2 = 1 + b\u00b2/a\u00b2": {
+                "expression": "e\u00b2 = 1 + b\u00b2/a\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_8"
+            ],
+            "common_traps": [
+              "Confusing the slope of the normal with 1 instead of -1, leading to incorrect point coordinates.",
+              "Slope of normal."
+            ],
+            "prerequisites": []
+          },
+          "hyperbola_tangents_normals": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2020_P2_8"
+            ],
+            "common_traps": [
+              "Slope of normal."
+            ],
+            "prerequisites": []
+          },
+          "hyperbola_tangent_properties": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P2_7"
+            ],
+            "common_traps": [
+              "Complex geometry."
+            ],
+            "prerequisites": []
+          },
+          "focal_radii": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P2_7"
+            ],
+            "common_traps": [
+              "Complex geometry."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Vector Algebra": {
+        "subject": "Mathematics",
+        "chapter": "Vector Algebra",
+        "subconcepts": {
+          "vector_projections": {
+            "formulas": {
+              "Area = |a x b|": {
+                "expression": "Area = |a x b|",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_11"
+                ]
+              },
+              "Proj b on a = (a.b/|a|^2) a": {
+                "expression": "Proj b on a = (a.b/|a|^2) a",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_11"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_11"
+            ],
+            "common_traps": [
+              "Neglecting the absolute value in |a-b| or making errors in the projection magnitude formula."
+            ],
+            "prerequisites": []
+          },
+          "vector_area": {
+            "formulas": {
+              "Area = |a x b|": {
+                "expression": "Area = |a x b|",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_11"
+                ]
+              },
+              "Proj b on a = (a.b/|a|^2) a": {
+                "expression": "Proj b on a = (a.b/|a|^2) a",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_11"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_11"
+            ],
+            "common_traps": [
+              "Neglecting the absolute value in |a-b| or making errors in the projection magnitude formula."
+            ],
+            "prerequisites": []
+          },
+          "vector_addition": {
+            "formulas": {
+              "Area = |a x b|": {
+                "expression": "Area = |a x b|",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_11"
+                ]
+              },
+              "Proj b on a = (a.b/|a|^2) a": {
+                "expression": "Proj b on a = (a.b/|a|^2) a",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_11"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_11"
+            ],
+            "common_traps": [
+              "Neglecting the absolute value in |a-b| or making errors in the projection magnitude formula."
+            ],
+            "prerequisites": []
+          },
+          "vectors": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2020_P2_11"
+            ],
+            "common_traps": [
+              "Missing modulus."
+            ],
+            "prerequisites": []
+          },
+          "projection": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2020_P2_11"
+            ],
+            "common_traps": [
+              "Missing modulus."
+            ],
+            "prerequisites": []
+          },
+          "parallelogram_area": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2020_P2_11"
+            ],
+            "common_traps": [
+              "Missing modulus."
+            ],
+            "prerequisites": []
+          },
+          "scalar_triple_product": {
+            "formulas": {
+              "[u v w]\u00b2 = Det(Gram Matrix)": {
+                "expression": "[u v w]\u00b2 = Det(Gram Matrix)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_19"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_19"
+            ],
+            "common_traps": [
+              "Forgetting that volume squared is the determinant of dot products."
+            ],
+            "prerequisites": []
+          },
+          "gram_determinant": {
+            "formulas": {
+              "[u v w]\u00b2 = Det(Gram Matrix)": {
+                "expression": "[u v w]\u00b2 = Det(Gram Matrix)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_19"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_19"
+            ],
+            "common_traps": [
+              "Forgetting that volume squared is the determinant of dot products."
+            ],
+            "prerequisites": []
+          },
+          "vector_magnitude": {
+            "formulas": {
+              "[u v w]\u00b2 = Det(Gram Matrix)": {
+                "expression": "[u v w]\u00b2 = Det(Gram Matrix)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_19"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_19"
+            ],
+            "common_traps": [
+              "Forgetting that volume squared is the determinant of dot products."
+            ],
+            "prerequisites": []
+          },
+          "vector_products": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2024_P2_11"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "linear_equations": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2024_P2_11"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          }
+        }
+      },
+      "Binomial Theorem": {
+        "subject": "Mathematics",
+        "chapter": "Binomial Theorem",
+        "subconcepts": {
+          "binomial_coefficient_properties": {
+            "formulas": {
+              "\u03a3 nCr = 2^n": {
+                "expression": "\u03a3 nCr = 2^n",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_12"
+                ]
+              },
+              "nCr = n!/r!(n-r)!": {
+                "expression": "nCr = n!/r!(n-r)!",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_12"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_12"
+            ],
+            "common_traps": [
+              "Getting lost in the factorial expansions without recognizing the standard binomial identities."
+            ],
+            "prerequisites": []
+          },
+          "summation_of_series": {
+            "formulas": {
+              "\u03a3 nCr = 2^n": {
+                "expression": "\u03a3 nCr = 2^n",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_12"
+                ]
+              },
+              "nCr = n!/r!(n-r)!": {
+                "expression": "nCr = n!/r!(n-r)!",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_12"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_12"
+            ],
+            "common_traps": [
+              "Getting lost in the factorial expansions without recognizing the standard binomial identities."
+            ],
+            "prerequisites": []
+          },
+          "vandermondes_identity": {
+            "formulas": {
+              "\u03a3 nCr = 2^n": {
+                "expression": "\u03a3 nCr = 2^n",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_12"
+                ]
+              },
+              "nCr = n!/r!(n-r)!": {
+                "expression": "nCr = n!/r!(n-r)!",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_12"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_12"
+            ],
+            "common_traps": [
+              "Getting lost in the factorial expansions without recognizing the standard binomial identities."
+            ],
+            "prerequisites": []
+          },
+          "binomial_identities": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2020_P2_12"
+            ],
+            "common_traps": [
+              "Combinatorial summation."
+            ],
+            "prerequisites": []
+          },
+          "binomial_coefficients": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P1_13"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          }
+        }
+      },
+      "Functions": {
+        "subject": "Mathematics",
+        "chapter": "Functions",
+        "subconcepts": {
+          "composite_functions": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2020_P2_5"
+            ],
+            "common_traps": [
+              "Forgetting that discontinuity implies non-differentiability when counting 'd'."
+            ],
+            "prerequisites": []
+          },
+          "continuity_and_differentiability": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2020_P2_5",
+              "JEE_Adv_2023_P1_1",
+              "JEE_Adv_2023_P2_6"
+            ],
+            "common_traps": [
+              "Forgetting that discontinuity implies non-differentiability when counting 'd'.",
+              "Confusing the number of functions with number of continuous functions."
+            ],
+            "prerequisites": []
+          },
+          "fractional_part_function": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2020_P2_5"
+            ],
+            "common_traps": [
+              "Forgetting that discontinuity implies non-differentiability when counting 'd'."
+            ],
+            "prerequisites": []
+          },
+          "functional_equations": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2020_P2_9",
+              "JEE_Adv_2024_P2_8"
+            ],
+            "common_traps": [
+              "Not recognizing the h(x) transformation."
+            ],
+            "prerequisites": []
+          },
+          "differentiability": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2020_P2_9"
+            ],
+            "common_traps": [
+              "Not recognizing the h(x) transformation."
+            ],
+            "prerequisites": []
+          },
+          "summation_of_series": {
+            "formulas": {
+              "f(x)+f(1-x)=1": {
+                "expression": "f(x)+f(1-x)=1",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_16"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_16"
+            ],
+            "common_traps": [
+              "Forgetting the middle term or the subtraction."
+            ],
+            "prerequisites": []
+          },
+          "functional_properties": {
+            "formulas": {
+              "f(x)+f(1-x)=1": {
+                "expression": "f(x)+f(1-x)=1",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_16"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_16"
+            ],
+            "common_traps": [
+              "Forgetting the middle term or the subtraction."
+            ],
+            "prerequisites": []
+          },
+          "one_one_onto_functions": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2020_P1_2"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "derivatives_application": {
+            "formulas": {
+              "d/dx(u/v) = (vu'-uv')/v\u00b2": {
+                "expression": "d/dx(u/v) = (vu'-uv')/v\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_12"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_12"
+            ],
+            "common_traps": [
+              "Assuming local max is global max without checking limits, or algebraic errors in range calculation."
+            ],
+            "prerequisites": []
+          },
+          "monotonicity": {
+            "formulas": {
+              "d/dx(u/v) = (vu'-uv')/v\u00b2": {
+                "expression": "d/dx(u/v) = (vu'-uv')/v\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_12"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_12",
+              "JEE_Adv_2024_P2_10"
+            ],
+            "common_traps": [
+              "Assuming local max is global max without checking limits, or algebraic errors in range calculation."
+            ],
+            "prerequisites": []
+          },
+          "range_of_rational_function": {
+            "formulas": {
+              "d/dx(u/v) = (vu'-uv')/v\u00b2": {
+                "expression": "d/dx(u/v) = (vu'-uv')/v\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_12"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_12"
+            ],
+            "common_traps": [
+              "Assuming local max is global max without checking limits, or algebraic errors in range calculation."
+            ],
+            "prerequisites": []
+          },
+          "mean_value_theorem": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P2_15"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "properties_of_functions": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P1_1"
+            ],
+            "common_traps": [
+              "Confusing the number of functions with number of continuous functions."
+            ],
+            "prerequisites": []
+          },
+          "greatest_integer_function": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_6"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "roots_of_functions": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2024_P2_4"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "trigonometric_equations": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2024_P2_4"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "roots_of_equations": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2024_P2_10"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "maxima_minima": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P2_10"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "function_analysis": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P2_10"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          }
+        }
+      },
+      "Differential Equations": {
+        "subject": "Mathematics",
+        "chapter": "Differential Equations",
+        "subconcepts": {
+          "differential_equations": {
+            "formulas": {
+              "\u222b 1/(a\u00b2+x\u00b2) dx = 1/a tan\u207b\u00b9(x/a)": {
+                "expression": "\u222b 1/(a\u00b2+x\u00b2) dx = 1/a tan\u207b\u00b9(x/a)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_7",
+              "JEE_Adv_2022_P2_2"
+            ],
+            "common_traps": [
+              "None.",
+              "Choosing the wrong sign for the modulus term."
+            ],
+            "prerequisites": []
+          },
+          "functions_properties": {
+            "formulas": {
+              "\u222b 1/(a\u00b2+x\u00b2) dx = 1/a tan\u207b\u00b9(x/a)": {
+                "expression": "\u222b 1/(a\u00b2+x\u00b2) dx = 1/a tan\u207b\u00b9(x/a)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_7"
+            ],
+            "common_traps": [
+              "None."
+            ],
+            "prerequisites": []
+          },
+          "linear_differential_equations": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P2_4",
+              "JEE_Adv_2023_P2_1",
+              "JEE_Adv_2023_P2_9",
+              "JEE_Adv_2022_P2_14"
+            ],
+            "common_traps": [
+              "Missing the case where \u03b1+\u03b2=0.",
+              "Calculation error in Integrating Factor."
+            ],
+            "prerequisites": []
+          },
+          "leibniz_integral_rule": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_1"
+            ],
+            "common_traps": [
+              "Calculation error in Integrating Factor."
+            ],
+            "prerequisites": []
+          },
+          "maxima_minima": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_9"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "variable_separable": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P2_2"
+            ],
+            "common_traps": [
+              "Choosing the wrong sign for the modulus term."
+            ],
+            "prerequisites": []
+          },
+          "function_behavior": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P2_14"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          }
+        }
+      },
+      "3D Geometry": {
+        "subject": "Mathematics",
+        "chapter": "3D Geometry",
+        "subconcepts": {
+          "plane_mirror_image": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2020_P2_10"
+            ],
+            "common_traps": [
+              "Calculation error."
+            ],
+            "prerequisites": []
+          },
+          "3d_geometry": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2020_P2_10",
+              "JEE_Adv_2020_P1_11"
+            ],
+            "common_traps": [
+              "Calculation error."
+            ],
+            "prerequisites": []
+          },
+          "vector_products": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P2_5",
+              "JEE_Adv_2022_P2_13"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "projection": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P2_5"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "triangle_area": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P2_5"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "planes_intersection": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P1_11"
+            ],
+            "common_traps": [
+              "Visualizing the tetrahedron configuration."
+            ],
+            "prerequisites": []
+          },
+          "tetrahedron_properties": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P1_11"
+            ],
+            "common_traps": [
+              "Visualizing the tetrahedron configuration."
+            ],
+            "prerequisites": []
+          },
+          "reflection_in_plane": {
+            "formulas": {
+              "Reflection: (x-x1)/a = ... = -2(ax1+by1+cz1+d)/(a\u00b2+b\u00b2+c\u00b2)": {
+                "expression": "Reflection: (x-x1)/a = ... = -2(ax1+by1+cz1+d)/(a\u00b2+b\u00b2+c\u00b2)",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P1_12"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_P1_12"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "vector_equation_of_plane": {
+            "formulas": {
+              "Reflection: (x-x1)/a = ... = -2(ax1+by1+cz1+d)/(a\u00b2+b\u00b2+c\u00b2)": {
+                "expression": "Reflection: (x-x1)/a = ... = -2(ax1+by1+cz1+d)/(a\u00b2+b\u00b2+c\u00b2)",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P1_12"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_P1_12"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "shortest_distance_skew_lines": {
+            "formulas": {
+              "SD = |(a2-a1).(b1xb2)| / |b1xb2|": {
+                "expression": "SD = |(a2-a1).(b1xb2)| / |b1xb2|",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_5"
+            ],
+            "common_traps": [
+              "Not checking all non-intersecting pairs."
+            ],
+            "prerequisites": []
+          },
+          "cube_geometry": {
+            "formulas": {
+              "SD = |(a2-a1).(b1xb2)| / |b1xb2|": {
+                "expression": "SD = |(a2-a1).(b1xb2)| / |b1xb2|",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_5"
+            ],
+            "common_traps": [
+              "Not checking all non-intersecting pairs."
+            ],
+            "prerequisites": []
+          },
+          "vector_geometry": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P1_12"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "volume": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P1_12"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "shortest_distance": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P1_16"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "plane_containing_line": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P1_16"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "section_formula": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_4"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "vector_operations": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_4"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "line_plane_intersection": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2024_P2_6"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "distance_formula": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2024_P2_6"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "determinants": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P2_13"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          }
+        }
+      },
+      "Permutations and Combinations": {
+        "subject": "Mathematics",
+        "chapter": "Permutations and Combinations",
+        "subconcepts": {
+          "combinations_with_restrictions": {
+            "formulas": {
+              "(n-k+1)Ck": {
+                "expression": "(n-k+1)Ck",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_13"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_13"
+            ],
+            "common_traps": [
+              "Using total combinations minus consecutive."
+            ],
+            "prerequisites": []
+          },
+          "grouping_and_distribution": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2020_P2_14"
+            ],
+            "common_traps": [
+              "Forgetting to divide by factorials of identical group sizes."
+            ],
+            "prerequisites": []
+          },
+          "counting_principles": {
+            "formulas": {
+              "nCr = n! / (r!(n-r)!)": {
+                "expression": "nCr = n! / (r!(n-r)!)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_1"
+                ]
+              },
+              "nPr = n! / (n-r)!": {
+                "expression": "nPr = n! / (n-r)!",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_1",
+              "JEE_Adv_2022_P1_7"
+            ],
+            "common_traps": [
+              "Calculation error in n\u2082 summation or 10C4.",
+              "Miscounting the boundary conditions (e.g., \u2265 2022)."
+            ],
+            "prerequisites": []
+          },
+          "combinations": {
+            "formulas": {
+              "nCr = n! / (r!(n-r)!)": {
+                "expression": "nCr = n! / (r!(n-r)!)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_1"
+                ]
+              },
+              "nPr = n! / (n-r)!": {
+                "expression": "nPr = n! / (n-r)!",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_1"
+            ],
+            "common_traps": [
+              "Calculation error in n\u2082 summation or 10C4."
+            ],
+            "prerequisites": []
+          },
+          "permutations": {
+            "formulas": {
+              "nCr = n! / (r!(n-r)!)": {
+                "expression": "nCr = n! / (r!(n-r)!)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_1"
+                ]
+              },
+              "nPr = n! / (n-r)!": {
+                "expression": "nPr = n! / (n-r)!",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_1"
+            ],
+            "common_traps": [
+              "Calculation error in n\u2082 summation or 10C4."
+            ],
+            "prerequisites": []
+          },
+          "permutations_with_restrictions": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P1_7"
+            ],
+            "common_traps": [
+              "Miscounting the boundary conditions (e.g., \u2265 2022)."
+            ],
+            "prerequisites": []
+          },
+          "distribution_problems": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P2_15"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "inclusion_exclusion": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P2_15"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          }
+        }
+      },
+      "Integral Calculus": {
+        "subject": "Mathematics",
+        "chapter": "Integral Calculus",
+        "subconcepts": {
+          "integration_by_parts": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2020_P2_17"
+            ],
+            "common_traps": [
+              "Sign errors in by-parts."
+            ],
+            "prerequisites": []
+          },
+          "fundamental_theorem_of_calculus": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2020_P2_17"
+            ],
+            "common_traps": [
+              "Sign errors in by-parts."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Applications of Derivatives": {
+        "subject": "Mathematics",
+        "chapter": "Applications of Derivatives",
+        "subconcepts": {
+          "maxima_minima": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2020_P2_18"
+            ],
+            "common_traps": [
+              "Missing the range of 2 theta."
+            ],
+            "prerequisites": []
+          },
+          "trigonometric_functions": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2020_P2_18"
+            ],
+            "common_traps": [
+              "Missing the range of 2 theta."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Area Under Curves": {
+        "subject": "Mathematics",
+        "chapter": "Area Under Curves",
+        "subconcepts": {
+          "area_under_curve": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2020_P1_3",
+              "JEE_Adv_2023_P1_3",
+              "JEE_Adv_2022_P2_8"
+            ],
+            "common_traps": [
+              "Confusing the definitions of the regions relative to the line L_h.",
+              "Reading function definitions."
+            ],
+            "prerequisites": []
+          },
+          "area_bounded_by_inequalities": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P1_2"
+            ],
+            "common_traps": [
+              "Missing the change in lower bound definition at x=2."
+            ],
+            "prerequisites": []
+          },
+          "definite_integration": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P1_2",
+              "JEE_Adv_2024_P2_2"
+            ],
+            "common_traps": [
+              "Missing the change in lower bound definition at x=2."
+            ],
+            "prerequisites": []
+          },
+          "intermediate_value_theorem": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P1_3"
+            ],
+            "common_traps": [
+              "Confusing the definitions of the regions relative to the line L_h."
+            ],
+            "prerequisites": []
+          },
+          "area_bounded_by_curves": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2024_P2_2"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "intersection_of_curves": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P2_8"
+            ],
+            "common_traps": [
+              "Reading function definitions."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Conic Sections": {
+        "subject": "Mathematics",
+        "chapter": "Conic Sections",
+        "subconcepts": {
+          "conic_sections": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2020_P1_4"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "intersection_of_curves": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P2_8"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "common_tangents": {
+            "formulas": {
+              "c\u00b2 = a\u00b2m\u00b2 + b\u00b2": {
+                "expression": "c\u00b2 = a\u00b2m\u00b2 + b\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_2"
+                ]
+              },
+              "y = mx + a/m": {
+                "expression": "y = mx + a/m",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_2"
+            ],
+            "common_traps": [
+              "Identifying the correct ellipse parameters a\u00b2 and b\u00b2."
+            ],
+            "prerequisites": []
+          },
+          "area_of_quadrilateral": {
+            "formulas": {
+              "c\u00b2 = a\u00b2m\u00b2 + b\u00b2": {
+                "expression": "c\u00b2 = a\u00b2m\u00b2 + b\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_2"
+                ]
+              },
+              "y = mx + a/m": {
+                "expression": "y = mx + a/m",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_2"
+            ],
+            "common_traps": [
+              "Identifying the correct ellipse parameters a\u00b2 and b\u00b2."
+            ],
+            "prerequisites": []
+          },
+          "ellipse_parabola_intersection": {
+            "formulas": {
+              "c\u00b2 = a\u00b2m\u00b2 + b\u00b2": {
+                "expression": "c\u00b2 = a\u00b2m\u00b2 + b\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_2"
+                ]
+              },
+              "y = mx + a/m": {
+                "expression": "y = mx + a/m",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_2"
+            ],
+            "common_traps": [
+              "Identifying the correct ellipse parameters a\u00b2 and b\u00b2."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Properties of Triangles": {
+        "subject": "Mathematics",
+        "chapter": "Properties of Triangles",
+        "subconcepts": {
+          "properties_of_triangles": {
+            "formulas": {
+              "cot A = (b\u00b2+c\u00b2-a\u00b2)/4\u0394": {
+                "expression": "cot A = (b\u00b2+c\u00b2-a\u00b2)/4\u0394",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_18"
+                ]
+              },
+              "cos A = (b\u00b2+c\u00b2-a\u00b2)/2bc": {
+                "expression": "cos A = (b\u00b2+c\u00b2-a\u00b2)/2bc",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_2"
+                ]
+              },
+              "AM \u2265 GM": {
+                "expression": "AM \u2265 GM",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_10",
+              "JEE_Adv_2021_P1_18",
+              "JEE_Adv_2021_P2_2"
+            ],
+            "common_traps": [
+              "Calculating angles explicitly instead of using side formulas.",
+              "Applying AM-GM incorrectly in Option C."
+            ],
+            "prerequisites": []
+          },
+          "cosine_rule": {
+            "formulas": {
+              "cot A = (b\u00b2+c\u00b2-a\u00b2)/4\u0394": {
+                "expression": "cot A = (b\u00b2+c\u00b2-a\u00b2)/4\u0394",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_18"
+                ]
+              },
+              "cos A = (b\u00b2+c\u00b2-a\u00b2)/2bc": {
+                "expression": "cos A = (b\u00b2+c\u00b2-a\u00b2)/2bc",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_2"
+                ]
+              },
+              "AM \u2265 GM": {
+                "expression": "AM \u2265 GM",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_18",
+              "JEE_Adv_2021_P2_2"
+            ],
+            "common_traps": [
+              "Calculating angles explicitly instead of using side formulas.",
+              "Applying AM-GM incorrectly in Option C."
+            ],
+            "prerequisites": []
+          },
+          "area_of_triangle": {
+            "formulas": {
+              "cot A = (b\u00b2+c\u00b2-a\u00b2)/4\u0394": {
+                "expression": "cot A = (b\u00b2+c\u00b2-a\u00b2)/4\u0394",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_18"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_18"
+            ],
+            "common_traps": [
+              "Calculating angles explicitly instead of using side formulas."
+            ],
+            "prerequisites": []
+          },
+          "inequalities": {
+            "formulas": {
+              "cos A = (b\u00b2+c\u00b2-a\u00b2)/2bc": {
+                "expression": "cos A = (b\u00b2+c\u00b2-a\u00b2)/2bc",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_2"
+                ]
+              },
+              "AM \u2265 GM": {
+                "expression": "AM \u2265 GM",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_2"
+            ],
+            "common_traps": [
+              "Applying AM-GM incorrectly in Option C."
+            ],
+            "prerequisites": []
+          },
+          "sine_rule": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P2_9"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "trigonometric_inequalities": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P2_9"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          }
+        }
+      },
+      "Definite Integration": {
+        "subject": "Mathematics",
+        "chapter": "Definite Integration",
+        "subconcepts": {
+          "estimation_of_integrals": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2020_P1_12"
+            ],
+            "common_traps": [
+              "Using wrong series truncation."
+            ],
+            "prerequisites": []
+          },
+          "inequalities": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2020_P1_12"
+            ],
+            "common_traps": [
+              "Using wrong series truncation."
+            ],
+            "prerequisites": []
+          },
+          "rolles_theorem": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P2_3"
+            ],
+            "common_traps": [
+              "Constructing the wrong auxiliary function for Rolle's Theorem."
+            ],
+            "prerequisites": []
+          },
+          "fundamental_theorem_of_calculus": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P2_3"
+            ],
+            "common_traps": [
+              "Constructing the wrong auxiliary function for Rolle's Theorem."
+            ],
+            "prerequisites": []
+          },
+          "limits": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P2_3"
+            ],
+            "common_traps": [
+              "Constructing the wrong auxiliary function for Rolle's Theorem."
+            ],
+            "prerequisites": []
+          },
+          "definite_integration": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P2_11",
+              "JEE_Adv_2021_P2_12",
+              "JEE_Adv_2021_P2_19",
+              "JEE_Adv_2023_P1_9",
+              "JEE_Adv_2024_P2_17"
+            ],
+            "common_traps": [
+              "Missing the partition points."
+            ],
+            "prerequisites": []
+          },
+          "kings_property": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P2_11"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "modulus_function": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P2_12"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "greatest_integer_function": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P2_19"
+            ],
+            "common_traps": [
+              "Missing the partition points."
+            ],
+            "prerequisites": []
+          },
+          "integration_by_substitution": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P1_9"
+            ],
+            "common_traps": [
+              "Not checking the domain of 'a' specified in the question."
+            ],
+            "prerequisites": []
+          },
+          "quadratic_equations": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P1_9"
+            ],
+            "common_traps": [
+              "Not checking the domain of 'a' specified in the question."
+            ],
+            "prerequisites": []
+          },
+          "piecewise_functions": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P1_9"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "properties_of_definite_integrals": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_8"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "minima": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_8"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "integration_piecewise": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2024_P2_13"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "roots_of_functions": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2024_P2_13"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "definite_integral_properties": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2024_P2_16"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "integration_of_inverse_functions": {
+            "formulas": {
+              "\u222b\u2090\u1d47 f(x) dx + \u222b_{f(a)}^{f(b)} f\u207b\u00b9(y) dy = b f(b) - a f(a)": {
+                "expression": "\u222b\u2090\u1d47 f(x) dx + \u222b_{f(a)}^{f(b)} f\u207b\u00b9(y) dy = b f(b) - a f(a)",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P2_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_P2_3"
+            ],
+            "common_traps": [
+              "Evaluating integrals separately instead of using the inverse function property."
+            ],
+            "prerequisites": []
+          },
+          "definite_integration_properties": {
+            "formulas": {
+              "\u222b\u2090\u1d47 f(x) dx + \u222b_{f(a)}^{f(b)} f\u207b\u00b9(y) dy = b f(b) - a f(a)": {
+                "expression": "\u222b\u2090\u1d47 f(x) dx + \u222b_{f(a)}^{f(b)} f\u207b\u00b9(y) dy = b f(b) - a f(a)",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P2_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_P2_3"
+            ],
+            "common_traps": [
+              "Evaluating integrals separately instead of using the inverse function property."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Sequence and Series": {
+        "subject": "Mathematics",
+        "chapter": "Sequence and Series",
+        "subconcepts": {
+          "am_gm_inequality": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2020_P1_13"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "ap_gp": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2020_P1_14"
+            ],
+            "common_traps": [
+              "Missing the n=3 solution."
+            ],
+            "prerequisites": []
+          },
+          "integer_solutions": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2020_P1_14"
+            ],
+            "common_traps": [
+              "Missing the n=3 solution."
+            ],
+            "prerequisites": []
+          },
+          "geometric_progression": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P2_13",
+              "JEE_Adv_2023_P1_10"
+            ],
+            "common_traps": [
+              "Interpretation of 'intersect' (tangency counts as intersection)."
+            ],
+            "prerequisites": []
+          },
+          "circle_properties": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P2_13"
+            ],
+            "common_traps": [
+              "Interpretation of 'intersect' (tangency counts as intersection)."
+            ],
+            "prerequisites": []
+          },
+          "inequalities": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P2_14"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "arithmetic_progression": {
+            "formulas": {
+              "a_n = a + (n-1)d": {
+                "expression": "a_n = a + (n-1)d",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P1_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_P1_6"
+            ],
+            "common_traps": [
+              "Calculation error in the difference of squares."
+            ],
+            "prerequisites": []
+          },
+          "difference_of_squares": {
+            "formulas": {
+              "a_n = a + (n-1)d": {
+                "expression": "a_n = a + (n-1)d",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P1_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_P1_6"
+            ],
+            "common_traps": [
+              "Calculation error in the difference of squares."
+            ],
+            "prerequisites": []
+          },
+          "summation_of_series": {
+            "formulas": {
+              "\u03a3n\u00b2 = n(n+1)(2n+1)/6": {
+                "expression": "\u03a3n\u00b2 = n(n+1)(2n+1)/6",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P1_10"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_P1_10"
+            ],
+            "common_traps": [
+              "Calculation errors in summation formulas."
+            ],
+            "prerequisites": []
+          },
+          "telescoping_series": {
+            "formulas": {
+              "\u03a3n\u00b2 = n(n+1)(2n+1)/6": {
+                "expression": "\u03a3n\u00b2 = n(n+1)(2n+1)/6",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P1_10"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_P1_10"
+            ],
+            "common_traps": [
+              "Calculation errors in summation formulas."
+            ],
+            "prerequisites": []
+          },
+          "number_theory": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P1_10"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          }
+        }
+      },
+      "Trigonometric Equations": {
+        "subject": "Mathematics",
+        "chapter": "Trigonometric Equations",
+        "subconcepts": {
+          "trigonometric_inequalities": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2020_P1_15"
+            ],
+            "common_traps": [
+              "Transformation of variables."
+            ],
+            "prerequisites": []
+          },
+          "trigonometric_solutions": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P1_15"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          }
+        }
+      },
+      "Inverse Trigonometric Functions": {
+        "subject": "Mathematics",
+        "chapter": "Inverse Trigonometric Functions",
+        "subconcepts": {
+          "inverse_trigonometric_series": {
+            "formulas": {
+              "tan\u207b\u00b9x - tan\u207b\u00b9y = tan\u207b\u00b9((x-y)/(1+xy))": {
+                "expression": "tan\u207b\u00b9x - tan\u207b\u00b9y = tan\u207b\u00b9((x-y)/(1+xy))",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_15"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_15"
+            ],
+            "common_traps": [
+              "Reading the argument of inverse trig functions inversely."
+            ],
+            "prerequisites": []
+          },
+          "telescoping_series": {
+            "formulas": {
+              "tan\u207b\u00b9x - tan\u207b\u00b9y = tan\u207b\u00b9((x-y)/(1+xy))": {
+                "expression": "tan\u207b\u00b9x - tan\u207b\u00b9y = tan\u207b\u00b9((x-y)/(1+xy))",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_15"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_15"
+            ],
+            "common_traps": [
+              "Reading the argument of inverse trig functions inversely."
+            ],
+            "prerequisites": []
+          },
+          "inequalities": {
+            "formulas": {
+              "tan\u207b\u00b9x - tan\u207b\u00b9y = tan\u207b\u00b9((x-y)/(1+xy))": {
+                "expression": "tan\u207b\u00b9x - tan\u207b\u00b9y = tan\u207b\u00b9((x-y)/(1+xy))",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_15"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_15"
+            ],
+            "common_traps": [
+              "Reading the argument of inverse trig functions inversely."
+            ],
+            "prerequisites": []
+          },
+          "inverse_trigonometric_identities": {
+            "formulas": {
+              "sin\u207b\u00b9(2x/(1+x\u00b2)) = \u03c0 - 2tan\u207b\u00b9x for x > 1": {
+                "expression": "sin\u207b\u00b9(2x/(1+x\u00b2)) = \u03c0 - 2tan\u207b\u00b9x for x > 1",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P1_1"
+                ]
+              },
+              "tan\u207b\u00b9x + tan\u207b\u00b9(1/x) = \u03c0/2": {
+                "expression": "tan\u207b\u00b9x + tan\u207b\u00b9(1/x) = \u03c0/2",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P1_1"
+                ]
+              },
+              "tan(A - B) = (tan A - tan B) / (1 + tan A tan B)": {
+                "expression": "tan(A - B) = (tan A - tan B) / (1 + tan A tan B)",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_1"
+                ]
+              },
+              "tan 2A = 2tanA / (1 - tan\u00b2A)": {
+                "expression": "tan 2A = 2tanA / (1 - tan\u00b2A)",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_P1_1",
+              "JEE_Adv_2023_P2_3",
+              "JEE_Adv_2024_P2_1"
+            ],
+            "common_traps": [
+              "Incorrectly simplifying sin\u207b\u00b9(sin 2\u03b8) when 2\u03b8 is outside [-\u03c0/2, \u03c0/2].",
+              "Forgetting the cot\u207b\u00b9 property for negative arguments.",
+              "Calculation error in tan(2\u03b2)."
+            ],
+            "prerequisites": []
+          },
+          "principal_values": {
+            "formulas": {
+              "sin\u207b\u00b9(2x/(1+x\u00b2)) = \u03c0 - 2tan\u207b\u00b9x for x > 1": {
+                "expression": "sin\u207b\u00b9(2x/(1+x\u00b2)) = \u03c0 - 2tan\u207b\u00b9x for x > 1",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P1_1"
+                ]
+              },
+              "tan\u207b\u00b9x + tan\u207b\u00b9(1/x) = \u03c0/2": {
+                "expression": "tan\u207b\u00b9x + tan\u207b\u00b9(1/x) = \u03c0/2",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P1_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_P1_1"
+            ],
+            "common_traps": [
+              "Incorrectly simplifying sin\u207b\u00b9(sin 2\u03b8) when 2\u03b8 is outside [-\u03c0/2, \u03c0/2]."
+            ],
+            "prerequisites": []
+          },
+          "trigonometric_equations": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P1_8"
+            ],
+            "common_traps": [
+              "Not handling the periodicity of tan\u207b\u00b9(tan x)."
+            ],
+            "prerequisites": []
+          },
+          "graphical_method": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P1_8"
+            ],
+            "common_traps": [
+              "Not handling the periodicity of tan\u207b\u00b9(tan x)."
+            ],
+            "prerequisites": []
+          },
+          "quadratic_equations": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_3"
+            ],
+            "common_traps": [
+              "Forgetting the cot\u207b\u00b9 property for negative arguments."
+            ],
+            "prerequisites": []
+          },
+          "compound_angle_formulas": {
+            "formulas": {
+              "tan(A - B) = (tan A - tan B) / (1 + tan A tan B)": {
+                "expression": "tan(A - B) = (tan A - tan B) / (1 + tan A tan B)",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_1"
+                ]
+              },
+              "tan 2A = 2tanA / (1 - tan\u00b2A)": {
+                "expression": "tan 2A = 2tanA / (1 - tan\u00b2A)",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_1"
+            ],
+            "common_traps": [
+              "Calculation error in tan(2\u03b2)."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Quadratic Equations": {
+        "subject": "Mathematics",
+        "chapter": "Quadratic Equations",
+        "subconcepts": {
+          "modulus_equations": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P1_17"
+            ],
+            "common_traps": [
+              "Forgetting to check the domain validity of the roots."
+            ],
+            "prerequisites": []
+          },
+          "quadratic_roots": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P1_17"
+            ],
+            "common_traps": [
+              "Forgetting to check the domain validity of the roots."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Derivatives": {
+        "subject": "Mathematics",
+        "chapter": "Derivatives",
+        "subconcepts": {
+          "maxima_minima": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P2_9",
+              "JEE_Adv_2021_P2_10"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "sign_scheme": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P2_9"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          }
+        }
+      },
+      "Inequalities": {
+        "subject": "Mathematics",
+        "chapter": "Inequalities",
+        "subconcepts": {
+          "inequalities": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P2_16"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          }
+        }
+      },
+      "Ellipse": {
+        "subject": "Mathematics",
+        "chapter": "Ellipse",
+        "subconcepts": {
+          "midpoint_theorem": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P2_18"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "ellipse_properties": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_P2_18"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "ellipse_tangents": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P1_18"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "auxiliary_circle": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P1_18"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          }
+        }
+      },
+      "Set Theory": {
+        "subject": "Mathematics",
+        "chapter": "Set Theory",
+        "subconcepts": {
+          "inclusion_exclusion_principle": {
+            "formulas": {
+              "n(A\u222aB) = n(A)+n(B)-n(A\u2229B)": {
+                "expression": "n(A\u222aB) = n(A)+n(B)-n(A\u2229B)",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P1_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_P1_3"
+            ],
+            "common_traps": [
+              "Forgetting people with zero symptoms if n(Union) < Total."
+            ],
+            "prerequisites": []
+          },
+          "cardinality_problems": {
+            "formulas": {
+              "n(A\u222aB) = n(A)+n(B)-n(A\u2229B)": {
+                "expression": "n(A\u222aB) = n(A)+n(B)-n(A\u2229B)",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P1_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_P1_3"
+            ],
+            "common_traps": [
+              "Forgetting people with zero symptoms if n(Union) < Total."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Parabola": {
+        "subject": "Mathematics",
+        "chapter": "Parabola",
+        "subconcepts": {
+          "tangents_to_parabola": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P1_13"
+            ],
+            "common_traps": [
+              "Swapping points P1 and P2."
+            ],
+            "prerequisites": []
+          },
+          "foot_of_perpendicular": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P1_13"
+            ],
+            "common_traps": [
+              "Swapping points P1 and P2."
+            ],
+            "prerequisites": []
+          },
+          "parabola_normal": {
+            "formulas": {
+              "Area = a\u00b2m(1+m\u00b2)": {
+                "expression": "Area = a\u00b2m(1+m\u00b2)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_7",
+              "JEE_Adv_2024_P2_12"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "area_of_triangle": {
+            "formulas": {
+              "Area = a\u00b2m(1+m\u00b2)": {
+                "expression": "Area = a\u00b2m(1+m\u00b2)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_7"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "integer_solutions": {
+            "formulas": {
+              "Area = a\u00b2m(1+m\u00b2)": {
+                "expression": "Area = a\u00b2m(1+m\u00b2)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_7"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "parabola_tangents": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2024_P2_7"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "properties_of_triangles": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2024_P2_7"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "latus_rectum": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2024_P2_12"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          }
+        }
+      },
+      "Matrices and Determinants": {
+        "subject": "Mathematics",
+        "chapter": "Matrices and Determinants",
+        "subconcepts": {
+          "determinant_expansion": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P1_14"
+            ],
+            "common_traps": [
+              "Determinant calculation."
+            ],
+            "prerequisites": []
+          },
+          "quadratic_inequalities": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P1_14"
+            ],
+            "common_traps": [
+              "Determinant calculation."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "System of Linear Equations": {
+        "subject": "Mathematics",
+        "chapter": "System of Linear Equations",
+        "subconcepts": {
+          "cramers_rule": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P1_17",
+              "JEE_Adv_2023_P1_14"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "harmonic_progression": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P1_17"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "consistency_of_equations": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P1_14"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          }
+        }
+      },
+      "Statistics": {
+        "subject": "Mathematics",
+        "chapter": "Statistics",
+        "subconcepts": {
+          "measures_of_central_tendency": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P1_15"
+            ],
+            "common_traps": [
+              "Calculation errors."
+            ],
+            "prerequisites": []
+          },
+          "measures_of_dispersion": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P1_15"
+            ],
+            "common_traps": [
+              "Calculation errors."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Application of Derivatives": {
+        "subject": "Mathematics",
+        "chapter": "Application of Derivatives",
+        "subconcepts": {
+          "convex_functions": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_7"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "roots_of_equations": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_7"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          }
+        }
+      },
+      "Solution of Triangles": {
+        "subject": "Mathematics",
+        "chapter": "Solution of Triangles",
+        "subconcepts": {
+          "sine_rule": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_14"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "arithmetic_progression": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_14"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "inradius": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_P2_15"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          }
+        }
+      },
+      "Relations and Functions": {
+        "subject": "Mathematics",
+        "chapter": "Relations and Functions",
+        "subconcepts": {
+          "combinatorics": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2024_P2_14",
+              "JEE_Adv_2024_P2_15"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "relations": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2024_P2_14"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          },
+          "functions_counting": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2024_P2_15"
+            ],
+            "common_traps": [],
+            "prerequisites": []
+          }
+        }
+      },
+      "Trigonometric Identities": {
+        "subject": "Mathematics",
+        "chapter": "Trigonometric Identities",
+        "subconcepts": {
+          "trigonometric_identities": {
+            "formulas": {
+              "2 sin A sin B = cos(A-B) - cos(A+B)": {
+                "expression": "2 sin A sin B = cos(A-B) - cos(A+B)",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P2_1"
+                ]
+              },
+              "cos 2A = 2cos\u00b2A - 1": {
+                "expression": "cos 2A = 2cos\u00b2A - 1",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P2_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_P2_1"
+            ],
+            "common_traps": [
+              "Calculation errors in trigonometric expansions."
+            ],
+            "prerequisites": []
+          },
+          "greatest_integer_function": {
+            "formulas": {
+              "2 sin A sin B = cos(A-B) - cos(A+B)": {
+                "expression": "2 sin A sin B = cos(A-B) - cos(A+B)",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P2_1"
+                ]
+              },
+              "cos 2A = 2cos\u00b2A - 1": {
+                "expression": "cos 2A = 2cos\u00b2A - 1",
+                "used_in_questions": [
+                  "JEE_Adv_2022_P2_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_P2_1"
+            ],
+            "common_traps": [
+              "Calculation errors in trigonometric expansions."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Logarithms": {
+        "subject": "Mathematics",
+        "chapter": "Logarithms",
+        "subconcepts": {
+          "logarithmic_equations": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P2_4"
+            ],
+            "common_traps": [
+              "Forgetting negative roots for t\u00b2."
+            ],
+            "prerequisites": []
+          },
+          "substitution_method": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2022_P2_4"
+            ],
+            "common_traps": [
+              "Forgetting negative roots for t\u00b2."
+            ],
+            "prerequisites": []
+          }
+        }
+      }
+    }
+  }
+}

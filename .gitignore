@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+
+# Vector stores (DO NOT PUSH# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+
+# Vector stores (DO NOT PUSH)
+vectorstore/
+
+# OS
+.DS_Store
+
+# HuggingFace cache
+.cache/
+
+# Logs
+*.log

@@ -1,0 +1,5488 @@
+{
+  "metadata": {
+    "exam": "JEE Advanced",
+    "subjects": [
+      "Physics"
+    ]
+  },
+  "concept_graph": {
+    "Physics": {
+      "System of Particles and Rotational Motion": {
+        "subject": "Physics",
+        "chapter": "System of Particles and Rotational Motion",
+        "subconcepts": {
+          "toppling": {
+            "formulas": {
+              "sin \u03b8 = r/R": {
+                "expression": "sin \u03b8 = r/R",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_1"
+            ],
+            "common_traps": [
+              "Confusing the hole radius r with the distance from the center of mass to the pivot in a non-standard geometry."
+            ],
+            "prerequisites": []
+          },
+          "equilibrium_of_rigid_bodies": {
+            "formulas": {
+              "sin \u03b8 = r/R": {
+                "expression": "sin \u03b8 = r/R",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_1"
+            ],
+            "common_traps": [
+              "Confusing the hole radius r with the distance from the center of mass to the pivot in a non-standard geometry."
+            ],
+            "prerequisites": []
+          },
+          "torque": {
+            "formulas": {
+              "sin \u03b8 = r/R": {
+                "expression": "sin \u03b8 = r/R",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_1"
+                ]
+              },
+              "\u03a3\u03c4 = 0": {
+                "expression": "\u03a3\u03c4 = 0",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_1"
+                ]
+              },
+              "\u03a3F = 0": {
+                "expression": "\u03a3F = 0",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_1",
+              "JEE_Adv_2021_P2_1"
+            ],
+            "common_traps": [
+              "Confusing the hole radius r with the distance from the center of mass to the pivot in a non-standard geometry.",
+              "Incorrectly determining the moment arm or the angle of the rope tension."
+            ],
+            "prerequisites": []
+          },
+          "static_equilibrium": {
+            "formulas": {
+              "\u03a3\u03c4 = 0": {
+                "expression": "\u03a3\u03c4 = 0",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_1"
+                ]
+              },
+              "\u03a3F = 0": {
+                "expression": "\u03a3F = 0",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_1"
+            ],
+            "common_traps": [
+              "Incorrectly determining the moment arm or the angle of the rope tension."
+            ],
+            "prerequisites": []
+          },
+          "reaction_forces": {
+            "formulas": {
+              "\u03a3\u03c4 = 0": {
+                "expression": "\u03a3\u03c4 = 0",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_1"
+                ]
+              },
+              "\u03a3F = 0": {
+                "expression": "\u03a3F = 0",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_1"
+            ],
+            "common_traps": [
+              "Incorrectly determining the moment arm or the angle of the rope tension."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Electromagnetic Induction": {
+        "subject": "Physics",
+        "chapter": "Electromagnetic Induction",
+        "subconcepts": {
+          "lenzs_law": {
+            "formulas": {
+              "\u03b5 = -d\u03a6/dt": {
+                "expression": "\u03b5 = -d\u03a6/dt",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_2"
+                ]
+              },
+              "\u03a6 = BA": {
+                "expression": "\u03a6 = BA",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_13"
+                ]
+              },
+              "\u03a6_total = 0": {
+                "expression": "\u03a6_total = 0",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_13"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_2",
+              "JEE_Adv_2021_P2_13"
+            ],
+            "common_traps": [
+              "Thinking the force is repulsive and thus causes rotation in the opposite direction (drag force acts to reduce relative speed).",
+              "Trying to use Faraday's law (d\u03a6/dt) for current, but in a superconductor, flux is strictly conserved (trapped), so current relates directly to external flux."
+            ],
+            "prerequisites": []
+          },
+          "eddy_currents": {
+            "formulas": {
+              "\u03b5 = -d\u03a6/dt": {
+                "expression": "\u03b5 = -d\u03a6/dt",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_2"
+            ],
+            "common_traps": [
+              "Thinking the force is repulsive and thus causes rotation in the opposite direction (drag force acts to reduce relative speed)."
+            ],
+            "prerequisites": []
+          },
+          "electromagnetic_induction": {
+            "formulas": {
+              "\u03b5 = -d\u03a6/dt": {
+                "expression": "\u03b5 = -d\u03a6/dt",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_2"
+            ],
+            "common_traps": [
+              "Thinking the force is repulsive and thus causes rotation in the opposite direction (drag force acts to reduce relative speed)."
+            ],
+            "prerequisites": []
+          },
+          "superconductivity": {
+            "formulas": {
+              "\u03a6 = BA": {
+                "expression": "\u03a6 = BA",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_13"
+                ]
+              },
+              "\u03a6_total = 0": {
+                "expression": "\u03a6_total = 0",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_13"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_13"
+            ],
+            "common_traps": [
+              "Trying to use Faraday's law (d\u03a6/dt) for current, but in a superconductor, flux is strictly conserved (trapped), so current relates directly to external flux."
+            ],
+            "prerequisites": []
+          },
+          "magnetic_flux": {
+            "formulas": {
+              "\u03a6 = BA": {
+                "expression": "\u03a6 = BA",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_13"
+                ]
+              },
+              "\u03a6_total = 0": {
+                "expression": "\u03a6_total = 0",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_13"
+                ]
+              },
+              "\u03b5 = -d\u03a6/dt": {
+                "expression": "\u03b5 = -d\u03a6/dt",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_1"
+                ]
+              },
+              "A = h\u00b2/\u221a3": {
+                "expression": "A = h\u00b2/\u221a3",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_13",
+              "JEE_Adv_2024_P2_1"
+            ],
+            "common_traps": [
+              "Trying to use Faraday's law (d\u03a6/dt) for current, but in a superconductor, flux is strictly conserved (trapped), so current relates directly to external flux.",
+              "Incorrectly calculating the area of intersection between two triangles or missing the sign change in emf."
+            ],
+            "prerequisites": []
+          },
+          "electromagnetic_induction_faraday_law": {
+            "formulas": {
+              "B = \u03bc\u2080I/(2\u03c0r)": {
+                "expression": "B = \u03bc\u2080I/(2\u03c0r)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q9"
+                ]
+              },
+              "\u03a6 = (\u03bc\u2080IL)/(2\u03c0) ln[(d+w)/d]": {
+                "expression": "\u03a6 = (\u03bc\u2080IL)/(2\u03c0) ln[(d+w)/d]",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q9"
+                ]
+              },
+              "\u03b5 = |d\u03a6/dt|": {
+                "expression": "\u03b5 = |d\u03a6/dt|",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q9"
+                ]
+              },
+              "i = \u03b5/R": {
+                "expression": "i = \u03b5/R",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q9"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q9"
+            ],
+            "common_traps": [
+              "Incorrectly determining perpendicular component of velocity; wrong flux integral; not accounting for width of loop correctly; arithmetic errors in flux calculation."
+            ],
+            "prerequisites": []
+          },
+          "magnetic_field_long_wire": {
+            "formulas": {
+              "B = \u03bc\u2080I/(2\u03c0r)": {
+                "expression": "B = \u03bc\u2080I/(2\u03c0r)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q9"
+                ]
+              },
+              "\u03a6 = (\u03bc\u2080IL)/(2\u03c0) ln[(d+w)/d]": {
+                "expression": "\u03a6 = (\u03bc\u2080IL)/(2\u03c0) ln[(d+w)/d]",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q9"
+                ]
+              },
+              "\u03b5 = |d\u03a6/dt|": {
+                "expression": "\u03b5 = |d\u03a6/dt|",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q9"
+                ]
+              },
+              "i = \u03b5/R": {
+                "expression": "i = \u03b5/R",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q9"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q9"
+            ],
+            "common_traps": [
+              "Incorrectly determining perpendicular component of velocity; wrong flux integral; not accounting for width of loop correctly; arithmetic errors in flux calculation."
+            ],
+            "prerequisites": []
+          },
+          "flux_change_rate": {
+            "formulas": {
+              "B = \u03bc\u2080I/(2\u03c0r)": {
+                "expression": "B = \u03bc\u2080I/(2\u03c0r)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q9"
+                ]
+              },
+              "\u03a6 = (\u03bc\u2080IL)/(2\u03c0) ln[(d+w)/d]": {
+                "expression": "\u03a6 = (\u03bc\u2080IL)/(2\u03c0) ln[(d+w)/d]",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q9"
+                ]
+              },
+              "\u03b5 = |d\u03a6/dt|": {
+                "expression": "\u03b5 = |d\u03a6/dt|",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q9"
+                ]
+              },
+              "i = \u03b5/R": {
+                "expression": "i = \u03b5/R",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q9"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q9"
+            ],
+            "common_traps": [
+              "Incorrectly determining perpendicular component of velocity; wrong flux integral; not accounting for width of loop correctly; arithmetic errors in flux calculation."
+            ],
+            "prerequisites": []
+          },
+          "induced_current": {
+            "formulas": {
+              "B = \u03bc\u2080I/(2\u03c0r)": {
+                "expression": "B = \u03bc\u2080I/(2\u03c0r)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q9"
+                ]
+              },
+              "\u03a6 = (\u03bc\u2080IL)/(2\u03c0) ln[(d+w)/d]": {
+                "expression": "\u03a6 = (\u03bc\u2080IL)/(2\u03c0) ln[(d+w)/d]",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q9"
+                ]
+              },
+              "\u03b5 = |d\u03a6/dt|": {
+                "expression": "\u03b5 = |d\u03a6/dt|",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q9"
+                ]
+              },
+              "i = \u03b5/R": {
+                "expression": "i = \u03b5/R",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q9"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q9"
+            ],
+            "common_traps": [
+              "Incorrectly determining perpendicular component of velocity; wrong flux integral; not accounting for width of loop correctly; arithmetic errors in flux calculation."
+            ],
+            "prerequisites": []
+          },
+          "motional_emf": {
+            "formulas": {
+              "\u03b5 = -d\u03a6/dt": {
+                "expression": "\u03b5 = -d\u03a6/dt",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_1"
+                ]
+              },
+              "A = h\u00b2/\u221a3": {
+                "expression": "A = h\u00b2/\u221a3",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_1"
+            ],
+            "common_traps": [
+              "Incorrectly calculating the area of intersection between two triangles or missing the sign change in emf."
+            ],
+            "prerequisites": []
+          },
+          "faradays_law": {
+            "formulas": {
+              "\u03b5 = -d\u03a6/dt": {
+                "expression": "\u03b5 = -d\u03a6/dt",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_1"
+                ]
+              },
+              "A = h\u00b2/\u221a3": {
+                "expression": "A = h\u00b2/\u221a3",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_1"
+            ],
+            "common_traps": [
+              "Incorrectly calculating the area of intersection between two triangles or missing the sign change in emf."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Moving Charges and Magnetism": {
+        "subject": "Physics",
+        "chapter": "Moving Charges and Magnetism",
+        "subconcepts": {
+          "torque_on_current_loop": {
+            "formulas": {
+              "\u03c4 = MB sin \u03b8": {
+                "expression": "\u03c4 = MB sin \u03b8",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_4"
+                ]
+              },
+              "L = \u222b\u03c4 dt": {
+                "expression": "L = \u222b\u03c4 dt",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_4"
+                ]
+              },
+              "Q = \u222bI dt": {
+                "expression": "Q = \u222bI dt",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_4"
+            ],
+            "common_traps": [
+              "Forgetting that the integral of current over time is the total charge Q."
+            ],
+            "prerequisites": []
+          },
+          "angular_impulse": {
+            "formulas": {
+              "\u03c4 = MB sin \u03b8": {
+                "expression": "\u03c4 = MB sin \u03b8",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_4"
+                ]
+              },
+              "L = \u222b\u03c4 dt": {
+                "expression": "L = \u222b\u03c4 dt",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_4"
+                ]
+              },
+              "Q = \u222bI dt": {
+                "expression": "Q = \u222bI dt",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_4"
+            ],
+            "common_traps": [
+              "Forgetting that the integral of current over time is the total charge Q."
+            ],
+            "prerequisites": []
+          },
+          "magnetic_moment": {
+            "formulas": {
+              "\u03c4 = MB sin \u03b8": {
+                "expression": "\u03c4 = MB sin \u03b8",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_4"
+                ]
+              },
+              "L = \u222b\u03c4 dt": {
+                "expression": "L = \u222b\u03c4 dt",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_4"
+                ]
+              },
+              "Q = \u222bI dt": {
+                "expression": "Q = \u222bI dt",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_4"
+            ],
+            "common_traps": [
+              "Forgetting that the integral of current over time is the total charge Q."
+            ],
+            "prerequisites": []
+          },
+          "magnetic_field_circular_loop": {
+            "formulas": {
+              "B = \u03bc\u2080I/2R": {
+                "expression": "B = \u03bc\u2080I/2R",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_6"
+            ],
+            "common_traps": [
+              "Assuming the field direction is constant inside the inner loop without comparing magnitudes."
+            ],
+            "prerequisites": []
+          },
+          "superposition_principle": {
+            "formulas": {
+              "B = \u03bc\u2080I/2R": {
+                "expression": "B = \u03bc\u2080I/2R",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_6"
+            ],
+            "common_traps": [
+              "Assuming the field direction is constant inside the inner loop without comparing magnitudes."
+            ],
+            "prerequisites": []
+          },
+          "symmetry_in_physics": {
+            "formulas": {
+              "B = \u03bc\u2080I/2R": {
+                "expression": "B = \u03bc\u2080I/2R",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_6"
+            ],
+            "common_traps": [
+              "Assuming the field direction is constant inside the inner loop without comparing magnitudes."
+            ],
+            "prerequisites": []
+          },
+          "mass_spectrometer": {
+            "formulas": {
+              "R = mv/qB": {
+                "expression": "R = mv/qB",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_7"
+                ]
+              },
+              "x = 2R": {
+                "expression": "x = 2R",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_7"
+            ],
+            "common_traps": [
+              "Confusing the deflection formula for small width vs semi-circular path."
+            ],
+            "prerequisites": []
+          },
+          "motion_in_magnetic_field": {
+            "formulas": {
+              "R = mv/qB": {
+                "expression": "R = mv/qB",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_7"
+                ]
+              },
+              "x = 2R": {
+                "expression": "x = 2R",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_7"
+            ],
+            "common_traps": [
+              "Confusing the deflection formula for small width vs semi-circular path."
+            ],
+            "prerequisites": []
+          },
+          "radius_of_curvature": {
+            "formulas": {
+              "R = mv/qB": {
+                "expression": "R = mv/qB",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_7"
+                ]
+              },
+              "x = 2R": {
+                "expression": "x = 2R",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_7"
+            ],
+            "common_traps": [
+              "Confusing the deflection formula for small width vs semi-circular path."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Fluids": {
+        "subject": "Physics",
+        "chapter": "Fluids",
+        "subconcepts": {
+          "hydrostatic_pressure": {
+            "formulas": {
+              "P = P\u2080 + \u03c1gh": {
+                "expression": "P = P\u2080 + \u03c1gh",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_6"
+                ]
+              },
+              "V_initial = V_final": {
+                "expression": "V_initial = V_final",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_6"
+            ],
+            "common_traps": [
+              "Incorrectly setting up the volume conservation equation or mixing up the densities."
+            ],
+            "prerequisites": []
+          },
+          "pascals_law": {
+            "formulas": {
+              "P = P\u2080 + \u03c1gh": {
+                "expression": "P = P\u2080 + \u03c1gh",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_6"
+                ]
+              },
+              "V_initial = V_final": {
+                "expression": "V_initial = V_final",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_6"
+            ],
+            "common_traps": [
+              "Incorrectly setting up the volume conservation equation or mixing up the densities."
+            ],
+            "prerequisites": []
+          },
+          "fluid_statics": {
+            "formulas": {
+              "P = P\u2080 + \u03c1gh": {
+                "expression": "P = P\u2080 + \u03c1gh",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_6"
+                ]
+              },
+              "V_initial = V_final": {
+                "expression": "V_initial = V_final",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_6"
+                ]
+              },
+              "F_B = \u03c1Vg": {
+                "expression": "F_B = \u03c1Vg",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_7"
+                ]
+              },
+              "W = mg": {
+                "expression": "W = mg",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_6",
+              "JEE_Adv_2021_P2_7"
+            ],
+            "common_traps": [
+              "Incorrectly setting up the volume conservation equation or mixing up the densities.",
+              "Forgetting to include the volume of the glass material in the buoyancy calculation."
+            ],
+            "prerequisites": []
+          },
+          "bernoullis_principle": {
+            "formulas": {
+              "A\u2081v\u2081 = A\u2082v\u2082": {
+                "expression": "A\u2081v\u2081 = A\u2082v\u2082",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_2"
+                ]
+              },
+              "P + 1/2\u03c1v\u00b2 = Constant": {
+                "expression": "P + 1/2\u03c1v\u00b2 = Constant",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_2"
+            ],
+            "common_traps": [
+              "Incorrectly applying continuity equation without considering the correct reference frame velocities."
+            ],
+            "prerequisites": []
+          },
+          "equation_of_continuity": {
+            "formulas": {
+              "A\u2081v\u2081 = A\u2082v\u2082": {
+                "expression": "A\u2081v\u2081 = A\u2082v\u2082",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_2"
+                ]
+              },
+              "P + 1/2\u03c1v\u00b2 = Constant": {
+                "expression": "P + 1/2\u03c1v\u00b2 = Constant",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_2"
+            ],
+            "common_traps": [
+              "Incorrectly applying continuity equation without considering the correct reference frame velocities."
+            ],
+            "prerequisites": []
+          },
+          "relative_velocity_in_fluids": {
+            "formulas": {
+              "A\u2081v\u2081 = A\u2082v\u2082": {
+                "expression": "A\u2081v\u2081 = A\u2082v\u2082",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_2"
+                ]
+              },
+              "P + 1/2\u03c1v\u00b2 = Constant": {
+                "expression": "P + 1/2\u03c1v\u00b2 = Constant",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_2"
+            ],
+            "common_traps": [
+              "Incorrectly applying continuity equation without considering the correct reference frame velocities."
+            ],
+            "prerequisites": []
+          },
+          "refraction_at_curved_surface": {
+            "formulas": {
+              "h = \u03c9\u00b2r\u00b2/2g": {
+                "expression": "h = \u03c9\u00b2r\u00b2/2g",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_7"
+                ]
+              },
+              "\u03bc\u2082/v - \u03bc\u2081/u = (\u03bc\u2082-\u03bc\u2081)/R": {
+                "expression": "\u03bc\u2082/v - \u03bc\u2081/u = (\u03bc\u2082-\u03bc\u2081)/R",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_7"
+            ],
+            "common_traps": [
+              "Incorrect sign convention for the radius of curvature or the object distance in the refraction formula."
+            ],
+            "prerequisites": []
+          },
+          "rotating_fluids": {
+            "formulas": {
+              "h = \u03c9\u00b2r\u00b2/2g": {
+                "expression": "h = \u03c9\u00b2r\u00b2/2g",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_7"
+                ]
+              },
+              "\u03bc\u2082/v - \u03bc\u2081/u = (\u03bc\u2082-\u03bc\u2081)/R": {
+                "expression": "\u03bc\u2082/v - \u03bc\u2081/u = (\u03bc\u2082-\u03bc\u2081)/R",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_7"
+            ],
+            "common_traps": [
+              "Incorrect sign convention for the radius of curvature or the object distance in the refraction formula."
+            ],
+            "prerequisites": []
+          },
+          "radius_of_curvature": {
+            "formulas": {
+              "h = \u03c9\u00b2r\u00b2/2g": {
+                "expression": "h = \u03c9\u00b2r\u00b2/2g",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_7"
+                ]
+              },
+              "\u03bc\u2082/v - \u03bc\u2081/u = (\u03bc\u2082-\u03bc\u2081)/R": {
+                "expression": "\u03bc\u2082/v - \u03bc\u2081/u = (\u03bc\u2082-\u03bc\u2081)/R",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_7"
+            ],
+            "common_traps": [
+              "Incorrect sign convention for the radius of curvature or the object distance in the refraction formula."
+            ],
+            "prerequisites": []
+          },
+          "archimedes_principle": {
+            "formulas": {
+              "F_B = \u03c1Vg": {
+                "expression": "F_B = \u03c1Vg",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_7"
+                ]
+              },
+              "W = mg": {
+                "expression": "W = mg",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_7"
+            ],
+            "common_traps": [
+              "Forgetting to include the volume of the glass material in the buoyancy calculation."
+            ],
+            "prerequisites": []
+          },
+          "buoyancy": {
+            "formulas": {
+              "F_B = \u03c1Vg": {
+                "expression": "F_B = \u03c1Vg",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_7"
+                ]
+              },
+              "W = mg": {
+                "expression": "W = mg",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_7"
+            ],
+            "common_traps": [
+              "Forgetting to include the volume of the glass material in the buoyancy calculation."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Thermal Properties of Matter": {
+        "subject": "Physics",
+        "chapter": "Thermal Properties of Matter",
+        "subconcepts": {
+          "stefan_boltzmann_law": {
+            "formulas": {
+              "P = \u03c3AT\u2074": {
+                "expression": "P = \u03c3AT\u2074",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_8"
+                ]
+              },
+              "\u03bbmax T = b": {
+                "expression": "\u03bbmax T = b",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_8"
+                ]
+              },
+              "E = hc/\u03bb": {
+                "expression": "E = hc/\u03bb",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_8"
+            ],
+            "common_traps": [
+              "Calculation errors in the high power of temperature or unit conversions."
+            ],
+            "prerequisites": []
+          },
+          "wiens_displacement_law": {
+            "formulas": {
+              "P = \u03c3AT\u2074": {
+                "expression": "P = \u03c3AT\u2074",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_8"
+                ]
+              },
+              "\u03bbmax T = b": {
+                "expression": "\u03bbmax T = b",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_8"
+                ]
+              },
+              "E = hc/\u03bb": {
+                "expression": "E = hc/\u03bb",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_8"
+            ],
+            "common_traps": [
+              "Calculation errors in the high power of temperature or unit conversions."
+            ],
+            "prerequisites": []
+          },
+          "photon_flux": {
+            "formulas": {
+              "P = \u03c3AT\u2074": {
+                "expression": "P = \u03c3AT\u2074",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_8"
+                ]
+              },
+              "\u03bbmax T = b": {
+                "expression": "\u03bbmax T = b",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_8"
+                ]
+              },
+              "E = hc/\u03bb": {
+                "expression": "E = hc/\u03bb",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_8"
+            ],
+            "common_traps": [
+              "Calculation errors in the high power of temperature or unit conversions."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Electrostatics": {
+        "subject": "Physics",
+        "chapter": "Electrostatics",
+        "subconcepts": {
+          "projectile_motion_in_electric_field": {
+            "formulas": {
+              "R = u\u00b2sin2\u03b8/a": {
+                "expression": "R = u\u00b2sin2\u03b8/a",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_10"
+                ]
+              },
+              "T = 2usin\u03b8/a": {
+                "expression": "T = 2usin\u03b8/a",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_10"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_10"
+            ],
+            "common_traps": [
+              "Forgetting the two possible angles for a given range in projectile motion."
+            ],
+            "prerequisites": []
+          },
+          "kinematics_2d": {
+            "formulas": {
+              "R = u\u00b2sin2\u03b8/a": {
+                "expression": "R = u\u00b2sin2\u03b8/a",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_10"
+                ]
+              },
+              "T = 2usin\u03b8/a": {
+                "expression": "T = 2usin\u03b8/a",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_10"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_10"
+            ],
+            "common_traps": [
+              "Forgetting the two possible angles for a given range in projectile motion."
+            ],
+            "prerequisites": []
+          },
+          "gauss_law": {
+            "formulas": {
+              "\u03a6 = Q_enc/\u03b5\u2080": {
+                "expression": "\u03a6 = Q_enc/\u03b5\u2080",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_18"
+                ]
+              },
+              "Q = \u222b \u03c3 dA": {
+                "expression": "Q = \u222b \u03c3 dA",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_18"
+                ]
+              },
+              "\u03a6 = q/\u03b5\u2080": {
+                "expression": "\u03a6 = q/\u03b5\u2080",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_10"
+                ]
+              },
+              "\u03a9 = 2\u03c0(1-cos\u03b8)": {
+                "expression": "\u03a9 = 2\u03c0(1-cos\u03b8)",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_10"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_18",
+              "JEE_Adv_2024_P2_10"
+            ],
+            "common_traps": [
+              "Integration errors or algebraic mistakes in calculating the ratio.",
+              "Incorrectly identifying the solid angle or the complementary angle for the curved surface."
+            ],
+            "prerequisites": []
+          },
+          "integration_of_charge_density": {
+            "formulas": {
+              "\u03a6 = Q_enc/\u03b5\u2080": {
+                "expression": "\u03a6 = Q_enc/\u03b5\u2080",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_18"
+                ]
+              },
+              "Q = \u222b \u03c3 dA": {
+                "expression": "Q = \u222b \u03c3 dA",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_18"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_18"
+            ],
+            "common_traps": [
+              "Integration errors or algebraic mistakes in calculating the ratio."
+            ],
+            "prerequisites": []
+          },
+          "electric_flux": {
+            "formulas": {
+              "\u03a6 = Q_enc/\u03b5\u2080": {
+                "expression": "\u03a6 = Q_enc/\u03b5\u2080",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_18"
+                ]
+              },
+              "Q = \u222b \u03c3 dA": {
+                "expression": "Q = \u222b \u03c3 dA",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_18"
+                ]
+              },
+              "\u03a6 = q/\u03b5\u2080": {
+                "expression": "\u03a6 = q/\u03b5\u2080",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_10"
+                ]
+              },
+              "\u03a9 = 2\u03c0(1-cos\u03b8)": {
+                "expression": "\u03a9 = 2\u03c0(1-cos\u03b8)",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_10"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_18",
+              "JEE_Adv_2024_P2_10"
+            ],
+            "common_traps": [
+              "Integration errors or algebraic mistakes in calculating the ratio.",
+              "Incorrectly identifying the solid angle or the complementary angle for the curved surface."
+            ],
+            "prerequisites": []
+          },
+          "millikan_oil_drop_experiment": {
+            "formulas": {
+              "F_e = qE": {
+                "expression": "F_e = qE",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_3"
+                ]
+              },
+              "F_g = mg": {
+                "expression": "F_g = mg",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_3"
+            ],
+            "common_traps": [
+              "Calculation errors with powers of 10 or forgetting to calculate mass from density and radius."
+            ],
+            "prerequisites": []
+          },
+          "equilibrium_of_charges": {
+            "formulas": {
+              "F_e = qE": {
+                "expression": "F_e = qE",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_3"
+                ]
+              },
+              "F_g = mg": {
+                "expression": "F_g = mg",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_3"
+            ],
+            "common_traps": [
+              "Calculation errors with powers of 10 or forgetting to calculate mass from density and radius."
+            ],
+            "prerequisites": []
+          },
+          "electric_field": {
+            "formulas": {
+              "F_e = qE": {
+                "expression": "F_e = qE",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_3"
+                ]
+              },
+              "F_g = mg": {
+                "expression": "F_g = mg",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_3"
+            ],
+            "common_traps": [
+              "Calculation errors with powers of 10 or forgetting to calculate mass from density and radius."
+            ],
+            "prerequisites": []
+          },
+          "electric_dipole": {
+            "formulas": {
+              "W = \u0394U": {
+                "expression": "W = \u0394U",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_5"
+                ]
+              },
+              "U = qV": {
+                "expression": "U = qV",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_5"
+                ]
+              },
+              "E_shell = \u03c3R\u00b2/(\u03b5\u2080r\u00b2)": {
+                "expression": "E_shell = \u03c3R\u00b2/(\u03b5\u2080r\u00b2)",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_5"
+                ]
+              },
+              "\u03c9 = \u221a(pE/I)": {
+                "expression": "\u03c9 = \u221a(pE/I)",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_5",
+              "JEE_Adv_2024_P2_5"
+            ],
+            "common_traps": [
+              "Neglecting the gravitational potential energy change or incorrectly estimating the electric potential energy term.",
+              "Applying the electric field formula for r < R incorrectly (E is zero inside)."
+            ],
+            "prerequisites": []
+          },
+          "work_energy_theorem": {
+            "formulas": {
+              "W = \u0394U": {
+                "expression": "W = \u0394U",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_5"
+                ]
+              },
+              "U = qV": {
+                "expression": "U = qV",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_5"
+            ],
+            "common_traps": [
+              "Neglecting the gravitational potential energy change or incorrectly estimating the electric potential energy term."
+            ],
+            "prerequisites": []
+          },
+          "equilibrium_of_forces": {
+            "formulas": {
+              "W = \u0394U": {
+                "expression": "W = \u0394U",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_5"
+                ]
+              },
+              "U = qV": {
+                "expression": "U = qV",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_5"
+            ],
+            "common_traps": [
+              "Neglecting the gravitational potential energy change or incorrectly estimating the electric potential energy term."
+            ],
+            "prerequisites": []
+          },
+          "electric_potential": {
+            "formulas": {
+              "V = kq/r": {
+                "expression": "V = kq/r",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_9"
+                ]
+              },
+              "(x-h)\u00b2 + (y-k)\u00b2 = R\u00b2": {
+                "expression": "(x-h)\u00b2 + (y-k)\u00b2 = R\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_9"
+                ]
+              },
+              "V_net = \u03a3V_i": {
+                "expression": "V_net = \u03a3V_i",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_10"
+                ]
+              },
+              "V_line = (\u03bb/2\u03c0\u03b5\u2080) ln(r\u2082/r\u2081)": {
+                "expression": "V_line = (\u03bb/2\u03c0\u03b5\u2080) ln(r\u2082/r\u2081)",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_12"
+                ]
+              },
+              "V_sphere = kQ/r": {
+                "expression": "V_sphere = kQ/r",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_12"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_9",
+              "JEE_Adv_2021_P1_10",
+              "JEE_Adv_2024_P2_12"
+            ],
+            "common_traps": [
+              "Algebraic errors when expanding the distance squares or converting the general circle equation to center-radius form.",
+              "Swapping the distance ratio r1/r2 which completely changes the circle's center location.",
+              "Incorrectly combining potentials or forgetting the log term for line charge."
+            ],
+            "prerequisites": []
+          },
+          "equipotential_surface": {
+            "formulas": {
+              "V = kq/r": {
+                "expression": "V = kq/r",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_9"
+                ]
+              },
+              "(x-h)\u00b2 + (y-k)\u00b2 = R\u00b2": {
+                "expression": "(x-h)\u00b2 + (y-k)\u00b2 = R\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_9"
+                ]
+              },
+              "V_net = \u03a3V_i": {
+                "expression": "V_net = \u03a3V_i",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_10"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_9",
+              "JEE_Adv_2021_P1_10"
+            ],
+            "common_traps": [
+              "Algebraic errors when expanding the distance squares or converting the general circle equation to center-radius form.",
+              "Swapping the distance ratio r1/r2 which completely changes the circle's center location."
+            ],
+            "prerequisites": []
+          },
+          "coordinate_geometry_in_physics": {
+            "formulas": {
+              "V = kq/r": {
+                "expression": "V = kq/r",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_9"
+                ]
+              },
+              "(x-h)\u00b2 + (y-k)\u00b2 = R\u00b2": {
+                "expression": "(x-h)\u00b2 + (y-k)\u00b2 = R\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_9"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_9"
+            ],
+            "common_traps": [
+              "Algebraic errors when expanding the distance squares or converting the general circle equation to center-radius form."
+            ],
+            "prerequisites": []
+          },
+          "shm_angular": {
+            "formulas": {
+              "E_shell = \u03c3R\u00b2/(\u03b5\u2080r\u00b2)": {
+                "expression": "E_shell = \u03c3R\u00b2/(\u03b5\u2080r\u00b2)",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_5"
+                ]
+              },
+              "\u03c9 = \u221a(pE/I)": {
+                "expression": "\u03c9 = \u221a(pE/I)",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_5"
+            ],
+            "common_traps": [
+              "Applying the electric field formula for r < R incorrectly (E is zero inside)."
+            ],
+            "prerequisites": []
+          },
+          "shell_theorem": {
+            "formulas": {
+              "E_shell = \u03c3R\u00b2/(\u03b5\u2080r\u00b2)": {
+                "expression": "E_shell = \u03c3R\u00b2/(\u03b5\u2080r\u00b2)",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_5"
+                ]
+              },
+              "\u03c9 = \u221a(pE/I)": {
+                "expression": "\u03c9 = \u221a(pE/I)",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_5"
+            ],
+            "common_traps": [
+              "Applying the electric field formula for r < R incorrectly (E is zero inside)."
+            ],
+            "prerequisites": []
+          },
+          "solid_angle": {
+            "formulas": {
+              "\u03a6 = q/\u03b5\u2080": {
+                "expression": "\u03a6 = q/\u03b5\u2080",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_10"
+                ]
+              },
+              "\u03a9 = 2\u03c0(1-cos\u03b8)": {
+                "expression": "\u03a9 = 2\u03c0(1-cos\u03b8)",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_10"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_10"
+            ],
+            "common_traps": [
+              "Incorrectly identifying the solid angle or the complementary angle for the curved surface."
+            ],
+            "prerequisites": []
+          },
+          "line_charge": {
+            "formulas": {
+              "V_line = (\u03bb/2\u03c0\u03b5\u2080) ln(r\u2082/r\u2081)": {
+                "expression": "V_line = (\u03bb/2\u03c0\u03b5\u2080) ln(r\u2082/r\u2081)",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_12"
+                ]
+              },
+              "V_sphere = kQ/r": {
+                "expression": "V_sphere = kQ/r",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_12"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_12"
+            ],
+            "common_traps": [
+              "Incorrectly combining potentials or forgetting the log term for line charge."
+            ],
+            "prerequisites": []
+          },
+          "shell_potential": {
+            "formulas": {
+              "V_line = (\u03bb/2\u03c0\u03b5\u2080) ln(r\u2082/r\u2081)": {
+                "expression": "V_line = (\u03bb/2\u03c0\u03b5\u2080) ln(r\u2082/r\u2081)",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_12"
+                ]
+              },
+              "V_sphere = kQ/r": {
+                "expression": "V_sphere = kQ/r",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_12"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_12"
+            ],
+            "common_traps": [
+              "Incorrectly combining potentials or forgetting the log term for line charge."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Current Electricity": {
+        "subject": "Physics",
+        "chapter": "Current Electricity",
+        "subconcepts": {
+          "electrical_resistance": {
+            "formulas": {
+              "R = \u03c1L/A": {
+                "expression": "R = \u03c1L/A",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_11"
+                ]
+              },
+              "F_c = mv\u00b2/r": {
+                "expression": "F_c = mv\u00b2/r",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_11"
+                ]
+              },
+              "V = \u222b E dl": {
+                "expression": "V = \u222b E dl",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_11"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_11"
+            ],
+            "common_traps": [
+              "Incorrectly identifying the direction of the transverse electric field or assuming the strips are in series."
+            ],
+            "prerequisites": []
+          },
+          "drude_model": {
+            "formulas": {
+              "R = \u03c1L/A": {
+                "expression": "R = \u03c1L/A",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_11"
+                ]
+              },
+              "F_c = mv\u00b2/r": {
+                "expression": "F_c = mv\u00b2/r",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_11"
+                ]
+              },
+              "V = \u222b E dl": {
+                "expression": "V = \u222b E dl",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_11"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_11"
+            ],
+            "common_traps": [
+              "Incorrectly identifying the direction of the transverse electric field or assuming the strips are in series."
+            ],
+            "prerequisites": []
+          },
+          "circular_motion_of_charges": {
+            "formulas": {
+              "R = \u03c1L/A": {
+                "expression": "R = \u03c1L/A",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_11"
+                ]
+              },
+              "F_c = mv\u00b2/r": {
+                "expression": "F_c = mv\u00b2/r",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_11"
+                ]
+              },
+              "V = \u222b E dl": {
+                "expression": "V = \u222b E dl",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_11"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_11"
+            ],
+            "common_traps": [
+              "Incorrectly identifying the direction of the transverse electric field or assuming the strips are in series."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Kinetic Theory of Gases": {
+        "subject": "Physics",
+        "chapter": "Kinetic Theory of Gases",
+        "subconcepts": {
+          "diffusion": {
+            "formulas": {
+              "P = nkT": {
+                "expression": "P = nkT",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_12"
+                ]
+              },
+              "F = \u0394P A": {
+                "expression": "F = \u0394P A",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_12"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_12"
+            ],
+            "common_traps": [
+              "Confusing the number of molecules involved in the viscous drag (bulk fluid in tube) with the concentration difference."
+            ],
+            "prerequisites": []
+          },
+          "viscosity": {
+            "formulas": {
+              "P = nkT": {
+                "expression": "P = nkT",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_12"
+                ]
+              },
+              "F = \u0394P A": {
+                "expression": "F = \u0394P A",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_12"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_12"
+            ],
+            "common_traps": [
+              "Confusing the number of molecules involved in the viscous drag (bulk fluid in tube) with the concentration difference."
+            ],
+            "prerequisites": []
+          },
+          "ideal_gas_equation": {
+            "formulas": {
+              "P = nkT": {
+                "expression": "P = nkT",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_12"
+                ]
+              },
+              "F = \u0394P A": {
+                "expression": "F = \u0394P A",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_12"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_12"
+            ],
+            "common_traps": [
+              "Confusing the number of molecules involved in the viscous drag (bulk fluid in tube) with the concentration difference."
+            ],
+            "prerequisites": []
+          },
+          "internal_energy_degrees_of_freedom": {
+            "formulas": {
+              "U = (n/2)RT": {
+                "expression": "U = (n/2)RT",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q4"
+                ]
+              },
+              "v = \u221a(\u03b3RT/M)": {
+                "expression": "v = \u221a(\u03b3RT/M)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q4"
+                ]
+              },
+              "\u03b3 = (n+2)/n": {
+                "expression": "\u03b3 = (n+2)/n",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q4"
+            ],
+            "common_traps": [
+              "Confusing how internal energy depends on degrees of freedom; incorrect relationship between speed of sound and degrees of freedom; wrong heat capacity ratio formula; not recognizing inverse relationship between v and n."
+            ],
+            "prerequisites": []
+          },
+          "speed_of_sound_ideal_gas": {
+            "formulas": {
+              "U = (n/2)RT": {
+                "expression": "U = (n/2)RT",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q4"
+                ]
+              },
+              "v = \u221a(\u03b3RT/M)": {
+                "expression": "v = \u221a(\u03b3RT/M)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q4"
+                ]
+              },
+              "\u03b3 = (n+2)/n": {
+                "expression": "\u03b3 = (n+2)/n",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q4"
+            ],
+            "common_traps": [
+              "Confusing how internal energy depends on degrees of freedom; incorrect relationship between speed of sound and degrees of freedom; wrong heat capacity ratio formula; not recognizing inverse relationship between v and n."
+            ],
+            "prerequisites": []
+          },
+          "heat_capacity_ratio_gamma": {
+            "formulas": {
+              "U = (n/2)RT": {
+                "expression": "U = (n/2)RT",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q4"
+                ]
+              },
+              "v = \u221a(\u03b3RT/M)": {
+                "expression": "v = \u221a(\u03b3RT/M)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q4"
+                ]
+              },
+              "\u03b3 = (n+2)/n": {
+                "expression": "\u03b3 = (n+2)/n",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q4"
+            ],
+            "common_traps": [
+              "Confusing how internal energy depends on degrees of freedom; incorrect relationship between speed of sound and degrees of freedom; wrong heat capacity ratio formula; not recognizing inverse relationship between v and n."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Laws of Motion": {
+        "subject": "Physics",
+        "chapter": "Laws of Motion",
+        "subconcepts": {
+          "friction": {
+            "formulas": {
+              "f = \u03bcN": {
+                "expression": "f = \u03bcN",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_13"
+                ]
+              },
+              "\u03a3\u03c4 = 0": {
+                "expression": "\u03a3\u03c4 = 0",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_13"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_13"
+            ],
+            "common_traps": [
+              "Mixing up the coefficients of static and kinetic friction or the normal force relations during the different phases of motion."
+            ],
+            "prerequisites": []
+          },
+          "static_vs_kinetic_friction": {
+            "formulas": {
+              "f = \u03bcN": {
+                "expression": "f = \u03bcN",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_13"
+                ]
+              },
+              "\u03a3\u03c4 = 0": {
+                "expression": "\u03a3\u03c4 = 0",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_13"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_13"
+            ],
+            "common_traps": [
+              "Mixing up the coefficients of static and kinetic friction or the normal force relations during the different phases of motion."
+            ],
+            "prerequisites": []
+          },
+          "torque_equilibrium": {
+            "formulas": {
+              "f = \u03bcN": {
+                "expression": "f = \u03bcN",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_13"
+                ]
+              },
+              "\u03a3\u03c4 = 0": {
+                "expression": "\u03a3\u03c4 = 0",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_13"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_13"
+            ],
+            "common_traps": [
+              "Mixing up the coefficients of static and kinetic friction or the normal force relations during the different phases of motion."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Simple Harmonic Motion": {
+        "subject": "Physics",
+        "chapter": "Simple Harmonic Motion",
+        "subconcepts": {
+          "simple_harmonic_motion": {
+            "formulas": {
+              "F_restoring = -k_eff x": {
+                "expression": "F_restoring = -k_eff x",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_15"
+                ]
+              },
+              "f = (1/2\u03c0)\u221a(k/m)": {
+                "expression": "f = (1/2\u03c0)\u221a(k/m)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_15"
+                ]
+              },
+              "E_dipole = 2kp/r\u00b3": {
+                "expression": "E_dipole = 2kp/r\u00b3",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_15"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_15"
+            ],
+            "common_traps": [
+              "Incorrect differentiation of the force term or forgetting the 1/2\u03c0 factor in frequency."
+            ],
+            "prerequisites": []
+          },
+          "taylor_series_approximation": {
+            "formulas": {
+              "F_restoring = -k_eff x": {
+                "expression": "F_restoring = -k_eff x",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_15"
+                ]
+              },
+              "f = (1/2\u03c0)\u221a(k/m)": {
+                "expression": "f = (1/2\u03c0)\u221a(k/m)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_15"
+                ]
+              },
+              "E_dipole = 2kp/r\u00b3": {
+                "expression": "E_dipole = 2kp/r\u00b3",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_15"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_15"
+            ],
+            "common_traps": [
+              "Incorrect differentiation of the force term or forgetting the 1/2\u03c0 factor in frequency."
+            ],
+            "prerequisites": []
+          },
+          "dipole_field": {
+            "formulas": {
+              "F_restoring = -k_eff x": {
+                "expression": "F_restoring = -k_eff x",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_15"
+                ]
+              },
+              "f = (1/2\u03c0)\u221a(k/m)": {
+                "expression": "f = (1/2\u03c0)\u221a(k/m)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_15"
+                ]
+              },
+              "E_dipole = 2kp/r\u00b3": {
+                "expression": "E_dipole = 2kp/r\u00b3",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_15"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_15"
+            ],
+            "common_traps": [
+              "Incorrect differentiation of the force term or forgetting the 1/2\u03c0 factor in frequency."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Thermodynamics": {
+        "subject": "Physics",
+        "chapter": "Thermodynamics",
+        "subconcepts": {
+          "isothermal_process": {
+            "formulas": {
+              "W_iso = nRT ln(Vf/Vi)": {
+                "expression": "W_iso = nRT ln(Vf/Vi)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_16"
+                ]
+              },
+              "W_adia = (PiVi - PfVf)/(\u03b3-1)": {
+                "expression": "W_adia = (PiVi - PfVf)/(\u03b3-1)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_16"
+                ]
+              },
+              "PV^\u03b3 = C": {
+                "expression": "PV^\u03b3 = C",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_16"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_16"
+            ],
+            "common_traps": [
+              "Mistaking the adiabatic index \u03b3 for helium or calculation errors in the power laws."
+            ],
+            "prerequisites": []
+          },
+          "adiabatic_process": {
+            "formulas": {
+              "W_iso = nRT ln(Vf/Vi)": {
+                "expression": "W_iso = nRT ln(Vf/Vi)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_16"
+                ]
+              },
+              "W_adia = (PiVi - PfVf)/(\u03b3-1)": {
+                "expression": "W_adia = (PiVi - PfVf)/(\u03b3-1)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_16"
+                ]
+              },
+              "PV^\u03b3 = C": {
+                "expression": "PV^\u03b3 = C",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_16"
+                ]
+              },
+              "TV^(\u03b3-1) = C": {
+                "expression": "TV^(\u03b3-1) = C",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_15"
+                ]
+              },
+              "\u03b3 = Cp/Cv": {
+                "expression": "\u03b3 = Cp/Cv",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_15"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_16",
+              "JEE_Adv_2021_P2_15"
+            ],
+            "common_traps": [
+              "Mistaking the adiabatic index \u03b3 for helium or calculation errors in the power laws.",
+              "Using the wrong value of gamma for the given specific heat."
+            ],
+            "prerequisites": []
+          },
+          "work_done_by_gas": {
+            "formulas": {
+              "W_iso = nRT ln(Vf/Vi)": {
+                "expression": "W_iso = nRT ln(Vf/Vi)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_16"
+                ]
+              },
+              "W_adia = (PiVi - PfVf)/(\u03b3-1)": {
+                "expression": "W_adia = (PiVi - PfVf)/(\u03b3-1)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_16"
+                ]
+              },
+              "PV^\u03b3 = C": {
+                "expression": "PV^\u03b3 = C",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_16"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_16"
+            ],
+            "common_traps": [
+              "Mistaking the adiabatic index \u03b3 for helium or calculation errors in the power laws."
+            ],
+            "prerequisites": []
+          },
+          "first_law_of_thermodynamics": {
+            "formulas": {
+              "Q = \u0394U + W": {
+                "expression": "Q = \u0394U + W",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_2"
+                ]
+              },
+              "W = P\u0394V": {
+                "expression": "W = P\u0394V",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_2"
+                ]
+              },
+              "\u0394U = nCv\u0394T": {
+                "expression": "\u0394U = nCv\u0394T",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_2"
+            ],
+            "common_traps": [
+              "Confusing the sign of work done or internal energy change in isochoric processes."
+            ],
+            "prerequisites": []
+          },
+          "thermodynamic_processes": {
+            "formulas": {
+              "Q = \u0394U + W": {
+                "expression": "Q = \u0394U + W",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_2"
+                ]
+              },
+              "W = P\u0394V": {
+                "expression": "W = P\u0394V",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_2"
+                ]
+              },
+              "\u0394U = nCv\u0394T": {
+                "expression": "\u0394U = nCv\u0394T",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_2"
+            ],
+            "common_traps": [
+              "Confusing the sign of work done or internal energy change in isochoric processes."
+            ],
+            "prerequisites": []
+          },
+          "pv_diagram_analysis": {
+            "formulas": {
+              "Q = \u0394U + W": {
+                "expression": "Q = \u0394U + W",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_2"
+                ]
+              },
+              "W = P\u0394V": {
+                "expression": "W = P\u0394V",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_2"
+                ]
+              },
+              "\u0394U = nCv\u0394T": {
+                "expression": "\u0394U = nCv\u0394T",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_2"
+            ],
+            "common_traps": [
+              "Confusing the sign of work done or internal energy change in isochoric processes."
+            ],
+            "prerequisites": []
+          },
+          "boyles_law": {
+            "formulas": {
+              "P\u2081V\u2081 = P\u2082V\u2082": {
+                "expression": "P\u2081V\u2081 = P\u2082V\u2082",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_8"
+            ],
+            "common_traps": [
+              "Calculation error in powers of 10."
+            ],
+            "prerequisites": []
+          },
+          "ideal_gas_equation": {
+            "formulas": {
+              "P\u2081V\u2081 = P\u2082V\u2082": {
+                "expression": "P\u2081V\u2081 = P\u2082V\u2082",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_8"
+            ],
+            "common_traps": [
+              "Calculation error in powers of 10."
+            ],
+            "prerequisites": []
+          },
+          "ideal_gas_law": {
+            "formulas": {
+              "TV^(\u03b3-1) = C": {
+                "expression": "TV^(\u03b3-1) = C",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_15"
+                ]
+              },
+              "\u03b3 = Cp/Cv": {
+                "expression": "\u03b3 = Cp/Cv",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_15"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_15"
+            ],
+            "common_traps": [
+              "Using the wrong value of gamma for the given specific heat."
+            ],
+            "prerequisites": []
+          },
+          "specific_heat_ratio": {
+            "formulas": {
+              "TV^(\u03b3-1) = C": {
+                "expression": "TV^(\u03b3-1) = C",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_15"
+                ]
+              },
+              "\u03b3 = Cp/Cv": {
+                "expression": "\u03b3 = Cp/Cv",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_15"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_15"
+            ],
+            "common_traps": [
+              "Using the wrong value of gamma for the given specific heat."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Waves": {
+        "subject": "Physics",
+        "chapter": "Waves",
+        "subconcepts": {
+          "doppler_effect": {
+            "formulas": {
+              "f' = f(v/v\u00b1u)": {
+                "expression": "f' = f(v/v\u00b1u)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_17"
+                ]
+              },
+              "f = v/4L": {
+                "expression": "f = v/4L",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_17"
+                ]
+              },
+              "f' = f(v/v-u)": {
+                "expression": "f' = f(v/v-u)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_2"
+                ]
+              },
+              "f_n = (2n-1)v/4L": {
+                "expression": "f_n = (2n-1)v/4L",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_17",
+              "JEE_Adv_2021_P2_2"
+            ],
+            "common_traps": [
+              "Misinterpreting the direction of motion relative to the pipe axis.",
+              "Forgetting that a closed pipe only supports odd harmonics."
+            ],
+            "prerequisites": []
+          },
+          "resonance_column": {
+            "formulas": {
+              "f' = f(v/v\u00b1u)": {
+                "expression": "f' = f(v/v\u00b1u)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_17"
+                ]
+              },
+              "f = v/4L": {
+                "expression": "f = v/4L",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_17"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_17"
+            ],
+            "common_traps": [
+              "Misinterpreting the direction of motion relative to the pipe axis."
+            ],
+            "prerequisites": []
+          },
+          "standing_waves": {
+            "formulas": {
+              "f' = f(v/v\u00b1u)": {
+                "expression": "f' = f(v/v\u00b1u)",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_17"
+                ]
+              },
+              "f = v/4L": {
+                "expression": "f = v/4L",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P1_17"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P1_17"
+            ],
+            "common_traps": [
+              "Misinterpreting the direction of motion relative to the pipe axis."
+            ],
+            "prerequisites": []
+          },
+          "standing_waves_in_pipes": {
+            "formulas": {
+              "f' = f(v/v-u)": {
+                "expression": "f' = f(v/v-u)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_2"
+                ]
+              },
+              "f_n = (2n-1)v/4L": {
+                "expression": "f_n = (2n-1)v/4L",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_2"
+            ],
+            "common_traps": [
+              "Forgetting that a closed pipe only supports odd harmonics."
+            ],
+            "prerequisites": []
+          },
+          "resonance": {
+            "formulas": {
+              "f' = f(v/v-u)": {
+                "expression": "f' = f(v/v-u)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_2"
+                ]
+              },
+              "f_n = (2n-1)v/4L": {
+                "expression": "f_n = (2n-1)v/4L",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_2"
+            ],
+            "common_traps": [
+              "Forgetting that a closed pipe only supports odd harmonics."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Rotational Motion": {
+        "subject": "Physics",
+        "chapter": "Rotational Motion",
+        "subconcepts": {
+          "conservation_of_angular_momentum": {
+            "formulas": {
+              "L = I\u03c9": {
+                "expression": "L = I\u03c9",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_9"
+                ]
+              },
+              "I = I_rod + I_point": {
+                "expression": "I = I_rod + I_point",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_9"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_9"
+            ],
+            "common_traps": [
+              "Applying conservation of linear momentum instead of angular momentum, or failing to differentiate the angular velocity expression correctly."
+            ],
+            "prerequisites": []
+          },
+          "rotational_inertia": {
+            "formulas": {
+              "L = I\u03c9": {
+                "expression": "L = I\u03c9",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_9"
+                ]
+              },
+              "I = I_rod + I_point": {
+                "expression": "I = I_rod + I_point",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_9"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_9"
+            ],
+            "common_traps": [
+              "Applying conservation of linear momentum instead of angular momentum, or failing to differentiate the angular velocity expression correctly."
+            ],
+            "prerequisites": []
+          },
+          "optimization_calculus": {
+            "formulas": {
+              "L = I\u03c9": {
+                "expression": "L = I\u03c9",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_9"
+                ]
+              },
+              "I = I_rod + I_point": {
+                "expression": "I = I_rod + I_point",
+                "used_in_questions": [
+                  "JEE_Adv_2020_P2_9"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_P2_9"
+            ],
+            "common_traps": [
+              "Applying conservation of linear momentum instead of angular momentum, or failing to differentiate the angular velocity expression correctly."
+            ],
+            "prerequisites": []
+          },
+          "rolling_motion": {
+            "formulas": {
+              "F_net = ma": {
+                "expression": "F_net = ma",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_11"
+                ]
+              },
+              "\u03c4 = I\u03b1": {
+                "expression": "\u03c4 = I\u03b1",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_11"
+                ]
+              },
+              "a = R\u03b1": {
+                "expression": "a = R\u03b1",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_11"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_11"
+            ],
+            "common_traps": [
+              "Assuming friction is always limiting (\u03bcN) in rolling without slipping problems."
+            ],
+            "prerequisites": []
+          },
+          "friction": {
+            "formulas": {
+              "F_net = ma": {
+                "expression": "F_net = ma",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_11"
+                ]
+              },
+              "\u03c4 = I\u03b1": {
+                "expression": "\u03c4 = I\u03b1",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_11"
+                ]
+              },
+              "a = R\u03b1": {
+                "expression": "a = R\u03b1",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_11"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_11"
+            ],
+            "common_traps": [
+              "Assuming friction is always limiting (\u03bcN) in rolling without slipping problems."
+            ],
+            "prerequisites": []
+          },
+          "newtons_laws_rotation": {
+            "formulas": {
+              "F_net = ma": {
+                "expression": "F_net = ma",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_11"
+                ]
+              },
+              "\u03c4 = I\u03b1": {
+                "expression": "\u03c4 = I\u03b1",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_11"
+                ]
+              },
+              "a = R\u03b1": {
+                "expression": "a = R\u03b1",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_11"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_11"
+            ],
+            "common_traps": [
+              "Assuming friction is always limiting (\u03bcN) in rolling without slipping problems."
+            ],
+            "prerequisites": []
+          },
+          "angular_momentum": {
+            "formulas": {
+              "L = r \u00d7 p": {
+                "expression": "L = r \u00d7 p",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_9"
+                ]
+              },
+              "L = mvr_perp": {
+                "expression": "L = mvr_perp",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_9"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_9"
+            ],
+            "common_traps": [
+              "Trying to calculate the position of lift-off first, rather than realizing the angular momentum is constant while sliding (no torque about suspension axis? Wait. Normal force exerts torque? No, vertical forces. Frictionless floor. No horizontal forces. Velocity is constant. L = mvh is constant)."
+            ],
+            "prerequisites": []
+          },
+          "impulse_momentum_theorem": {
+            "formulas": {
+              "L = r \u00d7 p": {
+                "expression": "L = r \u00d7 p",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_9"
+                ]
+              },
+              "L = mvr_perp": {
+                "expression": "L = mvr_perp",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_9"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_9"
+            ],
+            "common_traps": [
+              "Trying to calculate the position of lift-off first, rather than realizing the angular momentum is constant while sliding (no torque about suspension axis? Wait. Normal force exerts torque? No, vertical forces. Frictionless floor. No horizontal forces. Velocity is constant. L = mvh is constant)."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Units and Measurements": {
+        "subject": "Physics",
+        "chapter": "Units and Measurements",
+        "subconcepts": {
+          "vernier_calipers": {
+            "formulas": {
+              "LC = 1MSD - 1VSD": {
+                "expression": "LC = 1MSD - 1VSD",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_1"
+                ]
+              },
+              "Reading = MSR + (VSC * LC)": {
+                "expression": "Reading = MSR + (VSC * LC)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_1"
+                ]
+              },
+              "True = Observed - ZeroError": {
+                "expression": "True = Observed - ZeroError",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_1"
+            ],
+            "common_traps": [
+              "Incorrectly identifying the sign of the zero error or missing the zero error calculation entirely."
+            ],
+            "prerequisites": []
+          },
+          "measurement_error_analysis": {
+            "formulas": {
+              "LC = 1MSD - 1VSD": {
+                "expression": "LC = 1MSD - 1VSD",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_1"
+                ]
+              },
+              "Reading = MSR + (VSC * LC)": {
+                "expression": "Reading = MSR + (VSC * LC)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_1"
+                ]
+              },
+              "True = Observed - ZeroError": {
+                "expression": "True = Observed - ZeroError",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_1"
+            ],
+            "common_traps": [
+              "Incorrectly identifying the sign of the zero error or missing the zero error calculation entirely."
+            ],
+            "prerequisites": []
+          },
+          "least_count": {
+            "formulas": {
+              "LC = 1MSD - 1VSD": {
+                "expression": "LC = 1MSD - 1VSD",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_1"
+                ]
+              },
+              "Reading = MSR + (VSC * LC)": {
+                "expression": "Reading = MSR + (VSC * LC)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_1"
+                ]
+              },
+              "True = Observed - ZeroError": {
+                "expression": "True = Observed - ZeroError",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_1"
+            ],
+            "common_traps": [
+              "Incorrectly identifying the sign of the zero error or missing the zero error calculation entirely."
+            ],
+            "prerequisites": []
+          },
+          "error_analysis": {
+            "formulas": {
+              "\u0394V/V = 2\u0394D/D + \u0394h/h": {
+                "expression": "\u0394V/V = 2\u0394D/D + \u0394h/h",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_8"
+            ],
+            "common_traps": [
+              "Using radius error incorrectly or forgetting the factor of 2 for diameter squared."
+            ],
+            "prerequisites": []
+          },
+          "percentage_error": {
+            "formulas": {
+              "\u0394V/V = 2\u0394D/D + \u0394h/h": {
+                "expression": "\u0394V/V = 2\u0394D/D + \u0394h/h",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_8"
+            ],
+            "common_traps": [
+              "Using radius error incorrectly or forgetting the factor of 2 for diameter squared."
+            ],
+            "prerequisites": []
+          },
+          "volume_calculation": {
+            "formulas": {
+              "\u0394V/V = 2\u0394D/D + \u0394h/h": {
+                "expression": "\u0394V/V = 2\u0394D/D + \u0394h/h",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_8"
+            ],
+            "common_traps": [
+              "Using radius error incorrectly or forgetting the factor of 2 for diameter squared."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Ray Optics and Optical Instruments": {
+        "subject": "Physics",
+        "chapter": "Ray Optics and Optical Instruments",
+        "subconcepts": {
+          "lens_maker_formula": {
+            "formulas": {
+              "1/f = (\u03bc-1)(1/R1-1/R2)": {
+                "expression": "1/f = (\u03bc-1)(1/R1-1/R2)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_3"
+                ]
+              },
+              "1/v - 1/u = 1/f": {
+                "expression": "1/v - 1/u = 1/f",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_3"
+                ]
+              },
+              "m = v/u": {
+                "expression": "m = v/u",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_3"
+            ],
+            "common_traps": [
+              "Incorrect sign convention for the object distance of the second lens (using the image distance directly without adding lens separation)."
+            ],
+            "prerequisites": []
+          },
+          "combination_of_lenses": {
+            "formulas": {
+              "1/f = (\u03bc-1)(1/R1-1/R2)": {
+                "expression": "1/f = (\u03bc-1)(1/R1-1/R2)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_3"
+                ]
+              },
+              "1/v - 1/u = 1/f": {
+                "expression": "1/v - 1/u = 1/f",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_3"
+                ]
+              },
+              "m = v/u": {
+                "expression": "m = v/u",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_3"
+            ],
+            "common_traps": [
+              "Incorrect sign convention for the object distance of the second lens (using the image distance directly without adding lens separation)."
+            ],
+            "prerequisites": []
+          },
+          "magnification": {
+            "formulas": {
+              "1/f = (\u03bc-1)(1/R1-1/R2)": {
+                "expression": "1/f = (\u03bc-1)(1/R1-1/R2)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_3"
+                ]
+              },
+              "1/v - 1/u = 1/f": {
+                "expression": "1/v - 1/u = 1/f",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_3"
+                ]
+              },
+              "m = v/u": {
+                "expression": "m = v/u",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_3"
+            ],
+            "common_traps": [
+              "Incorrect sign convention for the object distance of the second lens (using the image distance directly without adding lens separation)."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Nuclei": {
+        "subject": "Physics",
+        "chapter": "Nuclei",
+        "subconcepts": {
+          "radioactive_decay_law": {
+            "formulas": {
+              "N = N\u2080(1/2)\u207f": {
+                "expression": "N = N\u2080(1/2)\u207f",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_4"
+                ]
+              },
+              "N_decayed = N\u2080 - N": {
+                "expression": "N_decayed = N\u2080 - N",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_4"
+            ],
+            "common_traps": [
+              "Calculating 60% of the initial nuclei instead of 60% of the *decayed* nuclei."
+            ],
+            "prerequisites": []
+          },
+          "branching_ratio": {
+            "formulas": {
+              "N = N\u2080(1/2)\u207f": {
+                "expression": "N = N\u2080(1/2)\u207f",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_4"
+                ]
+              },
+              "N_decayed = N\u2080 - N": {
+                "expression": "N_decayed = N\u2080 - N",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_4"
+            ],
+            "common_traps": [
+              "Calculating 60% of the initial nuclei instead of 60% of the *decayed* nuclei."
+            ],
+            "prerequisites": []
+          },
+          "half_life": {
+            "formulas": {
+              "N = N\u2080(1/2)\u207f": {
+                "expression": "N = N\u2080(1/2)\u207f",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_4"
+                ]
+              },
+              "N_decayed = N\u2080 - N": {
+                "expression": "N_decayed = N\u2080 - N",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_4"
+            ],
+            "common_traps": [
+              "Calculating 60% of the initial nuclei instead of 60% of the *decayed* nuclei."
+            ],
+            "prerequisites": []
+          },
+          "nuclear_fission": {
+            "formulas": {
+              "Q = \u0394mc\u00b2": {
+                "expression": "Q = \u0394mc\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_5"
+                ]
+              },
+              "K = p\u00b2/2m": {
+                "expression": "K = p\u00b2/2m",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_5"
+            ],
+            "common_traps": [
+              "Confusing the inverse mass relationship for kinetic energy distribution in decay problems."
+            ],
+            "prerequisites": []
+          },
+          "conservation_of_momentum": {
+            "formulas": {
+              "Q = \u0394mc\u00b2": {
+                "expression": "Q = \u0394mc\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_5"
+                ]
+              },
+              "K = p\u00b2/2m": {
+                "expression": "K = p\u00b2/2m",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_5"
+            ],
+            "common_traps": [
+              "Confusing the inverse mass relationship for kinetic energy distribution in decay problems."
+            ],
+            "prerequisites": []
+          },
+          "q_value": {
+            "formulas": {
+              "Q = \u0394mc\u00b2": {
+                "expression": "Q = \u0394mc\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_5"
+                ]
+              },
+              "K = p\u00b2/2m": {
+                "expression": "K = p\u00b2/2m",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_5"
+            ],
+            "common_traps": [
+              "Confusing the inverse mass relationship for kinetic energy distribution in decay problems."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Kinematics": {
+        "subject": "Physics",
+        "chapter": "Kinematics",
+        "subconcepts": {
+          "projectile_motion": {
+            "formulas": {
+              "T = u_y/g": {
+                "expression": "T = u_y/g",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_5"
+                ]
+              },
+              "H = u_y\u00b2/2g": {
+                "expression": "H = u_y\u00b2/2g",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_5"
+                ]
+              },
+              "P_initial = P_final": {
+                "expression": "P_initial = P_final",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_5"
+                ]
+              },
+              "R = u_x * t": {
+                "expression": "R = u_x * t",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_6"
+                ]
+              },
+              "x_total = x_cm + x_rel": {
+                "expression": "x_total = x_cm + x_rel",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_6"
+                ]
+              },
+              "T = L / v_rel": {
+                "expression": "T = L / v_rel",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_9"
+                ]
+              },
+              "v sin \u03b8 = constant": {
+                "expression": "v sin \u03b8 = constant",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_9"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_5",
+              "JEE_Adv_2021_P1_6",
+              "JEE_Adv_2024_P2_9"
+            ],
+            "common_traps": [
+              "Overcomplicating the vertical motion of the second fragment; it falls from the same height with zero initial vertical velocity.",
+              "Forgetting to add the horizontal distance covered before the split.",
+              "Deriving the velocity relation incorrectly or failing to simplify the trigonometric expression."
+            ],
+            "prerequisites": []
+          },
+          "conservation_of_momentum": {
+            "formulas": {
+              "T = u_y/g": {
+                "expression": "T = u_y/g",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_5"
+                ]
+              },
+              "H = u_y\u00b2/2g": {
+                "expression": "H = u_y\u00b2/2g",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_5"
+                ]
+              },
+              "P_initial = P_final": {
+                "expression": "P_initial = P_final",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_5"
+            ],
+            "common_traps": [
+              "Overcomplicating the vertical motion of the second fragment; it falls from the same height with zero initial vertical velocity."
+            ],
+            "prerequisites": []
+          },
+          "center_of_mass_motion": {
+            "formulas": {
+              "T = u_y/g": {
+                "expression": "T = u_y/g",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_5"
+                ]
+              },
+              "H = u_y\u00b2/2g": {
+                "expression": "H = u_y\u00b2/2g",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_5"
+                ]
+              },
+              "P_initial = P_final": {
+                "expression": "P_initial = P_final",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_5"
+            ],
+            "common_traps": [
+              "Overcomplicating the vertical motion of the second fragment; it falls from the same height with zero initial vertical velocity."
+            ],
+            "prerequisites": []
+          },
+          "kinematics_2d": {
+            "formulas": {
+              "R = u_x * t": {
+                "expression": "R = u_x * t",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_6"
+                ]
+              },
+              "x_total = x_cm + x_rel": {
+                "expression": "x_total = x_cm + x_rel",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_6"
+            ],
+            "common_traps": [
+              "Forgetting to add the horizontal distance covered before the split."
+            ],
+            "prerequisites": []
+          },
+          "relative_motion": {
+            "formulas": {
+              "T = L / v_rel": {
+                "expression": "T = L / v_rel",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_9"
+                ]
+              },
+              "v sin \u03b8 = constant": {
+                "expression": "v sin \u03b8 = constant",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_9"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_9"
+            ],
+            "common_traps": [
+              "Deriving the velocity relation incorrectly or failing to simplify the trigonometric expression."
+            ],
+            "prerequisites": []
+          },
+          "collision_conditions": {
+            "formulas": {
+              "T = L / v_rel": {
+                "expression": "T = L / v_rel",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_9"
+                ]
+              },
+              "v sin \u03b8 = constant": {
+                "expression": "v sin \u03b8 = constant",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_9"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_9"
+            ],
+            "common_traps": [
+              "Deriving the velocity relation incorrectly or failing to simplify the trigonometric expression."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Capacitance": {
+        "subject": "Physics",
+        "chapter": "Capacitance",
+        "subconcepts": {
+          "rc_circuits": {
+            "formulas": {
+              "q = CV": {
+                "expression": "q = CV",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_7",
+                  "JEE_Adv_2021_P1_8"
+                ]
+              },
+              "V = IR": {
+                "expression": "V = IR",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_7",
+              "JEE_Adv_2021_P1_8"
+            ],
+            "common_traps": [
+              "Incorrectly identifying the nodes across which the capacitor is connected.",
+              "Failing to re-evaluate the node voltages for the new switch position."
+            ],
+            "prerequisites": []
+          },
+          "steady_state_analysis": {
+            "formulas": {
+              "q = CV": {
+                "expression": "q = CV",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_7",
+                  "JEE_Adv_2021_P1_8"
+                ]
+              },
+              "V = IR": {
+                "expression": "V = IR",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_7",
+              "JEE_Adv_2021_P1_8"
+            ],
+            "common_traps": [
+              "Incorrectly identifying the nodes across which the capacitor is connected.",
+              "Failing to re-evaluate the node voltages for the new switch position."
+            ],
+            "prerequisites": []
+          },
+          "nodal_analysis": {
+            "formulas": {
+              "q = CV": {
+                "expression": "q = CV",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_7",
+                  "JEE_Adv_2021_P1_8"
+                ]
+              },
+              "V = IR": {
+                "expression": "V = IR",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_7",
+              "JEE_Adv_2021_P1_8"
+            ],
+            "common_traps": [
+              "Incorrectly identifying the nodes across which the capacitor is connected.",
+              "Failing to re-evaluate the node voltages for the new switch position."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Ray Optics": {
+        "subject": "Physics",
+        "chapter": "Ray Optics",
+        "subconcepts": {
+          "total_internal_reflection": {
+            "formulas": {
+              "n\u2081sin\u03b8\u2081 = n\u2082sin\u03b8\u2082": {
+                "expression": "n\u2081sin\u03b8\u2081 = n\u2082sin\u03b8\u2082",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_12"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_12"
+            ],
+            "common_traps": [
+              "Thinking the intermediate medium changes the condition for emergence into air (n sin \u03b8 is invariant for parallel slabs)."
+            ],
+            "prerequisites": []
+          },
+          "snells_law": {
+            "formulas": {
+              "n\u2081sin\u03b8\u2081 = n\u2082sin\u03b8\u2082": {
+                "expression": "n\u2081sin\u03b8\u2081 = n\u2082sin\u03b8\u2082",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_12"
+                ]
+              },
+              "n = sin((A+D)/2)/sin(A/2)": {
+                "expression": "n = sin((A+D)/2)/sin(A/2)",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_11"
+                ]
+              },
+              "n1 sin i = n2 sin r": {
+                "expression": "n1 sin i = n2 sin r",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_11"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_12",
+              "JEE_Adv_2024_P2_11"
+            ],
+            "common_traps": [
+              "Thinking the intermediate medium changes the condition for emergence into air (n sin \u03b8 is invariant for parallel slabs).",
+              "Calculation of angles inside the prism and correct application of Snell's law at both interfaces."
+            ],
+            "prerequisites": []
+          },
+          "critical_angle": {
+            "formulas": {
+              "n\u2081sin\u03b8\u2081 = n\u2082sin\u03b8\u2082": {
+                "expression": "n\u2081sin\u03b8\u2081 = n\u2082sin\u03b8\u2082",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P1_12"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P1_12"
+            ],
+            "common_traps": [
+              "Thinking the intermediate medium changes the condition for emergence into air (n sin \u03b8 is invariant for parallel slabs)."
+            ],
+            "prerequisites": []
+          },
+          "prism_formula": {
+            "formulas": {
+              "n\u2081sin i = n\u2082sin r": {
+                "expression": "n\u2081sin i = n\u2082sin r",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_3"
+                ]
+              },
+              "r\u2081 + r\u2082 = A": {
+                "expression": "r\u2081 + r\u2082 = A",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_3"
+            ],
+            "common_traps": [
+              "Incorrectly differentiating Snell's law or failing to calculate cos(e) correctly from sin(e)."
+            ],
+            "prerequisites": []
+          },
+          "minimum_deviation": {
+            "formulas": {
+              "n\u2081sin i = n\u2082sin r": {
+                "expression": "n\u2081sin i = n\u2082sin r",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_3"
+                ]
+              },
+              "r\u2081 + r\u2082 = A": {
+                "expression": "r\u2081 + r\u2082 = A",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_3"
+                ]
+              },
+              "n = sin((A+D)/2)/sin(A/2)": {
+                "expression": "n = sin((A+D)/2)/sin(A/2)",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_11"
+                ]
+              },
+              "n1 sin i = n2 sin r": {
+                "expression": "n1 sin i = n2 sin r",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_11"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_3",
+              "JEE_Adv_2024_P2_11"
+            ],
+            "common_traps": [
+              "Incorrectly differentiating Snell's law or failing to calculate cos(e) correctly from sin(e).",
+              "Calculation of angles inside the prism and correct application of Snell's law at both interfaces."
+            ],
+            "prerequisites": []
+          },
+          "differentiation_in_physics": {
+            "formulas": {
+              "n\u2081sin i = n\u2082sin r": {
+                "expression": "n\u2081sin i = n\u2082sin r",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_3"
+                ]
+              },
+              "r\u2081 + r\u2082 = A": {
+                "expression": "r\u2081 + r\u2082 = A",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_3"
+            ],
+            "common_traps": [
+              "Incorrectly differentiating Snell's law or failing to calculate cos(e) correctly from sin(e)."
+            ],
+            "prerequisites": []
+          },
+          "prism_refraction": {
+            "formulas": {
+              "n = sin((A+D)/2)/sin(A/2)": {
+                "expression": "n = sin((A+D)/2)/sin(A/2)",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_11"
+                ]
+              },
+              "n1 sin i = n2 sin r": {
+                "expression": "n1 sin i = n2 sin r",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_11"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_11"
+            ],
+            "common_traps": [
+              "Calculation of angles inside the prism and correct application of Snell's law at both interfaces."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Electromagnetic Waves": {
+        "subject": "Physics",
+        "chapter": "Electromagnetic Waves",
+        "subconcepts": {
+          "dimensional_analysis": {
+            "formulas": {
+              "S = E\u00d7B/\u03bc\u2080": {
+                "expression": "S = E\u00d7B/\u03bc\u2080",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_4"
+                ]
+              },
+              "P = F/A": {
+                "expression": "P = F/A",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_4"
+            ],
+            "common_traps": [
+              "Confusing Poynting vector (Intensity) with Energy Density."
+            ],
+            "prerequisites": []
+          },
+          "poynting_vector": {
+            "formulas": {
+              "S = E\u00d7B/\u03bc\u2080": {
+                "expression": "S = E\u00d7B/\u03bc\u2080",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_4"
+                ]
+              },
+              "P = F/A": {
+                "expression": "P = F/A",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_4"
+            ],
+            "common_traps": [
+              "Confusing Poynting vector (Intensity) with Energy Density."
+            ],
+            "prerequisites": []
+          },
+          "electromagnetic_waves": {
+            "formulas": {
+              "S = E\u00d7B/\u03bc\u2080": {
+                "expression": "S = E\u00d7B/\u03bc\u2080",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_4"
+                ]
+              },
+              "P = F/A": {
+                "expression": "P = F/A",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_4"
+            ],
+            "common_traps": [
+              "Confusing Poynting vector (Intensity) with Energy Density."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Work, Energy and Power": {
+        "subject": "Physics",
+        "chapter": "Work, Energy and Power",
+        "subconcepts": {
+          "impulse_tension": {
+            "formulas": {
+              "v_perp = v cos \u03b8": {
+                "expression": "v_perp = v cos \u03b8",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_10"
+                ]
+              },
+              "K = 1/2 m v\u00b2": {
+                "expression": "K = 1/2 m v\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_10"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_10"
+            ],
+            "common_traps": [
+              "Assuming energy is conserved during the string becoming taut (energy is lost in the inelastic jerk)."
+            ],
+            "prerequisites": []
+          },
+          "kinetic_energy_rotation": {
+            "formulas": {
+              "v_perp = v cos \u03b8": {
+                "expression": "v_perp = v cos \u03b8",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_10"
+                ]
+              },
+              "K = 1/2 m v\u00b2": {
+                "expression": "K = 1/2 m v\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_10"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_10"
+            ],
+            "common_traps": [
+              "Assuming energy is conserved during the string becoming taut (energy is lost in the inelastic jerk)."
+            ],
+            "prerequisites": []
+          },
+          "constrained_motion": {
+            "formulas": {
+              "v_perp = v cos \u03b8": {
+                "expression": "v_perp = v cos \u03b8",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_10"
+                ]
+              },
+              "K = 1/2 m v\u00b2": {
+                "expression": "K = 1/2 m v\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2021_P2_10"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_P2_10"
+            ],
+            "common_traps": [
+              "Assuming energy is conserved during the string becoming taut (energy is lost in the inelastic jerk)."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Electric Potential and Dipole": {
+        "subject": "Physics",
+        "chapter": "Electric Potential and Dipole",
+        "subconcepts": {
+          "electric_potential_definition": {
+            "formulas": {
+              "V = (1/4\u03c0\u03b5\u2080) \u00d7 (p\u00b7r\u0302)/r\u00b2": {
+                "expression": "V = (1/4\u03c0\u03b5\u2080) \u00d7 (p\u00b7r\u0302)/r\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q1"
+                ]
+              },
+              "p = q \u00d7 d": {
+                "expression": "p = q \u00d7 d",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q1"
+            ],
+            "common_traps": [
+              "Incorrectly calculating dipole moment magnitude or direction; confusing scalar and vector components of dipole moment; not properly accounting for the angle between dipole and field point."
+            ],
+            "prerequisites": []
+          },
+          "dipole_moment_definition": {
+            "formulas": {
+              "V = (1/4\u03c0\u03b5\u2080) \u00d7 (p\u00b7r\u0302)/r\u00b2": {
+                "expression": "V = (1/4\u03c0\u03b5\u2080) \u00d7 (p\u00b7r\u0302)/r\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q1"
+                ]
+              },
+              "p = q \u00d7 d": {
+                "expression": "p = q \u00d7 d",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q1"
+            ],
+            "common_traps": [
+              "Incorrectly calculating dipole moment magnitude or direction; confusing scalar and vector components of dipole moment; not properly accounting for the angle between dipole and field point."
+            ],
+            "prerequisites": []
+          },
+          "dipole_field_far_field": {
+            "formulas": {
+              "V = (1/4\u03c0\u03b5\u2080) \u00d7 (p\u00b7r\u0302)/r\u00b2": {
+                "expression": "V = (1/4\u03c0\u03b5\u2080) \u00d7 (p\u00b7r\u0302)/r\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q1"
+                ]
+              },
+              "p = q \u00d7 d": {
+                "expression": "p = q \u00d7 d",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q1"
+            ],
+            "common_traps": [
+              "Incorrectly calculating dipole moment magnitude or direction; confusing scalar and vector components of dipole moment; not properly accounting for the angle between dipole and field point."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Dimensional Analysis": {
+        "subject": "Physics",
+        "chapter": "Dimensional Analysis",
+        "subconcepts": {
+          "dimensional_analysis_method": {
+            "formulas": {
+              "[Y] = ML\u207b\u00b9T\u207b\u00b2": {
+                "expression": "[Y] = ML\u207b\u00b9T\u207b\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q2"
+                ]
+              },
+              "[c] = LT\u207b\u00b9": {
+                "expression": "[c] = LT\u207b\u00b9",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q2"
+                ]
+              },
+              "[h] = ML\u00b2T\u207b\u00b9": {
+                "expression": "[h] = ML\u00b2T\u207b\u00b9",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q2"
+                ]
+              },
+              "[G] = M\u207b\u00b9L\u00b3T\u207b\u00b2": {
+                "expression": "[G] = M\u207b\u00b9L\u00b3T\u207b\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q2"
+            ],
+            "common_traps": [
+              "Making sign errors in dimension algebra; not properly tracking exponents; forgetting to equate coefficients for each dimension separately; arithmetic errors in solving simultaneous equations."
+            ],
+            "prerequisites": []
+          },
+          "consistency_dimensional_equation": {
+            "formulas": {
+              "[Y] = ML\u207b\u00b9T\u207b\u00b2": {
+                "expression": "[Y] = ML\u207b\u00b9T\u207b\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q2"
+                ]
+              },
+              "[c] = LT\u207b\u00b9": {
+                "expression": "[c] = LT\u207b\u00b9",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q2"
+                ]
+              },
+              "[h] = ML\u00b2T\u207b\u00b9": {
+                "expression": "[h] = ML\u00b2T\u207b\u00b9",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q2"
+                ]
+              },
+              "[G] = M\u207b\u00b9L\u00b3T\u207b\u00b2": {
+                "expression": "[G] = M\u207b\u00b9L\u00b3T\u207b\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q2"
+            ],
+            "common_traps": [
+              "Making sign errors in dimension algebra; not properly tracking exponents; forgetting to equate coefficients for each dimension separately; arithmetic errors in solving simultaneous equations."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Kinematics and Dynamics": {
+        "subject": "Physics",
+        "chapter": "Kinematics and Dynamics",
+        "subconcepts": {
+          "force_definition_newton_second_law": {
+            "formulas": {
+              "F\u20d7 = m(dv\u20d7/dt)": {
+                "expression": "F\u20d7 = m(dv\u20d7/dt)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q3"
+                ]
+              },
+              "a\u20d7 = dv\u20d7/dt": {
+                "expression": "a\u20d7 = dv\u20d7/dt",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q3"
+            ],
+            "common_traps": [
+              "Forgetting to apply chain rule when differentiating velocity components that depend on x and y which themselves change with time; confusing partial and total derivatives; incorrect handling of vector differentiation."
+            ],
+            "prerequisites": []
+          },
+          "acceleration_time_derivative_velocity": {
+            "formulas": {
+              "F\u20d7 = m(dv\u20d7/dt)": {
+                "expression": "F\u20d7 = m(dv\u20d7/dt)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q3"
+                ]
+              },
+              "a\u20d7 = dv\u20d7/dt": {
+                "expression": "a\u20d7 = dv\u20d7/dt",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q3"
+            ],
+            "common_traps": [
+              "Forgetting to apply chain rule when differentiating velocity components that depend on x and y which themselves change with time; confusing partial and total derivatives; incorrect handling of vector differentiation."
+            ],
+            "prerequisites": []
+          },
+          "chain_rule_differentiation": {
+            "formulas": {
+              "F\u20d7 = m(dv\u20d7/dt)": {
+                "expression": "F\u20d7 = m(dv\u20d7/dt)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q3"
+                ]
+              },
+              "a\u20d7 = dv\u20d7/dt": {
+                "expression": "a\u20d7 = dv\u20d7/dt",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q3"
+            ],
+            "common_traps": [
+              "Forgetting to apply chain rule when differentiating velocity components that depend on x and y which themselves change with time; confusing partial and total derivatives; incorrect handling of vector differentiation."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Refraction of Light": {
+        "subject": "Physics",
+        "chapter": "Refraction of Light",
+        "subconcepts": {
+          "refraction_varying_index": {
+            "formulas": {
+              "n(x) = n\u2081 + (n\u2082-n\u2081)x/h": {
+                "expression": "n(x) = n\u2081 + (n\u2082-n\u2081)x/h",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q5"
+                ]
+              },
+              "\u03b8 = tan\u207b\u00b9[(n\u2082\u00b2-n\u2081\u00b2)d/(2h)]": {
+                "expression": "\u03b8 = tan\u207b\u00b9[(n\u2082\u00b2-n\u2081\u00b2)d/(2h)]",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q5"
+            ],
+            "common_traps": [
+              "Assuming no deflection for normal incidence; using simple Snell's law instead of accounting for continuous variation; confusing magnitude of n differences with actual deflection; incorrect integration of ray path curvature."
+            ],
+            "prerequisites": []
+          },
+          "snell_law_local_application": {
+            "formulas": {
+              "n(x) = n\u2081 + (n\u2082-n\u2081)x/h": {
+                "expression": "n(x) = n\u2081 + (n\u2082-n\u2081)x/h",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q5"
+                ]
+              },
+              "\u03b8 = tan\u207b\u00b9[(n\u2082\u00b2-n\u2081\u00b2)d/(2h)]": {
+                "expression": "\u03b8 = tan\u207b\u00b9[(n\u2082\u00b2-n\u2081\u00b2)d/(2h)]",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q5"
+            ],
+            "common_traps": [
+              "Assuming no deflection for normal incidence; using simple Snell's law instead of accounting for continuous variation; confusing magnitude of n differences with actual deflection; incorrect integration of ray path curvature."
+            ],
+            "prerequisites": []
+          },
+          "ray_optics_gradient_index": {
+            "formulas": {
+              "n(x) = n\u2081 + (n\u2082-n\u2081)x/h": {
+                "expression": "n(x) = n\u2081 + (n\u2082-n\u2081)x/h",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q5"
+                ]
+              },
+              "\u03b8 = tan\u207b\u00b9[(n\u2082\u00b2-n\u2081\u00b2)d/(2h)]": {
+                "expression": "\u03b8 = tan\u207b\u00b9[(n\u2082\u00b2-n\u2081\u00b2)d/(2h)]",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q5"
+            ],
+            "common_traps": [
+              "Assuming no deflection for normal incidence; using simple Snell's law instead of accounting for continuous variation; confusing magnitude of n differences with actual deflection; incorrect integration of ray path curvature."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Rolling Motion with Friction": {
+        "subject": "Physics",
+        "chapter": "Rolling Motion with Friction",
+        "subconcepts": {
+          "rolling_without_slipping_constraint": {
+            "formulas": {
+              "I = M(a\u00b2+b\u00b2)/2": {
+                "expression": "I = M(a\u00b2+b\u00b2)/2",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q6"
+                ]
+              },
+              "h_m = (a\u00b2+b\u00b2)/(2b)": {
+                "expression": "h_m = (a\u00b2+b\u00b2)/(2b)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q6"
+                ]
+              },
+              "v = \u03c9b (rolling condition)": {
+                "expression": "v = \u03c9b (rolling condition)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q6"
+            ],
+            "common_traps": [
+              "Not accounting for moment of inertia of annular disk; confusing effective radius for rolling; incorrect application of rolling constraint; missing analysis of friction effects."
+            ],
+            "prerequisites": []
+          },
+          "impulse_linear_angular_momentum": {
+            "formulas": {
+              "I = M(a\u00b2+b\u00b2)/2": {
+                "expression": "I = M(a\u00b2+b\u00b2)/2",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q6"
+                ]
+              },
+              "h_m = (a\u00b2+b\u00b2)/(2b)": {
+                "expression": "h_m = (a\u00b2+b\u00b2)/(2b)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q6"
+                ]
+              },
+              "v = \u03c9b (rolling condition)": {
+                "expression": "v = \u03c9b (rolling condition)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q6"
+            ],
+            "common_traps": [
+              "Not accounting for moment of inertia of annular disk; confusing effective radius for rolling; incorrect application of rolling constraint; missing analysis of friction effects."
+            ],
+            "prerequisites": []
+          },
+          "moment_of_inertia_annular_disk": {
+            "formulas": {
+              "I = M(a\u00b2+b\u00b2)/2": {
+                "expression": "I = M(a\u00b2+b\u00b2)/2",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q6"
+                ]
+              },
+              "h_m = (a\u00b2+b\u00b2)/(2b)": {
+                "expression": "h_m = (a\u00b2+b\u00b2)/(2b)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q6"
+                ]
+              },
+              "v = \u03c9b (rolling condition)": {
+                "expression": "v = \u03c9b (rolling condition)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q6"
+            ],
+            "common_traps": [
+              "Not accounting for moment of inertia of annular disk; confusing effective radius for rolling; incorrect application of rolling constraint; missing analysis of friction effects."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Maxwell Equations and EM Waves": {
+        "subject": "Physics",
+        "chapter": "Maxwell Equations and EM Waves",
+        "subconcepts": {
+          "em_wave_propagation_dielectric": {
+            "formulas": {
+              "v = c/n": {
+                "expression": "v = c/n",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q7"
+                ]
+              },
+              "n = c/v": {
+                "expression": "n = c/v",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q7"
+                ]
+              },
+              "E_amplitude = 30\u221a5 V m\u207b\u00b9": {
+                "expression": "E_amplitude = 30\u221a5 V m\u207b\u00b9",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q7"
+            ],
+            "common_traps": [
+              "Incorrectly reading wave vector coefficient; confusing wave speed with phase velocity; wrong calculation of refractive index; misidentifying polarization angle; incorrect magnetic field calculation."
+            ],
+            "prerequisites": []
+          },
+          "refractive_index_definition": {
+            "formulas": {
+              "v = c/n": {
+                "expression": "v = c/n",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q7"
+                ]
+              },
+              "n = c/v": {
+                "expression": "n = c/v",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q7"
+                ]
+              },
+              "E_amplitude = 30\u221a5 V m\u207b\u00b9": {
+                "expression": "E_amplitude = 30\u221a5 V m\u207b\u00b9",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q7"
+            ],
+            "common_traps": [
+              "Incorrectly reading wave vector coefficient; confusing wave speed with phase velocity; wrong calculation of refractive index; misidentifying polarization angle; incorrect magnetic field calculation."
+            ],
+            "prerequisites": []
+          },
+          "polarization_em_wave": {
+            "formulas": {
+              "v = c/n": {
+                "expression": "v = c/n",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q7"
+                ]
+              },
+              "n = c/v": {
+                "expression": "n = c/v",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q7"
+                ]
+              },
+              "E_amplitude = 30\u221a5 V m\u207b\u00b9": {
+                "expression": "E_amplitude = 30\u221a5 V m\u207b\u00b9",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q7"
+            ],
+            "common_traps": [
+              "Incorrectly reading wave vector coefficient; confusing wave speed with phase velocity; wrong calculation of refractive index; misidentifying polarization angle; incorrect magnetic field calculation."
+            ],
+            "prerequisites": []
+          },
+          "magnetic_field_em_wave": {
+            "formulas": {
+              "v = c/n": {
+                "expression": "v = c/n",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q7"
+                ]
+              },
+              "n = c/v": {
+                "expression": "n = c/v",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q7"
+                ]
+              },
+              "E_amplitude = 30\u221a5 V m\u207b\u00b9": {
+                "expression": "E_amplitude = 30\u221a5 V m\u207b\u00b9",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q7"
+            ],
+            "common_traps": [
+              "Incorrectly reading wave vector coefficient; confusing wave speed with phase velocity; wrong calculation of refractive index; misidentifying polarization angle; incorrect magnetic field calculation."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Impulse and Angular Momentum": {
+        "subject": "Physics",
+        "chapter": "Impulse and Angular Momentum",
+        "subconcepts": {
+          "impulse_linear_momentum": {
+            "formulas": {
+              "v = J/m": {
+                "expression": "v = J/m",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q8"
+                ]
+              },
+              "L = J \u00d7 d": {
+                "expression": "L = J \u00d7 d",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q8"
+                ]
+              },
+              "I = (1/4)mR\u00b2": {
+                "expression": "I = (1/4)mR\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q8"
+                ]
+              },
+              "\u03b8 = \u03c9T": {
+                "expression": "\u03b8 = \u03c9T",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q8"
+                ]
+              },
+              "n = \u03b8/(2\u03c0)": {
+                "expression": "n = \u03b8/(2\u03c0)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q8"
+            ],
+            "common_traps": [
+              "Incorrectly calculating moment of inertia (confusing disk formula); unit conversion errors; wrong angular impulse calculation; arithmetic errors in time of flight."
+            ],
+            "prerequisites": []
+          },
+          "angular_impulse_angular_momentum": {
+            "formulas": {
+              "v = J/m": {
+                "expression": "v = J/m",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q8"
+                ]
+              },
+              "L = J \u00d7 d": {
+                "expression": "L = J \u00d7 d",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q8"
+                ]
+              },
+              "I = (1/4)mR\u00b2": {
+                "expression": "I = (1/4)mR\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q8"
+                ]
+              },
+              "\u03b8 = \u03c9T": {
+                "expression": "\u03b8 = \u03c9T",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q8"
+                ]
+              },
+              "n = \u03b8/(2\u03c0)": {
+                "expression": "n = \u03b8/(2\u03c0)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q8"
+            ],
+            "common_traps": [
+              "Incorrectly calculating moment of inertia (confusing disk formula); unit conversion errors; wrong angular impulse calculation; arithmetic errors in time of flight."
+            ],
+            "prerequisites": []
+          },
+          "moment_of_inertia_disk": {
+            "formulas": {
+              "v = J/m": {
+                "expression": "v = J/m",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q8"
+                ]
+              },
+              "L = J \u00d7 d": {
+                "expression": "L = J \u00d7 d",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q8"
+                ]
+              },
+              "I = (1/4)mR\u00b2": {
+                "expression": "I = (1/4)mR\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q8"
+                ]
+              },
+              "\u03b8 = \u03c9T": {
+                "expression": "\u03b8 = \u03c9T",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q8"
+                ]
+              },
+              "n = \u03b8/(2\u03c0)": {
+                "expression": "n = \u03b8/(2\u03c0)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q8"
+            ],
+            "common_traps": [
+              "Incorrectly calculating moment of inertia (confusing disk formula); unit conversion errors; wrong angular impulse calculation; arithmetic errors in time of flight."
+            ],
+            "prerequisites": []
+          },
+          "rotational_kinematics": {
+            "formulas": {
+              "v = J/m": {
+                "expression": "v = J/m",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q8"
+                ]
+              },
+              "L = J \u00d7 d": {
+                "expression": "L = J \u00d7 d",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q8"
+                ]
+              },
+              "I = (1/4)mR\u00b2": {
+                "expression": "I = (1/4)mR\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q8"
+                ]
+              },
+              "\u03b8 = \u03c9T": {
+                "expression": "\u03b8 = \u03c9T",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q8"
+                ]
+              },
+              "n = \u03b8/(2\u03c0)": {
+                "expression": "n = \u03b8/(2\u03c0)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q8"
+            ],
+            "common_traps": [
+              "Incorrectly calculating moment of inertia (confusing disk formula); unit conversion errors; wrong angular impulse calculation; arithmetic errors in time of flight."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Vibrations of Strings": {
+        "subject": "Physics",
+        "chapter": "Vibrations of Strings",
+        "subconcepts": {
+          "standing_wave_harmonics_string": {
+            "formulas": {
+              "f_n = nv/(2L)": {
+                "expression": "f_n = nv/(2L)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q10"
+                ]
+              },
+              "v = \u221a(T/\u03bc)": {
+                "expression": "v = \u221a(T/\u03bc)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q10"
+                ]
+              },
+              "T = \u03bcv\u00b2": {
+                "expression": "T = \u03bcv\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q10"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q10"
+            ],
+            "common_traps": [
+              "Confusing consecutive harmonics with harmonic numbers; incorrect wave speed formula; unit conversion errors; misidentifying which harmonics are given."
+            ],
+            "prerequisites": []
+          },
+          "wave_speed_tension": {
+            "formulas": {
+              "f_n = nv/(2L)": {
+                "expression": "f_n = nv/(2L)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q10"
+                ]
+              },
+              "v = \u221a(T/\u03bc)": {
+                "expression": "v = \u221a(T/\u03bc)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q10"
+                ]
+              },
+              "T = \u03bcv\u00b2": {
+                "expression": "T = \u03bcv\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q10"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q10"
+            ],
+            "common_traps": [
+              "Confusing consecutive harmonics with harmonic numbers; incorrect wave speed formula; unit conversion errors; misidentifying which harmonics are given."
+            ],
+            "prerequisites": []
+          },
+          "frequency_harmonic_relation": {
+            "formulas": {
+              "f_n = nv/(2L)": {
+                "expression": "f_n = nv/(2L)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q10"
+                ]
+              },
+              "v = \u221a(T/\u03bc)": {
+                "expression": "v = \u221a(T/\u03bc)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q10"
+                ]
+              },
+              "T = \u03bcv\u00b2": {
+                "expression": "T = \u03bcv\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q10"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q10"
+            ],
+            "common_traps": [
+              "Confusing consecutive harmonics with harmonic numbers; incorrect wave speed formula; unit conversion errors; misidentifying which harmonics are given."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Capillarity": {
+        "subject": "Physics",
+        "chapter": "Capillarity",
+        "subconcepts": {
+          "capillary_rise_formula": {
+            "formulas": {
+              "h = 2\u03c3cos(\u03b8)/(\u03c1gr)": {
+                "expression": "h = 2\u03c3cos(\u03b8)/(\u03c1gr)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q11"
+                ]
+              },
+              "PV = constant (isothermal)": {
+                "expression": "PV = constant (isothermal)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q11"
+                ]
+              },
+              "\u0394P = \u03c1g\u0394h": {
+                "expression": "\u0394P = \u03c1g\u0394h",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q11"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q11"
+            ],
+            "common_traps": [
+              "Not recognizing compression increases pressure; incorrect ideal gas law application; wrong pressure difference calculation; confusion about final equilibrium height."
+            ],
+            "prerequisites": []
+          },
+          "surface_tension_effect": {
+            "formulas": {
+              "h = 2\u03c3cos(\u03b8)/(\u03c1gr)": {
+                "expression": "h = 2\u03c3cos(\u03b8)/(\u03c1gr)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q11"
+                ]
+              },
+              "PV = constant (isothermal)": {
+                "expression": "PV = constant (isothermal)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q11"
+                ]
+              },
+              "\u0394P = \u03c1g\u0394h": {
+                "expression": "\u0394P = \u03c1g\u0394h",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q11"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q11"
+            ],
+            "common_traps": [
+              "Not recognizing compression increases pressure; incorrect ideal gas law application; wrong pressure difference calculation; confusion about final equilibrium height."
+            ],
+            "prerequisites": []
+          },
+          "ideal_gas_isothermal_process": {
+            "formulas": {
+              "h = 2\u03c3cos(\u03b8)/(\u03c1gr)": {
+                "expression": "h = 2\u03c3cos(\u03b8)/(\u03c1gr)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q11"
+                ]
+              },
+              "PV = constant (isothermal)": {
+                "expression": "PV = constant (isothermal)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q11"
+                ]
+              },
+              "\u0394P = \u03c1g\u0394h": {
+                "expression": "\u0394P = \u03c1g\u0394h",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q11"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q11"
+            ],
+            "common_traps": [
+              "Not recognizing compression increases pressure; incorrect ideal gas law application; wrong pressure difference calculation; confusion about final equilibrium height."
+            ],
+            "prerequisites": []
+          },
+          "pressure_balance_capillary": {
+            "formulas": {
+              "h = 2\u03c3cos(\u03b8)/(\u03c1gr)": {
+                "expression": "h = 2\u03c3cos(\u03b8)/(\u03c1gr)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q11"
+                ]
+              },
+              "PV = constant (isothermal)": {
+                "expression": "PV = constant (isothermal)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q11"
+                ]
+              },
+              "\u0394P = \u03c1g\u0394h": {
+                "expression": "\u0394P = \u03c1g\u0394h",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q11"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q11"
+            ],
+            "common_traps": [
+              "Not recognizing compression increases pressure; incorrect ideal gas law application; wrong pressure difference calculation; confusion about final equilibrium height."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Radioactivity": {
+        "subject": "Physics",
+        "chapter": "Radioactivity",
+        "subconcepts": {
+          "radioactive_decay_activity": {
+            "formulas": {
+              "A = \u03bbN": {
+                "expression": "A = \u03bbN",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q12"
+                ]
+              },
+              "N = N\u2080(1/2)^n": {
+                "expression": "N = N\u2080(1/2)^n",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q12"
+                ]
+              },
+              "A_n = A\u2080(1/2)^n": {
+                "expression": "A_n = A\u2080(1/2)^n",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q12"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q12"
+            ],
+            "common_traps": [
+              "Confusing half-life with decay constant; arithmetic errors with powers of 1/2; misinterpreting 'completed half-lives'; confusing which source decayed how much."
+            ],
+            "prerequisites": []
+          },
+          "half_life_definition": {
+            "formulas": {
+              "A = \u03bbN": {
+                "expression": "A = \u03bbN",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q12"
+                ]
+              },
+              "N = N\u2080(1/2)^n": {
+                "expression": "N = N\u2080(1/2)^n",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q12"
+                ]
+              },
+              "A_n = A\u2080(1/2)^n": {
+                "expression": "A_n = A\u2080(1/2)^n",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q12"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q12"
+            ],
+            "common_traps": [
+              "Confusing half-life with decay constant; arithmetic errors with powers of 1/2; misinterpreting 'completed half-lives'; confusing which source decayed how much."
+            ],
+            "prerequisites": []
+          },
+          "exponential_decay_law": {
+            "formulas": {
+              "A = \u03bbN": {
+                "expression": "A = \u03bbN",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q12"
+                ]
+              },
+              "N = N\u2080(1/2)^n": {
+                "expression": "N = N\u2080(1/2)^n",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q12"
+                ]
+              },
+              "A_n = A\u2080(1/2)^n": {
+                "expression": "A_n = A\u2080(1/2)^n",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q12"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q12"
+            ],
+            "common_traps": [
+              "Confusing half-life with decay constant; arithmetic errors with powers of 1/2; misinterpreting 'completed half-lives'; confusing which source decayed how much."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Cyclic Processes and Work": {
+        "subject": "Physics",
+        "chapter": "Cyclic Processes and Work",
+        "subconcepts": {
+          "thermodynamic_cycle_work": {
+            "formulas": {
+              "W = \u222e P dV": {
+                "expression": "W = \u222e P dV",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q13"
+                ]
+              },
+              "W_isobaric = P\u0394V": {
+                "expression": "W_isobaric = P\u0394V",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q13"
+                ]
+              },
+              "W_isothermal = nRT ln(V_f/V_i)": {
+                "expression": "W_isothermal = nRT ln(V_f/V_i)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q13"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q13"
+            ],
+            "common_traps": [
+              "Misreading process types from cycle; incorrect work calculation for each process; not recognizing work as P-V diagram area; sign errors in work; confusion about cycle orientation."
+            ],
+            "prerequisites": []
+          },
+          "pv_diagram_area_work": {
+            "formulas": {
+              "W = \u222e P dV": {
+                "expression": "W = \u222e P dV",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q13"
+                ]
+              },
+              "W_isobaric = P\u0394V": {
+                "expression": "W_isobaric = P\u0394V",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q13"
+                ]
+              },
+              "W_isothermal = nRT ln(V_f/V_i)": {
+                "expression": "W_isothermal = nRT ln(V_f/V_i)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q13"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q13"
+            ],
+            "common_traps": [
+              "Misreading process types from cycle; incorrect work calculation for each process; not recognizing work as P-V diagram area; sign errors in work; confusion about cycle orientation."
+            ],
+            "prerequisites": []
+          },
+          "ideal_gas_processes": {
+            "formulas": {
+              "W = \u222e P dV": {
+                "expression": "W = \u222e P dV",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q13"
+                ]
+              },
+              "W_isobaric = P\u0394V": {
+                "expression": "W_isobaric = P\u0394V",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q13"
+                ]
+              },
+              "W_isothermal = nRT ln(V_f/V_i)": {
+                "expression": "W_isothermal = nRT ln(V_f/V_i)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q13"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q13"
+            ],
+            "common_traps": [
+              "Misreading process types from cycle; incorrect work calculation for each process; not recognizing work as P-V diagram area; sign errors in work; confusion about cycle orientation."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Doppler Effect": {
+        "subject": "Physics",
+        "chapter": "Doppler Effect",
+        "subconcepts": {
+          "doppler_effect_frequency_shift": {
+            "formulas": {
+              "f' = f \u00d7 v_sound/(v_sound - v_source) (approaching)": {
+                "expression": "f' = f \u00d7 v_sound/(v_sound - v_source) (approaching)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q14"
+                ]
+              },
+              "v_component = v \u00d7 sin(\u03b8)": {
+                "expression": "v_component = v \u00d7 sin(\u03b8)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q14"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q14"
+            ],
+            "common_traps": [
+              "Incorrect velocity component determination; wrong Doppler formula sign; misunderstanding of circular motion geometry; confusion about approach vs recession."
+            ],
+            "prerequisites": []
+          },
+          "motion_geometry_circular_path": {
+            "formulas": {
+              "f' = f \u00d7 v_sound/(v_sound - v_source) (approaching)": {
+                "expression": "f' = f \u00d7 v_sound/(v_sound - v_source) (approaching)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q14"
+                ]
+              },
+              "v_component = v \u00d7 sin(\u03b8)": {
+                "expression": "v_component = v \u00d7 sin(\u03b8)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q14"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q14"
+            ],
+            "common_traps": [
+              "Incorrect velocity component determination; wrong Doppler formula sign; misunderstanding of circular motion geometry; confusion about approach vs recession."
+            ],
+            "prerequisites": []
+          },
+          "sound_wave_propagation": {
+            "formulas": {
+              "f' = f \u00d7 v_sound/(v_sound - v_source) (approaching)": {
+                "expression": "f' = f \u00d7 v_sound/(v_sound - v_source) (approaching)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q14"
+                ]
+              },
+              "v_component = v \u00d7 sin(\u03b8)": {
+                "expression": "v_component = v \u00d7 sin(\u03b8)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q14"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q14"
+            ],
+            "common_traps": [
+              "Incorrect velocity component determination; wrong Doppler formula sign; misunderstanding of circular motion geometry; confusion about approach vs recession."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Interference and Beats": {
+        "subject": "Physics",
+        "chapter": "Interference and Beats",
+        "subconcepts": {
+          "doppler_effect_moving_source": {
+            "formulas": {
+              "f' = f \u00d7 v_sound/(v_sound - v_source) (approaching)": {
+                "expression": "f' = f \u00d7 v_sound/(v_sound - v_source) (approaching)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q15"
+                ]
+              },
+              "f_beat = |f\u2081 - f\u2082|": {
+                "expression": "f_beat = |f\u2081 - f\u2082|",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q15"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q15"
+            ],
+            "common_traps": [
+              "Wrong Doppler formula signs; incorrect beat frequency calculation; confusion about which source contributes which frequency; misunderstanding position at R meaning perpendicular motion."
+            ],
+            "prerequisites": []
+          },
+          "beat_frequency_definition": {
+            "formulas": {
+              "f' = f \u00d7 v_sound/(v_sound - v_source) (approaching)": {
+                "expression": "f' = f \u00d7 v_sound/(v_sound - v_source) (approaching)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q15"
+                ]
+              },
+              "f_beat = |f\u2081 - f\u2082|": {
+                "expression": "f_beat = |f\u2081 - f\u2082|",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q15"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q15"
+            ],
+            "common_traps": [
+              "Wrong Doppler formula signs; incorrect beat frequency calculation; confusion about which source contributes which frequency; misunderstanding position at R meaning perpendicular motion."
+            ],
+            "prerequisites": []
+          },
+          "superposition_interference": {
+            "formulas": {
+              "f' = f \u00d7 v_sound/(v_sound - v_source) (approaching)": {
+                "expression": "f' = f \u00d7 v_sound/(v_sound - v_source) (approaching)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q15"
+                ]
+              },
+              "f_beat = |f\u2081 - f\u2082|": {
+                "expression": "f_beat = |f\u2081 - f\u2082|",
+                "used_in_questions": [
+                  "JEE_Adv_2023_P1_Q15"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_P1_Q15"
+            ],
+            "common_traps": [
+              "Wrong Doppler formula signs; incorrect beat frequency calculation; confusion about which source contributes which frequency; misunderstanding position at R meaning perpendicular motion."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Gravitation": {
+        "subject": "Physics",
+        "chapter": "Gravitation",
+        "subconcepts": {
+          "circular_orbit_dynamics": {
+            "formulas": {
+              "F = -dV/dr": {
+                "expression": "F = -dV/dr",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_2"
+                ]
+              },
+              "F_cp = mv\u00b2/r": {
+                "expression": "F_cp = mv\u00b2/r",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_2"
+                ]
+              },
+              "T = 2\u03c0r/v": {
+                "expression": "T = 2\u03c0r/v",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_2"
+            ],
+            "common_traps": [
+              "Confusing the sign of the force derived from potential energy or algebraic errors in ratio calculation."
+            ],
+            "prerequisites": []
+          },
+          "central_force_potential": {
+            "formulas": {
+              "F = -dV/dr": {
+                "expression": "F = -dV/dr",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_2"
+                ]
+              },
+              "F_cp = mv\u00b2/r": {
+                "expression": "F_cp = mv\u00b2/r",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_2"
+                ]
+              },
+              "T = 2\u03c0r/v": {
+                "expression": "T = 2\u03c0r/v",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_2"
+            ],
+            "common_traps": [
+              "Confusing the sign of the force derived from potential energy or algebraic errors in ratio calculation."
+            ],
+            "prerequisites": []
+          },
+          "orbital_time_period": {
+            "formulas": {
+              "F = -dV/dr": {
+                "expression": "F = -dV/dr",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_2"
+                ]
+              },
+              "F_cp = mv\u00b2/r": {
+                "expression": "F_cp = mv\u00b2/r",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_2"
+                ]
+              },
+              "T = 2\u03c0r/v": {
+                "expression": "T = 2\u03c0r/v",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_2"
+            ],
+            "common_traps": [
+              "Confusing the sign of the force derived from potential energy or algebraic errors in ratio calculation."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Atomic Physics": {
+        "subject": "Physics",
+        "chapter": "Atomic Physics",
+        "subconcepts": {
+          "moseleys_law": {
+            "formulas": {
+              "\u03bb \u221d 1/(Z-1)\u00b2": {
+                "expression": "\u03bb \u221d 1/(Z-1)\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_3"
+                ]
+              },
+              "\u03bb_cutoff = hc/eV": {
+                "expression": "\u03bb_cutoff = hc/eV",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_3"
+            ],
+            "common_traps": [
+              "Forgetting that cut-off wavelength depends only on voltage and not on atomic number."
+            ],
+            "prerequisites": []
+          },
+          "x_ray_spectrum": {
+            "formulas": {
+              "\u03bb \u221d 1/(Z-1)\u00b2": {
+                "expression": "\u03bb \u221d 1/(Z-1)\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_3"
+                ]
+              },
+              "\u03bb_cutoff = hc/eV": {
+                "expression": "\u03bb_cutoff = hc/eV",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_3"
+            ],
+            "common_traps": [
+              "Forgetting that cut-off wavelength depends only on voltage and not on atomic number."
+            ],
+            "prerequisites": []
+          },
+          "cutoff_wavelength": {
+            "formulas": {
+              "\u03bb \u221d 1/(Z-1)\u00b2": {
+                "expression": "\u03bb \u221d 1/(Z-1)\u00b2",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_3"
+                ]
+              },
+              "\u03bb_cutoff = hc/eV": {
+                "expression": "\u03bb_cutoff = hc/eV",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_3"
+            ],
+            "common_traps": [
+              "Forgetting that cut-off wavelength depends only on voltage and not on atomic number."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Magnetic Effects of Current": {
+        "subject": "Physics",
+        "chapter": "Magnetic Effects of Current",
+        "subconcepts": {
+          "magnetic_torque": {
+            "formulas": {
+              "\u03c4 = M \u00d7 B": {
+                "expression": "\u03c4 = M \u00d7 B",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_4"
+                ]
+              },
+              "\u03c4 = r \u00d7 F": {
+                "expression": "\u03c4 = r \u00d7 F",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_4"
+            ],
+            "common_traps": [
+              "Incorrectly identifying the angle between magnetic moment and magnetic field or the lever arm for gravity."
+            ],
+            "prerequisites": []
+          },
+          "torque_equilibrium": {
+            "formulas": {
+              "\u03c4 = M \u00d7 B": {
+                "expression": "\u03c4 = M \u00d7 B",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_4"
+                ]
+              },
+              "\u03c4 = r \u00d7 F": {
+                "expression": "\u03c4 = r \u00d7 F",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_4"
+            ],
+            "common_traps": [
+              "Incorrectly identifying the angle between magnetic moment and magnetic field or the lever arm for gravity."
+            ],
+            "prerequisites": []
+          },
+          "current_loop": {
+            "formulas": {
+              "\u03c4 = M \u00d7 B": {
+                "expression": "\u03c4 = M \u00d7 B",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_4"
+                ]
+              },
+              "\u03c4 = r \u00d7 F": {
+                "expression": "\u03c4 = r \u00d7 F",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_4"
+            ],
+            "common_traps": [
+              "Incorrectly identifying the angle between magnetic moment and magnetic field or the lever arm for gravity."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Fluid Mechanics": {
+        "subject": "Physics",
+        "chapter": "Fluid Mechanics",
+        "subconcepts": {
+          "archimedes_principle": {
+            "formulas": {
+              "F_B = \u03c1Vg": {
+                "expression": "F_B = \u03c1Vg",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_6"
+                ]
+              },
+              "W = Fd": {
+                "expression": "W = Fd",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_6"
+                ]
+              },
+              "F_v = 6\u03c0\u03b7rv": {
+                "expression": "F_v = 6\u03c0\u03b7rv",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_6"
+            ],
+            "common_traps": [
+              "Calculation errors with pi or powers of 10; misinterpreting 'work done in pushing' as work done by gravity."
+            ],
+            "prerequisites": []
+          },
+          "work_energy_theorem": {
+            "formulas": {
+              "F_B = \u03c1Vg": {
+                "expression": "F_B = \u03c1Vg",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_6"
+                ]
+              },
+              "W = Fd": {
+                "expression": "W = Fd",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_6"
+                ]
+              },
+              "F_v = 6\u03c0\u03b7rv": {
+                "expression": "F_v = 6\u03c0\u03b7rv",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_6"
+            ],
+            "common_traps": [
+              "Calculation errors with pi or powers of 10; misinterpreting 'work done in pushing' as work done by gravity."
+            ],
+            "prerequisites": []
+          },
+          "viscosity": {
+            "formulas": {
+              "F_B = \u03c1Vg": {
+                "expression": "F_B = \u03c1Vg",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_6"
+                ]
+              },
+              "W = Fd": {
+                "expression": "W = Fd",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_6"
+                ]
+              },
+              "F_v = 6\u03c0\u03b7rv": {
+                "expression": "F_v = 6\u03c0\u03b7rv",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_6"
+            ],
+            "common_traps": [
+              "Calculation errors with pi or powers of 10; misinterpreting 'work done in pushing' as work done by gravity."
+            ],
+            "prerequisites": []
+          },
+          "stokes_law": {
+            "formulas": {
+              "F_B = \u03c1Vg": {
+                "expression": "F_B = \u03c1Vg",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_6"
+                ]
+              },
+              "W = Fd": {
+                "expression": "W = Fd",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_6"
+                ]
+              },
+              "F_v = 6\u03c0\u03b7rv": {
+                "expression": "F_v = 6\u03c0\u03b7rv",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_6"
+            ],
+            "common_traps": [
+              "Calculation errors with pi or powers of 10; misinterpreting 'work done in pushing' as work done by gravity."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Properties of Matter": {
+        "subject": "Physics",
+        "chapter": "Properties of Matter",
+        "subconcepts": {
+          "excess_pressure": {
+            "formulas": {
+              "\u0394P = 4T/r": {
+                "expression": "\u0394P = 4T/r",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_13"
+                ]
+              },
+              "P\u2081V\u2081 = P\u2082V\u2082": {
+                "expression": "P\u2081V\u2081 = P\u2082V\u2082",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_13"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_13"
+            ],
+            "common_traps": [
+              "Not using the ideal gas law to relate radii, or assuming pressure inside is just the excess pressure."
+            ],
+            "prerequisites": []
+          },
+          "surface_tension": {
+            "formulas": {
+              "\u0394P = 4T/r": {
+                "expression": "\u0394P = 4T/r",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_13"
+                ]
+              },
+              "P\u2081V\u2081 = P\u2082V\u2082": {
+                "expression": "P\u2081V\u2081 = P\u2082V\u2082",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_13"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_13"
+            ],
+            "common_traps": [
+              "Not using the ideal gas law to relate radii, or assuming pressure inside is just the excess pressure."
+            ],
+            "prerequisites": []
+          },
+          "isothermal_process": {
+            "formulas": {
+              "\u0394P = 4T/r": {
+                "expression": "\u0394P = 4T/r",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_13"
+                ]
+              },
+              "P\u2081V\u2081 = P\u2082V\u2082": {
+                "expression": "P\u2081V\u2081 = P\u2082V\u2082",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_13"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_13"
+            ],
+            "common_traps": [
+              "Not using the ideal gas law to relate radii, or assuming pressure inside is just the excess pressure."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Wave Optics": {
+        "subject": "Physics",
+        "chapter": "Wave Optics",
+        "subconcepts": {
+          "ydse": {
+            "formulas": {
+              "y = n\u03bbD/d": {
+                "expression": "y = n\u03bbD/d",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_14"
+                ]
+              },
+              "v = dy/dt": {
+                "expression": "v = dy/dt",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_15"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_14",
+              "JEE_Adv_2024_P2_15"
+            ],
+            "common_traps": [
+              "Calculation error in inverse subtraction or unit conversion.",
+              "Forgetting to differentiate the inverse function properly."
+            ],
+            "prerequisites": []
+          },
+          "fringe_width": {
+            "formulas": {
+              "y = n\u03bbD/d": {
+                "expression": "y = n\u03bbD/d",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_14"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_14"
+            ],
+            "common_traps": [
+              "Calculation error in inverse subtraction or unit conversion."
+            ],
+            "prerequisites": []
+          },
+          "shm_variable": {
+            "formulas": {
+              "y = n\u03bbD/d": {
+                "expression": "y = n\u03bbD/d",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_14"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_14"
+            ],
+            "common_traps": [
+              "Calculation error in inverse subtraction or unit conversion."
+            ],
+            "prerequisites": []
+          },
+          "velocity_of_fringe": {
+            "formulas": {
+              "v = dy/dt": {
+                "expression": "v = dy/dt",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_15"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_15"
+            ],
+            "common_traps": [
+              "Forgetting to differentiate the inverse function properly."
+            ],
+            "prerequisites": []
+          },
+          "differentiation": {
+            "formulas": {
+              "v = dy/dt": {
+                "expression": "v = dy/dt",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_15"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_15"
+            ],
+            "common_traps": [
+              "Forgetting to differentiate the inverse function properly."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Center of Mass and Collisions": {
+        "subject": "Physics",
+        "chapter": "Center of Mass and Collisions",
+        "subconcepts": {
+          "elastic_collision": {
+            "formulas": {
+              "v_cm = \u03a3mv/\u03a3m": {
+                "expression": "v_cm = \u03a3mv/\u03a3m",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_16"
+                ]
+              },
+              "elastic_collision_exchange": {
+                "expression": "elastic_collision_exchange",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_16"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_16"
+            ],
+            "common_traps": [
+              "Incorrectly applying collision rules or calculating center of mass velocity."
+            ],
+            "prerequisites": []
+          },
+          "center_of_mass": {
+            "formulas": {
+              "v_cm = \u03a3mv/\u03a3m": {
+                "expression": "v_cm = \u03a3mv/\u03a3m",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_16"
+                ]
+              },
+              "elastic_collision_exchange": {
+                "expression": "elastic_collision_exchange",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_16"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_16"
+            ],
+            "common_traps": [
+              "Incorrectly applying collision rules or calculating center of mass velocity."
+            ],
+            "prerequisites": []
+          },
+          "conservation_of_momentum": {
+            "formulas": {
+              "v_cm = \u03a3mv/\u03a3m": {
+                "expression": "v_cm = \u03a3mv/\u03a3m",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_16"
+                ]
+              },
+              "elastic_collision_exchange": {
+                "expression": "elastic_collision_exchange",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_16"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_16"
+            ],
+            "common_traps": [
+              "Incorrectly applying collision rules or calculating center of mass velocity."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Oscillations": {
+        "subject": "Physics",
+        "chapter": "Oscillations",
+        "subconcepts": {
+          "energy_conservation": {
+            "formulas": {
+              "E_osc = E_total - E_cm": {
+                "expression": "E_osc = E_total - E_cm",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_17"
+                ]
+              },
+              "Exchange of velocity": {
+                "expression": "Exchange of velocity",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_17"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_17"
+            ],
+            "common_traps": [
+              "Forgetting to subtract Center of Mass kinetic energy from total energy to find oscillation energy."
+            ],
+            "prerequisites": []
+          },
+          "frame_of_reference": {
+            "formulas": {
+              "E_osc = E_total - E_cm": {
+                "expression": "E_osc = E_total - E_cm",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_17"
+                ]
+              },
+              "Exchange of velocity": {
+                "expression": "Exchange of velocity",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_17"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_17"
+            ],
+            "common_traps": [
+              "Forgetting to subtract Center of Mass kinetic energy from total energy to find oscillation energy."
+            ],
+            "prerequisites": []
+          },
+          "spring_mass_system": {
+            "formulas": {
+              "E_osc = E_total - E_cm": {
+                "expression": "E_osc = E_total - E_cm",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_17"
+                ]
+              },
+              "Exchange of velocity": {
+                "expression": "Exchange of velocity",
+                "used_in_questions": [
+                  "JEE_Adv_2024_P2_17"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2024_P2_17"
+            ],
+            "common_traps": [
+              "Forgetting to subtract Center of Mass kinetic energy from total energy to find oscillation energy."
+            ],
+            "prerequisites": []
+          }
+        }
+      }
+    }
+  }
+}

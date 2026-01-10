@@ -1,0 +1,4867 @@
+{
+  "metadata": {
+    "exam": "JEE Advanced",
+    "subjects": [
+      "Chemistry"
+    ]
+  },
+  "concept_graph": {
+    "Chemistry": {
+      "Structure of Atom": {
+        "subject": "Chemistry",
+        "chapter": "Structure of Atom",
+        "subconcepts": {
+          "bohr_model_radius": {
+            "formulas": {
+              "rn = 52.9(n^2/Z) pm": {
+                "expression": "rn = 52.9(n^2/Z) pm",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "\u0394E = RH*Z^2(1/n1^2 - 1/n2^2)": {
+                "expression": "\u0394E = RH*Z^2(1/n1^2 - 1/n2^2)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "E = hc/\u03bb": {
+                "expression": "E = hc/\u03bb",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "rn \u221d n^2": {
+                "expression": "rn \u221d n^2",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_4"
+                ]
+              },
+              "L \u221d n": {
+                "expression": "L \u221d n",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_4"
+                ]
+              },
+              "KE \u221d 1/n^2": {
+                "expression": "KE \u221d 1/n^2",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_4"
+                ]
+              },
+              "PE \u221d 1/n^2": {
+                "expression": "PE \u221d 1/n^2",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_1",
+              "JEE_Adv_2019_Chem_4"
+            ],
+            "common_traps": [
+              "Confusing the initial and final states in the Rydberg formula",
+              "Calculation errors with powers of 10",
+              "Confusing the signs of powers for radius (positive) and energy (negative)"
+            ],
+            "prerequisites": []
+          },
+          "electronic_transition": {
+            "formulas": {
+              "rn = 52.9(n^2/Z) pm": {
+                "expression": "rn = 52.9(n^2/Z) pm",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "\u0394E = RH*Z^2(1/n1^2 - 1/n2^2)": {
+                "expression": "\u0394E = RH*Z^2(1/n1^2 - 1/n2^2)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "E = hc/\u03bb": {
+                "expression": "E = hc/\u03bb",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_1"
+            ],
+            "common_traps": [
+              "Confusing the initial and final states in the Rydberg formula",
+              "Calculation errors with powers of 10"
+            ],
+            "prerequisites": []
+          },
+          "rydberg_formula": {
+            "formulas": {
+              "rn = 52.9(n^2/Z) pm": {
+                "expression": "rn = 52.9(n^2/Z) pm",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "\u0394E = RH*Z^2(1/n1^2 - 1/n2^2)": {
+                "expression": "\u0394E = RH*Z^2(1/n1^2 - 1/n2^2)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "E = hc/\u03bb": {
+                "expression": "E = hc/\u03bb",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_1"
+            ],
+            "common_traps": [
+              "Confusing the initial and final states in the Rydberg formula",
+              "Calculation errors with powers of 10"
+            ],
+            "prerequisites": []
+          },
+          "de_broglie_wavelength": {
+            "formulas": {
+              "p = h/\u03bb": {
+                "expression": "p = h/\u03bb",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_2"
+                ]
+              },
+              "p = mv": {
+                "expression": "p = mv",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_2"
+                ]
+              },
+              "mass_atom = Molar_Mass / Na": {
+                "expression": "mass_atom = Molar_Mass / Na",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_2"
+            ],
+            "common_traps": [
+              "Forgetting to convert molar mass to mass of a single atom",
+              "Unit conversion errors (g to kg, m/s to cm/s)"
+            ],
+            "prerequisites": []
+          },
+          "momentum_conservation": {
+            "formulas": {
+              "p = h/\u03bb": {
+                "expression": "p = h/\u03bb",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_2"
+                ]
+              },
+              "p = mv": {
+                "expression": "p = mv",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_2"
+                ]
+              },
+              "mass_atom = Molar_Mass / Na": {
+                "expression": "mass_atom = Molar_Mass / Na",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_2"
+            ],
+            "common_traps": [
+              "Forgetting to convert molar mass to mass of a single atom",
+              "Unit conversion errors (g to kg, m/s to cm/s)"
+            ],
+            "prerequisites": []
+          },
+          "photon_momentum": {
+            "formulas": {
+              "p = h/\u03bb": {
+                "expression": "p = h/\u03bb",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_2"
+                ]
+              },
+              "p = mv": {
+                "expression": "p = mv",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_2"
+                ]
+              },
+              "mass_atom = Molar_Mass / Na": {
+                "expression": "mass_atom = Molar_Mass / Na",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_2"
+            ],
+            "common_traps": [
+              "Forgetting to convert molar mass to mass of a single atom",
+              "Unit conversion errors (g to kg, m/s to cm/s)"
+            ],
+            "prerequisites": []
+          },
+          "quantum_numbers": {
+            "formulas": {
+              "En = -13.6 * Z^2 / n^2": {
+                "expression": "En = -13.6 * Z^2 / n^2",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_3"
+                ]
+              },
+              "Angular nodes = l": {
+                "expression": "Angular nodes = l",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_3"
+                ]
+              },
+              "Radial nodes = n - l - 1": {
+                "expression": "Radial nodes = n - l - 1",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2019_Chem_3"
+            ],
+            "common_traps": [
+              "Confusing radial nodes (n-l-1) with total nodes (n-1)",
+              "Applying shielding concepts to single-electron species"
+            ],
+            "prerequisites": []
+          },
+          "bohr_model_energy": {
+            "formulas": {
+              "En = -13.6 * Z^2 / n^2": {
+                "expression": "En = -13.6 * Z^2 / n^2",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_3"
+                ]
+              },
+              "Angular nodes = l": {
+                "expression": "Angular nodes = l",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_3"
+                ]
+              },
+              "Radial nodes = n - l - 1": {
+                "expression": "Radial nodes = n - l - 1",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_3"
+                ]
+              },
+              "rn \u221d n^2": {
+                "expression": "rn \u221d n^2",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_4"
+                ]
+              },
+              "L \u221d n": {
+                "expression": "L \u221d n",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_4"
+                ]
+              },
+              "KE \u221d 1/n^2": {
+                "expression": "KE \u221d 1/n^2",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_4"
+                ]
+              },
+              "PE \u221d 1/n^2": {
+                "expression": "PE \u221d 1/n^2",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_4"
+                ]
+              },
+              "KE \u221d Z^2/n^2": {
+                "expression": "KE \u221d Z^2/n^2",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_5"
+                ]
+              },
+              "PE \u221d -Z^2/n^2": {
+                "expression": "PE \u221d -Z^2/n^2",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2019_Chem_3",
+              "JEE_Adv_2019_Chem_4",
+              "JEE_Adv_2019_Chem_5"
+            ],
+            "common_traps": [
+              "Confusing radial nodes (n-l-1) with total nodes (n-1)",
+              "Applying shielding concepts to single-electron species",
+              "Confusing the signs of powers for radius (positive) and energy (negative)",
+              "Confusing kinetic energy (positive) and potential energy (negative), though both scale as n^-2 magnitude-wise."
+            ],
+            "prerequisites": []
+          },
+          "nodes_of_orbitals": {
+            "formulas": {
+              "En = -13.6 * Z^2 / n^2": {
+                "expression": "En = -13.6 * Z^2 / n^2",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_3"
+                ]
+              },
+              "Angular nodes = l": {
+                "expression": "Angular nodes = l",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_3"
+                ]
+              },
+              "Radial nodes = n - l - 1": {
+                "expression": "Radial nodes = n - l - 1",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_3",
+                  "JEE_Adv_2017_Chem_6"
+                ]
+              },
+              "Energy transition ratio": {
+                "expression": "Energy transition ratio",
+                "used_in_questions": [
+                  "JEE_Adv_2017_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2019_Chem_3",
+              "JEE_Adv_2017_Chem_6"
+            ],
+            "common_traps": [
+              "Confusing radial nodes (n-l-1) with total nodes (n-1)",
+              "Applying shielding concepts to single-electron species",
+              "Misidentifying nodal planes for d-orbitals",
+              "Thinking probability density is zero at nucleus for s-orbitals"
+            ],
+            "prerequisites": []
+          },
+          "angular_momentum_quantization": {
+            "formulas": {
+              "rn \u221d n^2": {
+                "expression": "rn \u221d n^2",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_4"
+                ]
+              },
+              "L \u221d n": {
+                "expression": "L \u221d n",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_4"
+                ]
+              },
+              "KE \u221d 1/n^2": {
+                "expression": "KE \u221d 1/n^2",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_4"
+                ]
+              },
+              "PE \u221d 1/n^2": {
+                "expression": "PE \u221d 1/n^2",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2019_Chem_4"
+            ],
+            "common_traps": [
+              "Confusing the signs of powers for radius (positive) and energy (negative)"
+            ],
+            "prerequisites": []
+          },
+          "kinetic_potential_energy_relation": {
+            "formulas": {
+              "KE \u221d Z^2/n^2": {
+                "expression": "KE \u221d Z^2/n^2",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_5"
+                ]
+              },
+              "PE \u221d -Z^2/n^2": {
+                "expression": "PE \u221d -Z^2/n^2",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2019_Chem_5"
+            ],
+            "common_traps": [
+              "Confusing kinetic energy (positive) and potential energy (negative), though both scale as n^-2 magnitude-wise."
+            ],
+            "prerequisites": []
+          },
+          "quantum_mechanical_model": {
+            "formulas": {
+              "Radial nodes = n - l - 1": {
+                "expression": "Radial nodes = n - l - 1",
+                "used_in_questions": [
+                  "JEE_Adv_2017_Chem_6"
+                ]
+              },
+              "Energy transition ratio": {
+                "expression": "Energy transition ratio",
+                "used_in_questions": [
+                  "JEE_Adv_2017_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2017_Chem_6"
+            ],
+            "common_traps": [
+              "Misidentifying nodal planes for d-orbitals",
+              "Thinking probability density is zero at nucleus for s-orbitals"
+            ],
+            "prerequisites": []
+          },
+          "probability_density": {
+            "formulas": {
+              "Radial nodes = n - l - 1": {
+                "expression": "Radial nodes = n - l - 1",
+                "used_in_questions": [
+                  "JEE_Adv_2017_Chem_6"
+                ]
+              },
+              "Energy transition ratio": {
+                "expression": "Energy transition ratio",
+                "used_in_questions": [
+                  "JEE_Adv_2017_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2017_Chem_6"
+            ],
+            "common_traps": [
+              "Misidentifying nodal planes for d-orbitals",
+              "Thinking probability density is zero at nucleus for s-orbitals"
+            ],
+            "prerequisites": []
+          },
+          "orbital_wave_functions": {
+            "formulas": {
+              "\u03c8_1s \u221d e^-r": {
+                "expression": "\u03c8_1s \u221d e^-r",
+                "used_in_questions": [
+                  "JEE_Adv_2017_Chem_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2017_Chem_7"
+            ],
+            "common_traps": [
+              "Overlooking the mathematical form of the wave function in Column 2"
+            ],
+            "prerequisites": []
+          },
+          "s_orbital_properties": {
+            "formulas": {
+              "\u03c8_1s \u221d e^-r": {
+                "expression": "\u03c8_1s \u221d e^-r",
+                "used_in_questions": [
+                  "JEE_Adv_2017_Chem_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2017_Chem_7"
+            ],
+            "common_traps": [
+              "Overlooking the mathematical form of the wave function in Column 2"
+            ],
+            "prerequisites": []
+          },
+          "hydrogen_atom_spectrum": {
+            "formulas": {
+              "Rydberg equation": {
+                "expression": "Rydberg equation",
+                "used_in_questions": [
+                  "JEE_Adv_2017_Chem_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2017_Chem_8"
+            ],
+            "common_traps": [
+              "Assuming all valid statements form a valid row; the row must correspond to the specific orbital in Col 1."
+            ],
+            "prerequisites": []
+          },
+          "electronic_transitions": {
+            "formulas": {
+              "Rydberg equation": {
+                "expression": "Rydberg equation",
+                "used_in_questions": [
+                  "JEE_Adv_2017_Chem_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2017_Chem_8"
+            ],
+            "common_traps": [
+              "Assuming all valid statements form a valid row; the row must correspond to the specific orbital in Col 1."
+            ],
+            "prerequisites": []
+          },
+          "radial_probability_distribution": {
+            "formulas": {
+              "P(r) = 4\u03c0r^2 \u03c8^2": {
+                "expression": "P(r) = 4\u03c0r^2 \u03c8^2",
+                "used_in_questions": [
+                  "JEE_Adv_2016_Chem_9"
+                ]
+              },
+              "Max P(r) at r = a0": {
+                "expression": "Max P(r) at r = a0",
+                "used_in_questions": [
+                  "JEE_Adv_2016_Chem_9"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2016_Chem_9"
+            ],
+            "common_traps": [
+              "Confusing radial probability distribution (4\u03c0r^2R^2) with probability density (R^2), which is max at nucleus."
+            ],
+            "prerequisites": []
+          },
+          "1s_orbital_shape": {
+            "formulas": {
+              "P(r) = 4\u03c0r^2 \u03c8^2": {
+                "expression": "P(r) = 4\u03c0r^2 \u03c8^2",
+                "used_in_questions": [
+                  "JEE_Adv_2016_Chem_9"
+                ]
+              },
+              "Max P(r) at r = a0": {
+                "expression": "Max P(r) at r = a0",
+                "used_in_questions": [
+                  "JEE_Adv_2016_Chem_9"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2016_Chem_9"
+            ],
+            "common_traps": [
+              "Confusing radial probability distribution (4\u03c0r^2R^2) with probability density (R^2), which is max at nucleus."
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Chemical Equilibrium": {
+        "subject": "Chemistry",
+        "chapter": "Chemical Equilibrium",
+        "subconcepts": {
+          "gibbs_energy_equilibrium_relation": {
+            "formulas": {
+              "\u0394G\u00b0 = -RT ln K": {
+                "expression": "\u0394G\u00b0 = -RT ln K",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_1"
+                ]
+              },
+              "Kp = PB / PA": {
+                "expression": "Kp = PB / PA",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_Chem_1"
+            ],
+            "common_traps": [
+              "Forgetting the factor of 2 when expanding ln(100) to 2 ln(10)",
+              "Confusing \u0394G with \u0394G\u00b0"
+            ],
+            "prerequisites": []
+          },
+          "equilibrium_constant_Kp": {
+            "formulas": {
+              "\u0394G\u00b0 = -RT ln K": {
+                "expression": "\u0394G\u00b0 = -RT ln K",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_1"
+                ]
+              },
+              "Kp = PB / PA": {
+                "expression": "Kp = PB / PA",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_1"
+                ]
+              },
+              "Kp = (P_products)^coeff / (P_reactants)^coeff": {
+                "expression": "Kp = (P_products)^coeff / (P_reactants)^coeff",
+                "used_in_questions": [
+                  "JEE_Adv_2016_Chem_4"
+                ]
+              },
+              "Pi = (ni / n_total) * P_total": {
+                "expression": "Pi = (ni / n_total) * P_total",
+                "used_in_questions": [
+                  "JEE_Adv_2016_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_Chem_1",
+              "JEE_Adv_2016_Chem_4"
+            ],
+            "common_traps": [
+              "Forgetting the factor of 2 when expanding ln(100) to 2 ln(10)",
+              "Confusing \u0394G with \u0394G\u00b0",
+              "Confusing degree of dissociation (\u03b1) with moles formed (\u03b2)",
+              "Algebraic errors when simplifying the Kp expression"
+            ],
+            "prerequisites": []
+          },
+          "equilibrium_constant_expression": {
+            "formulas": {
+              "Kc = 1 / ([A][B])": {
+                "expression": "Kc = 1 / ([A][B])",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_2"
+                ]
+              },
+              "M_final = M_initial * V_initial / V_final": {
+                "expression": "M_final = M_initial * V_initial / V_final",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2019_Chem_2"
+            ],
+            "common_traps": [
+              "Forgetting to halve the concentrations when equal volumes are mixed",
+              "Not using the 'reaction goes to completion' approximation for very large Kc"
+            ],
+            "prerequisites": []
+          },
+          "reaction_quotient": {
+            "formulas": {
+              "Kc = 1 / ([A][B])": {
+                "expression": "Kc = 1 / ([A][B])",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_2"
+                ]
+              },
+              "M_final = M_initial * V_initial / V_final": {
+                "expression": "M_final = M_initial * V_initial / V_final",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2019_Chem_2"
+            ],
+            "common_traps": [
+              "Forgetting to halve the concentrations when equal volumes are mixed",
+              "Not using the 'reaction goes to completion' approximation for very large Kc"
+            ],
+            "prerequisites": []
+          },
+          "limiting_reagent_in_equilibrium": {
+            "formulas": {
+              "Kc = 1 / ([A][B])": {
+                "expression": "Kc = 1 / ([A][B])",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_2"
+                ]
+              },
+              "M_final = M_initial * V_initial / V_final": {
+                "expression": "M_final = M_initial * V_initial / V_final",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2019_Chem_2"
+            ],
+            "common_traps": [
+              "Forgetting to halve the concentrations when equal volumes are mixed",
+              "Not using the 'reaction goes to completion' approximation for very large Kc"
+            ],
+            "prerequisites": []
+          },
+          "arrhenius_equation": {
+            "formulas": {
+              "\u0394H = Ea(f) - Ea(b)": {
+                "expression": "\u0394H = Ea(f) - Ea(b)",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_3"
+                ]
+              },
+              "K = kf/kb": {
+                "expression": "K = kf/kb",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_3"
+                ]
+              },
+              "\u0394G\u00b0 = -RT ln K": {
+                "expression": "\u0394G\u00b0 = -RT ln K",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2018_Chem_3"
+            ],
+            "common_traps": [
+              "Confusing the sign of \u0394H (Forward - Backward vs Backward - Forward)",
+              "Calculation errors with natural logs"
+            ],
+            "prerequisites": []
+          },
+          "relation_between_K_and_rate_constants": {
+            "formulas": {
+              "\u0394H = Ea(f) - Ea(b)": {
+                "expression": "\u0394H = Ea(f) - Ea(b)",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_3"
+                ]
+              },
+              "K = kf/kb": {
+                "expression": "K = kf/kb",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_3"
+                ]
+              },
+              "\u0394G\u00b0 = -RT ln K": {
+                "expression": "\u0394G\u00b0 = -RT ln K",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2018_Chem_3"
+            ],
+            "common_traps": [
+              "Confusing the sign of \u0394H (Forward - Backward vs Backward - Forward)",
+              "Calculation errors with natural logs"
+            ],
+            "prerequisites": []
+          },
+          "gibbs_energy": {
+            "formulas": {
+              "\u0394H = Ea(f) - Ea(b)": {
+                "expression": "\u0394H = Ea(f) - Ea(b)",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_3"
+                ]
+              },
+              "K = kf/kb": {
+                "expression": "K = kf/kb",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_3"
+                ]
+              },
+              "\u0394G\u00b0 = -RT ln K": {
+                "expression": "\u0394G\u00b0 = -RT ln K",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2018_Chem_3"
+            ],
+            "common_traps": [
+              "Confusing the sign of \u0394H (Forward - Backward vs Backward - Forward)",
+              "Calculation errors with natural logs"
+            ],
+            "prerequisites": []
+          },
+          "degree_of_dissociation": {
+            "formulas": {
+              "Kp = (P_products)^coeff / (P_reactants)^coeff": {
+                "expression": "Kp = (P_products)^coeff / (P_reactants)^coeff",
+                "used_in_questions": [
+                  "JEE_Adv_2016_Chem_4"
+                ]
+              },
+              "Pi = (ni / n_total) * P_total": {
+                "expression": "Pi = (ni / n_total) * P_total",
+                "used_in_questions": [
+                  "JEE_Adv_2016_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2016_Chem_4"
+            ],
+            "common_traps": [
+              "Confusing degree of dissociation (\u03b1) with moles formed (\u03b2)",
+              "Algebraic errors when simplifying the Kp expression"
+            ],
+            "prerequisites": []
+          },
+          "partial_pressure_calculation": {
+            "formulas": {
+              "Kp = (P_products)^coeff / (P_reactants)^coeff": {
+                "expression": "Kp = (P_products)^coeff / (P_reactants)^coeff",
+                "used_in_questions": [
+                  "JEE_Adv_2016_Chem_4"
+                ]
+              },
+              "Pi = (ni / n_total) * P_total": {
+                "expression": "Pi = (ni / n_total) * P_total",
+                "used_in_questions": [
+                  "JEE_Adv_2016_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2016_Chem_4"
+            ],
+            "common_traps": [
+              "Confusing degree of dissociation (\u03b1) with moles formed (\u03b2)",
+              "Algebraic errors when simplifying the Kp expression"
+            ],
+            "prerequisites": []
+          },
+          "le_chateliers_principle": {
+            "formulas": {
+              "\u0394G\u00b0 = -RT ln K": {
+                "expression": "\u0394G\u00b0 = -RT ln K",
+                "used_in_questions": [
+                  "JEE_Adv_2016_Chem_5"
+                ]
+              },
+              "Kp = Kc(RT)^\u0394n": {
+                "expression": "Kp = Kc(RT)^\u0394n",
+                "used_in_questions": [
+                  "JEE_Adv_2016_Chem_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2016_Chem_5"
+            ],
+            "common_traps": [
+              "Overlooking the condition \u0394G\u00b0 > 0 implies K < 1",
+              "Not checking quantitative consistency of option C"
+            ],
+            "prerequisites": []
+          },
+          "gibbs_energy_significance": {
+            "formulas": {
+              "\u0394G\u00b0 = -RT ln K": {
+                "expression": "\u0394G\u00b0 = -RT ln K",
+                "used_in_questions": [
+                  "JEE_Adv_2016_Chem_5"
+                ]
+              },
+              "Kp = Kc(RT)^\u0394n": {
+                "expression": "Kp = Kc(RT)^\u0394n",
+                "used_in_questions": [
+                  "JEE_Adv_2016_Chem_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2016_Chem_5"
+            ],
+            "common_traps": [
+              "Overlooking the condition \u0394G\u00b0 > 0 implies K < 1",
+              "Not checking quantitative consistency of option C"
+            ],
+            "prerequisites": []
+          },
+          "Kp_Kc_relationship": {
+            "formulas": {
+              "\u0394G\u00b0 = -RT ln K": {
+                "expression": "\u0394G\u00b0 = -RT ln K",
+                "used_in_questions": [
+                  "JEE_Adv_2016_Chem_5"
+                ]
+              },
+              "Kp = Kc(RT)^\u0394n": {
+                "expression": "Kp = Kc(RT)^\u0394n",
+                "used_in_questions": [
+                  "JEE_Adv_2016_Chem_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2016_Chem_5"
+            ],
+            "common_traps": [
+              "Overlooking the condition \u0394G\u00b0 > 0 implies K < 1",
+              "Not checking quantitative consistency of option C"
+            ],
+            "prerequisites": []
+          },
+          "le_chateliers_principle_temperature": {
+            "formulas": {
+              "Rate \u221d T": {
+                "expression": "Rate \u221d T",
+                "used_in_questions": [
+                  "JEE_Adv_2015_Chem_6"
+                ]
+              },
+              "K_eq \u221d 1/T (for exothermic)": {
+                "expression": "K_eq \u221d 1/T (for exothermic)",
+                "used_in_questions": [
+                  "JEE_Adv_2015_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2015_Chem_6"
+            ],
+            "common_traps": [
+              "Confusing rate (increases with T) with equilibrium yield (decreases with T for exothermic reactions)"
+            ],
+            "prerequisites": []
+          },
+          "reaction_kinetics_vs_thermodynamics": {
+            "formulas": {
+              "Rate \u221d T": {
+                "expression": "Rate \u221d T",
+                "used_in_questions": [
+                  "JEE_Adv_2015_Chem_6"
+                ]
+              },
+              "K_eq \u221d 1/T (for exothermic)": {
+                "expression": "K_eq \u221d 1/T (for exothermic)",
+                "used_in_questions": [
+                  "JEE_Adv_2015_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2015_Chem_6"
+            ],
+            "common_traps": [
+              "Confusing rate (increases with T) with equilibrium yield (decreases with T for exothermic reactions)"
+            ],
+            "prerequisites": []
+          },
+          "exothermic_reaction_equilibrium": {
+            "formulas": {
+              "Rate \u221d T": {
+                "expression": "Rate \u221d T",
+                "used_in_questions": [
+                  "JEE_Adv_2015_Chem_6"
+                ]
+              },
+              "K_eq \u221d 1/T (for exothermic)": {
+                "expression": "K_eq \u221d 1/T (for exothermic)",
+                "used_in_questions": [
+                  "JEE_Adv_2015_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2015_Chem_6"
+            ],
+            "common_traps": [
+              "Confusing rate (increases with T) with equilibrium yield (decreases with T for exothermic reactions)"
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Electrochemistry": {
+        "subject": "Chemistry",
+        "chapter": "Electrochemistry",
+        "subconcepts": {
+          "ostwald_dilution_law": {
+            "formulas": {
+              "\u03b1 = \u039bm/\u039b\u00b0m": {
+                "expression": "\u03b1 = \u039bm/\u039b\u00b0m",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "Ka = c\u03b1^2/(1-\u03b1)": {
+                "expression": "Ka = c\u03b1^2/(1-\u03b1)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "1/\u039bm = (1/Ka(\u039b\u00b0)^2)(c\u039bm) + 1/\u039b\u00b0": {
+                "expression": "1/\u039bm = (1/Ka(\u039b\u00b0)^2)(c\u039bm) + 1/\u039b\u00b0",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "\u03b1 = \u039bm/\u039b\u00b0": {
+                "expression": "\u03b1 = \u039bm/\u039b\u00b0",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_6"
+                ]
+              },
+              "Ka = C\u03b1^2/(1-\u03b1)": {
+                "expression": "Ka = C\u03b1^2/(1-\u03b1)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_1",
+              "JEE_Adv_2021_Chem_6"
+            ],
+            "common_traps": [
+              "Incorrect algebraic manipulation when linearizing the Ka expression",
+              "Assuming \u03b1 << 1 and using Ka = C\u03b1^2 leads to wrong result if \u03b1 is significant (here 0.22 is not negligible)"
+            ],
+            "prerequisites": []
+          },
+          "conductivity_of_weak_electrolytes": {
+            "formulas": {
+              "\u03b1 = \u039bm/\u039b\u00b0m": {
+                "expression": "\u03b1 = \u039bm/\u039b\u00b0m",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "Ka = c\u03b1^2/(1-\u03b1)": {
+                "expression": "Ka = c\u03b1^2/(1-\u03b1)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "1/\u039bm = (1/Ka(\u039b\u00b0)^2)(c\u039bm) + 1/\u039b\u00b0": {
+                "expression": "1/\u039bm = (1/Ka(\u039b\u00b0)^2)(c\u039bm) + 1/\u039b\u00b0",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_1"
+            ],
+            "common_traps": [
+              "Incorrect algebraic manipulation when linearizing the Ka expression"
+            ],
+            "prerequisites": []
+          },
+          "linear_plots_in_physical_chemistry": {
+            "formulas": {
+              "\u03b1 = \u039bm/\u039b\u00b0m": {
+                "expression": "\u03b1 = \u039bm/\u039b\u00b0m",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "Ka = c\u03b1^2/(1-\u03b1)": {
+                "expression": "Ka = c\u03b1^2/(1-\u03b1)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "1/\u039bm = (1/Ka(\u039b\u00b0)^2)(c\u039bm) + 1/\u039b\u00b0": {
+                "expression": "1/\u039bm = (1/Ka(\u039b\u00b0)^2)(c\u039bm) + 1/\u039b\u00b0",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_1"
+            ],
+            "common_traps": [
+              "Incorrect algebraic manipulation when linearizing the Ka expression"
+            ],
+            "prerequisites": []
+          },
+          "gibbs_energy_additivity": {
+            "formulas": {
+              "\u0394G\u00b0 = -nFE\u00b0": {
+                "expression": "\u0394G\u00b0 = -nFE\u00b0",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              },
+              "E_total = (\u03a3 ni Ei) / (\u03a3 ni)": {
+                "expression": "E_total = (\u03a3 ni Ei) / (\u03a3 ni)",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_2"
+            ],
+            "common_traps": [
+              "Adding E\u00b0 values directly instead of weighted average by electrons (\u0394G\u00b0 additivity)",
+              "Sign errors with reduction potentials"
+            ],
+            "prerequisites": []
+          },
+          "electrode_potential_calculation": {
+            "formulas": {
+              "\u0394G\u00b0 = -nFE\u00b0": {
+                "expression": "\u0394G\u00b0 = -nFE\u00b0",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              },
+              "E_total = (\u03a3 ni Ei) / (\u03a3 ni)": {
+                "expression": "E_total = (\u03a3 ni Ei) / (\u03a3 ni)",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_2"
+            ],
+            "common_traps": [
+              "Adding E\u00b0 values directly instead of weighted average by electrons (\u0394G\u00b0 additivity)",
+              "Sign errors with reduction potentials"
+            ],
+            "prerequisites": []
+          },
+          "latimer_diagram": {
+            "formulas": {
+              "\u0394G\u00b0 = -nFE\u00b0": {
+                "expression": "\u0394G\u00b0 = -nFE\u00b0",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              },
+              "E_total = (\u03a3 ni Ei) / (\u03a3 ni)": {
+                "expression": "E_total = (\u03a3 ni Ei) / (\u03a3 ni)",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_2"
+            ],
+            "common_traps": [
+              "Adding E\u00b0 values directly instead of weighted average by electrons (\u0394G\u00b0 additivity)",
+              "Sign errors with reduction potentials"
+            ],
+            "prerequisites": []
+          },
+          "kohlrausch_law": {
+            "formulas": {
+              "\u039b\u00b0_electrolyte = \u03bd+ \u03bb\u00b0+ + \u03bd- \u03bb\u00b0-": {
+                "expression": "\u039b\u00b0_electrolyte = \u03bd+ \u03bb\u00b0+ + \u03bd- \u03bb\u00b0-",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_3"
+            ],
+            "common_traps": [
+              "Identifying the stoichiometric coefficients (m, n, p) incorrectly from the formula notation",
+              "Reading the graph intercept incorrectly"
+            ],
+            "prerequisites": []
+          },
+          "molar_conductivity": {
+            "formulas": {
+              "\u039b\u00b0_electrolyte = \u03bd+ \u03bb\u00b0+ + \u03bd- \u03bb\u00b0-": {
+                "expression": "\u039b\u00b0_electrolyte = \u03bd+ \u03bb\u00b0+ + \u03bd- \u03bb\u00b0-",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_3"
+                ]
+              },
+              "y = 4\u03b1": {
+                "expression": "y = 4\u03b1",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_3",
+              "JEE_Adv_2021_Chem_7"
+            ],
+            "common_traps": [
+              "Identifying the stoichiometric coefficients (m, n, p) incorrectly from the formula notation",
+              "Reading the graph intercept incorrectly",
+              "Calculation error in division"
+            ],
+            "prerequisites": []
+          },
+          "ionic_conductivity": {
+            "formulas": {
+              "\u039b\u00b0_electrolyte = \u03bd+ \u03bb\u00b0+ + \u03bd- \u03bb\u00b0-": {
+                "expression": "\u039b\u00b0_electrolyte = \u03bd+ \u03bb\u00b0+ + \u03bd- \u03bb\u00b0-",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_3"
+            ],
+            "common_traps": [
+              "Identifying the stoichiometric coefficients (m, n, p) incorrectly from the formula notation",
+              "Reading the graph intercept incorrectly"
+            ],
+            "prerequisites": []
+          },
+          "entropy_change_electrochemistry": {
+            "formulas": {
+              "\u0394S = nF(dE/dT)": {
+                "expression": "\u0394S = nF(dE/dT)",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_4"
+                ]
+              },
+              "\u0394G = \u0394H - T\u0394S": {
+                "expression": "\u0394G = \u0394H - T\u0394S",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_4"
+            ],
+            "common_traps": [
+              "Forgetting n=2 in the hydrogen/metal reaction entropy calculation",
+              "Not recognizing the particle count change in the chelation reaction"
+            ],
+            "prerequisites": []
+          },
+          "temperature_coefficient_of_cell": {
+            "formulas": {
+              "\u0394S = nF(dE/dT)": {
+                "expression": "\u0394S = nF(dE/dT)",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_4"
+                ]
+              },
+              "\u0394G = \u0394H - T\u0394S": {
+                "expression": "\u0394G = \u0394H - T\u0394S",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_4"
+            ],
+            "common_traps": [
+              "Forgetting n=2 in the hydrogen/metal reaction entropy calculation",
+              "Not recognizing the particle count change in the chelation reaction"
+            ],
+            "prerequisites": []
+          },
+          "concentration_cells": {
+            "formulas": {
+              "\u0394S = nF(dE/dT)": {
+                "expression": "\u0394S = nF(dE/dT)",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_4"
+                ]
+              },
+              "\u0394G = \u0394H - T\u0394S": {
+                "expression": "\u0394G = \u0394H - T\u0394S",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_4"
+            ],
+            "common_traps": [
+              "Forgetting n=2 in the hydrogen/metal reaction entropy calculation",
+              "Not recognizing the particle count change in the chelation reaction"
+            ],
+            "prerequisites": []
+          },
+          "chelate_effect": {
+            "formulas": {
+              "\u0394S = nF(dE/dT)": {
+                "expression": "\u0394S = nF(dE/dT)",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_4"
+                ]
+              },
+              "\u0394G = \u0394H - T\u0394S": {
+                "expression": "\u0394G = \u0394H - T\u0394S",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_4"
+            ],
+            "common_traps": [
+              "Forgetting n=2 in the hydrogen/metal reaction entropy calculation",
+              "Not recognizing the particle count change in the chelation reaction"
+            ],
+            "prerequisites": []
+          },
+          "nernst_equation": {
+            "formulas": {
+              "E_cell = E\u00b0_cell - (RT/nF)lnQ": {
+                "expression": "E_cell = E\u00b0_cell - (RT/nF)lnQ",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_5"
+                ]
+              },
+              "E = E\u00b0 - (RT/nF)lnQ": {
+                "expression": "E = E\u00b0 - (RT/nF)lnQ",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_9"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_5",
+              "JEE_Adv_2018_Chem_9"
+            ],
+            "common_traps": [
+              "Comparing only standard potentials (E\u00b0) without accounting for the concentration term (Nernst equation effect)",
+              "Calculation errors with constants"
+            ],
+            "prerequisites": []
+          },
+          "spontaneity_of_redox_reaction": {
+            "formulas": {
+              "E_cell = E\u00b0_cell - (RT/nF)lnQ": {
+                "expression": "E_cell = E\u00b0_cell - (RT/nF)lnQ",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_5"
+            ],
+            "common_traps": [
+              "Comparing only standard potentials (E\u00b0) without accounting for the concentration term (Nernst equation effect)"
+            ],
+            "prerequisites": []
+          },
+          "electrochemical_series": {
+            "formulas": {
+              "E_cell = E\u00b0_cell - (RT/nF)lnQ": {
+                "expression": "E_cell = E\u00b0_cell - (RT/nF)lnQ",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_5"
+            ],
+            "common_traps": [
+              "Comparing only standard potentials (E\u00b0) without accounting for the concentration term (Nernst equation effect)"
+            ],
+            "prerequisites": []
+          },
+          "degree_of_dissociation": {
+            "formulas": {
+              "\u03b1 = \u039bm/\u039b\u00b0": {
+                "expression": "\u03b1 = \u039bm/\u039b\u00b0",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_6"
+                ]
+              },
+              "Ka = C\u03b1^2/(1-\u03b1)": {
+                "expression": "Ka = C\u03b1^2/(1-\u03b1)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_6"
+            ],
+            "common_traps": [
+              "Assuming \u03b1 << 1 and using Ka = C\u03b1^2 leads to wrong result if \u03b1 is significant (here 0.22 is not negligible)"
+            ],
+            "prerequisites": []
+          },
+          "conductivity_dilution_effect": {
+            "formulas": {
+              "\u03b1 = \u039bm/\u039b\u00b0": {
+                "expression": "\u03b1 = \u039bm/\u039b\u00b0",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_6"
+                ]
+              },
+              "Ka = C\u03b1^2/(1-\u03b1)": {
+                "expression": "Ka = C\u03b1^2/(1-\u03b1)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_6"
+            ],
+            "common_traps": [
+              "Assuming \u03b1 << 1 and using Ka = C\u03b1^2 leads to wrong result if \u03b1 is significant (here 0.22 is not negligible)"
+            ],
+            "prerequisites": []
+          },
+          "fuel_cell_efficiency": {
+            "formulas": {
+              "W_elec = \u03b7 * nFE": {
+                "expression": "W_elec = \u03b7 * nFE",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_8"
+                ]
+              },
+              "\u0394U = nCv\u0394T": {
+                "expression": "\u0394U = nCv\u0394T",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_Chem_8"
+            ],
+            "common_traps": [
+              "Neglecting efficiency factor",
+              "Using Cv of diatomic gas instead of monoatomic"
+            ],
+            "prerequisites": []
+          },
+          "thermodynamics_first_law": {
+            "formulas": {
+              "W_elec = \u03b7 * nFE": {
+                "expression": "W_elec = \u03b7 * nFE",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_8"
+                ]
+              },
+              "\u0394U = nCv\u0394T": {
+                "expression": "\u0394U = nCv\u0394T",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_Chem_8"
+            ],
+            "common_traps": [
+              "Neglecting efficiency factor",
+              "Using Cv of diatomic gas instead of monoatomic"
+            ],
+            "prerequisites": []
+          },
+          "work_energy_conversion": {
+            "formulas": {
+              "W_elec = \u03b7 * nFE": {
+                "expression": "W_elec = \u03b7 * nFE",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_8"
+                ]
+              },
+              "\u0394U = nCv\u0394T": {
+                "expression": "\u0394U = nCv\u0394T",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_Chem_8"
+            ],
+            "common_traps": [
+              "Neglecting efficiency factor",
+              "Using Cv of diatomic gas instead of monoatomic"
+            ],
+            "prerequisites": []
+          },
+          "concentration_cell_dependence": {
+            "formulas": {
+              "E = E\u00b0 - (RT/nF)lnQ": {
+                "expression": "E = E\u00b0 - (RT/nF)lnQ",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_9"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2018_Chem_9"
+            ],
+            "common_traps": [
+              "Calculation errors with constants"
+            ],
+            "prerequisites": []
+          },
+          "thermodynamics_of_cell": {
+            "formulas": {
+              "\u0394G = \u0394H - T\u0394S": {
+                "expression": "\u0394G = \u0394H - T\u0394S",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_10"
+                ]
+              },
+              "E = E\u00b0 - (RT/nF)lnQ": {
+                "expression": "E = E\u00b0 - (RT/nF)lnQ",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_10"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2018_Chem_10"
+            ],
+            "common_traps": [
+              "Sign confusion between \u0394G, \u0394H, and \u0394S",
+              "Calculating n incorrectly for the balanced equation"
+            ],
+            "prerequisites": []
+          },
+          "nernst_equation_equilibrium": {
+            "formulas": {
+              "\u0394G = \u0394H - T\u0394S": {
+                "expression": "\u0394G = \u0394H - T\u0394S",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_10"
+                ]
+              },
+              "E = E\u00b0 - (RT/nF)lnQ": {
+                "expression": "E = E\u00b0 - (RT/nF)lnQ",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_10"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2018_Chem_10"
+            ],
+            "common_traps": [
+              "Sign confusion between \u0394G, \u0394H, and \u0394S",
+              "Calculating n incorrectly for the balanced equation"
+            ],
+            "prerequisites": []
+          },
+          "entropy_calculation": {
+            "formulas": {
+              "\u0394G = \u0394H - T\u0394S": {
+                "expression": "\u0394G = \u0394H - T\u0394S",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_10"
+                ]
+              },
+              "E = E\u00b0 - (RT/nF)lnQ": {
+                "expression": "E = E\u00b0 - (RT/nF)lnQ",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_10"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2018_Chem_10"
+            ],
+            "common_traps": [
+              "Sign confusion between \u0394G, \u0394H, and \u0394S",
+              "Calculating n incorrectly for the balanced equation"
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Ionic Equilibrium": {
+        "subject": "Chemistry",
+        "chapter": "Ionic Equilibrium",
+        "subconcepts": {
+          "solubility_pH_effect": {
+            "formulas": {
+              "Ksp = [M+][X-]": {
+                "expression": "Ksp = [M+][X-]",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "Ka = [H+][X-]/[HX]": {
+                "expression": "Ka = [H+][X-]/[HX]",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "S = [X-] + [HX]": {
+                "expression": "S = [X-] + [HX]",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_1"
+            ],
+            "common_traps": [
+              "Ignoring the hydrolysis of the anion X- at low pH",
+              "Assuming [X-] equals S2 at low pH"
+            ],
+            "prerequisites": []
+          },
+          "common_ion_effect": {
+            "formulas": {
+              "Ksp = [M+][X-]": {
+                "expression": "Ksp = [M+][X-]",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "Ka = [H+][X-]/[HX]": {
+                "expression": "Ka = [H+][X-]/[HX]",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "S = [X-] + [HX]": {
+                "expression": "S = [X-] + [HX]",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "Ka2 = [H+][SO4]/[HSO4]": {
+                "expression": "Ka2 = [H+][SO4]/[HSO4]",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_3"
+                ]
+              },
+              "Ksp = [Pb][SO4]": {
+                "expression": "Ksp = [Pb][SO4]",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_1",
+              "JEE_Adv_2022_Chem_3"
+            ],
+            "common_traps": [
+              "Ignoring the hydrolysis of the anion X- at low pH",
+              "Assuming [X-] equals S2 at low pH",
+              "Ignoring the shift in HSO4-/SO4^2- equilibrium due to common ion",
+              "Assuming [SO4^2-] is just the sum of initial concentrations"
+            ],
+            "prerequisites": []
+          },
+          "weak_acid_equilibrium": {
+            "formulas": {
+              "Ksp = [M+][X-]": {
+                "expression": "Ksp = [M+][X-]",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "Ka = [H+][X-]/[HX]": {
+                "expression": "Ka = [H+][X-]/[HX]",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "S = [X-] + [HX]": {
+                "expression": "S = [X-] + [HX]",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_1"
+            ],
+            "common_traps": [
+              "Ignoring the hydrolysis of the anion X- at low pH",
+              "Assuming [X-] equals S2 at low pH"
+            ],
+            "prerequisites": []
+          },
+          "buffer_solution_pH": {
+            "formulas": {
+              "pH = pKa + log([A-]/[HA])": {
+                "expression": "pH = pKa + log([A-]/[HA])",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              },
+              "pH = pKa + log(S/A)": {
+                "expression": "pH = pKa + log(S/A)",
+                "used_in_questions": [
+                  "JEE_Adv_2015_Chem_10"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_2",
+              "JEE_Adv_2015_Chem_10"
+            ],
+            "common_traps": [
+              "Reacting NaOH with everything or in wrong order",
+              "Ignoring the initial amount of NaHCO3 when calculating final moles",
+              "Calculating concentration incorrectly by forgetting total volume is 200mL (though it cancels here)",
+              "Misidentifying the solution as just salt hydrolysis instead of buffer"
+            ],
+            "prerequisites": []
+          },
+          "acid_base_neutralization": {
+            "formulas": {
+              "pH = pKa + log([A-]/[HA])": {
+                "expression": "pH = pKa + log([A-]/[HA])",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_2"
+            ],
+            "common_traps": [
+              "Reacting NaOH with everything or in wrong order",
+              "Ignoring the initial amount of NaHCO3 when calculating final moles"
+            ],
+            "prerequisites": []
+          },
+          "sequential_neutralization": {
+            "formulas": {
+              "pH = pKa + log([A-]/[HA])": {
+                "expression": "pH = pKa + log([A-]/[HA])",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_2"
+            ],
+            "common_traps": [
+              "Reacting NaOH with everything or in wrong order",
+              "Ignoring the initial amount of NaHCO3 when calculating final moles"
+            ],
+            "prerequisites": []
+          },
+          "solubility_product": {
+            "formulas": {
+              "Ka2 = [H+][SO4]/[HSO4]": {
+                "expression": "Ka2 = [H+][SO4]/[HSO4]",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_3"
+                ]
+              },
+              "Ksp = [Pb][SO4]": {
+                "expression": "Ksp = [Pb][SO4]",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_3"
+                ]
+              },
+              "Ksp = [Zn][S]": {
+                "expression": "Ksp = [Zn][S]",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_6"
+                ]
+              },
+              "K_NET = [H]^2[S]/[H2S]": {
+                "expression": "K_NET = [H]^2[S]/[H2S]",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_3",
+              "JEE_Adv_2020_Chem_6"
+            ],
+            "common_traps": [
+              "Ignoring the shift in HSO4-/SO4^2- equilibrium due to common ion",
+              "Assuming [SO4^2-] is just the sum of initial concentrations",
+              "Calculation errors with powers of 10",
+              "Forgetting to square [H+] in the K_NET expression"
+            ],
+            "prerequisites": []
+          },
+          "simultaneous_equilibria": {
+            "formulas": {
+              "Ka2 = [H+][SO4]/[HSO4]": {
+                "expression": "Ka2 = [H+][SO4]/[HSO4]",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_3"
+                ]
+              },
+              "Ksp = [Pb][SO4]": {
+                "expression": "Ksp = [Pb][SO4]",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_3"
+            ],
+            "common_traps": [
+              "Ignoring the shift in HSO4-/SO4^2- equilibrium due to common ion",
+              "Assuming [SO4^2-] is just the sum of initial concentrations"
+            ],
+            "prerequisites": []
+          },
+          "titration_calculation": {
+            "formulas": {
+              "M1V1 * n1 = M2V2 * n2": {
+                "expression": "M1V1 * n1 = M2V2 * n2",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_Chem_4"
+            ],
+            "common_traps": [
+              "Taking the average of all readings including outliers (12.5, 10.5) instead of concordant ones",
+              "Forgetting n-factor of oxalic acid is 2"
+            ],
+            "prerequisites": []
+          },
+          "concordant_readings": {
+            "formulas": {
+              "M1V1 * n1 = M2V2 * n2": {
+                "expression": "M1V1 * n1 = M2V2 * n2",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_Chem_4"
+            ],
+            "common_traps": [
+              "Taking the average of all readings including outliers (12.5, 10.5) instead of concordant ones",
+              "Forgetting n-factor of oxalic acid is 2"
+            ],
+            "prerequisites": []
+          },
+          "stoichiometry_acid_base": {
+            "formulas": {
+              "M1V1 * n1 = M2V2 * n2": {
+                "expression": "M1V1 * n1 = M2V2 * n2",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_Chem_4"
+            ],
+            "common_traps": [
+              "Taking the average of all readings including outliers (12.5, 10.5) instead of concordant ones",
+              "Forgetting n-factor of oxalic acid is 2"
+            ],
+            "prerequisites": []
+          },
+          "precipitation_condition": {
+            "formulas": {
+              "Ksp = [Zn][S]": {
+                "expression": "Ksp = [Zn][S]",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_6"
+                ]
+              },
+              "K_NET = [H]^2[S]/[H2S]": {
+                "expression": "K_NET = [H]^2[S]/[H2S]",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_Chem_6"
+            ],
+            "common_traps": [
+              "Calculation errors with powers of 10",
+              "Forgetting to square [H+] in the K_NET expression"
+            ],
+            "prerequisites": []
+          },
+          "common_ion_effect_sulfides": {
+            "formulas": {
+              "Ksp = [Zn][S]": {
+                "expression": "Ksp = [Zn][S]",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_6"
+                ]
+              },
+              "K_NET = [H]^2[S]/[H2S]": {
+                "expression": "K_NET = [H]^2[S]/[H2S]",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_Chem_6"
+            ],
+            "common_traps": [
+              "Calculation errors with powers of 10",
+              "Forgetting to square [H+] in the K_NET expression"
+            ],
+            "prerequisites": []
+          },
+          "solubility_in_acidic_buffer": {
+            "formulas": {
+              "S = sqrt(Ksp * (1 + [H+]/Ka))": {
+                "expression": "S = sqrt(Ksp * (1 + [H+]/Ka))",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2018_Chem_7"
+            ],
+            "common_traps": [
+              "Neglecting the 1 in (1 + [H+]/Ka) when [H+]/Ka is small (though here it's large, so neglecting it is fine, but understanding the formula is key)"
+            ],
+            "prerequisites": []
+          },
+          "hydrolysis_effect_on_solubility": {
+            "formulas": {
+              "S = sqrt(Ksp * (1 + [H+]/Ka))": {
+                "expression": "S = sqrt(Ksp * (1 + [H+]/Ka))",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2018_Chem_7"
+            ],
+            "common_traps": [
+              "Neglecting the 1 in (1 + [H+]/Ka) when [H+]/Ka is small (though here it's large, so neglecting it is fine, but understanding the formula is key)"
+            ],
+            "prerequisites": []
+          },
+          "enthalpy_of_neutralization": {
+            "formulas": {
+              "\u0394H_weak = \u0394H_strong + \u0394H_dissociation": {
+                "expression": "\u0394H_weak = \u0394H_strong + \u0394H_dissociation",
+                "used_in_questions": [
+                  "JEE_Adv_2015_Chem_9"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2015_Chem_9"
+            ],
+            "common_traps": [
+              "Confusing signs of enthalpy (released vs absorbed)",
+              "Calculating moles incorrectly (0.2 mol acid vs 0.1 mol base)"
+            ],
+            "prerequisites": []
+          },
+          "calorimetry": {
+            "formulas": {
+              "\u0394H_weak = \u0394H_strong + \u0394H_dissociation": {
+                "expression": "\u0394H_weak = \u0394H_strong + \u0394H_dissociation",
+                "used_in_questions": [
+                  "JEE_Adv_2015_Chem_9"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2015_Chem_9"
+            ],
+            "common_traps": [
+              "Confusing signs of enthalpy (released vs absorbed)",
+              "Calculating moles incorrectly (0.2 mol acid vs 0.1 mol base)"
+            ],
+            "prerequisites": []
+          },
+          "hess_law": {
+            "formulas": {
+              "\u0394H_weak = \u0394H_strong + \u0394H_dissociation": {
+                "expression": "\u0394H_weak = \u0394H_strong + \u0394H_dissociation",
+                "used_in_questions": [
+                  "JEE_Adv_2015_Chem_9"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2015_Chem_9"
+            ],
+            "common_traps": [
+              "Confusing signs of enthalpy (released vs absorbed)",
+              "Calculating moles incorrectly (0.2 mol acid vs 0.1 mol base)"
+            ],
+            "prerequisites": []
+          },
+          "Henderson_Hasselbalch_equation": {
+            "formulas": {
+              "pH = pKa + log(S/A)": {
+                "expression": "pH = pKa + log(S/A)",
+                "used_in_questions": [
+                  "JEE_Adv_2015_Chem_10"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2015_Chem_10"
+            ],
+            "common_traps": [
+              "Calculating concentration incorrectly by forgetting total volume is 200mL (though it cancels here)",
+              "Misidentifying the solution as just salt hydrolysis instead of buffer"
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Liquid Solutions": {
+        "subject": "Chemistry",
+        "chapter": "Liquid Solutions",
+        "subconcepts": {
+          "osmotic_pressure": {
+            "formulas": {
+              "\u03c0 = CRT": {
+                "expression": "\u03c0 = CRT",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "Molality = n_solute / Mass_solvent_kg": {
+                "expression": "Molality = n_solute / Mass_solvent_kg",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_1"
+            ],
+            "common_traps": [
+              "Confusing molality with molarity directly without density conversion",
+              "Adding volumes without checking unit consistency (though mL to L is standard)"
+            ],
+            "prerequisites": []
+          },
+          "molality_to_molarity_conversion": {
+            "formulas": {
+              "\u03c0 = CRT": {
+                "expression": "\u03c0 = CRT",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "Molality = n_solute / Mass_solvent_kg": {
+                "expression": "Molality = n_solute / Mass_solvent_kg",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_1"
+            ],
+            "common_traps": [
+              "Confusing molality with molarity directly without density conversion",
+              "Adding volumes without checking unit consistency (though mL to L is standard)"
+            ],
+            "prerequisites": []
+          },
+          "concentration_of_mixture": {
+            "formulas": {
+              "\u03c0 = CRT": {
+                "expression": "\u03c0 = CRT",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "Molality = n_solute / Mass_solvent_kg": {
+                "expression": "Molality = n_solute / Mass_solvent_kg",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_1"
+            ],
+            "common_traps": [
+              "Confusing molality with molarity directly without density conversion",
+              "Adding volumes without checking unit consistency (though mL to L is standard)"
+            ],
+            "prerequisites": []
+          },
+          "relative_lowering_vapour_pressure": {
+            "formulas": {
+              "(P\u00b0-P)/P\u00b0 = i(n2/n1)": {
+                "expression": "(P\u00b0-P)/P\u00b0 = i(n2/n1)",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              },
+              "i = 1 + (n-1)\u03b1": {
+                "expression": "i = 1 + (n-1)\u03b1",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              },
+              "(P\u00b0-P)/P = n2/n1": {
+                "expression": "(P\u00b0-P)/P = n2/n1",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_6"
+                ]
+              },
+              "\u0394Tf = Kf m": {
+                "expression": "\u0394Tf = Kf m",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_2",
+              "JEE_Adv_2019_Chem_6"
+            ],
+            "common_traps": [
+              "Using the exact Raoult's law formula (n2/(n1+n2)) leads to complex algebra, though dilute approximation works well here",
+              "Calculation errors in RLVP ratio",
+              "Using the wrong denominator in RLVP formula (P\u00b0 vs P) without checking if dilute approx applies (Here 10/650 vs 10/640 makes small difference, but P is safer for n2/n1 relation)"
+            ],
+            "prerequisites": []
+          },
+          "vant_hoff_factor": {
+            "formulas": {
+              "(P\u00b0-P)/P\u00b0 = i(n2/n1)": {
+                "expression": "(P\u00b0-P)/P\u00b0 = i(n2/n1)",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              },
+              "i = 1 + (n-1)\u03b1": {
+                "expression": "i = 1 + (n-1)\u03b1",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              },
+              "\u0394Tb = i Kb m": {
+                "expression": "\u0394Tb = i Kb m",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_2",
+              "JEE_Adv_2021_Chem_3"
+            ],
+            "common_traps": [
+              "Using the exact Raoult's law formula (n2/(n1+n2)) leads to complex algebra, though dilute approximation works well here",
+              "Calculation errors in RLVP ratio",
+              "Forgetting i=2 for AgNO3"
+            ],
+            "prerequisites": []
+          },
+          "degree_of_dissociation": {
+            "formulas": {
+              "(P\u00b0-P)/P\u00b0 = i(n2/n1)": {
+                "expression": "(P\u00b0-P)/P\u00b0 = i(n2/n1)",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              },
+              "i = 1 + (n-1)\u03b1": {
+                "expression": "i = 1 + (n-1)\u03b1",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_2"
+            ],
+            "common_traps": [
+              "Using the exact Raoult's law formula (n2/(n1+n2)) leads to complex algebra, though dilute approximation works well here",
+              "Calculation errors in RLVP ratio"
+            ],
+            "prerequisites": []
+          },
+          "elevation_in_boiling_point": {
+            "formulas": {
+              "\u0394Tb = i Kb m": {
+                "expression": "\u0394Tb = i Kb m",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_3",
+                  "JEE_Adv_2018_Chem_8"
+                ]
+              },
+              "i = 1 + (1/n - 1)\u03b1": {
+                "expression": "i = 1 + (1/n - 1)\u03b1",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_3",
+              "JEE_Adv_2018_Chem_8"
+            ],
+            "common_traps": [
+              "Forgetting i=2 for AgNO3",
+              "Forgetting to calculate Kb ratio from the first part (NaCl data)",
+              "Using dissociation formula instead of association for solute S"
+            ],
+            "prerequisites": []
+          },
+          "colligative_properties_reaction": {
+            "formulas": {
+              "\u0394Tb = Kb * \u03a3(m_ions)": {
+                "expression": "\u0394Tb = Kb * \u03a3(m_ions)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_4"
+            ],
+            "common_traps": [
+              "Not accounting for the precipitation of AgCl reducing the ion count",
+              "Forgetting to halve concentrations upon mixing equal volumes"
+            ],
+            "prerequisites": []
+          },
+          "precipitation_reaction": {
+            "formulas": {
+              "\u0394Tb = Kb * \u03a3(m_ions)": {
+                "expression": "\u0394Tb = Kb * \u03a3(m_ions)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_4"
+            ],
+            "common_traps": [
+              "Not accounting for the precipitation of AgCl reducing the ion count",
+              "Forgetting to halve concentrations upon mixing equal volumes"
+            ],
+            "prerequisites": []
+          },
+          "boiling_point_difference": {
+            "formulas": {
+              "\u0394Tb = Kb * \u03a3(m_ions)": {
+                "expression": "\u0394Tb = Kb * \u03a3(m_ions)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_4"
+            ],
+            "common_traps": [
+              "Not accounting for the precipitation of AgCl reducing the ion count",
+              "Forgetting to halve concentrations upon mixing equal volumes"
+            ],
+            "prerequisites": []
+          },
+          "raoults_law": {
+            "formulas": {
+              "P_total = PA\u00b0XA + PB\u00b0XB": {
+                "expression": "P_total = PA\u00b0XA + PB\u00b0XB",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_5"
+                ]
+              },
+              "P = PA\u00b0xA + PB\u00b0xB": {
+                "expression": "P = PA\u00b0xA + PB\u00b0xB",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_Chem_5",
+              "JEE_Adv_2018_Chem_7"
+            ],
+            "common_traps": [
+              "Calculation errors when solving simultaneous equations",
+              "Calculation error in P_B\u00b0 or xA"
+            ],
+            "prerequisites": []
+          },
+          "ideal_solution": {
+            "formulas": {
+              "P_total = PA\u00b0XA + PB\u00b0XB": {
+                "expression": "P_total = PA\u00b0XA + PB\u00b0XB",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_Chem_5"
+            ],
+            "common_traps": [
+              "Calculation errors when solving simultaneous equations"
+            ],
+            "prerequisites": []
+          },
+          "vapor_pressure_calculation": {
+            "formulas": {
+              "P_total = PA\u00b0XA + PB\u00b0XB": {
+                "expression": "P_total = PA\u00b0XA + PB\u00b0XB",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_Chem_5"
+            ],
+            "common_traps": [
+              "Calculation errors when solving simultaneous equations"
+            ],
+            "prerequisites": []
+          },
+          "depression_in_freezing_point": {
+            "formulas": {
+              "(P\u00b0-P)/P = n2/n1": {
+                "expression": "(P\u00b0-P)/P = n2/n1",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_6"
+                ]
+              },
+              "\u0394Tf = Kf m": {
+                "expression": "\u0394Tf = Kf m",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2019_Chem_6"
+            ],
+            "common_traps": [
+              "Using the wrong denominator in RLVP formula (P\u00b0 vs P) without checking if dilute approx applies (Here 10/650 vs 10/640 makes small difference, but P is safer for n2/n1 relation)"
+            ],
+            "prerequisites": []
+          },
+          "colligative_properties_relation": {
+            "formulas": {
+              "(P\u00b0-P)/P = n2/n1": {
+                "expression": "(P\u00b0-P)/P = n2/n1",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_6"
+                ]
+              },
+              "\u0394Tf = Kf m": {
+                "expression": "\u0394Tf = Kf m",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2019_Chem_6"
+            ],
+            "common_traps": [
+              "Using the wrong denominator in RLVP formula (P\u00b0 vs P) without checking if dilute approx applies (Here 10/650 vs 10/640 makes small difference, but P is safer for n2/n1 relation)"
+            ],
+            "prerequisites": []
+          },
+          "mole_fraction_calculation": {
+            "formulas": {
+              "P = PA\u00b0xA + PB\u00b0xB": {
+                "expression": "P = PA\u00b0xA + PB\u00b0xB",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2018_Chem_7"
+            ],
+            "common_traps": [
+              "Calculation error in P_B\u00b0 or xA"
+            ],
+            "prerequisites": []
+          },
+          "vant_hoff_factor_association": {
+            "formulas": {
+              "i = 1 + (1/n - 1)\u03b1": {
+                "expression": "i = 1 + (1/n - 1)\u03b1",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_8"
+                ]
+              },
+              "\u0394Tb = i Kb m": {
+                "expression": "\u0394Tb = i Kb m",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2018_Chem_8"
+            ],
+            "common_traps": [
+              "Forgetting to calculate Kb ratio from the first part (NaCl data)",
+              "Using dissociation formula instead of association for solute S"
+            ],
+            "prerequisites": []
+          },
+          "comparative_colligative_properties": {
+            "formulas": {
+              "i = 1 + (1/n - 1)\u03b1": {
+                "expression": "i = 1 + (1/n - 1)\u03b1",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_8"
+                ]
+              },
+              "\u0394Tb = i Kb m": {
+                "expression": "\u0394Tb = i Kb m",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2018_Chem_8"
+            ],
+            "common_traps": [
+              "Forgetting to calculate Kb ratio from the first part (NaCl data)",
+              "Using dissociation formula instead of association for solute S"
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Mole Concept": {
+        "subject": "Chemistry",
+        "chapter": "Mole Concept",
+        "subconcepts": {
+          "stoichiometry": {
+            "formulas": {
+              "Moles = Mass / MolarMass": {
+                "expression": "Moles = Mass / MolarMass",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_1"
+                ]
+              },
+              "2Cu2+ + 4I- -> Cu2I2 + I2": {
+                "expression": "2Cu2+ + 4I- -> Cu2I2 + I2",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_1"
+                ]
+              },
+              "MoleRatio = MassRatio / AtomicMassRatio": {
+                "expression": "MoleRatio = MassRatio / AtomicMassRatio",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_3"
+                ]
+              },
+              "R-NO2 + 6[H] -> R-NH2 + 2H2O": {
+                "expression": "R-NO2 + 6[H] -> R-NH2 + 2H2O",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_4"
+                ]
+              },
+              "n(Sn) = 3 * n(PhNO2)": {
+                "expression": "n(Sn) = 3 * n(PhNO2)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_4"
+                ]
+              },
+              "Mass = Moles * MM": {
+                "expression": "Mass = Moles * MM",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_5",
+                  "JEE_Adv_2018_Chem_7"
+                ]
+              },
+              "PV = nRT": {
+                "expression": "PV = nRT",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_1",
+              "JEE_Adv_2022_Chem_3",
+              "JEE_Adv_2021_Chem_4",
+              "JEE_Adv_2021_Chem_5",
+              "JEE_Adv_2020_Chem_6",
+              "JEE_Adv_2018_Chem_7"
+            ],
+            "common_traps": [
+              "Identifying X as CuS or CuI instead of Sulphur",
+              "Forgetting the 2:1 stoichiometry for Cu to Iodine",
+              "Calculation errors in ratios",
+              "Inverting the mole ratio (P:Q vs Q:P)",
+              "Forgetting the 6-electron transfer in nitrobenzene reduction requires 3 Sn atoms (2e- each)",
+              "Using standard atomic mass for Cl (35.5) instead of given (35), though here it simplifies to integer 129",
+              "Calculation error in molar mass",
+              "Identifying Al as limiting reagent by comparing absolute moles (0.2 < 0.25) instead of stoichiometric ratio",
+              "Forgetting water of crystallization in Gypsum mass calculation",
+              "Miscalculating molar mass of the coordination complex"
+            ],
+            "prerequisites": []
+          },
+          "redox_reaction": {
+            "formulas": {
+              "Moles = Mass / MolarMass": {
+                "expression": "Moles = Mass / MolarMass",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_1"
+                ]
+              },
+              "2Cu2+ + 4I- -> Cu2I2 + I2": {
+                "expression": "2Cu2+ + 4I- -> Cu2I2 + I2",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_1"
+            ],
+            "common_traps": [
+              "Identifying X as CuS or CuI instead of Sulphur",
+              "Forgetting the 2:1 stoichiometry for Cu to Iodine"
+            ],
+            "prerequisites": []
+          },
+          "iodometric_titration_principles": {
+            "formulas": {
+              "Moles = Mass / MolarMass": {
+                "expression": "Moles = Mass / MolarMass",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_1"
+                ]
+              },
+              "2Cu2+ + 4I- -> Cu2I2 + I2": {
+                "expression": "2Cu2+ + 4I- -> Cu2I2 + I2",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_1"
+            ],
+            "common_traps": [
+              "Identifying X as CuS or CuI instead of Sulphur",
+              "Forgetting the 2:1 stoichiometry for Cu to Iodine"
+            ],
+            "prerequisites": []
+          },
+          "empirical_formula": {
+            "formulas": {
+              "MoleRatio = MassRatio / AtomicMassRatio": {
+                "expression": "MoleRatio = MassRatio / AtomicMassRatio",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_3"
+            ],
+            "common_traps": [
+              "Calculation errors in ratios",
+              "Inverting the mole ratio (P:Q vs Q:P)"
+            ],
+            "prerequisites": []
+          },
+          "law_of_multiple_proportions": {
+            "formulas": {
+              "MoleRatio = MassRatio / AtomicMassRatio": {
+                "expression": "MoleRatio = MassRatio / AtomicMassRatio",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_3"
+            ],
+            "common_traps": [
+              "Calculation errors in ratios",
+              "Inverting the mole ratio (P:Q vs Q:P)"
+            ],
+            "prerequisites": []
+          },
+          "redox_titration_principles": {
+            "formulas": {
+              "R-NO2 + 6[H] -> R-NH2 + 2H2O": {
+                "expression": "R-NO2 + 6[H] -> R-NH2 + 2H2O",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_4"
+                ]
+              },
+              "n(Sn) = 3 * n(PhNO2)": {
+                "expression": "n(Sn) = 3 * n(PhNO2)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_4"
+            ],
+            "common_traps": [
+              "Forgetting the 6-electron transfer in nitrobenzene reduction requires 3 Sn atoms (2e- each)",
+              "Using standard atomic mass for Cl (35.5) instead of given (35), though here it simplifies to integer 129"
+            ],
+            "prerequisites": []
+          },
+          "organic_reduction": {
+            "formulas": {
+              "R-NO2 + 6[H] -> R-NH2 + 2H2O": {
+                "expression": "R-NO2 + 6[H] -> R-NH2 + 2H2O",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_4"
+                ]
+              },
+              "n(Sn) = 3 * n(PhNO2)": {
+                "expression": "n(Sn) = 3 * n(PhNO2)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_4"
+            ],
+            "common_traps": [
+              "Forgetting the 6-electron transfer in nitrobenzene reduction requires 3 Sn atoms (2e- each)",
+              "Using standard atomic mass for Cl (35.5) instead of given (35), though here it simplifies to integer 129"
+            ],
+            "prerequisites": []
+          },
+          "molar_mass_calculation": {
+            "formulas": {
+              "Mass = Moles * MM": {
+                "expression": "Mass = Moles * MM",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_5"
+            ],
+            "common_traps": [
+              "Calculation error in molar mass"
+            ],
+            "prerequisites": []
+          },
+          "limiting_reagent": {
+            "formulas": {
+              "PV = nRT": {
+                "expression": "PV = nRT",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_Chem_6"
+            ],
+            "common_traps": [
+              "Identifying Al as limiting reagent by comparing absolute moles (0.2 < 0.25) instead of stoichiometric ratio"
+            ],
+            "prerequisites": []
+          },
+          "ideal_gas_law": {
+            "formulas": {
+              "PV = nRT": {
+                "expression": "PV = nRT",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_Chem_6"
+            ],
+            "common_traps": [
+              "Identifying Al as limiting reagent by comparing absolute moles (0.2 < 0.25) instead of stoichiometric ratio"
+            ],
+            "prerequisites": []
+          },
+          "coordination_compounds": {
+            "formulas": {
+              "Mass = Moles * MM": {
+                "expression": "Mass = Moles * MM",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2018_Chem_7"
+            ],
+            "common_traps": [
+              "Forgetting water of crystallization in Gypsum mass calculation",
+              "Miscalculating molar mass of the coordination complex"
+            ],
+            "prerequisites": []
+          },
+          "limiting_reagent_chain_reaction": {
+            "formulas": {
+              "Mass = Moles * MM": {
+                "expression": "Mass = Moles * MM",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2018_Chem_7"
+            ],
+            "common_traps": [
+              "Forgetting water of crystallization in Gypsum mass calculation",
+              "Miscalculating molar mass of the coordination complex"
+            ],
+            "prerequisites": []
+          },
+          "significant_figures": {
+            "formulas": {
+              "R = k * Na": {
+                "expression": "R = k * Na",
+                "used_in_questions": [
+                  "JEE_Adv_2014_Chem_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2014_Chem_8"
+            ],
+            "common_traps": [
+              "Confusing decimal places with significant figures",
+              "Performing the calculation and counting digits of the raw output without rounding rule"
+            ],
+            "prerequisites": []
+          },
+          "fundamental_constants_relation": {
+            "formulas": {
+              "R = k * Na": {
+                "expression": "R = k * Na",
+                "used_in_questions": [
+                  "JEE_Adv_2014_Chem_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2014_Chem_8"
+            ],
+            "common_traps": [
+              "Confusing decimal places with significant figures",
+              "Performing the calculation and counting digits of the raw output without rounding rule"
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "P-Block Elements": {
+        "subject": "Chemistry",
+        "chapter": "P-Block Elements",
+        "subconcepts": {
+          "stoichiometry": {
+            "formulas": {
+              "P4 + 3OH- -> PH3 + 3H2PO2-": {
+                "expression": "P4 + 3OH- -> PH3 + 3H2PO2-",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              },
+              "2PH3 + 3Cu2+ -> Cu3P2 + 6H+": {
+                "expression": "2PH3 + 3Cu2+ -> Cu3P2 + 6H+",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              },
+              "S8 + 48HNO3 -> 8H2SO4 + 48NO2 + 16H2O": {
+                "expression": "S8 + 48HNO3 -> 8H2SO4 + 48NO2 + 16H2O",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_2",
+              "JEE_Adv_2019_Chem_5"
+            ],
+            "common_traps": [
+              "Incorrect balancing of the PH3 + CuSO4 reaction",
+              "Using atomic mass of P instead of molecular mass of P4",
+              "Incorrect balancing of the redox reaction (S8 to H2SO4, N+5 to N+4)"
+            ],
+            "prerequisites": []
+          },
+          "phosphine_preparation": {
+            "formulas": {
+              "P4 + 3OH- -> PH3 + 3H2PO2-": {
+                "expression": "P4 + 3OH- -> PH3 + 3H2PO2-",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              },
+              "2PH3 + 3Cu2+ -> Cu3P2 + 6H+": {
+                "expression": "2PH3 + 3Cu2+ -> Cu3P2 + 6H+",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_2"
+            ],
+            "common_traps": [
+              "Incorrect balancing of the PH3 + CuSO4 reaction",
+              "Using atomic mass of P instead of molecular mass of P4"
+            ],
+            "prerequisites": []
+          },
+          "reaction_balancing": {
+            "formulas": {
+              "P4 + 3OH- -> PH3 + 3H2PO2-": {
+                "expression": "P4 + 3OH- -> PH3 + 3H2PO2-",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              },
+              "2PH3 + 3Cu2+ -> Cu3P2 + 6H+": {
+                "expression": "2PH3 + 3Cu2+ -> Cu3P2 + 6H+",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              },
+              "S8 + 48HNO3 -> 8H2SO4 + 48NO2 + 16H2O": {
+                "expression": "S8 + 48HNO3 -> 8H2SO4 + 48NO2 + 16H2O",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_2",
+              "JEE_Adv_2019_Chem_5"
+            ],
+            "common_traps": [
+              "Incorrect balancing of the PH3 + CuSO4 reaction",
+              "Using atomic mass of P instead of molecular mass of P4",
+              "Incorrect balancing of the redox reaction (S8 to H2SO4, N+5 to N+4)"
+            ],
+            "prerequisites": []
+          },
+          "p_block_reactions_group_16": {
+            "formulas": {
+              "S8 + 48HNO3 -> 8H2SO4 + 48NO2 + 16H2O": {
+                "expression": "S8 + 48HNO3 -> 8H2SO4 + 48NO2 + 16H2O",
+                "used_in_questions": [
+                  "JEE_Adv_2019_Chem_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2019_Chem_5"
+            ],
+            "common_traps": [
+              "Incorrect balancing of the redox reaction (S8 to H2SO4, N+5 to N+4)"
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Redox Reactions": {
+        "subject": "Chemistry",
+        "chapter": "Redox Reactions",
+        "subconcepts": {
+          "redox_titration": {
+            "formulas": {
+              "N1V1 = N2V2": {
+                "expression": "N1V1 = N2V2",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_1"
+                ]
+              },
+              "Moles = Molarity * Volume": {
+                "expression": "Moles = Molarity * Volume",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_1"
+                ]
+              },
+              "Equivalents = Moles * n_factor": {
+                "expression": "Equivalents = Moles * n_factor",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_1",
+              "JEE_Adv_2018_Chem_6"
+            ],
+            "common_traps": [
+              "Forgetting to scale up from the aliquot (25 mL) to the full solution (250 mL)",
+              "Using wrong n-factor for KMnO4 in acidic medium",
+              "Using n-factor of MnCl2 -> KMnO4 (5) correctly, but maybe confusing it with the n-factor in the second step (5 also).",
+              "Confusion between anhydrous (90) and hydrated (126) oxalic acid molar mass."
+            ],
+            "prerequisites": []
+          },
+          "n_factor_calculation": {
+            "formulas": {
+              "N1V1 = N2V2": {
+                "expression": "N1V1 = N2V2",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_1"
+                ]
+              },
+              "Moles = Molarity * Volume": {
+                "expression": "Moles = Molarity * Volume",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_1"
+                ]
+              },
+              "8MnO4^- + 3S2O3^2- + H2O -> 8MnO2 + 6SO4^2- + 2OH-": {
+                "expression": "8MnO4^- + 3S2O3^2- + H2O -> 8MnO2 + 6SO4^2- + 2OH-",
+                "used_in_questions": [
+                  "JEE_Adv_2016_Chem_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_1",
+              "JEE_Adv_2016_Chem_7"
+            ],
+            "common_traps": [
+              "Forgetting to scale up from the aliquot (25 mL) to the full solution (250 mL)",
+              "Using wrong n-factor for KMnO4 in acidic medium",
+              "Assuming thiosulphate oxidizes to S4O6^2- (tetrathionate), which happens with Iodine, not strong oxidizers like Permanganate",
+              "Incorrect n-factor for S2O3^2- -> SO4^2-"
+            ],
+            "prerequisites": []
+          },
+          "stoichiometry": {
+            "formulas": {
+              "N1V1 = N2V2": {
+                "expression": "N1V1 = N2V2",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_1"
+                ]
+              },
+              "Moles = Molarity * Volume": {
+                "expression": "Moles = Molarity * Volume",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_1"
+                ]
+              },
+              "% = (mass_component / total_mass) * 100": {
+                "expression": "% = (mass_component / total_mass) * 100",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_2"
+                ]
+              },
+              "Equivalents = Moles * n_factor": {
+                "expression": "Equivalents = Moles * n_factor",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_1",
+              "JEE_Adv_2021_Chem_2",
+              "JEE_Adv_2018_Chem_6"
+            ],
+            "common_traps": [
+              "Forgetting to scale up from the aliquot (25 mL) to the full solution (250 mL)",
+              "Using wrong n-factor for KMnO4 in acidic medium",
+              "Calculation error in percentage",
+              "Using n-factor of MnCl2 -> KMnO4 (5) correctly, but maybe confusing it with the n-factor in the second step (5 also).",
+              "Confusion between anhydrous (90) and hydrated (126) oxalic acid molar mass."
+            ],
+            "prerequisites": []
+          },
+          "percentage_purity": {
+            "formulas": {
+              "% = (mass_component / total_mass) * 100": {
+                "expression": "% = (mass_component / total_mass) * 100",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_2"
+            ],
+            "common_traps": [
+              "Calculation error in percentage"
+            ],
+            "prerequisites": []
+          },
+          "redox_balancing": {
+            "formulas": {
+              "n_factor_MnO4_basic = 3": {
+                "expression": "n_factor_MnO4_basic = 3",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_3"
+                ]
+              },
+              "n_factor_I_to_I2 = 1": {
+                "expression": "n_factor_I_to_I2 = 1",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_3"
+                ]
+              },
+              "8MnO4^- + 3S2O3^2- + H2O -> 8MnO2 + 6SO4^2- + 2OH-": {
+                "expression": "8MnO4^- + 3S2O3^2- + H2O -> 8MnO2 + 6SO4^2- + 2OH-",
+                "used_in_questions": [
+                  "JEE_Adv_2016_Chem_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_Chem_3",
+              "JEE_Adv_2016_Chem_7"
+            ],
+            "common_traps": [
+              "Assuming oxidation to IO3^- (which is chemically more likely in base) despite the question asking for I2",
+              "Using acidic medium n-factor (5) for KMnO4",
+              "Assuming thiosulphate oxidizes to S4O6^2- (tetrathionate), which happens with Iodine, not strong oxidizers like Permanganate",
+              "Incorrect n-factor for S2O3^2- -> SO4^2-"
+            ],
+            "prerequisites": []
+          },
+          "stoichiometry_with_given_products": {
+            "formulas": {
+              "n_factor_MnO4_basic = 3": {
+                "expression": "n_factor_MnO4_basic = 3",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_3"
+                ]
+              },
+              "n_factor_I_to_I2 = 1": {
+                "expression": "n_factor_I_to_I2 = 1",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_Chem_3"
+            ],
+            "common_traps": [
+              "Assuming oxidation to IO3^- (which is chemically more likely in base) despite the question asking for I2",
+              "Using acidic medium n-factor (5) for KMnO4"
+            ],
+            "prerequisites": []
+          },
+          "back_titration_concept": {
+            "formulas": {
+              "Equivalents = Moles * n_factor": {
+                "expression": "Equivalents = Moles * n_factor",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2018_Chem_6"
+            ],
+            "common_traps": [
+              "Using n-factor of MnCl2 -> KMnO4 (5) correctly, but maybe confusing it with the n-factor in the second step (5 also).",
+              "Confusion between anhydrous (90) and hydrated (126) oxalic acid molar mass."
+            ],
+            "prerequisites": []
+          },
+          "reaction_products_in_medium": {
+            "formulas": {
+              "8MnO4^- + 3S2O3^2- + H2O -> 8MnO2 + 6SO4^2- + 2OH-": {
+                "expression": "8MnO4^- + 3S2O3^2- + H2O -> 8MnO2 + 6SO4^2- + 2OH-",
+                "used_in_questions": [
+                  "JEE_Adv_2016_Chem_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2016_Chem_7"
+            ],
+            "common_traps": [
+              "Assuming thiosulphate oxidizes to S4O6^2- (tetrathionate), which happens with Iodine, not strong oxidizers like Permanganate",
+              "Incorrect n-factor for S2O3^2- -> SO4^2-"
+            ],
+            "prerequisites": []
+          },
+          "reaction_balancing": {
+            "formulas": {
+              "Balanced: 6I- + ClO3- + 6H2SO4 -> 3I2 + Cl- + 6HSO4- + 3H2O": {
+                "expression": "Balanced: 6I- + ClO3- + 6H2SO4 -> 3I2 + Cl- + 6HSO4- + 3H2O",
+                "used_in_questions": [
+                  "JEE_Adv_2014_Chem_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2014_Chem_8"
+            ],
+            "common_traps": [
+              "Thinking H2SO4 acts as an oxidant (it can, but here ClO3- is the oxidant and H2SO4 provides acid medium)"
+            ],
+            "prerequisites": []
+          },
+          "redox_definitions": {
+            "formulas": {
+              "Balanced: 6I- + ClO3- + 6H2SO4 -> 3I2 + Cl- + 6HSO4- + 3H2O": {
+                "expression": "Balanced: 6I- + ClO3- + 6H2SO4 -> 3I2 + Cl- + 6HSO4- + 3H2O",
+                "used_in_questions": [
+                  "JEE_Adv_2014_Chem_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2014_Chem_8"
+            ],
+            "common_traps": [
+              "Thinking H2SO4 acts as an oxidant (it can, but here ClO3- is the oxidant and H2SO4 provides acid medium)"
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "d-Block Elements": {
+        "subject": "Chemistry",
+        "chapter": "d-Block Elements",
+        "subconcepts": {
+          "structure_of_compounds": {
+            "formulas": {
+              "CrO5 structure": {
+                "expression": "CrO5 structure",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_Chem_4"
+            ],
+            "common_traps": [
+              "Forgetting the butterfly structure and assuming normal oxide linkages"
+            ],
+            "prerequisites": []
+          },
+          "chromyl_peroxide": {
+            "formulas": {
+              "CrO5 structure": {
+                "expression": "CrO5 structure",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_Chem_4"
+            ],
+            "common_traps": [
+              "Forgetting the butterfly structure and assuming normal oxide linkages"
+            ],
+            "prerequisites": []
+          },
+          "oxidation_states": {
+            "formulas": {
+              "CrO5 structure": {
+                "expression": "CrO5 structure",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_Chem_4"
+            ],
+            "common_traps": [
+              "Forgetting the butterfly structure and assuming normal oxide linkages"
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Hydrogen": {
+        "subject": "Chemistry",
+        "chapter": "Hydrogen",
+        "subconcepts": {
+          "hydrogen_peroxide_properties": {
+            "formulas": {
+              "H2O2 -> O2 + 2H+ + 2e- (Reducing)": {
+                "expression": "H2O2 -> O2 + 2H+ + 2e- (Reducing)",
+                "used_in_questions": [
+                  "JEE_Adv_2014_Chem_9"
+                ]
+              },
+              "H2O2 + 2e- -> 2OH- (Oxidizing)": {
+                "expression": "H2O2 + 2e- -> 2OH- (Oxidizing)",
+                "used_in_questions": [
+                  "JEE_Adv_2014_Chem_9"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2014_Chem_9"
+            ],
+            "common_traps": [
+              "Confusing the dual nature of H2O2"
+            ],
+            "prerequisites": []
+          },
+          "redox_agent_identification": {
+            "formulas": {
+              "H2O2 -> O2 + 2H+ + 2e- (Reducing)": {
+                "expression": "H2O2 -> O2 + 2H+ + 2e- (Reducing)",
+                "used_in_questions": [
+                  "JEE_Adv_2014_Chem_9"
+                ]
+              },
+              "H2O2 + 2e- -> 2OH- (Oxidizing)": {
+                "expression": "H2O2 + 2e- -> 2OH- (Oxidizing)",
+                "used_in_questions": [
+                  "JEE_Adv_2014_Chem_9"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2014_Chem_9"
+            ],
+            "common_traps": [
+              "Confusing the dual nature of H2O2"
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Solid State": {
+        "subject": "Chemistry",
+        "chapter": "Solid State",
+        "subconcepts": {
+          "unit_cell_parameters": {
+            "formulas": {
+              "FCC: a = 2\u221a2 r": {
+                "expression": "FCC: a = 2\u221a2 r",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "BCC: a = 4r/\u221a3": {
+                "expression": "BCC: a = 4r/\u221a3",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "SC: a = 2r": {
+                "expression": "SC: a = 2r",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "d = ZM / (NA * a^3)": {
+                "expression": "d = ZM / (NA * a^3)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_1"
+            ],
+            "common_traps": [
+              "Calculation errors when substituting radii relations into edge length formulas",
+              "Confusing the edge length formulas for different cubic systems"
+            ],
+            "prerequisites": []
+          },
+          "packing_efficiency": {
+            "formulas": {
+              "FCC: a = 2\u221a2 r": {
+                "expression": "FCC: a = 2\u221a2 r",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "BCC: a = 4r/\u221a3": {
+                "expression": "BCC: a = 4r/\u221a3",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "SC: a = 2r": {
+                "expression": "SC: a = 2r",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "d = ZM / (NA * a^3)": {
+                "expression": "d = ZM / (NA * a^3)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "PE = Z * V_atom / V_cell": {
+                "expression": "PE = Z * V_atom / V_cell",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              },
+              "2r = \u221a3a / 4 (Diamond-like contact)": {
+                "expression": "2r = \u221a3a / 4 (Diamond-like contact)",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_1",
+              "JEE_Adv_2022_Chem_2"
+            ],
+            "common_traps": [
+              "Calculation errors when substituting radii relations into edge length formulas",
+              "Confusing the edge length formulas for different cubic systems",
+              "Using the standard FCC contact condition (4r = \u221a2a) which assumes atoms touch along face diagonal. Here, the limiting contact is between lattice atom and void atom (diamond structure constraint)."
+            ],
+            "prerequisites": []
+          },
+          "density_of_crystal": {
+            "formulas": {
+              "FCC: a = 2\u221a2 r": {
+                "expression": "FCC: a = 2\u221a2 r",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "BCC: a = 4r/\u221a3": {
+                "expression": "BCC: a = 4r/\u221a3",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "SC: a = 2r": {
+                "expression": "SC: a = 2r",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "d = ZM / (NA * a^3)": {
+                "expression": "d = ZM / (NA * a^3)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "d = ZM / (NA a^3)": {
+                "expression": "d = ZM / (NA a^3)",
+                "used_in_questions": [
+                  "JEE_Adv_2017_Chem_6"
+                ]
+              },
+              "Atoms = (Mass / Mass_cell) * Z": {
+                "expression": "Atoms = (Mass / Mass_cell) * Z",
+                "used_in_questions": [
+                  "JEE_Adv_2017_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_1",
+              "JEE_Adv_2017_Chem_6"
+            ],
+            "common_traps": [
+              "Calculation errors when substituting radii relations into edge length formulas",
+              "Confusing the edge length formulas for different cubic systems",
+              "Calculation errors with powers of 10"
+            ],
+            "prerequisites": []
+          },
+          "voids_in_solid_state": {
+            "formulas": {
+              "PE = Z * V_atom / V_cell": {
+                "expression": "PE = Z * V_atom / V_cell",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              },
+              "2r = \u221a3a / 4 (Diamond-like contact)": {
+                "expression": "2r = \u221a3a / 4 (Diamond-like contact)",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_2"
+            ],
+            "common_traps": [
+              "Using the standard FCC contact condition (4r = \u221a2a) which assumes atoms touch along face diagonal. Here, the limiting contact is between lattice atom and void atom (diamond structure constraint)."
+            ],
+            "prerequisites": []
+          },
+          "diamond_cubic_structure": {
+            "formulas": {
+              "PE = Z * V_atom / V_cell": {
+                "expression": "PE = Z * V_atom / V_cell",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              },
+              "2r = \u221a3a / 4 (Diamond-like contact)": {
+                "expression": "2r = \u221a3a / 4 (Diamond-like contact)",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_2"
+            ],
+            "common_traps": [
+              "Using the standard FCC contact condition (4r = \u221a2a) which assumes atoms touch along face diagonal. Here, the limiting contact is between lattice atom and void atom (diamond structure constraint)."
+            ],
+            "prerequisites": []
+          },
+          "packing_fraction": {
+            "formulas": {
+              "PF = Volume_ions / Volume_cell": {
+                "expression": "PF = Volume_ions / Volume_cell",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_3"
+            ],
+            "common_traps": [
+              "Assuming standard FCC packing (0.74) without accounting for the cations or the specific radius ratio geometry."
+            ],
+            "prerequisites": []
+          },
+          "radius_ratio_rule": {
+            "formulas": {
+              "PF = Volume_ions / Volume_cell": {
+                "expression": "PF = Volume_ions / Volume_cell",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_3"
+            ],
+            "common_traps": [
+              "Assuming standard FCC packing (0.74) without accounting for the cations or the specific radius ratio geometry."
+            ],
+            "prerequisites": []
+          },
+          "octahedral_void": {
+            "formulas": {
+              "PF = Volume_ions / Volume_cell": {
+                "expression": "PF = Volume_ions / Volume_cell",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_3"
+            ],
+            "common_traps": [
+              "Assuming standard FCC packing (0.74) without accounting for the cations or the specific radius ratio geometry."
+            ],
+            "prerequisites": []
+          },
+          "CsCl_structure": {
+            "formulas": {
+              "d_MX = \u221a3a / 2": {
+                "expression": "d_MX = \u221a3a / 2",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_4"
+                ]
+              },
+              "RadiusRatio Cubic > 0.732": {
+                "expression": "RadiusRatio Cubic > 0.732",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_Chem_4"
+            ],
+            "common_traps": [
+              "Confusing CsCl structure (8:8) with NaCl (6:6) regarding coordination or radius ratio limits."
+            ],
+            "prerequisites": []
+          },
+          "coordination_number": {
+            "formulas": {
+              "d_MX = \u221a3a / 2": {
+                "expression": "d_MX = \u221a3a / 2",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_4"
+                ]
+              },
+              "RadiusRatio Cubic > 0.732": {
+                "expression": "RadiusRatio Cubic > 0.732",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_Chem_4"
+            ],
+            "common_traps": [
+              "Confusing CsCl structure (8:8) with NaCl (6:6) regarding coordination or radius ratio limits."
+            ],
+            "prerequisites": []
+          },
+          "unit_cell_geometry": {
+            "formulas": {
+              "d_MX = \u221a3a / 2": {
+                "expression": "d_MX = \u221a3a / 2",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_4"
+                ]
+              },
+              "RadiusRatio Cubic > 0.732": {
+                "expression": "RadiusRatio Cubic > 0.732",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_Chem_4"
+            ],
+            "common_traps": [
+              "Confusing CsCl structure (8:8) with NaCl (6:6) regarding coordination or radius ratio limits."
+            ],
+            "prerequisites": []
+          },
+          "unit_cell_modification": {
+            "formulas": {
+              "Contribution: Corner=1/8, Face=1/2, Body=1, Edge=1/4": {
+                "expression": "Contribution: Corner=1/8, Face=1/2, Body=1, Edge=1/4",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2018_Chem_5"
+            ],
+            "common_traps": [
+              "Misidentifying the initial positions of M and X based on the phrasing (Face centered cations implies M is on the lattice)"
+            ],
+            "prerequisites": []
+          },
+          "lattice_positions": {
+            "formulas": {
+              "Contribution: Corner=1/8, Face=1/2, Body=1, Edge=1/4": {
+                "expression": "Contribution: Corner=1/8, Face=1/2, Body=1, Edge=1/4",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2018_Chem_5"
+            ],
+            "common_traps": [
+              "Misidentifying the initial positions of M and X based on the phrasing (Face centered cations implies M is on the lattice)"
+            ],
+            "prerequisites": []
+          },
+          "stoichiometry_calculation": {
+            "formulas": {
+              "Contribution: Corner=1/8, Face=1/2, Body=1, Edge=1/4": {
+                "expression": "Contribution: Corner=1/8, Face=1/2, Body=1, Edge=1/4",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2018_Chem_5"
+            ],
+            "common_traps": [
+              "Misidentifying the initial positions of M and X based on the phrasing (Face centered cations implies M is on the lattice)"
+            ],
+            "prerequisites": []
+          },
+          "unit_cell_calculations": {
+            "formulas": {
+              "d = ZM / (NA a^3)": {
+                "expression": "d = ZM / (NA a^3)",
+                "used_in_questions": [
+                  "JEE_Adv_2017_Chem_6"
+                ]
+              },
+              "Atoms = (Mass / Mass_cell) * Z": {
+                "expression": "Atoms = (Mass / Mass_cell) * Z",
+                "used_in_questions": [
+                  "JEE_Adv_2017_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2017_Chem_6"
+            ],
+            "common_traps": [
+              "Calculation errors with powers of 10"
+            ],
+            "prerequisites": []
+          },
+          "stoichiometry": {
+            "formulas": {
+              "d = ZM / (NA a^3)": {
+                "expression": "d = ZM / (NA a^3)",
+                "used_in_questions": [
+                  "JEE_Adv_2017_Chem_6"
+                ]
+              },
+              "Atoms = (Mass / Mass_cell) * Z": {
+                "expression": "Atoms = (Mass / Mass_cell) * Z",
+                "used_in_questions": [
+                  "JEE_Adv_2017_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2017_Chem_6"
+            ],
+            "common_traps": [
+              "Calculation errors with powers of 10"
+            ],
+            "prerequisites": []
+          },
+          "crystal_formula_determination": {
+            "formulas": {
+              "Total Charge = 0": {
+                "expression": "Total Charge = 0",
+                "used_in_questions": [
+                  "JEE_Adv_2015_Chem_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2015_Chem_8"
+            ],
+            "common_traps": [
+              "Forgetting that Z(CCP)=4 and associating void counts incorrectly"
+            ],
+            "prerequisites": []
+          },
+          "charge_neutrality": {
+            "formulas": {
+              "Total Charge = 0": {
+                "expression": "Total Charge = 0",
+                "used_in_questions": [
+                  "JEE_Adv_2015_Chem_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2015_Chem_8"
+            ],
+            "common_traps": [
+              "Forgetting that Z(CCP)=4 and associating void counts incorrectly"
+            ],
+            "prerequisites": []
+          },
+          "void_occupancy": {
+            "formulas": {
+              "Total Charge = 0": {
+                "expression": "Total Charge = 0",
+                "used_in_questions": [
+                  "JEE_Adv_2015_Chem_8"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2015_Chem_8"
+            ],
+            "common_traps": [
+              "Forgetting that Z(CCP)=4 and associating void counts incorrectly"
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Surface Chemistry": {
+        "subject": "Chemistry",
+        "chapter": "Surface Chemistry",
+        "subconcepts": {
+          "classification_of_colloids": {
+            "formulas": {
+              "Adsorption \u221d Tc": {
+                "expression": "Adsorption \u221d Tc",
+                "used_in_questions": [
+                  "JEE_Adv_2017_Chem_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_1",
+              "JEE_Adv_2017_Chem_5"
+            ],
+            "common_traps": [
+              "Overlooking the specific conditions for micelle formation (Kraft temp, CMC)",
+              "Misunderstanding the condition for Tyndall effect regarding refractive indices",
+              "Misclassifying Cloud as Emulsion (Liquid-Liquid) instead of Aerosol (Liquid-Gas)",
+              "Forgetting the dependence of Brownian motion on particle size"
+            ],
+            "prerequisites": []
+          },
+          "micelle_formation_conditions": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2023_Chem_1"
+            ],
+            "common_traps": [
+              "Overlooking the specific conditions for micelle formation (Kraft temp, CMC)",
+              "Misunderstanding the condition for Tyndall effect regarding refractive indices"
+            ],
+            "prerequisites": []
+          },
+          "properties_of_colloids": {
+            "formulas": {
+              "\u0394Tf \u221d 1/MolarMass_aggregate": {
+                "expression": "\u0394Tf \u221d 1/MolarMass_aggregate",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_1",
+              "JEE_Adv_2021_Chem_3"
+            ],
+            "common_traps": [
+              "Overlooking the specific conditions for micelle formation (Kraft temp, CMC)",
+              "Misunderstanding the condition for Tyndall effect regarding refractive indices",
+              "Confusing Associated Colloids (Micelles) with Macromolecular Colloids",
+              "Misinterpreting 'Freezes at higher temperature' (Lower depression = Higher freezing point)"
+            ],
+            "prerequisites": []
+          },
+          "adsorption_isotherms": {
+            "formulas": {
+              "\u0394G = \u0394H - T\u0394S": {
+                "expression": "\u0394G = \u0394H - T\u0394S",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_2"
+            ],
+            "common_traps": [
+              "Confusing activation energy requirement with endothermic nature",
+              "Mixing up enthalpy ranges for physisorption and chemisorption"
+            ],
+            "prerequisites": []
+          },
+          "physisorption_vs_chemisorption": {
+            "formulas": {
+              "\u0394G = \u0394H - T\u0394S": {
+                "expression": "\u0394G = \u0394H - T\u0394S",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_2"
+            ],
+            "common_traps": [
+              "Confusing activation energy requirement with endothermic nature",
+              "Mixing up enthalpy ranges for physisorption and chemisorption"
+            ],
+            "prerequisites": []
+          },
+          "thermodynamics_of_adsorption": {
+            "formulas": {
+              "\u0394G = \u0394H - T\u0394S": {
+                "expression": "\u0394G = \u0394H - T\u0394S",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              },
+              "Adsorption \u221d Tc": {
+                "expression": "Adsorption \u221d Tc",
+                "used_in_questions": [
+                  "JEE_Adv_2017_Chem_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_2",
+              "JEE_Adv_2017_Chem_5"
+            ],
+            "common_traps": [
+              "Confusing activation energy requirement with endothermic nature",
+              "Mixing up enthalpy ranges for physisorption and chemisorption",
+              "Misclassifying Cloud as Emulsion (Liquid-Liquid) instead of Aerosol (Liquid-Gas)",
+              "Forgetting the dependence of Brownian motion on particle size"
+            ],
+            "prerequisites": []
+          },
+          "colligative_properties_of_colloids": {
+            "formulas": {
+              "\u0394Tf \u221d 1/MolarMass_aggregate": {
+                "expression": "\u0394Tf \u221d 1/MolarMass_aggregate",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_3"
+            ],
+            "common_traps": [
+              "Confusing Associated Colloids (Micelles) with Macromolecular Colloids",
+              "Misinterpreting 'Freezes at higher temperature' (Lower depression = Higher freezing point)"
+            ],
+            "prerequisites": []
+          },
+          "associated_colloids": {
+            "formulas": {
+              "\u0394Tf \u221d 1/MolarMass_aggregate": {
+                "expression": "\u0394Tf \u221d 1/MolarMass_aggregate",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_3"
+            ],
+            "common_traps": [
+              "Confusing Associated Colloids (Micelles) with Macromolecular Colloids",
+              "Misinterpreting 'Freezes at higher temperature' (Lower depression = Higher freezing point)"
+            ],
+            "prerequisites": []
+          },
+          "conductance_of_electrolytes": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2019_Chem_4"
+            ],
+            "common_traps": [
+              "Expecting conductivity to increase due to larger particle size (ignoring mobility and counter-ion effects)"
+            ],
+            "prerequisites": []
+          },
+          "micelle_properties": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2019_Chem_4"
+            ],
+            "common_traps": [
+              "Expecting conductivity to increase due to larger particle size (ignoring mobility and counter-ion effects)"
+            ],
+            "prerequisites": []
+          },
+          "critical_micelle_concentration": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2019_Chem_4"
+            ],
+            "common_traps": [
+              "Expecting conductivity to increase due to larger particle size (ignoring mobility and counter-ion effects)"
+            ],
+            "prerequisites": []
+          },
+          "factors_affecting_adsorption": {
+            "formulas": {
+              "Adsorption \u221d Tc": {
+                "expression": "Adsorption \u221d Tc",
+                "used_in_questions": [
+                  "JEE_Adv_2017_Chem_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2017_Chem_5"
+            ],
+            "common_traps": [
+              "Misclassifying Cloud as Emulsion (Liquid-Liquid) instead of Aerosol (Liquid-Gas)",
+              "Forgetting the dependence of Brownian motion on particle size"
+            ],
+            "prerequisites": []
+          },
+          "surface_tension": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2016_Chem_6"
+            ],
+            "common_traps": [
+              "Not knowing that inorganic salts (like KCl) can increase surface tension of water slightly"
+            ],
+            "prerequisites": []
+          },
+          "surfactants": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2016_Chem_6"
+            ],
+            "common_traps": [
+              "Not knowing that inorganic salts (like KCl) can increase surface tension of water slightly"
+            ],
+            "prerequisites": []
+          },
+          "effect_of_solutes_on_surface_tension": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2016_Chem_6"
+            ],
+            "common_traps": [
+              "Not knowing that inorganic salts (like KCl) can increase surface tension of water slightly"
+            ],
+            "prerequisites": []
+          },
+          "chemisorption_mechanism": {
+            "formulas": {
+              "BondOrder = (Nb - Na)/2": {
+                "expression": "BondOrder = (Nb - Na)/2",
+                "used_in_questions": [
+                  "JEE_Adv_2015_Chem_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2015_Chem_7"
+            ],
+            "common_traps": [
+              "Failing to connect 'electron transfer' with 'antibonding orbital population' and its effect on bond length"
+            ],
+            "prerequisites": []
+          },
+          "molecular_orbital_theory": {
+            "formulas": {
+              "BondOrder = (Nb - Na)/2": {
+                "expression": "BondOrder = (Nb - Na)/2",
+                "used_in_questions": [
+                  "JEE_Adv_2015_Chem_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2015_Chem_7"
+            ],
+            "common_traps": [
+              "Failing to connect 'electron transfer' with 'antibonding orbital population' and its effect on bond length"
+            ],
+            "prerequisites": []
+          },
+          "bond_parameters": {
+            "formulas": {
+              "BondOrder = (Nb - Na)/2": {
+                "expression": "BondOrder = (Nb - Na)/2",
+                "used_in_questions": [
+                  "JEE_Adv_2015_Chem_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2015_Chem_7"
+            ],
+            "common_traps": [
+              "Failing to connect 'electron transfer' with 'antibonding orbital population' and its effect on bond length"
+            ],
+            "prerequisites": []
+          }
+        }
+      },
+      "Thermodynamics": {
+        "subject": "Chemistry",
+        "chapter": "Thermodynamics",
+        "subconcepts": {
+          "adiabatic_process": {
+            "formulas": {
+              "TV^(\u03b3-1) = constant": {
+                "expression": "TV^(\u03b3-1) = constant",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "q_iso = nRT ln(Vf/Vi)": {
+                "expression": "q_iso = nRT ln(Vf/Vi)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "W_ad = -\u0394U = -nCv\u0394T": {
+                "expression": "W_ad = -\u0394U = -nCv\u0394T",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_4"
+                ]
+              },
+              "W_iso = nRT ln(Vf/Vi)": {
+                "expression": "W_iso = nRT ln(Vf/Vi)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_1",
+              "JEE_Adv_2021_Chem_3",
+              "JEE_Adv_2021_Chem_4"
+            ],
+            "common_traps": [
+              "Forgetting q=0 for adiabatic",
+              "Misidentifying the coordinates from the graph (V1=10)",
+              "Using \u03b3 for diatomic instead of monoatomic",
+              "Confusing the slope of adiabat vs isotherm in p-V",
+              "Forgeting H depends only on T for ideal gas",
+              "Misinterpreting the graph axes or units",
+              "Calculating T2 incorrectly"
+            ],
+            "prerequisites": []
+          },
+          "isothermal_process": {
+            "formulas": {
+              "TV^(\u03b3-1) = constant": {
+                "expression": "TV^(\u03b3-1) = constant",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "q_iso = nRT ln(Vf/Vi)": {
+                "expression": "q_iso = nRT ln(Vf/Vi)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_1",
+              "JEE_Adv_2021_Chem_3"
+            ],
+            "common_traps": [
+              "Forgetting q=0 for adiabatic",
+              "Misidentifying the coordinates from the graph (V1=10)",
+              "Using \u03b3 for diatomic instead of monoatomic",
+              "Confusing the slope of adiabat vs isotherm in p-V",
+              "Forgeting H depends only on T for ideal gas"
+            ],
+            "prerequisites": []
+          },
+          "work_and_heat_calculation": {
+            "formulas": {
+              "TV^(\u03b3-1) = constant": {
+                "expression": "TV^(\u03b3-1) = constant",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "q_iso = nRT ln(Vf/Vi)": {
+                "expression": "q_iso = nRT ln(Vf/Vi)",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_1"
+            ],
+            "common_traps": [
+              "Forgetting q=0 for adiabatic",
+              "Misidentifying the coordinates from the graph (V1=10)",
+              "Using \u03b3 for diatomic instead of monoatomic"
+            ],
+            "prerequisites": []
+          },
+          "bomb_calorimeter": {
+            "formulas": {
+              "\u0394H = \u0394U + \u0394ng RT": {
+                "expression": "\u0394H = \u0394U + \u0394ng RT",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              },
+              "q = C \u0394T": {
+                "expression": "q = C \u0394T",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_2"
+            ],
+            "common_traps": [
+              "Forgetting standard state of Hg is liquid (l)",
+              "Using \u0394ng = -1 (assuming only O2 gas reacted and Hg was liquid initially? No, question says Hg(g))",
+              "Forgetting to divide by 2 for molar enthalpy"
+            ],
+            "prerequisites": []
+          },
+          "enthalpy_vs_internal_energy": {
+            "formulas": {
+              "\u0394H = \u0394U + \u0394ng RT": {
+                "expression": "\u0394H = \u0394U + \u0394ng RT",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              },
+              "q = C \u0394T": {
+                "expression": "q = C \u0394T",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_2"
+            ],
+            "common_traps": [
+              "Forgetting standard state of Hg is liquid (l)",
+              "Using \u0394ng = -1 (assuming only O2 gas reacted and Hg was liquid initially? No, question says Hg(g))",
+              "Forgetting to divide by 2 for molar enthalpy"
+            ],
+            "prerequisites": []
+          },
+          "hess_law": {
+            "formulas": {
+              "\u0394H = \u0394U + \u0394ng RT": {
+                "expression": "\u0394H = \u0394U + \u0394ng RT",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              },
+              "q = C \u0394T": {
+                "expression": "q = C \u0394T",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_2"
+            ],
+            "common_traps": [
+              "Forgetting standard state of Hg is liquid (l)",
+              "Using \u0394ng = -1 (assuming only O2 gas reacted and Hg was liquid initially? No, question says Hg(g))",
+              "Forgetting to divide by 2 for molar enthalpy"
+            ],
+            "prerequisites": []
+          },
+          "enthalpy_of_formation": {
+            "formulas": {
+              "\u0394H = \u0394U + \u0394ng RT": {
+                "expression": "\u0394H = \u0394U + \u0394ng RT",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              },
+              "q = C \u0394T": {
+                "expression": "q = C \u0394T",
+                "used_in_questions": [
+                  "JEE_Adv_2022_Chem_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2022_Chem_2"
+            ],
+            "common_traps": [
+              "Forgetting standard state of Hg is liquid (l)",
+              "Using \u0394ng = -1 (assuming only O2 gas reacted and Hg was liquid initially? No, question says Hg(g))",
+              "Forgetting to divide by 2 for molar enthalpy"
+            ],
+            "prerequisites": []
+          },
+          "thermodynamic_graphs": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2021_Chem_3"
+            ],
+            "common_traps": [
+              "Confusing the slope of adiabat vs isotherm in p-V",
+              "Forgeting H depends only on T for ideal gas"
+            ],
+            "prerequisites": []
+          },
+          "work_done_calculation": {
+            "formulas": {
+              "W_ad = -\u0394U = -nCv\u0394T": {
+                "expression": "W_ad = -\u0394U = -nCv\u0394T",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_4"
+                ]
+              },
+              "W_iso = nRT ln(Vf/Vi)": {
+                "expression": "W_iso = nRT ln(Vf/Vi)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_4"
+            ],
+            "common_traps": [
+              "Misinterpreting the graph axes or units",
+              "Calculating T2 incorrectly"
+            ],
+            "prerequisites": []
+          },
+          "internal_energy": {
+            "formulas": {
+              "W_ad = -\u0394U = -nCv\u0394T": {
+                "expression": "W_ad = -\u0394U = -nCv\u0394T",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_4"
+                ]
+              },
+              "W_iso = nRT ln(Vf/Vi)": {
+                "expression": "W_iso = nRT ln(Vf/Vi)",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_4"
+            ],
+            "common_traps": [
+              "Misinterpreting the graph axes or units",
+              "Calculating T2 incorrectly"
+            ],
+            "prerequisites": []
+          },
+          "Gibbs_free_energy": {
+            "formulas": {
+              "\u0394G = \u0394H - T\u0394S": {
+                "expression": "\u0394G = \u0394H - T\u0394S",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_6"
+                ]
+              },
+              "T_eq = \u0394H / \u0394S": {
+                "expression": "T_eq = \u0394H / \u0394S",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_6"
+                ]
+              },
+              "\u0394G\u00b0 = -RT ln K": {
+                "expression": "\u0394G\u00b0 = -RT ln K",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_9",
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "K = pH2 / pH2O": {
+                "expression": "K = pH2 / pH2O",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_9"
+                ]
+              },
+              "K = [P]/[A]": {
+                "expression": "K = [P]/[A]",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_Chem_6",
+              "JEE_Adv_2018_Chem_9",
+              "JEE_Adv_2023_Chem_1"
+            ],
+            "common_traps": [
+              "Unit mismatch (kJ vs J)",
+              "Incorrect reaction stoichiometry (e.g. producing CO instead of CO2, though data implies CO2)",
+              "Sign errors in \u0394G calculation",
+              "Confusion between Q and K direction",
+              "Handling ln(pH2) negative value",
+              "Confusing T1 and T2 relations",
+              "Calculation errors with natural logs and signs"
+            ],
+            "prerequisites": []
+          },
+          "spontaneity_condition": {
+            "formulas": {
+              "\u0394G = \u0394H - T\u0394S": {
+                "expression": "\u0394G = \u0394H - T\u0394S",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_6"
+                ]
+              },
+              "T_eq = \u0394H / \u0394S": {
+                "expression": "T_eq = \u0394H / \u0394S",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_Chem_6"
+            ],
+            "common_traps": [
+              "Unit mismatch (kJ vs J)",
+              "Incorrect reaction stoichiometry (e.g. producing CO instead of CO2, though data implies CO2)"
+            ],
+            "prerequisites": []
+          },
+          "Ellingham_diagram_principle": {
+            "formulas": {
+              "\u0394G = \u0394H - T\u0394S": {
+                "expression": "\u0394G = \u0394H - T\u0394S",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_6"
+                ]
+              },
+              "T_eq = \u0394H / \u0394S": {
+                "expression": "T_eq = \u0394H / \u0394S",
+                "used_in_questions": [
+                  "JEE_Adv_2020_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2020_Chem_6"
+            ],
+            "common_traps": [
+              "Unit mismatch (kJ vs J)",
+              "Incorrect reaction stoichiometry (e.g. producing CO instead of CO2, though data implies CO2)"
+            ],
+            "prerequisites": []
+          },
+          "equilibrium_constant": {
+            "formulas": {
+              "\u0394G\u00b0 = -RT ln K": {
+                "expression": "\u0394G\u00b0 = -RT ln K",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_9"
+                ]
+              },
+              "K = pH2 / pH2O": {
+                "expression": "K = pH2 / pH2O",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_9"
+                ]
+              },
+              "d(lnK)/d(1/T) = -\u0394H/R": {
+                "expression": "d(lnK)/d(1/T) = -\u0394H/R",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2018_Chem_9",
+              "JEE_Adv_2021_Chem_4"
+            ],
+            "common_traps": [
+              "Sign errors in \u0394G calculation",
+              "Confusion between Q and K direction",
+              "Handling ln(pH2) negative value",
+              "Missing the 10^4 factor in the x-axis",
+              "Sign error in slope"
+            ],
+            "prerequisites": []
+          },
+          "chemical_equilibrium": {
+            "formulas": {
+              "\u0394G\u00b0 = -RT ln K": {
+                "expression": "\u0394G\u00b0 = -RT ln K",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_9"
+                ]
+              },
+              "K = pH2 / pH2O": {
+                "expression": "K = pH2 / pH2O",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_9"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2018_Chem_9"
+            ],
+            "common_traps": [
+              "Sign errors in \u0394G calculation",
+              "Confusion between Q and K direction",
+              "Handling ln(pH2) negative value"
+            ],
+            "prerequisites": []
+          },
+          "equilibrium_constant_calculation": {
+            "formulas": {
+              "K = [P]/[A]": {
+                "expression": "K = [P]/[A]",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "\u0394G\u00b0 = -RT ln K": {
+                "expression": "\u0394G\u00b0 = -RT ln K",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_1"
+            ],
+            "common_traps": [
+              "Confusing T1 and T2 relations",
+              "Calculation errors with natural logs and signs"
+            ],
+            "prerequisites": []
+          },
+          "thermodynamic_relations": {
+            "formulas": {
+              "K = [P]/[A]": {
+                "expression": "K = [P]/[A]",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              },
+              "\u0394G\u00b0 = -RT ln K": {
+                "expression": "\u0394G\u00b0 = -RT ln K",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_1"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_1"
+            ],
+            "common_traps": [
+              "Confusing T1 and T2 relations",
+              "Calculation errors with natural logs and signs"
+            ],
+            "prerequisites": []
+          },
+          "entropy_change_with_temperature": {
+            "formulas": {
+              "\u0394S2 - \u0394S1 = \u222b(\u0394Cp/T)dT": {
+                "expression": "\u0394S2 - \u0394S1 = \u222b(\u0394Cp/T)dT",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_2"
+            ],
+            "common_traps": [
+              "Integrating from 0 K when \u0394Cp range is limited (though here we use 600K reference)",
+              "Calculation error 1 - 0.69"
+            ],
+            "prerequisites": []
+          },
+          "phase_transition": {
+            "formulas": {
+              "\u0394S2 - \u0394S1 = \u222b(\u0394Cp/T)dT": {
+                "expression": "\u0394S2 - \u0394S1 = \u222b(\u0394Cp/T)dT",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_2"
+            ],
+            "common_traps": [
+              "Integrating from 0 K when \u0394Cp range is limited (though here we use 600K reference)",
+              "Calculation error 1 - 0.69"
+            ],
+            "prerequisites": []
+          },
+          "heat_capacity": {
+            "formulas": {
+              "\u0394S2 - \u0394S1 = \u222b(\u0394Cp/T)dT": {
+                "expression": "\u0394S2 - \u0394S1 = \u222b(\u0394Cp/T)dT",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_2"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_2"
+            ],
+            "common_traps": [
+              "Integrating from 0 K when \u0394Cp range is limited (though here we use 600K reference)",
+              "Calculation error 1 - 0.69"
+            ],
+            "prerequisites": []
+          },
+          "enthalpy_change_with_temperature": {
+            "formulas": {
+              "\u0394H2 - \u0394H1 = \u222b\u0394Cp dT": {
+                "expression": "\u0394H2 - \u0394H1 = \u222b\u0394Cp dT",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_3"
+                ]
+              },
+              "\u0394G = \u0394H - T\u0394S": {
+                "expression": "\u0394G = \u0394H - T\u0394S",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_3"
+            ],
+            "common_traps": [
+              "Forgetting \u0394G=0 at transition temperature",
+              "Sign errors in Kirchhoff's equation"
+            ],
+            "prerequisites": []
+          },
+          "phase_transition_thermodynamics": {
+            "formulas": {
+              "\u0394H2 - \u0394H1 = \u222b\u0394Cp dT": {
+                "expression": "\u0394H2 - \u0394H1 = \u222b\u0394Cp dT",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_3"
+                ]
+              },
+              "\u0394G = \u0394H - T\u0394S": {
+                "expression": "\u0394G = \u0394H - T\u0394S",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_3"
+            ],
+            "common_traps": [
+              "Forgetting \u0394G=0 at transition temperature",
+              "Sign errors in Kirchhoff's equation"
+            ],
+            "prerequisites": []
+          },
+          "Kirchhoffs_law": {
+            "formulas": {
+              "\u0394H2 - \u0394H1 = \u222b\u0394Cp dT": {
+                "expression": "\u0394H2 - \u0394H1 = \u222b\u0394Cp dT",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_3"
+                ]
+              },
+              "\u0394G = \u0394H - T\u0394S": {
+                "expression": "\u0394G = \u0394H - T\u0394S",
+                "used_in_questions": [
+                  "JEE_Adv_2023_Chem_3"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2023_Chem_3"
+            ],
+            "common_traps": [
+              "Forgetting \u0394G=0 at transition temperature",
+              "Sign errors in Kirchhoff's equation"
+            ],
+            "prerequisites": []
+          },
+          "Vant_Hoff_equation": {
+            "formulas": {
+              "d(lnK)/d(1/T) = -\u0394H/R": {
+                "expression": "d(lnK)/d(1/T) = -\u0394H/R",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_4"
+            ],
+            "common_traps": [
+              "Missing the 10^4 factor in the x-axis",
+              "Sign error in slope"
+            ],
+            "prerequisites": []
+          },
+          "graphical_analysis": {
+            "formulas": {
+              "d(lnK)/d(1/T) = -\u0394H/R": {
+                "expression": "d(lnK)/d(1/T) = -\u0394H/R",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_4"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_4"
+            ],
+            "common_traps": [
+              "Missing the 10^4 factor in the x-axis",
+              "Sign error in slope"
+            ],
+            "prerequisites": []
+          },
+          "entropy_calculation": {
+            "formulas": {
+              "ln K = -\u0394H/RT + \u0394S/R": {
+                "expression": "ln K = -\u0394H/RT + \u0394S/R",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_5"
+            ],
+            "common_traps": [
+              "Calculating intercept incorrectly",
+              "Assuming \u0394S is temperature dependent without instruction (standard assumption is independence over range)"
+            ],
+            "prerequisites": []
+          },
+          "Gibbs_Helmholtz_equation": {
+            "formulas": {
+              "ln K = -\u0394H/RT + \u0394S/R": {
+                "expression": "ln K = -\u0394H/RT + \u0394S/R",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_5"
+            ],
+            "common_traps": [
+              "Calculating intercept incorrectly",
+              "Assuming \u0394S is temperature dependent without instruction (standard assumption is independence over range)"
+            ],
+            "prerequisites": []
+          },
+          "linear_plot_analysis": {
+            "formulas": {
+              "ln K = -\u0394H/RT + \u0394S/R": {
+                "expression": "ln K = -\u0394H/RT + \u0394S/R",
+                "used_in_questions": [
+                  "JEE_Adv_2021_Chem_5"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2021_Chem_5"
+            ],
+            "common_traps": [
+              "Calculating intercept incorrectly",
+              "Assuming \u0394S is temperature dependent without instruction (standard assumption is independence over range)"
+            ],
+            "prerequisites": []
+          },
+          "temperature_dependence_of_K": {
+            "formulas": {
+              "d(\u0394G)/dT = -\u0394S": {
+                "expression": "d(\u0394G)/dT = -\u0394S",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_6"
+                ]
+              },
+              "ln(K2/K1) = \u0394H/R (1/T1 - 1/T2)": {
+                "expression": "ln(K2/K1) = \u0394H/R (1/T1 - 1/T2)",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_6"
+                ]
+              },
+              "ln K = (\u0394S_sys - \u0394H_sys/T)/R": {
+                "expression": "ln K = (\u0394S_sys - \u0394H_sys/T)/R",
+                "used_in_questions": [
+                  "JEE_Adv_2017_Chem_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2018_Chem_6",
+              "JEE_Adv_2017_Chem_7"
+            ],
+            "common_traps": [
+              "Misinterpreting the inequality ln K1/ln K2 > T2/T1",
+              "Sign confusion with \u0394G (magnitude vs algebraic value)",
+              "Focusing only on system entropy rather than surroundings entropy for temperature effect",
+              "Misinterpreting 'unfavourable decrease' (means becoming less unfavourable)"
+            ],
+            "prerequisites": []
+          },
+          "Gibbs_energy_and_equilibrium": {
+            "formulas": {
+              "d(\u0394G)/dT = -\u0394S": {
+                "expression": "d(\u0394G)/dT = -\u0394S",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_6"
+                ]
+              },
+              "ln(K2/K1) = \u0394H/R (1/T1 - 1/T2)": {
+                "expression": "ln(K2/K1) = \u0394H/R (1/T1 - 1/T2)",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2018_Chem_6"
+            ],
+            "common_traps": [
+              "Misinterpreting the inequality ln K1/ln K2 > T2/T1",
+              "Sign confusion with \u0394G (magnitude vs algebraic value)"
+            ],
+            "prerequisites": []
+          },
+          "thermodynamic_inequalities": {
+            "formulas": {
+              "d(\u0394G)/dT = -\u0394S": {
+                "expression": "d(\u0394G)/dT = -\u0394S",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_6"
+                ]
+              },
+              "ln(K2/K1) = \u0394H/R (1/T1 - 1/T2)": {
+                "expression": "ln(K2/K1) = \u0394H/R (1/T1 - 1/T2)",
+                "used_in_questions": [
+                  "JEE_Adv_2018_Chem_6"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2018_Chem_6"
+            ],
+            "common_traps": [
+              "Misinterpreting the inequality ln K1/ln K2 > T2/T1",
+              "Sign confusion with \u0394G (magnitude vs algebraic value)"
+            ],
+            "prerequisites": []
+          },
+          "entropy_of_surroundings": {
+            "formulas": {
+              "ln K = (\u0394S_sys - \u0394H_sys/T)/R": {
+                "expression": "ln K = (\u0394S_sys - \u0394H_sys/T)/R",
+                "used_in_questions": [
+                  "JEE_Adv_2017_Chem_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2017_Chem_7"
+            ],
+            "common_traps": [
+              "Focusing only on system entropy rather than surroundings entropy for temperature effect",
+              "Misinterpreting 'unfavourable decrease' (means becoming less unfavourable)"
+            ],
+            "prerequisites": []
+          },
+          "second_law_of_thermodynamics": {
+            "formulas": {
+              "ln K = (\u0394S_sys - \u0394H_sys/T)/R": {
+                "expression": "ln K = (\u0394S_sys - \u0394H_sys/T)/R",
+                "used_in_questions": [
+                  "JEE_Adv_2017_Chem_7"
+                ]
+              }
+            },
+            "questions": [
+              "JEE_Adv_2017_Chem_7"
+            ],
+            "common_traps": [
+              "Focusing only on system entropy rather than surroundings entropy for temperature effect",
+              "Misinterpreting 'unfavourable decrease' (means becoming less unfavourable)"
+            ],
+            "prerequisites": []
+          },
+          "thermodynamic_processes": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2015_Chem_8"
+            ],
+            "common_traps": [
+              "Missing \u0394G=0 for equilibrium phase transition",
+              "Thinking cyclic process q and w are always non-zero (true for cycles enclosing area, but this is retracing path)"
+            ],
+            "prerequisites": []
+          },
+          "free_expansion": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2015_Chem_8"
+            ],
+            "common_traps": [
+              "Missing \u0394G=0 for equilibrium phase transition",
+              "Thinking cyclic process q and w are always non-zero (true for cycles enclosing area, but this is retracing path)"
+            ],
+            "prerequisites": []
+          },
+          "cyclic_process": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2015_Chem_8"
+            ],
+            "common_traps": [
+              "Missing \u0394G=0 for equilibrium phase transition",
+              "Thinking cyclic process q and w are always non-zero (true for cycles enclosing area, but this is retracing path)"
+            ],
+            "prerequisites": []
+          },
+          "phase_equilibrium": {
+            "formulas": {},
+            "questions": [
+              "JEE_Adv_2015_Chem_8"
+            ],
+            "common_traps": [
+              "Missing \u0394G=0 for equilibrium phase transition",
+              "Thinking cyclic process q and w are always non-zero (true for cycles enclosing area, but this is retracing path)"
+            ],
+            "prerequisites": []
+          }
+        }
+      }
+    }
+  }
+}
