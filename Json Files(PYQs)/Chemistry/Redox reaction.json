@@ -1,0 +1,241 @@
+[
+    {
+      "qid": "JEE_Adv_2021_Chem_1",
+      "year": 2021,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Redox Reactions",
+      "question_text": "A sample 5.6 g containing iron is completely dissolved in cold dilute HCl to prepare a 250 mL of solution. Titration of 25.0 mL of this solution requires 12.5 mL of 0.03 M KMnO4 solution to reach the end point. Number of moles of Fe^2+ present in 250 mL solution is x × 10^-2 (consider complete dissolution of FeCl2). The value of x is _______.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "1.88",
+      "solution_text": "In acidic medium, the redox reaction is:\nMnO4⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H2O.\n\nFor KMnO4, n-factor = 5; for Fe²⁺, n-factor = 1.\n\nMoles of KMnO4 used in 25.0 mL aliquot:\n= 0.03 × 12.5 × 10⁻³ = 3.75 × 10⁻⁴ mol.\n\nMoles of Fe²⁺ in 25 mL = 5 × 3.75 × 10⁻⁴ = 1.875 × 10⁻³ mol.\n\nTotal volume is 250 mL (10 times aliquot):\nTotal moles Fe²⁺ = 1.875 × 10⁻³ × 10 = 1.875 × 10⁻² mol.\n\nThus x = 1.88.",
+      "concept_tags": [
+        "redox_titration",
+        "n_factor_calculation",
+        "stoichiometry"
+      ],
+      "formula_tags": [
+        "N1V1 = N2V2",
+        "Moles = Molarity * Volume"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Forgetting to scale up from the aliquot (25 mL) to the full solution (250 mL)",
+        "Using wrong n-factor for KMnO4 in acidic medium"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2021_Chem_2",
+      "year": 2021,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Redox Reactions",
+      "question_text": "Based on the previous data (Q1), the amount of iron present in the sample is y % by weight. The value of y is _______.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "18.75",
+      "solution_text": "From Q1, total moles of Fe²⁺ in 250 mL solution = 1.875 × 10⁻² mol.\n\nMass of iron = 1.875 × 10⁻² × 56 = 1.05 g.\n\nPercentage of iron in the 5.6 g sample:\n= (1.05 / 5.6) × 100 = 18.75%.\n\nHence, y = 18.75.",
+      "concept_tags": [
+        "percentage_purity",
+        "stoichiometry"
+      ],
+      "formula_tags": [
+        "% = (mass_component / total_mass) * 100"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": [
+        "Calculation error in percentage"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2020_Chem_3",
+      "year": 2020,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Redox Reactions",
+      "question_text": "In the chemical reaction between stoichiometric quantities of KMnO4 and KI in weakly basic solution, what is the number of moles of I2 released for 4 moles of KMnO4 consumed?",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "6",
+      "solution_text": "In weakly basic medium, permanganate is reduced as:\nMnO4⁻ + 2H2O + 3e⁻ → MnO2 + 4OH⁻.\n\nIodide is oxidized to iodine:\n2I⁻ → I2 + 2e⁻.\n\nBalancing electrons:\n2MnO4⁻ + 6I⁻ + 4H2O → 2MnO2 + 3I2 + 8OH⁻.\n\nThus, 2 moles of KMnO4 produce 3 moles of I2.\n\nFor 4 moles of KMnO4:\nMoles of I2 = (3/2) × 4 = 6.",
+      "concept_tags": [
+        "redox_balancing",
+        "stoichiometry_with_given_products"
+      ],
+      "formula_tags": [
+        "n_factor_MnO4_basic = 3",
+        "n_factor_I_to_I2 = 1"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Assuming oxidation to IO3^- (which is chemically more likely in base) despite the question asking for I2",
+        "Using acidic medium n-factor (5) for KMnO4"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2020_Chem_4",
+      "year": 2020,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Inorganic Chemistry",
+      "chapter": "d-Block Elements",
+      "question_text": "An acidified solution of potassium chromate was layered with an equal volume of amyl alcohol. When it was shaken after the addition of 1 mL of 3% H2O2, a blue alcohol layer was obtained. The blue color is due to the formation of a chromium (VI) compound 'X'. What is the number of oxygen atoms bonded to chromium through only single bonds in a molecule of X?",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "4",
+      "solution_text": "Acidified chromate reacts with hydrogen peroxide to form chromium peroxide, CrO5.\n\nStructure of CrO5 is O=Cr(O2)2.\nIt contains:\n• One Cr=O double bond\n• Two peroxo (–O–O–) groups bonded to Cr\n\nThus, four oxygen atoms are bonded to chromium via single bonds.\n\nAnswer = 4.",
+      "concept_tags": [
+        "structure_of_compounds",
+        "chromyl_peroxide",
+        "oxidation_states"
+      ],
+      "formula_tags": [
+        "CrO5 structure"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": [
+        "Forgetting the butterfly structure and assuming normal oxide linkages"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2019_Chem_5",
+      "year": 2019,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Inorganic Chemistry",
+      "chapter": "P-Block Elements",
+      "question_text": "The amount of water produced in g in the oxidation of 1 mole of rhombic sulphur by conc. HNO3 to a compound with the highest oxidation state of sulphur is _______. \n(Molar mass of water = 18 g/mol)",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "288",
+      "solution_text": "Rhombic sulphur (S8) is oxidized by concentrated HNO3 to H2SO4:\nS8 + 48HNO3 → 8H2SO4 + 48NO2 + 16H2O.\n\nFrom the equation, 1 mole of S8 produces 16 moles of water.\n\nMass of water formed = 16 × 18 = 288 g.\n\nAnswer: 288.",
+      "concept_tags": [
+        "reaction_balancing",
+        "p_block_reactions_group_16",
+        "stoichiometry"
+      ],
+      "formula_tags": [
+        "S8 + 48HNO3 -> 8H2SO4 + 48NO2 + 16H2O"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Incorrect balancing of the redox reaction (S8 to H2SO4, N+5 to N+4)"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2018_Chem_6",
+      "year": 2018,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Redox Reactions",
+      "question_text": "To measure the quantity of MnCl2 dissolved in an aqueous solution, it was completely converted to KMnO4 using the reaction:\nMnCl2 + K2S2O8 + H2O -> KMnO4 + H2SO4 + HCl (Equation not balanced).\nFew drops of concentrated HCl were added... Further, oxalic acid (225 mg) was added in portions till the color of the permanganate ion disappeared. The quantity of MnCl2 in mg present in the initial solution is _______. \n(Atomic weights: Mn=55, Cl=35.5)",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "126",
+      "solution_text": "Mn²⁺ from MnCl2 is oxidized to MnO4⁻, which is then reduced by oxalic acid.\n\nFor oxalic acid (anhydrous):\nH2C2O4 → 2CO2 + 2e⁻  (n-factor = 2).\n\nMoles of oxalic acid used:\n= 0.225 / 90 = 2.5 × 10⁻³ mol.\n\nEquivalents = 2.5 × 10⁻³ × 2 = 5 × 10⁻³ eq.\n\nMn²⁺ → Mn⁷⁺ involves 5-electron transfer.\n\nMoles of MnCl2 = (5 × 10⁻³) / 5 = 1 × 10⁻³ mol.\n\nMass of MnCl2 = 1 × 10⁻³ × 126 = 0.126 g = 126 mg.\n\nAnswer: 126.",
+      "concept_tags": [
+        "redox_titration",
+        "back_titration_concept",
+        "stoichiometry"
+      ],
+      "formula_tags": [
+        "Equivalents = Moles * n_factor"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Using n-factor of MnCl2 -> KMnO4 (5) correctly, but maybe confusing it with the n-factor in the second step (5 also).",
+        "Confusion between anhydrous (90) and hydrated (126) oxalic acid molar mass."
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2016_Chem_7",
+      "year": 2016,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Redox Reactions",
+      "question_text": "In neutral or faintly alkaline solution, 8 moles permanganate anion quantitatively oxidize thiosulphate anions to produce X moles of a sulphur containing product. The magnitude of X is ______.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "6",
+      "solution_text": "In neutral or faintly alkaline medium:\nMnO4⁻ → MnO2  (n-factor = 3).\n\nThiosulphate is oxidized to sulphate:\nS2O3²⁻ → 2SO4²⁻  (n-factor = 8).\n\nFor 8 moles of MnO4⁻:\nTotal electrons accepted = 8 × 3 = 24.\n\nMoles of S2O3²⁻ required = 24 / 8 = 3.\n\nEach mole of S2O3²⁻ gives 2 moles of SO4²⁻.\n\nTotal moles of sulphur product = 3 × 2 = 6.\n\nHence, X = 6.",
+      "concept_tags": [
+        "redox_balancing",
+        "n_factor_calculation",
+        "reaction_products_in_medium"
+      ],
+      "formula_tags": [
+        "8MnO4^- + 3S2O3^2- + H2O -> 8MnO2 + 6SO4^2- + 2OH-"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Assuming thiosulphate oxidizes to S4O6^2- (tetrathionate), which happens with Iodine, not strong oxidizers like Permanganate",
+        "Incorrect n-factor for S2O3^2- -> SO4^2-"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2014_Chem_8",
+      "year": 2014,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Redox Reactions",
+      "question_text": "For the reaction: I- + ClO3^- + H2SO4 -> Cl- + HSO4^- + I2.\nThe correct statement(s) in the balanced equation is/are:\n(A) Stoichiometric coefficient of HSO4^- is 6\n(B) Iodide is oxidized\n(C) Sulphur is reduced\n(D) H2O is one of the products",
+      "diagram_refs": [],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "A, B, D",
+      "solution_text": "Balanced redox reaction:\n6I⁻ + ClO3⁻ + 6H2SO4 → 3I2 + Cl⁻ + 6HSO4⁻ + 3H2O.\n\nEvaluation of statements:\n(A) Coefficient of HSO4⁻ is 6 ✔\n(B) I⁻ (–1) → I2 (0), iodide is oxidized ✔\n(C) Sulphur remains +6, not reduced ✘\n(D) H2O is produced ✔\n\nCorrect options: A, B, D.",
+      "concept_tags": [
+        "reaction_balancing",
+        "redox_definitions"
+      ],
+      "formula_tags": [
+        "Balanced: 6I- + ClO3- + 6H2SO4 -> 3I2 + Cl- + 6HSO4- + 3H2O"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Thinking H2SO4 acts as an oxidant (it can, but here ClO3- is the oxidant and H2SO4 provides acid medium)"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2014_Chem_9",
+      "year": 2014,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Inorganic Chemistry",
+      "chapter": "Hydrogen",
+      "question_text": "Hydrogen peroxide in its reaction with KIO4 and NH2OH respectively, is acting as a:\n(A) reducing agent, oxidising agent\n(B) reducing agent, reducing agent\n(C) oxidising agent, oxidising agent\n(D) oxidising agent, reducing agent",
+      "diagram_refs": [],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "A",
+      "solution_text": "With KIO4 (iodine in +7 state), hydrogen peroxide is oxidized to O2 while KIO4 is reduced.\nHence, H2O2 acts as a reducing agent.\n\nWith NH2OH (a reducing agent), hydrogen peroxide oxidizes NH2OH and is itself reduced to water.\nHence, H2O2 acts as an oxidizing agent.\n\nCorrect choice: Reducing agent, Oxidizing agent → Option A.",
+      "concept_tags": [
+        "hydrogen_peroxide_properties",
+        "redox_agent_identification"
+      ],
+      "formula_tags": [
+        "H2O2 -> O2 + 2H+ + 2e- (Reducing)",
+        "H2O2 + 2e- -> 2OH- (Oxidizing)"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": [
+        "Confusing the dual nature of H2O2"
+      ]
+    }
+  ]
+  

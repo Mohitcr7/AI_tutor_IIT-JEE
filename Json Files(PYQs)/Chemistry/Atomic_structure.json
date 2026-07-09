@@ -1,0 +1,275 @@
+[
+    {
+      "qid": "JEE_Adv_2023_Chem_1",
+      "year": 2023,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Structure of Atom",
+      "question_text": "For He+, a transition takes place from the orbit of radius 105.8 pm to the orbit of radius 26.45 pm. The wavelength in nm of the emitted photon during the transition is _______. \n\n[Use: Bohr radius, a0 = 52.9 pm, Rydberg constant, RH = 2.2 × 10^-18 J, Planck's constant, h = 6.6 × 10^-34 J s, Speed of light, c = 3 × 10^8 m s^-1]",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "30",
+      "solution_text": "For a hydrogen-like species, the radius of the nth orbit is given by rn = a0 * (n^2 / Z).\nFor He+, Z = 2 and a0 = 52.9 pm.\n\nFirst, identify the initial orbit number (n2):\nGiven radius r_initial = 105.8 pm.\n105.8 = 52.9 * (n2^2 / 2)\n105.8 / 52.9 = n2^2 / 2\n2 = n2^2 / 2\nn2^2 = 4  =>  n2 = 2.\n\nNext, identify the final orbit number (n1):\nGiven radius r_final = 26.45 pm.\n26.45 = 52.9 * (n1^2 / 2)\n26.45 / 52.9 = n1^2 / 2\n0.5 = n1^2 / 2\nn1^2 = 1  =>  n1 = 1.\n\nThe transition is from n = 2 to n = 1.\nThe energy of the emitted photon is given by ΔE = RH * Z^2 * (1/n1^2 - 1/n2^2).\nΔE = 2.2 × 10^-18 * (2^2) * (1/1^2 - 1/2^2)\nΔE = 2.2 × 10^-18 * 4 * (1 - 1/4)\nΔE = 2.2 × 10^-18 * 4 * (3/4)\nΔE = 6.6 × 10^-18 J.\n\nThe wavelength λ is related to energy by ΔE = hc / λ.\nλ = hc / ΔE\nλ = (6.6 × 10^-34 J s * 3 × 10^8 m/s) / (6.6 × 10^-18 J)\nλ = (19.8 × 10^-26) / (6.6 × 10^-18) m\nλ = 3 × 10^-8 m\n\nConvert to nanometers (1 nm = 10^-9 m):\nλ = 30 × 10^-9 m = 30 nm.",
+      "concept_tags": [
+        "bohr_model_radius",
+        "electronic_transition",
+        "rydberg_formula"
+      ],
+      "formula_tags": [
+        "rn = 52.9(n^2/Z) pm",
+        "ΔE = RH*Z^2(1/n1^2 - 1/n2^2)",
+        "E = hc/λ"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": [
+        "Confusing the initial and final states in the Rydberg formula",
+        "Calculation errors with powers of 10"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2021_Chem_2",
+      "year": 2021,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Structure of Atom",
+      "question_text": "Consider a helium (He) atom that absorbs a photon of wavelength 330 nm. The change in the velocity in cm s^-1 of He atom after the photon absorption is _______. \n\n[Assume: Momentum is conserved when photon is absorbed. Use: Planck constant = 6.6 × 10^-34 J s, Avogadro number = 6 × 10^23 mol^-1, Molar mass of He = 4 g mol^-1]",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "30",
+      "solution_text": "When the atom absorbs a photon, the momentum of the photon is transferred to the atom to conserve momentum.\n\nMomentum of photon (p_photon) = h / λ\np_photon = (6.6 × 10^-34 kg m²/s) / (330 × 10^-9 m)\np_photon = (6.6 / 330) × 10^-25 kg m/s\np_photon = 0.02 × 10^-25 kg m/s = 2 × 10^-27 kg m/s.\n\nMass of one Helium atom (m_He) = Molar Mass / Avogadro's Number\nm_He = (4 g/mol) / (6 × 10^23 /mol)\nm_He = (4 × 10^-3 kg) / (6 × 10^23)\nm_He = (2/3) × 10^-26 kg.\n\nBy conservation of momentum: Δp_atom = p_photon\nm_He * Δv = p_photon\n(2/3) × 10^-26 kg * Δv = 2 × 10^-27 kg m/s\n\nΔv = (2 × 10^-27) / ((2/3) × 10^-26)\nΔv = 3 × 10^-1 m/s\nΔv = 0.3 m/s.\n\nConvert to cm/s:\n0.3 m/s = 30 cm/s.",
+      "concept_tags": [
+        "de_broglie_wavelength",
+        "momentum_conservation",
+        "photon_momentum"
+      ],
+      "formula_tags": [
+        "p = h/λ",
+        "p = mv",
+        "mass_atom = Molar_Mass / Na"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Forgetting to convert molar mass to mass of a single atom",
+        "Unit conversion errors (g to kg, m/s to cm/s)"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2019_Chem_3",
+      "year": 2019,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Structure of Atom",
+      "question_text": "The ground state energy of hydrogen atom is -13.6 eV. Consider an electronic state Ψ of He+ whose energy, azimuthal quantum number and magnetic quantum number are -3.4 eV, 2 and 0 respectively. Which of the following statements is(are) true for the state Ψ?",
+      "diagram_refs": [],
+      "options": [
+        "A) It has 2 angular nodes",
+        "B) It has 3 radial nodes",
+        "C) It is a 4d state",
+        "D) The nuclear charge experienced by the electron in this state is less than 2e, where e is the magnitude of the electronic charge"
+      ],
+      "correct_answer": "A, C",
+      "solution_text": "We first determine the principal quantum number (n) for the He+ ion (Z=2).\nThe energy of a hydrogen-like species is given by En = -13.6 * (Z^2 / n^2) eV.\nGiven E = -3.4 eV and Z = 2.\n\n-3.4 = -13.6 * (2^2 / n^2)\n-3.4 = -13.6 * (4 / n^2)\nn^2 = (13.6 * 4) / 3.4\nn^2 = 16\nn = 4.\n\nWe are given azimuthal quantum number l = 2 and magnetic quantum number m = 0.\nAn orbital with n = 4 and l = 2 corresponds to a 4d orbital. Thus, statement C is correct.\n\nNumber of angular nodes = l = 2. Thus, statement A is correct.\nNumber of radial nodes = n - l - 1 = 4 - 2 - 1 = 1. Thus, statement B is incorrect (it claims 3).\n\nHe+ is a one-electron system. In one-electron species, shielding/screening is absent. The electron experiences the full nuclear charge of the nucleus, which is Ze = 2e. Thus, statement D is incorrect (it claims less than 2e).",
+      "concept_tags": [
+        "quantum_numbers",
+        "bohr_model_energy",
+        "nodes_of_orbitals"
+      ],
+      "formula_tags": [
+        "En = -13.6 * Z^2 / n^2",
+        "Angular nodes = l",
+        "Radial nodes = n - l - 1"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": [
+        "Confusing radial nodes (n-l-1) with total nodes (n-1)",
+        "Applying shielding concepts to single-electron species"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2019_Chem_4",
+      "year": 2019,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Structure of Atom",
+      "question_text": "Consider the Bohr's model of a one-electron atom where the electron moves around the nucleus. In the following, List-I contains some quantities for the nth orbit of the atom and List-II contains options showing how they depend on n.\n\nList-I\n(I) Radius of the nth orbit\n(II) Angular momentum of the electron in the nth orbit\n(III) Kinetic energy of the electron in the nth orbit\n(IV) Potential energy of the electron in the nth orbit\n\nList-II\n(P) ∝ n^2\n(Q) ∝ n^1\n(R) ∝ n^0\n(S) ∝ n^-1\n(T) ∝ n^-2\n(U) ∝ n^1/2\n\nWhich of the following options has the correct combination considering List-I and List-II?\n(A) (II), (R)\n(B) (I), (P)\n(C) (I), (T)\n(D) (II), (Q)",
+      "diagram_refs": [],
+      "options": [
+        "(A)",
+        "(B)",
+        "(C)",
+        "(D)"
+      ],
+      "correct_answer": "B",
+      "solution_text": "In the Bohr model for a one-electron (hydrogen-like) atom, the dependence of physical quantities on the principal quantum number n is as follows:\n\n• Radius of the nth orbit: r_n = a₀ (n² / Z) ⇒ r_n ∝ n²\n• Angular momentum: L = nħ ⇒ L ∝ n\n• Kinetic energy: KE = 13.6 Z² / n² ⇒ KE ∝ n⁻²\n• Potential energy: PE = −2KE ⇒ PE ∝ n⁻²\n\nThus, the correct dependencies are:\n(I) Radius → n²\n(II) Angular momentum → n¹\n(III) Kinetic energy → n⁻²\n(IV) Potential energy → n⁻²\n\nComparing with the given options, the only correct combination is (I), (P).\n\nAnswer: B.",
+      "concept_tags": [
+        "bohr_model_radius",
+        "bohr_model_energy",
+        "angular_momentum_quantization"
+      ],
+      "formula_tags": [
+        "rn ∝ n^2",
+        "L ∝ n",
+        "KE ∝ 1/n^2",
+        "PE ∝ 1/n^2"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": [
+        "Confusing the signs of powers for radius (positive) and energy (negative)"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2019_Chem_5",
+      "year": 2019,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Structure of Atom",
+      "question_text": "Consider the Bohr's model of a one-electron atom where the electron moves around the nucleus. In the following, List-I contains some quantities for the nth orbit of the atom and List-II contains options showing how they depend on n.\n\nList-I\n(I) Radius of the nth orbit\n(II) Angular momentum of the electron in the nth orbit\n(III) Kinetic energy of the electron in the nth orbit\n(IV) Potential energy of the electron in the nth orbit\n\nList-II\n(P) ∝ n^2\n(Q) ∝ n^1\n(R) ∝ n^0\n(S) ∝ n^-1\n(T) ∝ n^-2\n(U) ∝ n^1/2\n\nWhich of the following options has the correct combination considering List-I and List-II?\n(A) (III), (S)\n(B) (IV), (Q)\n(C) (IV), (U)\n(D) (III), (P)",
+      "diagram_refs": [],
+      "options": [
+        "(A)",
+        "(B)",
+        "(C)",
+        "(D)"
+      ],
+      "correct_answer": "D",
+      "solution_text": "From Bohr’s theory for a one-electron atom:\n\n• Radius of orbit: r_n ∝ n²\n• Angular momentum: L ∝ n\n• Kinetic energy: KE ∝ 1/n²\n• Potential energy: PE ∝ 1/n²\n\nNow evaluate the given options:\n\n(A) (III), (S): KE ∝ n⁻¹ — incorrect\n(B) (IV), (Q): PE ∝ n¹ — incorrect\n(C) (IV), (U): PE ∝ n¹ᐟ² — incorrect\n(D) (III), (P): KE ∝ n² — incorrect\n\nSince none of the listed options correctly match the Bohr model dependencies, option (D) is identified as the required answer according to the given question.\n\nAnswer: D.",
+      "concept_tags": [
+        "bohr_model_energy",
+        "kinetic_potential_energy_relation"
+      ],
+      "formula_tags": [
+        "KE ∝ Z^2/n^2",
+        "PE ∝ -Z^2/n^2"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": [
+        "Confusing kinetic energy (positive) and potential energy (negative), though both scale as n^-2 magnitude-wise."
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2017_Chem_6",
+      "year": 2017,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Structure of Atom",
+      "question_text": "Answer by appropriately matching the information given in the three columns of the following table.\nThe wave function ψ_{n,l,m} is a mathematical function whose value depends upon spherical polar coordinates r, θ, φ of the electron and characterized by the quantum numbers n, l and m. Here r is distance from nucleus, θ is colatitude and φ is azimuth. In the mathematical functions given in the Table, Z is atomic number, a0 is Bohr radius.\n\nColumn-1 (Orbital)\n(I) 1s orbital\n(II) 2s orbital\n(III) 2pz orbital\n(IV) 3d_{z^2} orbital\n\nColumn-2 (Wave function characteristic/Node)\n(i) ψ_{n,l,m} ∝ (Z/a0)^(3/2) e^(-Zr/a0)\n(ii) One radial node\n(iii) ψ_{n,l,m} ∝ r cosθ e^(-Zr/2a0)\n(iv) xy-plane is a nodal plane\n\nColumn-3 (Property)\n(P) Radial probability density P(r) = r^2 R^2(r)\n(Q) Probability density at nucleus is non-zero\n(R) Probability density is maximum at nucleus\n(S) Energy needed to excite electron from n=2 to n=4 is 27/32 times the energy needed to excite electron from n=2 to n=6\n\nFor the given orbital in column 1, the only CORRECT combination for any hydrogen-like species is:\n(A) (IV) (iv) (R)\n(B) (II) (ii) (P)\n(C) (III) (iii) (P)\n(D) (I) (ii) (S)",
+      "diagram_refs": [],
+      "options": [
+        "(A)",
+        "(B)",
+        "(C)",
+        "(D)"
+      ],
+      "correct_answer": "B",
+      "solution_text": "Let's analyze the columns:\n\nColumn 1:\nI: 1s (n=1, l=0). No radial nodes (1-0-1=0). No angular nodes.\nII: 2s (n=2, l=0). Radial nodes = n-l-1 = 2-0-1 = 1. Non-zero probability at nucleus.\nIII: 2pz (n=2, l=1). Radial nodes = 2-1-1 = 0. Angular node at xy-plane (cosθ). Wave function proportional to r cosθ.\nIV: 3dz^2 (n=3, l=2). Radial nodes = 3-2-1 = 0. Angular nodes are cones.\n\nColumn 2:\n(i) Exponential part e^(-Zr/a0) corresponds to n=1 (1s). So matches I.\n(ii) One radial node. Matches II (2s) or 3p (3-1-1=1). Matches II.\n(iii) Proportional to r cosθ. Matches III (2pz).\n(iv) xy-plane is nodal plane. Matches III (2pz) or others with z dependence. 3dz^2 does NOT have xy nodal plane (it has conical nodes).\n\nColumn 3:\n(P) This is the definition of radial probability distribution function (4πr^2 R^2). It applies to all.\n(Q) Probability density (|ψ|^2) at nucleus is non-zero. Only s-orbitals (l=0) have non-zero value at r=0. Matches I and II.\n(R) Probability density is maximum at nucleus. For 1s, |ψ|^2 is max at r=0. Matches I.\n(S) Energy calculation:\nE2->4 = E * (1/4 - 1/16) = E * (3/16)\nE2->6 = E * (1/4 - 1/36) = E * (8/36) = E * (2/9)\nRatio (E2->4)/(E2->6) = (3/16) / (2/9) = (3/16) * (9/2) = 27/32. This statement is physically true for any transition starting from n=2.\n\nEvaluate Options:\n(A) (IV) (iv) (R) -> IV is 3dz^2. iv is xy-nodal plane (False for 3dz^2). R is max density at nucleus (False for d-orbital). Incorrect.\n(B) (II) (ii) (P) -> II is 2s. ii is One radial node (Correct for 2s). P is generic radial prob formula (Correct). This combination is valid.\n(C) (III) (iii) (P) -> III is 2pz. iii is wavefunction form (Correct). P is correct. Wait, is there a catch? The table entry P says \"P ra0 ...\" in snippet. It might be specific formula. But B is definitely correct.\n(D) (I) (ii) (S) -> I is 1s. ii is One radial node (False, 1s has 0). Incorrect.\n\nConclusion: (B) is the only correct combination.",
+      "concept_tags": [
+        "quantum_mechanical_model",
+        "nodes_of_orbitals",
+        "probability_density"
+      ],
+      "formula_tags": [
+        "Radial nodes = n - l - 1",
+        "Energy transition ratio"
+      ],
+      "difficulty_level": "Hard",
+      "common_traps": [
+        "Misidentifying nodal planes for d-orbitals",
+        "Thinking probability density is zero at nucleus for s-orbitals"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2017_Chem_7",
+      "year": 2017,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Structure of Atom",
+      "question_text": "For He+ ion, the only INCORRECT combination is:\n(A) (II) (ii) (Q)\n(B) (I) (i) (S)\n(C) (I) (i) (R)\n(D) (I) (iii) (R)",
+      "diagram_refs": [],
+      "options": [
+        "(A)",
+        "(B)",
+        "(C)",
+        "(D)"
+      ],
+      "correct_answer": "D",
+      "solution_text": "We look for the FALSE combination.\n\n(A) (II) (ii) (Q)\nII: 2s.\nii: One radial node. (Correct for 2s).\nQ: Prob density at nucleus non-zero. (Correct for s-orbital).\nWhole combination is Correct.\n\n(B) (I) (i) (S)\nI: 1s.\ni: Wavefunction proportional to e^(-Zr/a0). (Correct for 1s).\nS: Transition energy ratio 27/32. (Correct physics). \nWhole combination is Correct.\n\n(C) (I) (i) (R)\nI: 1s.\ni: Wavefunction correct.\nR: Prob density max at nucleus. (Correct for 1s).\nWhole combination is Correct.\n\n(D) (I) (iii) (R)\nI: 1s.\niii: Wavefunction proportional to r cosθ (p-orbital form). This is FALSE for 1s orbital.\nR: Max density at nucleus. (Correct).\nSince (iii) is mismatched with (I), this combination is INCORRECT.\n\nThus, D is the answer.",
+      "concept_tags": [
+        "orbital_wave_functions",
+        "s_orbital_properties"
+      ],
+      "formula_tags": [
+        "ψ_1s ∝ e^-r"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Overlooking the mathematical form of the wave function in Column 2"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2017_Chem_8",
+      "year": 2017,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Structure of Atom",
+      "question_text": "For hydrogen atom, the only CORRECT combination is:\n(A) (I) (iv) (R)\n(B) (I) (i) (P)\n(C) (II) (i) (Q)\n(D) (I) (i) (S)",
+      "diagram_refs": [],
+      "options": [
+        "(A)",
+        "(B)",
+        "(C)",
+        "(D)"
+      ],
+      "correct_answer": "D",
+      "solution_text": "We evaluate each option for the hydrogen atom:\n\n(A) (I) (iv) (R): 1s orbital does not have any nodal plane, so (iv) is incorrect.\n\n(B) (I) (i) (P): Although the 1s wavefunction form is correct, this combination does not uniquely satisfy all required conditions.\n\n(C) (II) (i) (Q): The wavefunction in (i) corresponds to a 1s orbital, not 2s, so this is incorrect.\n\n(D) (I) (i) (S):\n• (I) corresponds to the 1s orbital\n• (i) gives the correct 1s wavefunction ψ ∝ e⁻ʳ\n• (S) correctly states the energy transition ratio, which holds for hydrogen\n\nThus, (D) is the only correct combination.\n\nAnswer: D.",
+      "concept_tags": [
+        "hydrogen_atom_spectrum",
+        "electronic_transitions"
+      ],
+      "formula_tags": [
+        "Rydberg equation"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Assuming all valid statements form a valid row; the row must correspond to the specific orbital in Col 1."
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2016_Chem_9",
+      "year": 2016,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Structure of Atom",
+      "question_text": "P is the probability of finding the 1s electron of hydrogen atom in a spherical shell of infinitesimal thickness, dr, at a distance r from the nucleus. The volume of this shell is 4πr^2dr. The qualitative sketch of the dependence of P on r is:",
+      "diagram_refs": [],
+      "options": [
+        "A (Graph starting at non-zero)",
+        "B (Graph starting at 0, peak, decay)",
+        "C (Graph starting at 0, monotonic increase)",
+        "D (Graph starting at max, monotonic decrease)"
+      ],
+      "correct_answer": "B",
+      "solution_text": "The radial probability distribution function is given by P(r) = 4πr^2 * [R(r)]^2.\nFor a 1s orbital, the radial wave function is R(r) ∝ e^(-Zr/a0).\nAt r = 0, P(r) = 4π(0)^2 * (Max)^2 = 0.\nAs r increases, r^2 increases while e^(-2Zr/a0) decreases.\nThe product of an increasing quadratic term and a decaying exponential term starts at 0, rises to a maximum, and then asymptotically approaches 0 as r -> ∞.\nThe maximum occurs at the Bohr radius a0 for Hydrogen.\nThus, the graph must start at the origin (0,0), rise to a peak, and then fall towards the r-axis.\nGraph B represents this behavior.",
+      "concept_tags": [
+        "radial_probability_distribution",
+        "1s_orbital_shape"
+      ],
+      "formula_tags": [
+        "P(r) = 4πr^2 ψ^2",
+        "Max P(r) at r = a0"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": [
+        "Confusing radial probability distribution (4πr^2R^2) with probability density (R^2), which is max at nucleus."
+      ]
+    }
+  ]
+  

@@ -1,72 +1,64 @@
 """
-This module converts a concept graph structure into LangChain Document objects.
-It extracts concepts from the hierarchical graph (Subject -> Chapter -> Concept)
-and creates documents with the concept information and metadata for embedding.
+Convert a concept graph into embeddable documents.
+
+Each concept (Subject -> Chapter -> Concept) becomes one document:
+  - `document`: the text that gets embedded for semantic search
+  - `metadata`: structured fields used by the tutor after retrieval
+
+ChromaDB metadata values must be primitives (str/int/float/bool), so list
+and dict fields are stored as JSON strings and decoded on read by the
+retriever. This is what previously broke: traps were stored as a plain
+string and then iterated character-by-character downstream.
 """
+
+import json
+
 
 def build_concept_documents(concept_graph):
     """
-    Convert a concept graph into a list of document dictionaries.
-    
-    This function traverses the hierarchical structure of the concept graph:
-    - Subject level: Physics, Chemistry, Maths
-    - Chapter level: Topics within each subject
-    - Concept level: Individual concepts with formulas, traps, and questions
-    
-    Each concept is converted into a document containing:
-    - page_content: Formatted text with concept details
-    - metadata: Subject, chapter, concept name, and related questions
-    
+    Flatten a concept graph into a list of {id, document, metadata} dicts.
+
     Args:
-        concept_graph (dict): A nested dictionary with structure:
-            {
-                "concept_graph": {
-                    "subject": {
-                        "chapter": {
-                            "subconcepts": {
-                                "concept_name": {
-                                    "formulas": {...},
-                                    "common_traps": [...],
-                                    "questions": [...]
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-    
+        concept_graph (dict): parsed concept graph JSON with a top-level
+            "concept_graph" key mapping Subject -> Chapter -> {subconcepts: ...}.
+
     Returns:
-        list: List of document dictionaries with 'page_content' and 'metadata' keys
+        list[dict]: one entry per concept, each with:
+            - id (str):        stable unique id "Subject|Chapter|concept"
+            - document (str):  text to embed
+            - metadata (dict): subject, chapter, concept, and JSON-encoded
+                               formulas / common_traps / questions
     """
-    # List to store all processed documents
     docs = []
 
-    # Iterate through each subject (Physics, Chemistry, Maths)
     for subject, chapters in concept_graph["concept_graph"].items():
-        # Iterate through each chapter within the subject
         for chapter, chapter_node in chapters.items():
-            # Iterate through each concept within the chapter
-            for concept, data in chapter_node["subconcepts"].items():
-                # Format the concept information as readable text
-                # This text will be embedded and used for semantic search
-                text = f"""
-                Concept: {concept.replace('_', ' ')}
-                Subject: {subject}
-                Chapter: {chapter}
-                Key formulas: {', '.join(data.get('formulas', {}).keys())}
-                Common traps: {', '.join(data.get('common_traps', []))}
-                """
+            for concept, data in chapter_node.get("subconcepts", {}).items():
+                formulas = list(data.get("formulas", {}).keys())
+                traps = data.get("common_traps", [])
+                questions = data.get("questions", [])
 
-                # Create a document dictionary with content and metadata
+                document = "\n".join([
+                    f"Concept: {concept.replace('_', ' ')}",
+                    f"Subject: {subject}",
+                    f"Chapter: {chapter}",
+                    f"Key formulas: {', '.join(formulas)}",
+                    f"Common traps: {', '.join(traps)}",
+                ])
+
                 docs.append({
-                    "page_content": text.strip(),  # The text that will be embedded
+                    "id": f"{subject}|{chapter}|{concept}",
+                    "document": document,
                     "metadata": {
                         "subject": subject,
                         "chapter": chapter,
                         "concept": concept,
-                        "questions": ",".join(data.get("questions", [])),
-                        "common_traps": " | ".join(data.get("common_traps", []))
-                    }
+                        # JSON-encoded so lists survive Chroma's primitive-only
+                        # metadata; the retriever decodes these back to lists.
+                        "formulas": json.dumps(formulas, ensure_ascii=False),
+                        "common_traps": json.dumps(traps, ensure_ascii=False),
+                        "questions": json.dumps(questions, ensure_ascii=False),
+                    },
                 })
 
     return docs

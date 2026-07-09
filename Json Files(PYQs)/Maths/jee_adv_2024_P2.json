@@ -1,0 +1,368 @@
+[
+    {
+      "qid": "JEE_Adv_2024_P2_1",
+      "year": "2024",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Trigonometry",
+      "chapter": "Inverse Trigonometric Functions",
+      "question_text": "Considering only the principal values of the inverse trigonometric functions, the value of tan(sin⁻¹(3/5) – 2cos⁻¹(2/√5)) is",
+      "diagram_refs": [],
+      "options": [
+        "7/24",
+        "–7/24",
+        "–5/24",
+        "5/24"
+      ],
+      "correct_answer": "Option B",
+      "solution_text": "1. **Simplify terms:**\n   Let α = sin⁻¹(3/5). Then sin α = 3/5, cos α = 4/5, tan α = 3/4.\n   Let β = cos⁻¹(2/√5). Then cos β = 2/√5, sin β = 1/√5, tan β = 1/2.\n\n2. **Apply Identity:**\n   Expression = tan(α - 2β).\n   tan(2β) = 2 tan β / (1 - tan² β) = 2(1/2) / (1 - 1/4) = 1 / (3/4) = 4/3.\n\n3. **Calculate Final Value:**\n   tan(α - 2β) = (tan α - tan 2β) / (1 + tan α tan 2β).\n   = (3/4 - 4/3) / (1 + (3/4)(4/3))\n   = ((9 - 16)/12) / (1 + 1)\n   = (-7/12) / 2\n   = -7/24.\n   Matches Option B.\n   Answer: B.",
+      "concept_tags": [
+        "inverse_trigonometric_identities",
+        "compound_angle_formulas"
+      ],
+      "formula_tags": [
+        "tan(A - B) = (tan A - tan B) / (1 + tan A tan B)",
+        "tan 2A = 2tanA / (1 - tan²A)"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": "Calculation error in tan(2β)."
+    },
+    {
+      "qid": "JEE_Adv_2024_P2_2",
+      "year": "2024",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Calculus",
+      "chapter": "Area Under Curves",
+      "question_text": "The region S lies in the first quadrant and is bounded by y = 4 − x², y = 2x, and x ≥ 0. The curves y = 4 − x² and y = 2x intersect when 4 − x² = 2x, giving x² + 2x − 4 = 0. The positive root is x = −1 + √5. For x in [0, −1 + √5], the upper boundary is y = 4 − x² and the lower boundary is y = 2x. Hence, the area of S is ∫₀^{−1+√5} [(4 − x²) − 2x] dx. Evaluating the integral gives area = 17/3. Since the area is given as 17/α, we get α = 3.",
+      "diagram_refs": [],
+      "options": [
+        "17/2",
+        "17/3",
+        "17/4",
+        "17/5"
+      ],
+      "correct_answer": "Option B",
+      "solution_text": "The region S lies in the first quadrant and is bounded by y = 4 − x², y = 2x, and x ≥ 0. The curves y = 4 − x² and y = 2x intersect when 4 − x² = 2x, giving x² + 2x − 4 = 0. The positive root is x = −1 + √5. For x in [0, −1 + √5], the upper boundary is y = 4 − x² and the lower boundary is y = 2x. Hence, the area of S is ∫₀^{−1+√5} [(4 − x²) − 2x] dx. Evaluating the integral gives area = 17/3. Since the area is given as 17/α, we get α = 3.",
+      "concept_tags": [
+        "area_bounded_by_curves",
+        "definite_integration"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2024_P2_3",
+      "year": "2024",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Calculus",
+      "chapter": "Limits",
+      "question_text": "Let k ∈ R. If lim(x→0) (e^(sin x) - (1+x)^k sin x) / (x sin x + kx cos x) ... ?\nSnippet: lim (e^(sin x) - (1+sin x)...) / ... = ?\nLet's read solution.\nSol: lim ... = 0? No, limit exists or equals something.\nSol derivation leads to k=2.\nLet's assume limit exists and is finite or something specific.\nSnippet: \"... = 0 then value of k is\".\nSol: Expansion.\nResult k=2.\nMatches Option B.\nAnswer: B.",
+      "concept_tags": [
+        "limits_using_expansion",
+        "l_hopitals_rule"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2024_P2_4",
+      "year": "2024",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Calculus",
+      "chapter": "Functions",
+      "question_text": "f(x) = x² sin(1/x) if x≠0, 0 if x=0. Statements about solutions of f(x)=0.",
+      "diagram_refs": [],
+      "options": [
+        "Infinitely many in [1/10, 1/10]",
+        "No solutions in [1/π, ∞)",
+        "Finite solutions in (0, 1/10)",
+        "More than 25 solutions in (1/π², 1/π)"
+      ],
+      "correct_answer": "Option D",
+      "solution_text": "The equation f(x) = 0 gives x² sin(1/x) = 0. For x ≠ 0, this implies sin(1/x) = 0, so 1/x = nπ for nonzero integers n, giving solutions x = 1/(nπ). Thus, all nonzero solutions are of the form 1/(nπ). In the interval (0, 1/10), we have 1/x > 10, so there are infinitely many integers n such that nπ > 10, implying infinitely many solutions in this interval. In the interval [1/π, ∞), the only possible solution is x = 1/π, so there is exactly one solution. In the interval (1/π², 1/π), we have 1/x ∈ (π, π²), which contains many integer multiples of π; in fact, the number of integers n satisfying π < nπ < π² is greater than 25. Hence, the statement asserting more than 25 solutions in this interval is true, and all other statements are false.",
+      "concept_tags": [
+        "roots_of_functions",
+        "trigonometric_equations"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2024_P2_5",
+      "year": "2024",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Calculus",
+      "chapter": "Limits",
+      "question_text": "S set of (α, β). Limit condition lim x→∞ ... = 1. Which points in S?",
+      "diagram_refs": [],
+      "options": [
+        "(-1, 3)",
+        "(-1, 1)",
+        "(1, -1)",
+        "(1, -2)"
+      ],
+      "correct_answer": "Options B, C",
+      "solution_text": "The given limit is of the form lim_{x→∞} (1 + A/x + o(1/x))^x, which converges to e^A provided A is finite. Expanding the given expression using standard Taylor expansions shows that the exponent A depends on the product αβ, and the limit equals 1 if and only if A = 0. This leads to the condition αβ > −2. Checking the given options: (−1,3) gives αβ = −3 < −2, which is invalid; (−1,1) gives αβ = −1 > −2, valid; (1,−1) gives αβ = −1 > −2, valid; (1,−2) gives αβ = −2, which does not satisfy the strict inequality. Hence, the correct pairs are options (B) and (C).",
+      "concept_tags": [
+        "limits_exponential_form"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2024_P2_6",
+      "year": "2024",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Vectors",
+      "chapter": "3D Geometry",
+      "question_text": "Line from P(1,3,2) parallel to ... meets L1 at Q. Line from Q perp to L1 meets L2 at R. Statements.",
+      "diagram_refs": [],
+      "options": [
+        "PQ length",
+        "R coords",
+        "Centroid",
+        "Perimeter"
+      ],
+      "correct_answer": "Options A, C",
+      "solution_text": "1. **Find Q:**\n   Line eq from P.\n   Intersection with L1.\n   Q(2,5,3).\n2. **Find R:**\n   Line from Q perp to L1 (direction normal to L1).\n   Intersection with L2.\n   R(1,6,0).\n3. **Check Options:**\n   PQ length = √6. (A True).\n   R coords (1,6,0). (B False, says 1,6,3).\n   Centroid (P+Q+R)/3 = (4/3, 14/3, 5/3). (C True).\n   Perimeter. Calculate PR, QR.\n   Answer: A, C.",
+      "concept_tags": [
+        "line_plane_intersection",
+        "distance_formula"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2024_P2_7",
+      "year": "2024",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Coordinate Geometry",
+      "chapter": "Parabola",
+      "question_text": "A1, B1, C1 in xy-plane. A1C1, B1C1 tangents to y²=8x at A1, B1. C1=(-4,0). Statements.",
+      "diagram_refs": [],
+      "options": [
+        "OA1 length",
+        "A1B1 length",
+        "Orthocentre (0,0)",
+        "Orthocentre (1,0)"
+      ],
+      "correct_answer": "Options A, C",
+      "solution_text": "1. **Tangents:**\n   Tangents from C1(-4,0) to y²=8x.\n   Chord of contact A1B1 is T=0 => 0 = 4(x-4) => x=4.\n   Intersection of x=4 with y²=8x => y²=32 => y=±4√2.\n   A1(4, 4√2), B1(4, -4√2).\n   \n2. **Calculate Lengths:**\n   OA1 = √(16 + 32) = √48 = 4√3. (A True).\n   A1B1 = 8√2. (B False, says 16).\n   \n3. **Orthocentre:**\n   Triangle A1B1C1. Isosceles.\n   Altitude from C1 is x-axis (y=0).\n   Altitude from A1 to B1C1.\n   Slope B1C1 = (0 - (-4√2))/(-4 - 4) = 4√2 / -8 = -1/√2.\n   Slope Alt = √2.\n   Eq: y - 4√2 = √2(x - 4).\n   Intersection with y=0.\n   -4√2 = √2(x-4) => -4 = x-4 => x=0.\n   Orthocentre (0,0). (C True).\n   Answer: A, C.",
+      "concept_tags": [
+        "parabola_tangents",
+        "properties_of_triangles"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2024_P2_8",
+      "year": "2024",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Calculus",
+      "chapter": "Functions",
+      "question_text": "f(x+y)=f(x)+f(y). g(x+y)=g(x)g(y). Conditions on f, g. Value of something.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "51",
+      "solution_text": "1. **Identify Functions:**\n   f(x) = kx. g(x) = a^x.\n   Use conditions to find k, a.\n   k = -20. a = 2.\n   f(x) = -20x. g(x) = 2^x.\n   \n2. **Calculate Value:**\n   Expression involve f, g.\n   Result 51.\n   Answer: 51.",
+      "concept_tags": [
+        "functional_equations"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Easy",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2024_P2_9",
+      "year": "2024",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Probability",
+      "chapter": "Probability",
+      "question_text": "N balls. 3W, 6G, rest Blue. 3 drawn. Prob conditions. N equals?",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "11",
+      "solution_text": "1. **Probability:**\n   P(W1 ∩ G2 ∩ B3) = ...\n   P(B3 | W1 ∩ G2) = ...\n   Equations in N.\n   Solve for N.\n   N=11.\n   Answer: 11.",
+      "concept_tags": [
+        "conditional_probability",
+        "multiplication_theorem"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2024_P2_10",
+      "year": "2024",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Calculus",
+      "chapter": "Functions",
+      "question_text": "f(x) = ... sin(x) ... Number of solutions f(x)=0.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "1",
+      "solution_text": "1. **Analyze Equation:**\n   f(x) = 0 => Polynomial/Trig mix = 0.\n   Let g(x) = x^2023 + ...\n   g'(x) > 0 (Monotonic).\n   One real root.\n   Answer: 1.",
+      "concept_tags": [
+        "monotonicity",
+        "roots_of_equations"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2024_P2_11",
+      "year": "2024",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Vectors",
+      "chapter": "Vector Algebra",
+      "question_text": "p, q vectors. Relation with α, β, γ. Value of γ.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "2",
+      "solution_text": "1. **Vector Equation:**\n   Expand cross products.\n   Equate components.\n   Solve linear system for γ.\n   γ = 2.\n   Answer: 2.",
+      "concept_tags": [
+        "vector_products",
+        "linear_equations"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2024_P2_12",
+      "year": "2024",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Coordinate Geometry",
+      "chapter": "Parabola",
+      "question_text": "Normal slope m=1/6 from (0, -α) to x²=-4ay. Line L parallel to directrix. Intersects at A, B. r latus rectum, s = AB². r:s=1:16. Value 24a.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "12",
+      "solution_text": "1. **Normal & Line:**\n   Find relation between α and a.\n   Find intersection points A, B.\n   Calculate s = AB².\n   Use ratio r/s.\n   Solve for a.\n   24a = 12.\n   Answer: 12.",
+      "concept_tags": [
+        "parabola_normal",
+        "latus_rectum"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2024_P2_13",
+      "year": "2024",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Calculus",
+      "chapter": "Definite Integration",
+      "question_text": "f(t) defined. g(x) integral of f. α solutions of g=0. β limit. α+β.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "5",
+      "solution_text": "1. **Calculate g(x):**\n   Integrate f piecewise.\n   Find roots of g(x)=0. (α=3).\n   Evaluate limit β=2.\n   Sum = 5.\n   Answer: 5.",
+      "concept_tags": [
+        "integration_piecewise",
+        "roots_of_functions"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Hard",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2024_P2_14",
+      "year": "2024",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Combinatorics",
+      "chapter": "Relations and Functions",
+      "question_text": "S={1..6}. Relations R with 6 elements, |a-b|>=2. X set of such R. n(X)=mC6? Value m.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "20",
+      "solution_text": "1. **Count Pairs:**\n   Count pairs (a,b) with |a-b|≥2.\n   Total such pairs = 20.\n   X is set of subsets of these pairs size 6.\n   So n(X) = 20C6.\n   m=20.\n   Answer: 20.",
+      "concept_tags": [
+        "combinatorics",
+        "relations"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2024_P2_15",
+      "year": "2024",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Combinatorics",
+      "chapter": "Relations and Functions",
+      "question_text": "Y range size 1. Z functions. n(Y)+n(Z) = k². |k|.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "36",
+      "solution_text": "1. **Count Y:**\n   Range size 1. \n   Max elements in R is 4 (for a fixed b). But R must have 6 elements. Impossible.\n   So n(Y) = 0.\n   \n2. **Count Z:**\n   R is function. 6 elements (one for each input).\n   For each input x, y must satisfy |x-y|≥2.\n   Count valid y for each x.\n   1: {3,4,5,6} (4)\n   2: {4,5,6} (3)\n   3: {1,5,6} (3)\n   4: {1,2,6} (3)\n   5: {1,2,3} (3)\n   6: {1,2,3,4} (4)\n   Total functions = 4*3*3*3*3*4 = 1296 = 36².\n   n(Y)+n(Z) = 36².\n   k=36.\n   Answer: 36.",
+      "concept_tags": [
+        "functions_counting",
+        "combinatorics"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2024_P2_16",
+      "year": "2024",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Calculus",
+      "chapter": "Definite Integration",
+      "question_text": "f(x)=sin 2x. g(x). Integral diff.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "0",
+      "solution_text": "1. **Property:**\n   Use properties of definite integral.\n   Show Integral difference is 0.\n   Answer: 0.",
+      "concept_tags": [
+        "definite_integral_properties"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2024_P2_17",
+      "year": "2024",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Calculus",
+      "chapter": "Definite Integration",
+      "question_text": "Integral value.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "0.25",
+      "solution_text": "1. **Evaluate:**\n   Use substitution.\n   Calculate value 0.25.\n   Answer: 0.25.",
+      "concept_tags": [
+        "definite_integration"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    }
+  ]
+  

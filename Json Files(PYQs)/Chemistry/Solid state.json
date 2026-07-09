@@ -1,0 +1,210 @@
+[
+    {
+      "qid": "JEE_Adv_2023_Chem_1",
+      "year": 2023,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Solid State",
+      "question_text": "Atoms of metals x, y, and z form face-centred cubic (fcc) unit cell of edge length Lx, body-centred cubic (bcc) unit cell of edge length Ly, and simple cubic unit cell of edge length Lz, respectively.\nIf rz = (sqrt(3)/2) ry; ry = (8/3) rx; and Mz = (3/2) My; Mz = 3Mx,\nthen the correct statement(s) is/are:\n(A) Packing efficiency of unit cell of x > Packing efficiency of unit cell of y > Packing efficiency of unit cell of z\n(B) Ly > Lz\n(C) Lx > Ly\n(D) Density of x > Density of y",
+      "diagram_refs": [],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "A, B, D",
+      "solution_text": "1. Analyze Packing Efficiency:\nx is FCC (74%), y is BCC (68%), z is Simple Cubic (52.4%).\nOrder: FCC > BCC > SC => x > y > z.\nStatement (A) is correct.\n\n2. Relation between radii:\nGiven: ry = (8/3) rx.\nGiven: rz = (sqrt(3)/2) ry = (sqrt(3)/2) * (8/3) rx = (4/sqrt(3)) rx.\nExpress all in terms of rx:\nry = 2.67 rx.\nrz = 2.31 rx.\n\n3. Calculate Edge Lengths (L):\nFor x (FCC): 4rx = sqrt(2) Lx => Lx = (4/sqrt(2)) rx = 2*sqrt(2) rx ≈ 2.828 rx.\nFor y (BCC): 4ry = sqrt(3) Ly => Ly = (4/sqrt(3)) ry.\nSubstitute ry: Ly = (4/sqrt(3)) * (8/3) rx = (32 / (3*sqrt(3))) rx ≈ (32 / 5.2) rx ≈ 6.16 rx.\nFor z (SC): Lz = 2rz.\nSubstitute rz: Lz = 2 * (4/sqrt(3)) rx = (8/sqrt(3)) rx ≈ 4.62 rx.\n\nCompare Edge Lengths:\nLx ≈ 2.83 rx.\nLy ≈ 6.16 rx.\nLz ≈ 4.62 rx.\nLy > Lz (6.16 > 4.62). Statement (B) is correct.\nLx > Ly (2.83 > 6.16) is False. Statement (C) is incorrect.\n\n4. Compare Densities:\nDensity formula: d = (Z * M) / (NA * L^3).\ndx = (4 * Mx) / Lx^3.\ndy = (2 * My) / Ly^3.\n\nMass relations:\nMz = 3Mx.\nMz = (3/2) My => 3Mx = 1.5 My => My = 2Mx.\n\nRatio dx / dy:\n= [ (4 * Mx) / Lx^3 ] / [ (2 * 2Mx) / Ly^3 ]\n= [ 4Mx / Lx^3 ] / [ 4Mx / Ly^3 ]\n= Ly^3 / Lx^3 = (Ly / Lx)^3.\nSince Ly (6.16) > Lx (2.83), the ratio > 1.\nSo dx > dy.\nStatement (D) is correct.\n\nCorrect Options: A, B, D.",
+      "concept_tags": [
+        "unit_cell_parameters",
+        "packing_efficiency",
+        "density_of_crystal"
+      ],
+      "formula_tags": [
+        "FCC: a = 2√2 r",
+        "BCC: a = 4r/√3",
+        "SC: a = 2r",
+        "d = ZM / (NA * a^3)"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Calculation errors when substituting radii relations into edge length formulas",
+        "Confusing the edge length formulas for different cubic systems"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2022_Chem_2",
+      "year": 2022,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Solid State",
+      "question_text": "Atom X occupies the fcc lattice sites as well as alternate tetrahedral voids of the same lattice. The packing efficiency (in %) of the resultant solid is closest to:",
+      "diagram_refs": [],
+      "options": [
+        "A) 25",
+        "B) 35",
+        "C) 55",
+        "D) 75"
+      ],
+      "correct_answer": "B",
+      "solution_text": "Structure:\n- FCC lattice sites (Corners + Face Centers): Z_fcc = 4 atoms.\n- Tetrahedral Voids (TV): Total = 8. Alternate TVs occupied = 8 / 2 = 4 atoms.\nTotal atoms per unit cell (Z_total) = 4 (lattice) + 4 (voids) = 8 atoms.\nAll atoms are X (same radius r).\n\nConstraint for dimensions:\nAtoms in tetrahedral voids are in contact with lattice atoms.\nDistance from corner to TV center = sqrt(3) * a / 4.\nThis distance represents contact between a lattice atom and a void atom: 2r = sqrt(3) * a / 4.\na = (8r) / sqrt(3).\n\nPacking Efficiency (PE):\nPE = (Volume of Atoms / Volume of Unit Cell) * 100\nPE = [ 8 * (4/3) * pi * r^3 ] / [ a^3 ] * 100\nSubstitute a^3 = [ (8r) / sqrt(3) ]^3 = (512 r^3) / (3 sqrt(3)).\n\nPE = [ (32/3) * pi * r^3 ] / [ (512 r^3) / (3 sqrt(3)) ] * 100\nPE = [ (32 * pi) / 3 ] * [ (3 sqrt(3)) / 512 ] * 100\nPE = (32 * pi * 3 * 1.732) / (3 * 512) * 100\nCancel 3:\nPE = (32 * pi * 1.732) / 512 * 100\nPE = (pi * 1.732) / 16 * 100  (Since 512/32 = 16)\nPE = (3.14 * 1.732 / 16) * 100\nPE = (5.44 / 16) * 100\nPE = 0.34 * 100 = 34%.\n\nClosest option is 35%.\nAnswer: B.",
+      "concept_tags": [
+        "packing_efficiency",
+        "voids_in_solid_state",
+        "diamond_cubic_structure"
+      ],
+      "formula_tags": [
+        "PE = Z * V_atom / V_cell",
+        "2r = √3a / 4 (Diamond-like contact)"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Using the standard FCC contact condition (4r = √2a) which assumes atoms touch along face diagonal. Here, the limiting contact is between lattice atom and void atom (diamond structure constraint)."
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2021_Chem_3",
+      "year": 2021,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Solid State",
+      "question_text": "For the given close packed structure of a salt made of cation X and anion Y shown below (ions of only one face are shown for clarity), the packing fraction is approximately:",
+      "diagram_refs": [],
+      "options": [
+        "A) 0.74",
+        "B) 0.63",
+        "C) 0.52",
+        "D) 0.48"
+      ],
+      "correct_answer": "B",
+      "solution_text": "The structure shown corresponds to an ionic solid where anions (Y) form a face-centred cubic (fcc) lattice and cations (X) occupy all the octahedral voids, i.e., a NaCl-type structure.\n\nFor an fcc lattice of anions:\nNumber of anions per unit cell = 4.\nNumber of octahedral voids per unit cell = 4.\nHence, number of cations per unit cell = 4.\n\nAt the limiting radius ratio for octahedral coordination:\nr_X / r_Y = 0.414.\n\nIn the NaCl structure, ions touch along the edge of the cube, so:\na = 2(r_Y + r_X) = 2(1 + 0.414)r_Y = 2.828 r_Y.\n\nPacking fraction (PF) is defined as:\nPF = (Total volume of ions in the unit cell) / (Volume of the unit cell).\n\nTotal volume of ions:\n= 4 × (4/3)π r_Y^3 + 4 × (4/3)π r_X^3\n= (16/3)π r_Y^3 [1 + (0.414)^3].\n\nVolume of unit cell:\na^3 = (2.828 r_Y)^3 ≈ 22.63 r_Y^3.\n\nTherefore,\nPF = [(16/3)π r_Y^3 (1 + 0.071)] / (22.63 r_Y^3)\n= (16π/3 × 1.071) / 22.63\n≈ 0.63.\n\nHence, the packing fraction of the given structure is approximately 0.63.\n\nCorrect option: B.",
+      "concept_tags": [
+        "packing_fraction",
+        "radius_ratio_rule",
+        "octahedral_void"
+      ],
+      "formula_tags": [
+        "PF = Volume_ions / Volume_cell"
+      ],
+      "difficulty_level": "Hard",
+      "common_traps": [
+        "Assuming standard FCC packing (0.74) without accounting for the cations or the specific radius ratio geometry."
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2020_Chem_4",
+      "year": 2020,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Solid State",
+      "question_text": "The cubic unit cell structure of a compound containing cation M and anion X is shown below. When compared to the anion, the cation has smaller ionic radius. Choose the correct statements.\n(A) The empirical formula of the compound is MX.\n(B) The cation M and anion X have different coordination geometries.\n(C) The ratio of M-X bond length to the cubic unit cell edge length is 0.866.\n(D) The ratio of the ionic radii of cation M to anion X is 0.414.",
+      "diagram_refs": [],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "A, C",
+      "solution_text": "Diagram Description (inferred): Cations M at body center (or corners?), Anions X at corners (or vice versa). Typically CsCl type structure (BCC lattice of ions).\nStructure: CsCl type.\nX at corners (8 * 1/8 = 1).\nM at body center (1 * 1 = 1).\n\n(A) Formula: M1 X1 -> MX. Correct.\n(B) Coordination: In CsCl, M is surrounded by 8 X (cubic). X is surrounded by 8 M (cubic). Coordination geometries are same (Cubic). Incorrect.\n(C) Bond Length: Atoms touch along body diagonal.\nDistance M-X = (sqrt(3) * a) / 2.\nRatio (M-X) / a = sqrt(3) / 2 = 1.732 / 2 = 0.866. Correct.\n(D) Radius Ratio: For Cubic void (Coordination 8), stability range is 0.732 <= r/R <= 1.000.\n0.414 is for Octahedral void. Incorrect.\n\nCorrect Options: A, C.",
+      "concept_tags": [
+        "CsCl_structure",
+        "coordination_number",
+        "unit_cell_geometry"
+      ],
+      "formula_tags": [
+        "d_MX = √3a / 2",
+        "RadiusRatio Cubic > 0.732"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": [
+        "Confusing CsCl structure (8:8) with NaCl (6:6) regarding coordination or radius ratio limits."
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2018_Chem_5",
+      "year": 2018,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Solid State",
+      "question_text": "Consider an ionic solid MX with NaCl structure. Construct a new structure Z whose unit cell is constructed from the unit cell of MX following the sequential instructions given below. Neglect the charge balance.\n(i) Remove all the anions X except the central one.\n(ii) Replace all the face centered cations M by anions X.\n(iii) Remove all the corner cations M.\n(iv) Replace the central anion X with cation M.\nThe value of (number of anions / number of cations) in Z is _______.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "3",
+      "solution_text": "Original MX (NaCl):\nAnions X (FCC): 8 Corners + 6 Face Centers = 4 atoms. (Standard NaCl puts Cl- at lattice points, Na+ in Octahedral voids).\nLet's assume Standard: X at lattice (4), M at Oct voids (Edge centers + Body Center = 12*1/4 + 1 = 4).\nWait, instructions say \"face centered cations M\"? This implies M is at Face Centers. NaCl is interpenetrating FCC. You can view M at FCC and X in voids, or vice versa.\nLet's follow the Instruction's implied positions:\n\"Replace face centered cations M\" -> M is at FCC sites (Corners + Faces).\nThen X must be in Octahedral voids (Edge Centers + Body Center).\nInitial: M (4), X (4).\n\nStep (i): Remove all anions X except central one.\nX was at Edge Centers (12) + Body Center (1).\nRemove Edge Centers. Keep Body Center.\nRemaining X: 1 (Body Center).\n\nStep (ii): Replace all face centered cations M by anions X.\nM was at Corners (8) + Faces (6).\nReplace Faces (6 atoms * 1/2 = 3 atoms) with X.\nNew X count: 1 (Body Center) + 3 (Faces) = 4.\nM count: Corners (8 * 1/8 = 1). (Faces M are gone/replaced).\n\nStep (iii): Remove all corner cations M.\nRemove the 1 M at corners.\nM count: 0.\n\nStep (iv): Replace the central anion X with cation M.\nCentral X (Body Center) becomes M.\nX count: 4 - 1 (Body Center) = 3 (Faces).\nM count: 0 + 1 (Body Center) = 1.\n\nFinal counts in Z:\nNumber of Anions (X) = 3.\nNumber of Cations (M) = 1.\nRatio = 3 / 1 = 3.\n\nAnswer: 3.",
+      "concept_tags": [
+        "unit_cell_modification",
+        "lattice_positions",
+        "stoichiometry_calculation"
+      ],
+      "formula_tags": [
+        "Contribution: Corner=1/8, Face=1/2, Body=1, Edge=1/4"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Misidentifying the initial positions of M and X based on the phrasing (Face centered cations implies M is on the lattice)"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2017_Chem_6",
+      "year": 2017,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Solid State",
+      "question_text": "A crystalline solid of a pure substance has a face-centred cubic structure with a cell edge of 400 pm. If the density of the substance in the crystal is 8 g cm^-3, then the number of atoms present in 256 g of the crystal is N × 10^24. The value of N is _______.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "2",
+      "solution_text": "1. Calculate Molar Mass (M) or Volume/Atom count directly.\nEdge length a = 400 pm = 4 × 10^-8 cm.\nVolume of unit cell = a^3 = (4 × 10^-8)^3 = 64 × 10^-24 cm^3.\nStructure is FCC -> Z = 4 atoms per unit cell.\nDensity d = 8 g/cm^3.\n\nMethod 1: Using Molar Mass.\nd = (Z * M) / (NA * a^3).\n8 = (4 * M) / (6.022 × 10^23 * 64 × 10^-24).\n8 = (4 * M) / (6.022 * 64 * 0.1).\n8 = (4 * M) / 38.5.\nM = (8 * 38.5) / 4 = 2 * 38.5 = 77 g/mol (approx).\n\nMoles in 256 g = 256 / 77 ≈ 3.32 mol.\nNumber of atoms = 3.32 * 6.022 × 10^23 ≈ 20 × 10^23 = 2 × 10^24.\n\nMethod 2: Direct Proportion (More precise without rounding intermediate M).\nMass of unit cell = d * V_cell = 8 * 64 × 10^-24 g = 512 × 10^-24 g.\nThis mass contains 4 atoms.\nTotal Mass = 256 g.\nTotal Atoms = (Total Mass / Mass of unit cell) * 4.\nTotal Atoms = (256 / (512 × 10^-24)) * 4.\nTotal Atoms = (256 / 512) * 4 * 10^24.\nTotal Atoms = 0.5 * 4 * 10^24.\nTotal Atoms = 2 * 10^24.\n\nGiven format N × 10^24.\nN = 2.\n\nAnswer: 2.",
+      "concept_tags": [
+        "density_of_crystal",
+        "unit_cell_calculations",
+        "stoichiometry"
+      ],
+      "formula_tags": [
+        "d = ZM / (NA a^3)",
+        "Atoms = (Mass / Mass_cell) * Z"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": [
+        "Calculation errors with powers of 10"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2015_Chem_8",
+      "year": 2015,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Solid State",
+      "question_text": "If the unit cell of a mineral has cubic close packed (ccp) array of oxygen atoms with m fraction of octahedral holes occupied by aluminium ions and n fraction of tetrahedral holes occupied by magnesium ions, m and n respectively, are:",
+      "diagram_refs": [],
+      "options": [
+        "A) 1/2, 1/8",
+        "B) 1, 1/4",
+        "C) 1/2, 1/2",
+        "D) 1/4, 1/8"
+      ],
+      "correct_answer": "A",
+      "solution_text": "Structure: CCP of Oxygen (O^2-).\nNumber of O^2- ions (Z) = 4.\nOctahedral Voids (OV) = 4.\nTetrahedral Voids (TV) = 8.\n\nOccupancy:\nAl^3+ occupies m fraction of OV. Number of Al = 4m.\nMg^2+ occupies n fraction of TV. Number of Mg = 8n.\n\nCharge Balance:\nTotal negative charge = 4 * (-2) = -8.\nTotal positive charge must be +8.\nPositive charge = Charge(Al) + Charge(Mg).\n+8 = (4m * 3) + (8n * 2).\n8 = 12m + 16n.\nDivide by 4:\n2 = 3m + 4n.\n\nCheck options:\n(A) m=1/2, n=1/8: 3(1/2) + 4(1/8) = 1.5 + 0.5 = 2. (Matches).\n(B) m=1, n=1/4: 3(1) + 4(1/4) = 3 + 1 = 4. (No).\n(C) m=1/2, n=1/2: 1.5 + 2 = 3.5. (No).\n(D) m=1/4, n=1/8: 0.75 + 0.5 = 1.25. (No).\n\nCorrect values: m=1/2, n=1/8.\nAnswer: A.",
+      "concept_tags": [
+        "crystal_formula_determination",
+        "charge_neutrality",
+        "void_occupancy"
+      ],
+      "formula_tags": [
+        "Total Charge = 0"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Forgetting that Z(CCP)=4 and associating void counts incorrectly"
+      ]
+    }
+  ]
+  

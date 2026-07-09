@@ -1,0 +1,779 @@
+[
+    {
+      "qid": "JEE_Adv_2020_P2_1",
+      "year": "2020",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Algebra",
+      "chapter": "Complex Numbers",
+      "question_text": "For a complex number z, let Re(z) denote the real part of z. Let S be the set of all complex numbers z satisfying z⁴ - |z|⁴ = 4iz². Then the minimum possible value of |z₁ - z₂|², where z₁, z₂ ∈ S with Re(z₁) > 0 and Re(z₂) < 0, is",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "8",
+      "solution_text": "1. **Simplify the Equation:**\n   Given z⁴ - |z|⁴ = 4iz².\n   Let z = x + iy, so |z|² = z * z̄.\n   Equation: z⁴ - (z * z̄)² = 4iz².\n   z² (z² - z̄²) = 4iz².\n   Case 1: z² = 0 => z = 0. (But we need Re(z) > 0 and < 0, so ignore z=0).\n   Case 2: z² - z̄² = 4i.\n   (x + iy)² - (x - iy)² = 4i.\n   (x² - y² + 2ixy) - (x² - y² - 2ixy) = 4i.\n   4ixy = 4i.\n   xy = 1.\n\n2. **Analyze the Locus:**\n   The set S (excluding 0) lies on the rectangular hyperbola xy = 1.\n   We have z₁ with Re(z₁) > 0 => x₁ > 0. Since x₁y₁ = 1, y₁ > 0. (First Quadrant).\n   We have z₂ with Re(z₂) < 0 => x₂ < 0. Since x₂y₂ = 1, y₂ < 0. (Third Quadrant).\n\n3. **Minimize Distance:**\n   We need to find the minimum value of |z₁ - z₂|².\n   This is the square of the distance between a point on the branch xy=1 (x>0) and a point on the branch xy=1 (x<0).\n   Let z₁ = (t, 1/t) with t > 0.\n   Let z₂ = (-u, -1/u) with u > 0 (let x₂ = -u).\n   Wait, the branches are symmetric about the origin. The shortest distance between two symmetric branches of xy=1 is along the normal y=x at the vertices.\n   Vertices are (1,1) and (-1,-1).\n   Let's verify.\n   Distance squared D² = (x₁ - x₂)² + (y₁ - y₂)².\n   Let x₁ = t, y₁ = 1/t. x₂ = -u, y₂ = -1/u. (t, u > 0).\n   D² = (t + u)² + (1/t + 1/u)² = (t+u)² + [(t+u)/tu]² = (t+u)² [1 + 1/(tu)²].\n   To minimize this, we treat u and t. Symmetry suggests minimum when t = u.\n   If t = u, D² = (2t)² [1 + 1/t⁴] = 4t² + 4/t².\n   Using AM-GM: 4t² + 4/t² ≥ 2 √(4t² * 4/t²) = 2 * 4 = 8.\n   Equality holds when 4t² = 4/t² => t⁴ = 1 => t = 1.\n   Points are (1, 1) and (-1, -1).\n   Min |z₁ - z₂|² = 8.\n\n   Answer: 8.",
+      "concept_tags": [
+        "complex_numbers_geometry",
+        "rectangular_hyperbola",
+        "optimization_using_am_gm"
+      ],
+      "formula_tags": [
+        "z² - z̄² = 4ixy",
+        "AM ≥ GM"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": "Missing the case z=0 or failing to identify the locus as a hyperbola xy=1."
+    },
+    {
+      "qid": "JEE_Adv_2020_P2_2",
+      "year": "2020",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Probability",
+      "chapter": "Probability",
+      "question_text": "The probability that a missile hits a target successfully is 0.75. In order to destroy the target completely, at least three successful hits are required. Then the minimum number of missiles that have to be fired so that the probability of completely destroying the target is NOT less than 0.95, is",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "6",
+      "solution_text": "1. **Define Event:**\n   Let n be the number of missiles fired.\n   Let X be the number of successful hits.\n   X follows Binomial Distribution B(n, p) where p = 0.75 = 3/4.\n   Target destroyed if X ≥ 3.\n   We need P(X ≥ 3) ≥ 0.95.\n   P(X ≥ 3) = 1 - P(X < 3) = 1 - [P(X=0) + P(X=1) + P(X=2)].\n\n2. **Set up Inequality:**\n   1 - [ nC₀ (3/4)⁰ (1/4)ⁿ + nC₁ (3/4)¹ (1/4)ⁿ⁻¹ + nC₂ (3/4)² (1/4)ⁿ⁻² ] ≥ 0.95.\n   1 - (1/4)ⁿ [ 1 + 3n + (n(n-1)/2) * 9 ] ≥ 0.95.\n   (1/4)ⁿ [ 1 + 3n + 4.5n² - 4.5n ] ≤ 0.05.\n   (1/4)ⁿ [ 4.5n² - 1.5n + 1 ] ≤ 1/20.\n   (4.5n² - 1.5n + 1) / 4ⁿ ≤ 1/20.\n   Multiply by 2 to clear decimals: (9n² - 3n + 2) / (2 * 4ⁿ) ≤ 1/20.\n   (9n² - 3n + 2) ≤ (2 * 4ⁿ) / 20 = 4ⁿ / 10.\n   10 (9n² - 3n + 2) ≤ 4ⁿ.\n\n3. **Test Values of n:**\n   Since we need at least 3 hits, start n ≥ 3.\n   n = 3: LHS = 10(81-9+2) = 740. RHS = 64. False.\n   n = 4: LHS = 10(144-12+2) = 1340. RHS = 256. False.\n   n = 5: LHS = 10(225-15+2) = 2120. RHS = 1024. False.\n   n = 6: LHS = 10(324-18+2) = 3080. RHS = 4096. True.\n\n   Minimum n = 6.\n\n   Answer: 6.",
+      "concept_tags": [
+        "binomial_distribution",
+        "inequalities"
+      ],
+      "formula_tags": [
+        "P(X=r) = nCr p^r q^(n-r)"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": "Calculation errors when evaluating the terms for higher n or forgetting the nC2 term coefficient."
+    },
+    {
+      "qid": "JEE_Adv_2020_P2_3",
+      "year": "2020",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Coordinate Geometry",
+      "chapter": "Circles",
+      "question_text": "Let O be the centre of the circle x² + y² = r², where r > √5/2. Suppose PQ is a chord of this circle and the equation of the line passing through P and Q is 2x + 4y = 5. If the centre of the circumcircle of the triangle OPQ lies on the line x + 2y = 4, then the value of r is",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "2",
+      "solution_text": "1. **Identify Geometry:**\n   Circle C1: x² + y² = r² (Center O(0,0)).\n   Chord PQ: 2x + 4y = 5.\n   Triangle OPQ formed by origin and chord.\n   We need the center of the circumcircle of ΔOPQ.\n   Let the circumcircle be C2. Since O, P, Q lie on C2, the equation of C2 can be written using family of circles.\n   Family of circles passing through intersection of line L and Circle C1: S + λL = 0.\n   However, this circumcircle passes through O(0,0).\n   Equation: (x² + y² - r²) + λ(2x + 4y - 5) = 0.\n   Passes through (0,0) => -r² - 5λ = 0 => λ = -r²/5.\n\n2. **Find Center of Circumcircle:**\n   Equation: x² + y² - r² - (r²/5)(2x + 4y - 5) = 0.\n   x² + y² - (2r²/5)x - (4r²/5)y = 0. (Constant terms cancel).\n   Center C' = ( Coefficient of x / -2, Coefficient of y / -2 ).\n   C' = ( r²/5, 2r²/5 ).\n\n3. **Apply Constraint:**\n   Center C' lies on line x + 2y = 4.\n   (r²/5) + 2(2r²/5) = 4.\n   r²/5 + 4r²/5 = 4.\n   5r²/5 = 4.\n   r² = 4.\n   Since r > 0, r = 2.\n   Check condition r > √5/2. 2 > 1.11. Satisfied.\n\n   Answer: 2.",
+      "concept_tags": [
+        "family_of_circles",
+        "circumcircle",
+        "coordinate_geometry"
+      ],
+      "formula_tags": [
+        "S + λL = 0",
+        "Center = (-g, -f)"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": "Calculating the coordinates of P and Q explicitly instead of using the family of circles method."
+    },
+    {
+      "qid": "JEE_Adv_2020_P2_4",
+      "year": "2020",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Algebra",
+      "chapter": "Matrices",
+      "question_text": "The trace of a square matrix is defined to be the sum of its diagonal entries. If A is a 2 × 2 matrix such that the trace of A is 3 and the trace of A³ is -18, then the value of the determinant of A is",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "5",
+      "solution_text": "1. **Characteristic Equation:**\n   Let A be a 2x2 matrix.\n   Let Tr(A) = T = 3.\n   Let Det(A) = D.\n   Characteristic equation: λ² - Tλ + D = 0 => λ² - 3λ + D = 0.\n   By Cayley-Hamilton theorem: A² - 3A + DI = 0.\n   A² = 3A - DI.\n\n2. **Find A³:**\n   Multiply by A: A³ = 3A² - DA.\n   Substitute A²: A³ = 3(3A - DI) - DA = 9A - 3DI - DA = (9 - D)A - 3DI.\n\n3. **Use Trace Property:**\n   Tr(A³) = Tr( (9-D)A - 3DI ).\n   Tr(A³) = (9-D) Tr(A) - 3D Tr(I).\n   Given Tr(A³) = -18, Tr(A) = 3. Tr(I) for 2x2 is 2.\n   -18 = (9 - D)(3) - 3D(2).\n   -18 = 27 - 3D - 6D.\n   -18 = 27 - 9D.\n   9D = 27 + 18 = 45.\n   D = 5.\n\n   Answer: 5.",
+      "concept_tags": [
+        "cayley_hamilton_theorem",
+        "trace_of_matrix",
+        "characteristic_equation"
+      ],
+      "formula_tags": [
+        "A² - Tr(A)A + Det(A)I = 0"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": "Trying to solve for individual matrix elements a, b, c, d which is algebraically tedious."
+    },
+    {
+      "qid": "JEE_Adv_2020_P2_6",
+      "year": "2020",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Calculus",
+      "chapter": "Limits",
+      "question_text": "The value of the limit lim (x→π/2) [ 4√2 (sin 3x + sin x) ] / [ (2 sin 2x sin 3x/2 + cos 5x/2) - (√2 + √2 cos 2x + cos 3x/2) ] is",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "8",
+      "solution_text": "As x → π/2, both numerator and denominator tend to zero, giving an indeterminate form 0/0.\n\nFirst simplify the numerator:\n\nsin 3x + sin x = 2 sin 2x cos x\n⇒ Numerator = 4√2 · 2 sin 2x cos x = 8√2 sin 2x cos x\nUsing sin 2x = 2 sin x cos x,\nNumerator = 16√2 sin x cos² x.\n\nNear x = π/2, sin x → 1 and cos x → 0. Hence the numerator is of order (x − π/2)².\n\nNow simplify the denominator:\n\n2 sin 2x sin(3x/2) = cos(x/2) − cos(7x/2)\n\nTherefore the denominator becomes:\n\n[cos(x/2) − cos(7x/2) + cos(5x/2)] − [√2(1 + cos 2x) + cos(3x/2)].\n\nAt x = π/2, the constant terms cancel exactly, so the denominator is also of order (x − π/2)².\n\nExpanding all trigonometric terms about x = π/2 up to second order and simplifying, the coefficient of (x − π/2)² in the numerator is 16√2, while the corresponding coefficient in the denominator is 2√2.\n\nHence,\n\nLimit = (16√2) / (2√2) = 8.",
+      "concept_tags": [
+        "trigonometric_limits",
+        "taylor_series_expansion",
+        "lhopitals_rule"
+      ],
+      "formula_tags": [
+        "sin(A+B)",
+        "cos(A+B)",
+        "limit_h_tends_to_0"
+      ],
+      "difficulty_level": "Hard",
+      "common_traps": "Algebraic errors in expanding trigonometric functions or failing to cancel lower order terms correctly."
+    },
+    {
+      "qid": "JEE_Adv_2020_P2_8",
+      "year": "2020",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Coordinate Geometry",
+      "chapter": "Hyperbola",
+      "question_text": "Let a and b be positive real numbers such that a > 1 and b < a. Let P be a point in the first quadrant that lies on the hyperbola x²/a² - y²/b² = 1. Suppose the tangent to the hyperbola at P passes through the point (1, 0), and suppose the normal to the hyperbola at P cuts off equal intercepts on the coordinate axes. Let Δ denote the area of the triangle formed by the tangent at P, the normal at P and the x-axis. If e denotes the eccentricity of the hyperbola, then which of the following statements is/are TRUE?",
+      "diagram_refs": [],
+      "options": [
+        "1 < e < √2",
+        "√2 < e < 2",
+        "Δ = a⁴",
+        "Δ = b⁴"
+      ],
+      "correct_answer": "Options A, D",
+      "solution_text": "1. **Analyze Normal Slope:**\n   Normal cuts off equal intercepts => Slope of normal = ±1.\n   In 1st quadrant, normal points 'down-right' or 'up-right'?\n   Normal at P(x1, y1) is y-y1 = m(x-x1). Intercepts -mx1+y1 and x1-y1/m.\n   Equal intercepts => -mx1+y1 = x1-y1/m => m = -1 (since P in Q1, tangent slope > 0, normal slope < 0).\n   So slope of normal = -1.\n   Slope of tangent = 1.\n\n2. **Tangent Equation:**\n   Tangent slope 1, passes through (1, 0).\n   Equation: y - 0 = 1(x - 1) => y = x - 1.\n   Tangent at P(x1, y1) on hyperbola: x x1 / a² - y y1 / b² = 1.\n   Compare y = x - 1 => x - y = 1.\n   x1/a² = 1/1 => x1 = a².\n   y1/b² = 1/1 => y1 = b².\n   So P is (a², b²).\n\n3. **Point on Hyperbola:**\n   P(a², b²) lies on x²/a² - y²/b² = 1.\n   (a²)²/a² - (b²)²/b² = 1.\n   a² - b² = 1.\n   This is the condition relating a and b.\n\n4. **Eccentricity e:**\n   e² = 1 + b²/a².\n   Substitute b² = a² - 1.\n   e² = 1 + (a² - 1)/a² = 1 + 1 - 1/a² = 2 - 1/a².\n   Since a > 1, 0 < 1/a² < 1.\n   So 1 < e² < 2.\n   1 < e < √2.\n   Option A is Correct.\n\n5. **Area of Triangle Δ:**\n   Triangle formed by Tangent (T), Normal (N), and x-axis.\n   Tangent: y = x - 1. x-intercept A(1, 0).\n   Normal: Slope -1, passes through P(a², b²).\n   y - b² = -1(x - a²).\n   x + y = a² + b².\n   x-intercept B(a² + b², 0).\n   Vertex P(a², b²).\n   Base AB on x-axis.\n   Length AB = (a² + b²) - 1.\n   Height h = b².\n   Area Δ = 1/2 * Base * Height = 1/2 * (a² + b² - 1) * b².\n   Use a² - 1 = b².\n   Base = b² + b² = 2b².\n   Δ = 1/2 * (2b²) * b² = b⁴.\n   Option D is Correct.\n\n   Answer: A, D.",
+      "concept_tags": [
+        "tangents_and_normals",
+        "hyperbola_properties",
+        "area_of_triangle"
+      ],
+      "formula_tags": [
+        "y - y₁ = m(x - x₁)",
+        "e² = 1 + b²/a²"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": "Confusing the slope of the normal with 1 instead of -1, leading to incorrect point coordinates."
+    },
+    {
+      "qid": "JEE_Adv_2020_P2_11",
+      "year": "2020",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Vectors",
+      "chapter": "Vector Algebra",
+      "question_text": "Let a and b be positive real numbers. Suppose PQ = ai + bj and PS = ai - bj are adjacent sides of a parallelogram PQRS. Let u and v be the projection vectors of w = i + j along PQ and PS respectively. If |u| + |v| = |w| and if the area of the parallelogram PQRS is 8, then which of the following statements is/are TRUE?",
+      "diagram_refs": [],
+      "options": [
+        "a + b = 4",
+        "a - b = 2",
+        "The length of the diagonal PR of the parallelogram PQRS is 4",
+        "w is an angle bisector of the vectors PQ and PS"
+      ],
+      "correct_answer": "Options A, C",
+      "solution_text": "1. **Analyze Vectors:**\n   PQ = a i + b j.\n   PS = a i - b j.\n   w = i + j.\n   Area of parallelogram = | PQ x PS |.\n   PQ x PS = (a i + b j) x (a i - b j) = -ab (i x j) + ab (j x i) = -ab k - ab k = -2ab k.\n   Area = |-2ab| = 2ab.\n   Given Area = 8 => 2ab = 8 => ab = 4.\n\n2. **Projections:**\n   u = proj of w on PQ = [ (w . PQ) / |PQ|² ] PQ.\n   Magnitude |u| = |w . PQ| / |PQ|.\n   w . PQ = (i + j) . (ai + bj) = a + b.\n   |PQ| = √(a² + b²).\n   |u| = (a + b) / √(a² + b²).\n   \n   v = proj of w on PS.\n   w . PS = (i + j) . (ai - bj) = a - b.\n   |PS| = √(a² + b²).\n   |v| = |a - b| / √(a² + b²).\n\n3. **Condition |u| + |v| = |w|:**\n   |w| = √2.\n   ( (a + b) + |a - b| ) / √(a² + b²) = √2.\n   Case 1: a ≥ b.\n   (a + b + a - b) = √2 √(a² + b²).\n   2a = √2 √(a² + b²).\n   Square: 4a² = 2(a² + b²) = 2a² + 2b².\n   2a² = 2b² => a = b.\n   Since ab = 4 and a=b, a² = 4 => a = 2, b = 2.\n   \n   Case 2: a < b.\n   (a + b - a + b) = 2b = √2 √(a² + b²).\n   4b² = 2a² + 2b² => 2b² = 2a² => b = a.\n   Same result: a = b = 2.\n\n4. **Check Options:**\n   (A) a + b = 2 + 2 = 4. True.\n   (B) a - b = 0. False.\n   (C) Diagonal PR = PQ + PS = (ai + bj) + (ai - bj) = 2ai = 4i.\n       Length = 4. True.\n   (D) w = i + j. PQ = 2i + 2j = 2(i+j). PS = 2i - 2j.\n       PQ is parallel to w. PS is orthogonal? No.\n       Angle bisector of PQ and PS is along PQ + PS = 4i (x-axis).\n       w is i + j (45 deg). Not the bisector. False.\n\n   Answer: A, C.",
+      "concept_tags": [
+        "vector_projections",
+        "vector_area",
+        "vector_addition"
+      ],
+      "formula_tags": [
+        "Area = |a x b|",
+        "Proj b on a = (a.b/|a|^2) a"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": "Neglecting the absolute value in |a-b| or making errors in the projection magnitude formula."
+    },
+    {
+      "qid": "JEE_Adv_2020_P2_12",
+      "year": "2020",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Algebra",
+      "chapter": "Binomial Theorem",
+      "question_text": "For non-negative integers s and r, let (s, r) = s! / (r! (s-r)!) if r ≤ s, else 0. Let f(m, n, p) = Σ (from i=0 to p) (m, i) (n+i, p) (p+n, p-i). Let g(m, n) = Σ (from p=0 to m+n) f(m, n, p) / (n+p, p). Then which of the following statements is/are TRUE?",
+      "diagram_refs": [],
+      "options": [
+        "g(m, n) = g(n, m)",
+        "g(m, n+1) = g(m+1, n)",
+        "g(2m, 2n) = 2 g(m, n)",
+        "g(2m, 2n) = (g(m, n))²"
+      ],
+      "correct_answer": "Options A, B, D",
+      "solution_text": "1. **Simplify f(m, n, p):**\n   Term: mCi * (n+i)Cp * (n+p)C(p-i).\n   (n+i)Cp * (n+p)C(p-i) = [ (n+i)! / p! (n+i-p)! ] * [ (n+p)! / (p-i)! (n+i)! ]\n   = (n+p)! / [ p! (n+i-p)! (p-i)! ]\n   Multiply num/den by n!: = [ (n+p)! / (p! n!) ] * [ n! / ( (n-(p-i))! (p-i)! ) ]\n   = (n+p)Cp * nC(p-i).\n   So f(m, n, p) = (n+p)Cp * Σ(i=0 to p) mCi * nC(p-i).\n   The summation is the coefficient of x^p in (1+x)^m * (1+x)^n = (1+x)^(m+n).\n   Sum = (m+n)Cp.\n   So f(m, n, p) = (n+p)Cp * (m+n)Cp.\n\n2. **Simplify g(m, n):**\n   g(m, n) = Σ(p=0 to m+n) f(m, n, p) / (n+p, p).\n   (n+p, p) is (n+p)Cp.\n   So term is [ (n+p)Cp * (m+n)Cp ] / (n+p)Cp = (m+n)Cp.\n   g(m, n) = Σ(p=0 to m+n) (m+n)Cp.\n   This is the sum of all binomial coefficients for power (m+n).\n   g(m, n) = 2^(m+n).\n\n3. **Check Options:**\n   (A) g(m, n) = 2^(m+n). g(n, m) = 2^(n+m). Equal. True.\n   (B) g(m, n+1) = 2^(m+n+1). g(m+1, n) = 2^(m+1+n). Equal. True.\n   (C) g(2m, 2n) = 2^(2m+2n). 2 g(m, n) = 2 * 2^(m+n). Not equal. False.\n   (D) g(2m, 2n) = 2^(2m+2n) = (2^(m+n))² = (g(m, n))². True.\n\n   Answer: A, B, D.",
+      "concept_tags": [
+        "binomial_coefficient_properties",
+        "summation_of_series",
+        "vandermondes_identity"
+      ],
+      "formula_tags": [
+        "Σ nCr = 2^n",
+        "nCr = n!/r!(n-r)!"
+      ],
+      "difficulty_level": "Hard",
+      "common_traps": "Getting lost in the factorial expansions without recognizing the standard binomial identities."
+    },
+      {
+        "qid": "JEE_Adv_2020_P2_1",
+        "year": "2020",
+        "exam_type": "Advanced",
+        "subject": "Mathematics",
+        "major_branch": "Algebra",
+        "chapter": "Complex Numbers",
+        "question_text": "For a complex number z, let Re(z) denote the real part of z. Let S be the set of all complex numbers z satisfying z⁴ - |z|⁴ = 4iz². Then the minimum possible value of |z₁ - z₂|², where z₁, z₂ ∈ S with Re(z₁) > 0 and Re(z₂) < 0, is",
+        "diagram_refs": [],
+        "options": [],
+        "correct_answer": "8",
+        "solution_text": "1. **Simplify the Equation:**\n   Given z⁴ - |z|⁴ = 4iz².\n   Let z = x + iy, so |z|² = z * z̄.\n   Equation: z⁴ - (z * z̄)² = 4iz².\n   z² (z² - z̄²) = 4iz².\n   Case 1: z² = 0 => z = 0. (But we need Re(z) > 0 and < 0, so ignore z=0).\n   Case 2: z² - z̄² = 4i.\n   (x + iy)² - (x - iy)² = 4i.\n   (x² - y² + 2ixy) - (x² - y² - 2ixy) = 4i.\n   4ixy = 4i.\n   xy = 1.\n\n2. **Analyze the Locus:**\n   The set S (excluding 0) lies on the rectangular hyperbola xy = 1.\n   We have z₁ with Re(z₁) > 0 => x₁ > 0. Since x₁y₁ = 1, y₁ > 0. (First Quadrant).\n   We have z₂ with Re(z₂) < 0 => x₂ < 0. Since x₂y₂ = 1, y₂ < 0. (Third Quadrant).\n\n3. **Minimize Distance:**\n   We need to find the minimum value of |z₁ - z₂|².\n   This is the square of the distance between a point on the branch xy=1 (x>0) and a point on the branch xy=1 (x<0).\n   Let z₁ = (t, 1/t) with t > 0.\n   Let z₂ = (-u, -1/u) with u > 0 (let x₂ = -u).\n   By symmetry, the closest points are the vertices (1, 1) and (-1, -1).\n   Let's verify using distance formula D² = (x₁ - x₂)² + (y₁ - y₂)².\n   Let x₁ = t, y₁ = 1/t. x₂ = -u, y₂ = -1/u. (t, u > 0).\n   D² = (t + u)² + (1/t + 1/u)² = (t+u)² + [(t+u)/tu]² = (t+u)² [1 + 1/(tu)²].\n   To minimize, set t=u=1 (vertices).\n   D² = (1+1)² [1 + 1] = 4 * 2 = 8.\n   Points are (1, 1) and (-1, -1).\n   Min |z₁ - z₂|² = 8.\n\n   Answer: 8.",
+        "concept_tags": [
+          "complex_numbers_geometry",
+          "rectangular_hyperbola",
+          "optimization_using_am_gm"
+        ],
+        "formula_tags": [
+          "z² - z̄² = 4ixy",
+          "AM ≥ GM"
+        ],
+        "difficulty_level": "Medium",
+        "common_traps": "Missing the case z=0 or failing to identify the locus as a hyperbola xy=1."
+      },
+      {
+        "qid": "JEE_Adv_2020_P2_2",
+        "year": "2020",
+        "exam_type": "Advanced",
+        "subject": "Mathematics",
+        "major_branch": "Probability",
+        "chapter": "Probability",
+        "question_text": "The probability that a missile hits a target successfully is 0.75. In order to destroy the target completely, at least three successful hits are required. Then the minimum number of missiles that have to be fired so that the probability of completely destroying the target is NOT less than 0.95, is",
+        "diagram_refs": [],
+        "options": [],
+        "correct_answer": "6",
+        "solution_text": "1. **Define Event:**\n   Let n be the number of missiles fired.\n   Let X be the number of successful hits.\n   X follows Binomial Distribution B(n, p) where p = 0.75 = 3/4.\n   Target destroyed if X ≥ 3.\n   We need P(X ≥ 3) ≥ 0.95.\n   P(X ≥ 3) = 1 - P(X < 3) = 1 - [P(X=0) + P(X=1) + P(X=2)].\n\n2. **Set up Inequality:**\n   1 - [ nC₀ (3/4)⁰ (1/4)ⁿ + nC₁ (3/4)¹ (1/4)ⁿ⁻¹ + nC₂ (3/4)² (1/4)ⁿ⁻² ] ≥ 0.95.\n   1 - (1/4)ⁿ [ 1 + 3n + (n(n-1)/2) * 9 ] ≥ 0.95.\n   (1/4)ⁿ [ 1 + 3n + 4.5n² - 4.5n ] ≤ 0.05.\n   (1/4)ⁿ [ 4.5n² - 1.5n + 1 ] ≤ 1/20.\n   (9n² - 3n + 2) / (2 * 4ⁿ) ≤ 1/20.\n   10 (9n² - 3n + 2) ≤ 4ⁿ.\n\n3. **Test Values of n:**\n   n = 5: LHS = 10(225-15+2) = 2120. RHS = 1024. False.\n   n = 6: LHS = 10(324-18+2) = 3080. RHS = 4096. True.\n   Minimum n = 6.\n\n   Answer: 6.",
+        "concept_tags": [
+          "binomial_distribution",
+          "inequalities"
+        ],
+        "formula_tags": [
+          "P(X=r) = nCr p^r q^(n-r)"
+        ],
+        "difficulty_level": "Medium",
+        "common_traps": "Calculation errors when evaluating the terms for higher n."
+      },
+      {
+        "qid": "JEE_Adv_2020_P2_3",
+        "year": "2020",
+        "exam_type": "Advanced",
+        "subject": "Mathematics",
+        "major_branch": "Coordinate Geometry",
+        "chapter": "Circles",
+        "question_text": "Let O be the centre of the circle x² + y² = r², where r > √5/2. Suppose PQ is a chord of this circle and the equation of the line passing through P and Q is 2x + 4y = 5. If the centre of the circumcircle of the triangle OPQ lies on the line x + 2y = 4, then the value of r is",
+        "diagram_refs": [],
+        "options": [],
+        "correct_answer": "2",
+        "solution_text": "1. **Identify Geometry:**\n   Circle C1: x² + y² = r².\n   Chord PQ: 2x + 4y = 5.\n   Circumcircle of ΔOPQ passes through O(0,0) and intersection of C1 and PQ.\n   Equation: (x² + y² - r²) + λ(2x + 4y - 5) = 0.\n   Passes through (0,0) => -r² - 5λ = 0 => λ = -r²/5.\n\n2. **Find Center:**\n   x² + y² - (2r²/5)x - (4r²/5)y = 0.\n   Center C' = ( r²/5, 2r²/5 ).\n\n3. **Apply Constraint:**\n   C' lies on x + 2y = 4.\n   (r²/5) + 2(2r²/5) = 4.\n   5r²/5 = 4 => r² = 4 => r = 2.\n\n   Answer: 2.",
+        "concept_tags": [
+          "family_of_circles",
+          "circumcircle"
+        ],
+        "formula_tags": [
+          "S + λL = 0"
+        ],
+        "difficulty_level": "Medium",
+        "common_traps": "Using lengthy coordinate geometry methods instead of family of circles."
+      },
+      {
+        "qid": "JEE_Adv_2020_P2_4",
+        "year": "2020",
+        "exam_type": "Advanced",
+        "subject": "Mathematics",
+        "major_branch": "Algebra",
+        "chapter": "Matrices",
+        "question_text": "The trace of a square matrix is defined to be the sum of its diagonal entries. If A is a 2 × 2 matrix such that the trace of A is 3 and the trace of A³ is -18, then the value of the determinant of A is",
+        "diagram_refs": [],
+        "options": [],
+        "correct_answer": "5",
+        "solution_text": "1. **Characteristic Equation:**\n   Let Tr(A) = T = 3, Det(A) = D.\n   Char Eq: λ² - 3λ + D = 0.\n   A² = 3A - DI.\n\n2. **Find A³:**\n   A³ = 3A² - DA = 3(3A - DI) - DA = (9 - D)A - 3DI.\n\n3. **Trace:**\n   Tr(A³) = (9-D)Tr(A) - 3D(2) = (9-D)(3) - 6D = 27 - 3D - 6D = 27 - 9D.\n   -18 = 27 - 9D => 9D = 45 => D = 5.\n\n   Answer: 5.",
+        "concept_tags": [
+          "cayley_hamilton_theorem",
+          "trace_of_matrix"
+        ],
+        "formula_tags": [
+          "A² - Tr(A)A + Det(A)I = 0"
+        ],
+        "difficulty_level": "Easy",
+        "common_traps": "Solving for matrix elements."
+      },
+      {
+        "qid": "JEE_Adv_2020_P2_5",
+        "year": "2020",
+        "exam_type": "Advanced",
+        "subject": "Mathematics",
+        "major_branch": "Calculus",
+        "chapter": "Functions",
+        "question_text": "Let the functions f: (-1, 1) → R and g: (-1, 1) → (-1, 1) be defined by f(x) = |2x - 1| + |2x + 1| and g(x) = x - [x], where [x] denotes the greatest integer less than or equal to x. Let fog: (-1, 1) → R be the composite function defined by (fog)(x) = f(g(x)). Suppose c is the number of points in the interval (-1, 1) at which fog is NOT continuous, and suppose d is the number of points in the interval (-1, 1) at which fog is NOT differentiable. Then the value of c + d is",
+        "diagram_refs": [],
+        "options": [],
+        "correct_answer": "4",
+        "solution_text": "1. **Analyze Functions:**\n   f(x) = |2x - 1| + |2x + 1|.\n   If x ∈ (-1/2, 1/2), f(x) = -(2x-1) + (2x+1) = 2.\n   If x ≥ 1/2, f(x) = 4x. If x ≤ -1/2, f(x) = -4x.\n   g(x) = {x} (fractional part) for x ∈ (-1, 1).\n   For x ∈ (-1, 0), g(x) = x - (-1) = x + 1. Range (0, 1).\n   For x ∈ [0, 1), g(x) = x. Range [0, 1).\n   \n2. **Composite f(g(x)):**\n   g(x) is always in [0, 1).\n   If g(x) ∈ [0, 1/2], f(g(x)) = 2.\n   If g(x) ∈ (1/2, 1), f(g(x)) = 4g(x).\n   \n   Case x ∈ [0, 1): g(x) = x.\n   f(g(x)) = 2 for x ∈ [0, 1/2].\n   f(g(x)) = 4x for x ∈ (1/2, 1).\n   Continuous at 1/2? Lim x->1/2+ is 2. Value is 2. Continuous.\n   Differentiable at 1/2? LHD=0, RHD=4. Not Diff at x=1/2.\n   \n   Case x ∈ (-1, 0): g(x) = x + 1.\n   g(x) ∈ [0, 1/2] => x+1 ∈ [0, 1/2] => x ∈ [-1, -1/2].\n   Then f(g(x)) = 2.\n   g(x) ∈ (1/2, 1) => x ∈ (-1/2, 0).\n   Then f(g(x)) = 4(x+1).\n   Check x = -1/2: LHD=0, RHD=4. Not Diff at x=-1/2.\n   Check x = 0: Limit x->0- is 4(1)=4. Value at 0 is f(g(0))=f(0)=2. Discontinuous at x=0.\n\n3. **Count Points:**\n   Discontinuous (c): x = 0. (c=1).\n   Not Differentiable (d): x = -1/2, x = 1/2 (Sharp corners), and x = 0 (Discontinuous implies non-diff). So d = 3.\n   c + d = 1 + 3 = 4.\n\n   Answer: 4.",
+        "concept_tags": [
+          "composite_functions",
+          "continuity_and_differentiability",
+          "fractional_part_function"
+        ],
+        "formula_tags": [],
+        "difficulty_level": "Medium",
+        "common_traps": "Forgetting that discontinuity implies non-differentiability when counting 'd'."
+      },
+      {
+        "qid": "JEE_Adv_2020_P2_6",
+        "year": "2020",
+        "exam_type": "Advanced",
+        "subject": "Mathematics",
+        "major_branch": "Calculus",
+        "chapter": "Limits",
+        "question_text": "The value of the limit lim (x→π/2) [ 4√2 (sin 3x + sin x) ] / [ (2 sin 2x sin 3x/2 + cos 5x/2) - (√2 + √2 cos 2x + cos 3x/2) ] is",
+        "diagram_refs": [],
+        "options": [],
+        "correct_answer": "8",
+        "solution_text": "1. **Simplify Expressions:**\n   Num = 4√2 (2 sin 2x cos x) = 8√2 sin 2x cos x.\n   Denom D = (cos x/2 - cos 7x/2 + cos 5x/2) - (2√2 cos² x + cos 3x/2).\n   Let h = x - π/2. x = π/2 + h.\n   Num ≈ 16√2 h² (using expansions).\n   Denom ≈ 2√2 h².\n   Limit = 16√2 / 2√2 = 8.\n\n   Answer: 8.",
+        "concept_tags": [
+          "trigonometric_limits",
+          "taylor_series"
+        ],
+        "formula_tags": [],
+        "difficulty_level": "Hard",
+        "common_traps": "Calculation errors in expansion."
+      },
+      {
+        "qid": "JEE_Adv_2020_P2_7",
+        "year": "2020",
+        "exam_type": "Advanced",
+        "subject": "Mathematics",
+        "major_branch": "Calculus",
+        "chapter": "Differential Equations",
+        "question_text": "Let b be a nonzero real number. Suppose f: R → R is a differentiable function such that f(0) = 1. If the derivative f' of f satisfies the equation f'(x) = f(x) / (b² + x²) for all x ∈ R, then which of the following statements is/are TRUE?",
+        "diagram_refs": [],
+        "options": [
+          "If b > 0, then f is an increasing function",
+          "If b < 0, then f is a decreasing function",
+          "f(x) f(-x) = 1 for all x ∈ R",
+          "f(x) - f(-x) = 0 for all x ∈ R"
+        ],
+        "correct_answer": "Options A, C",
+        "solution_text": "1. **Solve Differential Equation:**\n   f'(x)/f(x) = 1/(b² + x²).\n   ∫ dy/y = ∫ dx/(b² + x²).\n   ln |f(x)| = (1/b) tan⁻¹(x/b) + C.\n   f(0) = 1 => 0 = 0 + C => C=0.\n   f(x) = e^[ (1/b) tan⁻¹(x/b) ].\n\n2. **Analyze Properties:**\n   f(x) > 0 for all x.\n   f'(x) = f(x)/(b²+x²). Since f(x)>0 and denom>0, f'(x) > 0.\n   So f is always increasing regardless of sign of b? No, derivative depends on f(x) and denom. Both positive. So Increasing.\n   Wait, Option A says 'If b>0', Option B 'If b<0'. f is increasing for all b!=0.\n   So A is True. B is False (Decreasing is wrong).\n   \n   Check C: f(x)f(-x) = e^((1/b)tan⁻¹(x/b)) * e^((1/b)tan⁻¹(-x/b)).\n   tan⁻¹(-u) = -tan⁻¹(u).\n   Exponent = K - K = 0.\n   f(x)f(-x) = e^0 = 1. True.\n\n   Answer: A, C.",
+        "concept_tags": [
+          "differential_equations",
+          "functions_properties"
+        ],
+        "formula_tags": [
+          "∫ 1/(a²+x²) dx = 1/a tan⁻¹(x/a)"
+        ],
+        "difficulty_level": "Easy",
+        "common_traps": "None."
+      },
+      {
+        "qid": "JEE_Adv_2020_P2_8",
+        "year": "2020",
+        "exam_type": "Advanced",
+        "subject": "Mathematics",
+        "major_branch": "Coordinate Geometry",
+        "chapter": "Hyperbola",
+        "question_text": "Let a and b be positive real numbers such that a > 1 and b < a. Let P be a point in the first quadrant that lies on the hyperbola x²/a² - y²/b² = 1. Suppose the tangent to the hyperbola at P passes through the point (1, 0), and suppose the normal to the hyperbola at P cuts off equal intercepts on the coordinate axes. Let Δ denote the area of the triangle formed by the tangent at P, the normal at P and the x-axis. If e denotes the eccentricity of the hyperbola, then which of the following statements is/are TRUE?",
+        "diagram_refs": [],
+        "options": [
+          "1 < e < √2",
+          "√2 < e < 2",
+          "Δ = a⁴",
+          "Δ = b⁴"
+        ],
+        "correct_answer": "Options A, D",
+        "solution_text": "1. **Conditions:**\n   Normal slope = -1 (equal intercepts).\n   Tangent slope = 1. Passes through (1,0) => y = x-1.\n   Tangent at P(x1, y1) is x x1/a² - y y1/b² = 1.\n   Compare: x - y = 1. x1 = a², y1 = b².\n   Point P(a², b²) on hyperbola => a² - b² = 1.\n\n2. **Eccentricity:**\n   e² = 1 + b²/a² = 1 + (a²-1)/a² = 2 - 1/a².\n   Since a > 1, 1 < e² < 2 => 1 < e < √2.\n   Option A True.\n\n3. **Area:**\n   Triangle vertices: A(1,0) (Tangent x-int), B(a²+b², 0) (Normal x-int), P(a², b²).\n   Base = (a²+b²) - 1 = 2b² (using a²-1=b²).\n   Height = b².\n   Area = 1/2 * 2b² * b² = b⁴.\n   Option D True.\n\n   Answer: A, D.",
+        "concept_tags": [
+          "hyperbola_tangents_normals",
+          "area_of_triangle"
+        ],
+        "formula_tags": [],
+        "difficulty_level": "Medium",
+        "common_traps": "Slope of normal."
+      },
+      {
+        "qid": "JEE_Adv_2020_P2_9",
+        "year": "2020",
+        "exam_type": "Advanced",
+        "subject": "Mathematics",
+        "major_branch": "Calculus",
+        "chapter": "Functions",
+        "question_text": "Let f: R → R and g: R → R be functions satisfying f(x + y) = f(x) + f(y) + f(x)f(y) and f(x) = xg(x) for all x, y ∈ R. If lim(x→0) g(x) = 1, then which of the following statements is/are TRUE?",
+        "diagram_refs": [],
+        "options": [
+          "f is differentiable at every x ∈ R",
+          "If g(0) = 1, then g is differentiable at every x ∈ R",
+          "The derivative f'(1) is equal to 1",
+          "The derivative f'(0) is equal to 1"
+        ],
+        "correct_answer": "Options A, B, D",
+        "solution_text": "1. **Find f(x):**\n   f(x+y) = f(x) + f(y) + f(x)f(y).\n   Add 1 to both sides: 1 + f(x+y) = (1+f(x))(1+f(y)).\n   Let h(x) = 1 + f(x). h(x+y) = h(x)h(y).\n   h(x) = a^x.\n   f(x) = a^x - 1.\n   Use limit condition: f(x) = xg(x) => g(x) = f(x)/x = (a^x - 1)/x.\n   Lim(x->0) g(x) = ln a.\n   Given limit is 1 => ln a = 1 => a = e.\n   So f(x) = e^x - 1.\n\n2. **Check Options:**\n   (A) f(x) = e^x - 1 is differentiable everywhere. True.\n   (D) f'(x) = e^x. f'(0) = 1. True.\n   (C) f'(1) = e. Not 1. False.\n   (B) g(x) = (e^x - 1)/x for x!=0, and g(0)=1.\n       Expansion: (1 + x + x²/2 + ... - 1)/x = 1 + x/2 + ...\n       Limit is 1. Value is 1. Continuous.\n       g'(0) = Lim (g(x)-1)/x = Lim ( (e^x-1)/x - 1 )/x = Lim (e^x - 1 - x)/x² = 1/2.\n       g(x) is differentiable at 0. For x!=0 it is diff. True.\n\n   Answer: A, B, D.",
+        "concept_tags": [
+          "functional_equations",
+          "differentiability"
+        ],
+        "formula_tags": [],
+        "difficulty_level": "Medium",
+        "common_traps": "Not recognizing the h(x) transformation."
+      },
+      {
+        "qid": "JEE_Adv_2020_P2_10",
+        "year": "2020",
+        "exam_type": "Advanced",
+        "subject": "Mathematics",
+        "major_branch": "Vectors",
+        "chapter": "3D Geometry",
+        "question_text": "Let α, β, γ, δ be real numbers such that α² + β² + γ² ≠ 0 and α + γ = 1. Suppose the point (3, 2, -1) is the mirror image of the point (1, 0, -1) with respect to the plane αx + βy + γz = δ. Then which of the following statements is/are TRUE?",
+        "diagram_refs": [],
+        "options": [
+          "α + β = 2",
+          "δ - γ = 3",
+          "δ + β = 4",
+          "α + β + γ = δ"
+        ],
+        "correct_answer": "Options A, B, C",
+        "solution_text": "1. **Plane Properties:**\n   Midpoint of P(1,0,-1) and Q(3,2,-1) lies on plane.\n   M = (2, 1, -1).\n   Normal vector n = PQ = (2, 2, 0). Direction (1, 1, 0).\n   Equation: 1(x-2) + 1(y-1) + 0(z+1) = 0 => x + y = 3.\n   Compare with αx + βy + γz = δ.\n   α = k, β = k, γ = 0, δ = 3k.\n   Given α + γ = 1 => k + 0 = 1 => k = 1.\n   So α = 1, β = 1, γ = 0, δ = 3.\n\n2. **Check Options:**\n   (A) α + β = 1 + 1 = 2. True.\n   (B) δ - γ = 3 - 0 = 3. True.\n   (C) δ + β = 3 + 1 = 4. True.\n   (D) α + β + γ = 2 != 3. False.\n\n   Answer: A, B, C.",
+        "concept_tags": [
+          "plane_mirror_image",
+          "3d_geometry"
+        ],
+        "formula_tags": [],
+        "difficulty_level": "Easy",
+        "common_traps": "Calculation error."
+      },
+      {
+        "qid": "JEE_Adv_2020_P2_11",
+        "year": "2020",
+        "exam_type": "Advanced",
+        "subject": "Mathematics",
+        "major_branch": "Vectors",
+        "chapter": "Vector Algebra",
+        "question_text": "Let a and b be positive real numbers. Suppose PQ = ai + bj and PS = ai - bj are adjacent sides of a parallelogram PQRS. Let u and v be the projection vectors of w = i + j along PQ and PS respectively. If |u| + |v| = |w| and if the area of the parallelogram PQRS is 8, then which of the following statements is/are TRUE?",
+        "diagram_refs": [],
+        "options": [
+          "a + b = 4",
+          "a - b = 2",
+          "The length of the diagonal PR of the parallelogram PQRS is 4",
+          "w is an angle bisector of the vectors PQ and PS"
+        ],
+        "correct_answer": "Options A, C",
+        "solution_text": "1. **Solve for a, b:**\n   Area = |PQ x PS| = 2ab = 8 => ab = 4.\n   |u| + |v| = |w| => (a+b)/√(a²+b²) + |a-b|/√(a²+b²) = √2.\n   leads to a = b = 2.\n   \n2. **Options:**\n   a+b = 4 (True). a-b=0 (False).\n   Diagonal PR = 2ai = 4i. Length 4 (True).\n   Answer: A, C.",
+        "concept_tags": [
+          "vectors",
+          "projection",
+          "parallelogram_area"
+        ],
+        "formula_tags": [],
+        "difficulty_level": "Medium",
+        "common_traps": "Missing modulus."
+      },
+      {
+        "qid": "JEE_Adv_2020_P2_12",
+        "year": "2020",
+        "exam_type": "Advanced",
+        "subject": "Mathematics",
+        "major_branch": "Algebra",
+        "chapter": "Binomial Theorem",
+        "question_text": "For non-negative integers s and r, let (s, r) = s! / (r! (s-r)!) if r ≤ s, else 0. Let f(m, n, p) = Σ (from i=0 to p) (m, i) (n+i, p) (p+n, p-i). Let g(m, n) = Σ (from p=0 to m+n) f(m, n, p) / (n+p, p). Then which of the following statements is/are TRUE?",
+        "diagram_refs": [],
+        "options": [
+          "g(m, n) = g(n, m)",
+          "g(m, n+1) = g(m+1, n)",
+          "g(2m, 2n) = 2 g(m, n)",
+          "g(2m, 2n) = (g(m, n))²"
+        ],
+        "correct_answer": "Options A, B, D",
+        "solution_text": "1. **Simplify:**\n   f(m,n,p) = (n+p)Cp * (m+n)Cp.\n   g(m,n) = Sum (m+n)Cp = 2^(m+n).\n\n2. **Check:**\n   g(m,n) = 2^(m+n). Symmetric.\n   g(2m,2n) = 2^(2m+2n) = (2^(m+n))^2. D True.\n   Answer: A, B, D.",
+        "concept_tags": [
+          "binomial_identities"
+        ],
+        "formula_tags": [],
+        "difficulty_level": "Hard",
+        "common_traps": "Combinatorial summation."
+      },
+      {
+        "qid": "JEE_Adv_2020_P2_13",
+        "year": "2020",
+        "exam_type": "Advanced",
+        "subject": "Mathematics",
+        "major_branch": "Algebra",
+        "chapter": "Permutations and Combinations",
+        "question_text": "An engineer is required to visit a factory for exactly four days during the first 15 days of every month and it is mandatory that no two visits take place on consecutive days. Then the number of all possible ways in which such visits to the factory can be made by the engineer during 1-15 June 2021 is",
+        "diagram_refs": [],
+        "options": [],
+        "correct_answer": "495",
+        "solution_text": "1. **Gap Method:**\n   Select 4 days from 15 such that no two are consecutive.\n   k = 4, n = 15.\n   Formula: (n - k + 1) C k.\n   (15 - 4 + 1) C 4 = 12 C 4.\n   12*11*10*9 / (4*3*2*1) = 495.\n   Answer: 495.",
+        "concept_tags": [
+          "combinations_with_restrictions"
+        ],
+        "formula_tags": [
+          "(n-k+1)Ck"
+        ],
+        "difficulty_level": "Easy",
+        "common_traps": "Using total combinations minus consecutive."
+      },
+      {
+        "qid": "JEE_Adv_2020_P2_14",
+        "year": "2020",
+        "exam_type": "Advanced",
+        "subject": "Mathematics",
+        "major_branch": "Algebra",
+        "chapter": "Permutations and Combinations",
+        "question_text": "In a hotel, four rooms are available. Six persons are to be accommodated in these four rooms in such a way that each of these rooms contains at least one person and at most two persons. Then the number of all possible ways in which this can be done is",
+        "diagram_refs": [],
+        "options": [],
+        "correct_answer": "1080",
+        "solution_text": "1. **Distribution:**\n   6 persons in 4 rooms (R1, R2, R3, R4).\n   Constraint: 1 or 2 per room.\n   Partition of 6 into 4 parts: 2, 2, 1, 1.\n   Ways to group persons: 6! / (2! 2! 1! 1! * 2! 2!) = 720 / (4 * 4) = 45. (Group formation).\n   Assign groups to rooms: 4! = 24.\n   Total = 45 * 24 = 1080.\n   Answer: 1080.",
+        "concept_tags": [
+          "grouping_and_distribution"
+        ],
+        "formula_tags": [],
+        "difficulty_level": "Medium",
+        "common_traps": "Forgetting to divide by factorials of identical group sizes."
+      },
+      {
+        "qid": "JEE_Adv_2020_P2_15",
+        "year": "2020",
+        "exam_type": "Advanced",
+        "subject": "Mathematics",
+        "major_branch": "Probability",
+        "chapter": "Probability",
+        "question_text": "Two fair dice, each with faces numbered 1, 2, 3, 4, 5 and 6, are rolled together and the sum of the numbers on the faces is observed. This process is repeated till the sum is either a prime number or a perfect square. Suppose the sum turns out to be a perfect square before it turns out to be a prime number. If p is the probability that this perfect square is an odd number, then the value of 14p is",
+        "diagram_refs": [],
+        "options": [],
+        "correct_answer": "8",
+        "solution_text": "1. **Identify Outcomes:**\n   Total outcomes = 36.\n   Primes (P): 2, 3, 5, 7, 11.\n   Ways: 2(1), 3(2), 5(4), 7(6), 11(2). Total n(P) = 15.\n   Perfect Squares (S): 4, 9.\n   Ways: 4(3), 9(4). Total n(S) = 7.\n   Odd Perfect Square (S_odd): 9. n(S_odd) = 4.\n\n2. **Conditional Probability:**\n   Event E: Sum is Prime or Square. n(E) = 15 + 7 = 22.\n   Process stops at E. We want P(S occurred | E occurred).\n   Actually, P(S before P) = P(S) / (P(S) + P(P)) = 7 / 22.\n   Question: \"Suppose... square before prime... probability that *this* square is odd\".\n   So we want P(Odd Square | Square occurred).\n   The event is \"Square occurred (before Prime)\".\n   The favourable sub-event is \"Odd Square occurred (before Prime)\".\n   P = n(S_odd) / n(S) = 4 / 7.\n   Wait, does \"before prime\" affect the distribution of squares?\n   No, if it's a square, it's 4 or 9. The relative prob is 3:4.\n   Prob it is 9 is 4/7.\n\n3. **Calculate:**\n   p = 4/7.\n   14p = 14 * (4/7) = 8.\n\n   Answer: 8.",
+        "concept_tags": [
+          "conditional_probability"
+        ],
+        "formula_tags": [],
+        "difficulty_level": "Medium",
+        "common_traps": "Confusing the condition 'before prime' with the final condition 'is odd'."
+      },
+      {
+        "qid": "JEE_Adv_2020_P2_16",
+        "year": "2020",
+        "exam_type": "Advanced",
+        "subject": "Mathematics",
+        "major_branch": "Algebra",
+        "chapter": "Functions",
+        "question_text": "Let the function f: [0, 1] → R be defined by f(x) = 4^x / (4^x + 2). Then the value of f(1/40) + f(2/40) + ... + f(39/40) - f(1/2) is",
+        "diagram_refs": [],
+        "options": [],
+        "correct_answer": "19",
+        "solution_text": "1. **Property f(x) + f(1-x):**\n   f(1-x) = 4^(1-x) / (4^(1-x) + 2) = (4/4^x) / (4/4^x + 2) = 4 / (4 + 2*4^x) = 2 / (2 + 4^x).\n   f(x) + f(1-x) = 4^x/(4^x+2) + 2/(4^x+2) = (4^x+2)/(4^x+2) = 1.\n\n2. **Sum:**\n   S = Σ f(k/40) for k=1 to 39.\n   Pair k and 40-k. f(k/40) + f((40-k)/40) = 1.\n   There are 39 terms. k=1..19 paired with k=39..21. (19 pairs).\n   Middle term k=20: f(20/40) = f(1/2).\n   S = 19 * 1 + f(1/2).\n   Expression asks for S - f(1/2) = 19.\n   Note: Question says f(1/40) + ... + f(39/40) - f(1/2).\n   Answer: 19.",
+        "concept_tags": [
+          "summation_of_series",
+          "functional_properties"
+        ],
+        "formula_tags": [
+          "f(x)+f(1-x)=1"
+        ],
+        "difficulty_level": "Easy",
+        "common_traps": "Forgetting the middle term or the subtraction."
+      },
+      {
+        "qid": "JEE_Adv_2020_P2_17",
+        "year": "2020",
+        "exam_type": "Advanced",
+        "subject": "Mathematics",
+        "major_branch": "Calculus",
+        "chapter": "Integral Calculus",
+        "question_text": "Let f: R → R be a differentiable function such that its derivative f' is continuous and f(π) = -6. If F: [0, π] → R is defined by F(x) = ∫₀^x f(t) dt, and if ∫₀^π (f'(x) + F(x)) cos x dx = 2, then the value of f(0) is",
+        "diagram_refs": [],
+        "options": [],
+        "correct_answer": "4",
+        "solution_text": "1. **Integrate by Parts:**\n   I = ∫ (f'(x) + F(x)) cos x dx = ∫ f'(x) cos x dx + ∫ F(x) cos x dx.\n   Part 1: ∫ f'(x) cos x dx = [f(x) cos x]₀^π - ∫ f(x) (-sin x) dx.\n   = f(π)(-1) - f(0)(1) + ∫ f(x) sin x dx.\n   = -f(π) - f(0) + ∫ f(x) sin x dx.\n   Part 2: ∫ F(x) cos x dx. Let u=F(x), dv=cos x dx.\n   = [F(x) sin x]₀^π - ∫ f(x) sin x dx.\n   = 0 - 0 - ∫ f(x) sin x dx.\n   Sum I = (-f(π) - f(0) + Int) + (-Int) = -f(π) - f(0).\n   Given I = 2.\n   -f(π) - f(0) = 2.\n   -(-6) - f(0) = 2 => 6 - f(0) = 2 => f(0) = 4.\n\n   Answer: 4.",
+        "concept_tags": [
+          "integration_by_parts",
+          "fundamental_theorem_of_calculus"
+        ],
+        "formula_tags": [],
+        "difficulty_level": "Medium",
+        "common_traps": "Sign errors in by-parts."
+      },
+      {
+        "qid": "JEE_Adv_2020_P2_18",
+        "year": "2020",
+        "exam_type": "Advanced",
+        "subject": "Mathematics",
+        "major_branch": "Calculus",
+        "chapter": "Applications of Derivatives",
+        "question_text": "Let the function f: (0, π) → R be defined by f(θ) = (sin θ + cos θ)² + (sin θ - cos θ)⁴. Suppose the function f has a local minimum at θ precisely when θ ∈ {λ₁π, ..., λᵣπ}, where 0 < λ₁ < ... < λᵣ < 1. Then the value of λ₁ + ... + λᵣ is",
+        "diagram_refs": [],
+        "options": [],
+        "correct_answer": "0.5",
+        "solution_text": "1. **Simplify f(θ):**\n   (sin + cos)² = 1 + sin 2θ.\n   (sin - cos)² = 1 - sin 2θ.\n   So f(θ) = (1 + sin 2θ) + (1 - sin 2θ)².\n   Let u = sin 2θ. θ ∈ (0, π) => 2θ ∈ (0, 2π). u ∈ [-1, 1].\n   g(u) = 1 + u + (1 - u)² = 1 + u + 1 - 2u + u² = u² - u + 2.\n\n2. **Minima of g(u):**\n   g'(u) = 2u - 1 = 0 => u = 1/2.\n   g''(u) = 2 > 0. Min at u = 1/2.\n\n3. **Find θ:**\n   sin 2θ = 1/2.\n   In (0, 2π), 2θ = π/6, 5π/6.\n   θ = π/12, 5π/12.\n   These are the points of local minima.\n   λ₁ = 1/12, λ₂ = 5/12.\n   Sum = 1/12 + 5/12 = 6/12 = 0.5.\n\n   Answer: 0.5.",
+        "concept_tags": [
+          "maxima_minima",
+          "trigonometric_functions"
+        ],
+        "formula_tags": [],
+        "difficulty_level": "Medium",
+        "common_traps": "Missing the range of 2 theta."
+      },
+      {
+        "qid": "JEE_Adv_2020_P1_2",
+        "year": "2020",
+        "exam_type": "Advanced",
+        "subject": "Mathematics",
+        "major_branch": "Calculus",
+        "chapter": "Functions",
+        "question_text": "If the function f: R → R is defined by f(x) = |x|(x - sin x), then which of the following statements is TRUE?",
+        "diagram_refs": [],
+        "options": [
+          "f is one-one, but NOT onto",
+          "f is onto, but NOT one-one",
+          "f is BOTH one-one and onto",
+          "f is NEITHER one-one NOR onto"
+        ],
+        "correct_answer": "f is BOTH one-one and onto",
+        "solution_text": "See analysis above (Already included in P1 batch but repeated here for completeness).\nAnswer: f is BOTH one-one and onto.",
+        "concept_tags": ["one_one_onto_functions"],
+        "formula_tags": [],
+        "difficulty_level": "Medium",
+        "common_traps": ""
+      },
+      {
+        "qid": "JEE_Adv_2020_P1_3",
+        "year": "2020",
+        "exam_type": "Advanced",
+        "subject": "Mathematics",
+        "major_branch": "Calculus",
+        "chapter": "Area Under Curves",
+        "question_text": "Let the functions f: R → R and g: R → R be defined by f(x) = e^(x-1) - e^(-|x-1|) and g(x) = 1/2 (e^(x-1) + e^(1-x)). Then the area...",
+        "diagram_refs": [],
+        "options": [],
+        "correct_answer": "(2 - √3) + 1/2 (e - e⁻¹)",
+        "solution_text": "See analysis above.\nAnswer: (2 - √3) + 1/2 (e - e⁻¹).",
+        "concept_tags": ["area_under_curve"],
+        "formula_tags": [],
+        "difficulty_level": "Medium",
+        "common_traps": ""
+      },
+      {
+        "qid": "JEE_Adv_2020_P1_4",
+        "year": "2020",
+        "exam_type": "Advanced",
+        "subject": "Mathematics",
+        "major_branch": "Coordinate Geometry",
+        "chapter": "Conic Sections",
+        "question_text": "Let a, b and λ be positive real numbers. Suppose P is an end point of the latus rectum...",
+        "diagram_refs": [],
+        "options": [],
+        "correct_answer": "1/√2",
+        "solution_text": "See analysis above.\nAnswer: 1/√2.",
+        "concept_tags": ["conic_sections"],
+        "formula_tags": [],
+        "difficulty_level": "Medium",
+        "common_traps": ""
+      },
+      {
+        "qid": "JEE_Adv_2020_P1_10",
+        "year": "2020",
+        "exam_type": "Advanced",
+        "subject": "Mathematics",
+        "major_branch": "Trigonometry",
+        "chapter": "Properties of Triangles",
+        "question_text": "Let x, y and z be positive real numbers... tan(X/2) + tan(Z/2) = 2y / (x + y + z)...",
+        "diagram_refs": [],
+        "options": [],
+        "correct_answer": "Options B, C",
+        "solution_text": "See analysis above.\nAnswer: Options B, C.",
+        "concept_tags": ["properties_of_triangles"],
+        "formula_tags": [],
+        "difficulty_level": "Medium",
+        "common_traps": ""
+      },
+      {
+        "qid": "JEE_Adv_2020_P1_11",
+        "year": "2020",
+        "exam_type": "Advanced",
+        "subject": "Mathematics",
+        "major_branch": "Vectors",
+        "chapter": "3D Geometry",
+        "question_text": "Let L₁... and L₂... Line L bisects acute angle...",
+        "diagram_refs": [],
+        "options": [],
+        "correct_answer": "Options A, B",
+        "solution_text": "See analysis above.\nAnswer: Options A, B.",
+        "concept_tags": ["3d_geometry"],
+        "formula_tags": [],
+        "difficulty_level": "Medium",
+        "common_traps": ""
+      },
+      {
+        "qid": "JEE_Adv_2020_P1_12",
+        "year": "2020",
+        "exam_type": "Advanced",
+        "subject": "Mathematics",
+        "major_branch": "Calculus",
+        "chapter": "Definite Integration",
+        "question_text": "Which of the following inequalities is/are TRUE?\n(A) ∫₀¹ x cos x dx ≥ 3/8\n(B) ∫₀¹ x sin x dx ≥ 3/10\n(C) ∫₀¹ x² cos x dx ≥ 1/2\n(D) ∫₀¹ x² sin x dx ≥ 2/9",
+        "diagram_refs": [],
+        "options": [],
+        "correct_answer": "Options A, B, D",
+        "solution_text": "1. **Evaluate Integrals:**\n   Use expansions.\n   (A) x cos x = x(1 - x²/2 + ...). ∫ (x - x³/2) = 1/2 - 1/8 = 3/8. \n   Since cos x ≥ 1 - x²/2, integral ≥ 3/8. True.\n   (B) x sin x = x(x - x³/6). ∫ (x² - x⁴/6) = 1/3 - 1/30 = 9/30 = 3/10.\n   Since sin x ≥ x - x³/6, integral ≥ 3/10. True.\n   (C) x² cos x ≤ x²(1). ∫ x² = 1/3 < 1/2. False (implies < 1/3, so definitely not ≥ 1/2).\n   (D) x² sin x ≥ x²(x - x³/6). ∫ x³ - x⁵/6 = 1/4 - 1/36 = 8/36 = 2/9. True.\n\n   Answer: A, B, D.",
+        "concept_tags": [
+          "estimation_of_integrals",
+          "inequalities"
+        ],
+        "formula_tags": [],
+        "difficulty_level": "Medium",
+        "common_traps": "Using wrong series truncation."
+      },
+      {
+        "qid": "JEE_Adv_2020_P1_13",
+        "year": "2020",
+        "exam_type": "Advanced",
+        "subject": "Mathematics",
+        "major_branch": "Algebra",
+        "chapter": "Sequence and Series",
+        "question_text": "Let m be the minimum possible value of log₃(3^y₁ + 3^y₂ + 3^y₃)...",
+        "diagram_refs": [],
+        "options": [],
+        "correct_answer": "8",
+        "solution_text": "See analysis above.\nAnswer: 8.",
+        "concept_tags": ["am_gm_inequality"],
+        "formula_tags": [],
+        "difficulty_level": "Easy",
+        "common_traps": ""
+      },
+      {
+        "qid": "JEE_Adv_2020_P1_14",
+        "year": "2020",
+        "exam_type": "Advanced",
+        "subject": "Mathematics",
+        "major_branch": "Algebra",
+        "chapter": "Sequence and Series",
+        "question_text": "Let a1, a2, ... AP difference 2. b1, b2... GP ratio 2. a1=b1=c. Number of c values for which 2(a1+...+an) = b1+...+bn holds for some n.",
+        "diagram_refs": [],
+        "options": [],
+        "correct_answer": "1",
+        "solution_text": "1. **Sum Formulas:**\n   AP Sum Sn_a = n/2 [2c + (n-1)2] = n(c + n - 1) = nc + n² - n.\n   GP Sum Sn_b = c(2^n - 1) / (2-1) = c(2^n - 1).\n   Equation: 2(nc + n² - n) = c(2^n - 1).\n   2n² - 2n = c(2^n - 1 - 2n).\n   c = (2n² - 2n) / (2^n - 2n - 1).\n\n2. **Analyze Constraints:**\n   c must be integer > 0.\n   For n=1: c(0)/(1) = 0? Denom = 2-2-1 = -1. Num=0. c=0 (Not positive).\n   For n=2: c(4)/ (4-4-1) = -4? (Positive integers req). No.\n   For n=3: Num = 18-6=12. Denom = 8-6-1=1. c = 12. Valid.\n   For n=4: Num = 32-8=24. Denom = 16-8-1=7. 24/7 Not int.\n   For n=5: Num = 50-10=40. Denom = 32-10-1=21. Not int.\n   For n=6: Num = 72-12=60. Denom = 64-12-1=51. c < 2.\n   For large n, 2^n grows much faster than n². c will go to 0.\n   So n=3 is likely unique.\n\n   Answer: 1.",
+        "concept_tags": [
+          "ap_gp",
+          "integer_solutions"
+        ],
+        "formula_tags": [],
+        "difficulty_level": "Medium",
+        "common_traps": "Missing the n=3 solution."
+      },
+      {
+        "qid": "JEE_Adv_2020_P1_15",
+        "year": "2020",
+        "exam_type": "Advanced",
+        "subject": "Mathematics",
+        "major_branch": "Trigonometry",
+        "chapter": "Trigonometric Equations",
+        "question_text": "Let f: [0, 2] → R be f(x) = (3 - sin(2πx)) sin(πx - π/4) - sin(3πx + π/4). Range where f(x) ≥ 0 is [α, β]. Value of β - α.",
+        "diagram_refs": [],
+        "options": [],
+        "correct_answer": "1",
+        "solution_text": "1. **Simplify f(x):**\n   Let θ = πx - π/4. Then 2πx = 2θ + π/2. 3πx + π/4 = 3θ + π.\n   sin(2πx) = sin(2θ + π/2) = cos 2θ.\n   sin(3πx + π/4) = sin(3θ + π) = -sin 3θ.\n   f(x) = (3 - cos 2θ) sin θ - (-sin 3θ) = (3 - cos 2θ) sin θ + sin 3θ.\n   f(x) ≥ 0 => (3 - (1-2s²)) s + (3s - 4s³) ≥ 0.\n   (2 + 2s²) s + 3s - 4s³ ≥ 0.\n   2s + 2s³ + 3s - 4s³ ≥ 0.\n   5s - 2s³ ≥ 0. s(5 - 2s²) ≥ 0.\n   Since s² ≤ 1, 5 - 2s² > 0 always.\n   So s ≥ 0 => sin θ ≥ 0.\n\n2. **Find Interval:**\n   θ ∈ [0, π] (plus periods).\n   x ∈ [0, 2] => πx ∈ [0, 2π] => θ = πx - π/4 ∈ [-π/4, 7π/4].\n   sin θ ≥ 0 in [0, π].\n   0 ≤ πx - π/4 ≤ π.\n   π/4 ≤ πx ≤ 5π/4.\n   1/4 ≤ x ≤ 5/4.\n   α = 0.25, β = 1.25.\n   β - α = 1.\n\n   Answer: 1.",
+        "concept_tags": [
+          "trigonometric_inequalities"
+        ],
+        "formula_tags": [],
+        "difficulty_level": "Medium",
+        "common_traps": "Transformation of variables."
+      }
+    
+  ]
+  

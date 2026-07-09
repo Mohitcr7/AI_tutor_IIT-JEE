@@ -1,0 +1,215 @@
+[
+    {
+      "qid": "JEE_Adv_2022_Chem_1",
+      "year": 2022,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Mole Concept",
+      "question_text": "The treatment of an aqueous solution of 3.74 g of Cu(NO3)2 with excess KI results in a brown solution along with the formation of a precipitate. Passing H2S through this brown solution gives another precipitate X. The amount of X in g is _______. \nGiven Atomic mass of H=1, N=14, O=16, S=32, K=39, Cu=63, I=127.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "0.32",
+      "solution_text": "Reaction 1: Cu(NO3)2 with excess KI.\n2Cu(NO3)2 + 4KI -> Cu2I2(s) (precipitate) + I2 (brown solution) + 4KNO3.\nPrecipitate is Cu2I2. Brown solution contains dissolved I2 (as KI3).\n\nStep 1: Calculate moles of Cu(NO3)2.\nMolar Mass of Cu(NO3)2 = 63 + 2*(14 + 3*16) = 63 + 2*(62) = 63 + 124 = 187 g/mol.\nMoles = 3.74 g / 187 g/mol = 0.02 mol.\n\nFrom stoichiometry (2:1 ratio for Cu(NO3)2 : I2):\nMoles of I2 formed = 0.02 / 2 = 0.01 mol.\n\nReaction 2: Passing H2S through brown solution (I2).\nI2 + H2S -> 2HI + S(s) (Precipitate X).\nThe precipitate X is Sulphur (S).\n\nStoichiometry (1:1 ratio for I2 : S):\nMoles of S = Moles of I2 = 0.01 mol.\n\nCalculate Mass of X (S):\nAtomic Mass of S = 32 g/mol.\nMass = 0.01 mol * 32 g/mol = 0.32 g.\n\nAnswer: 0.32.",
+      "concept_tags": [
+        "stoichiometry",
+        "redox_reaction",
+        "iodometric_titration_principles"
+      ],
+      "formula_tags": [
+        "Moles = Mass / MolarMass",
+        "2Cu2+ + 4I- -> Cu2I2 + I2"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Identifying X as CuS or CuI instead of Sulphur",
+        "Forgetting the 2:1 stoichiometry for Cu to Iodine"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2022_Chem_2",
+      "year": 2022,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Inorganic Chemistry",
+      "chapter": "P-Block Elements",
+      "question_text": "Dissolving 1.24 g of white phosphorous in boiling NaOH solution in an inert atmosphere gives a gas Q. The amount of CuSO4 in g required to completely consume the gas Q is _______. \nGiven Atomic mass of H=1, O=16, Na=23, P=31, S=32, Cu=63.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "2.385",
+      "solution_text": "Reaction 1: White P (P4) with NaOH (Disproportionation).\nP4 + 3NaOH + 3H2O -> PH3 (Gas Q) + 3NaH2PO2.\n\nCalculate moles of P4:\nMolar Mass of P4 = 4 * 31 = 124 g/mol.\nMoles of P4 = 1.24 g / 124 g/mol = 0.01 mol.\n\nStoichiometry P4 : PH3 is 1:1.\nMoles of PH3 produced = 0.01 mol.\n\nReaction 2: PH3 with CuSO4.\n2PH3 + 3CuSO4 -> Cu3P2 + 3H2SO4.\nStoichiometry PH3 : CuSO4 is 2:3.\n\nMoles of CuSO4 required = (3/2) * Moles of PH3\n= (3/2) * 0.01 = 0.015 mol.\n\nCalculate Mass of CuSO4:\nMolar Mass of CuSO4 = 63 + 32 + 4*16 = 63 + 32 + 64 = 159 g/mol.\nMass = 0.015 mol * 159 g/mol = 2.385 g.\n\nAnswer: 2.385.",
+      "concept_tags": [
+        "stoichiometry",
+        "phosphine_preparation",
+        "reaction_balancing"
+      ],
+      "formula_tags": [
+        "P4 + 3OH- -> PH3 + 3H2PO2-",
+        "2PH3 + 3Cu2+ -> Cu3P2 + 6H+"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Incorrect balancing of the PH3 + CuSO4 reaction",
+        "Using atomic mass of P instead of molecular mass of P4"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2022_Chem_3",
+      "year": 2022,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Mole Concept",
+      "question_text": "To check the principle of multiple proportions, a series of pure binary compounds PmQn were analyzed and their composition is tabulated below. The correct options is/are:\nCompound 1: 50% P, 50% Q (by weight)\nCompound 2: 44.4% P, 55.6% Q\nCompound 3: 40% P, 60% Q\n\n(A) If empirical formula of compound 3 is P3Q4, then the empirical formula of compound 2 is P3Q5.\n(B) If empirical formula of compound 3 is P3Q2 and atomic weight of P is 20, then atomic weight of Q is 45.\n(C) If empirical formula of compound 2 is PQ, then empirical formula of compound 1 is P5Q4.\n(D) If atomic weight of P and Q are 70 and 35, respectively, then empirical formula of compound 1 is P2Q.",
+      "diagram_refs": [],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "B, C",
+      "solution_text": "Let atomic masses be Mp and Mq.\nMole ratio (P:Q) = (Wt% P / Mp) : (Wt% Q / Mq).\n\nOption A: Compound 3 is P3Q4.\nMole ratio for C3 = (40/Mp) : (60/Mq) = 2/3 * (Mq/Mp) = 3:4.\n=> Mq/Mp = (3/4) * (3/2) = 9/8.\nCheck Compound 2: P = 44.4, Q = 55.6.\nRatio = (44.4/Mp) : (55.6/Mq) = (44.4/55.6) * (Mq/Mp).\nRatio = (0.798) * (9/8) ≈ 0.8 * 1.125 = 0.9.\nIs it 3:5 = 0.6? No. 0.9 is 9:10.\nSo A is Incorrect.\n\nOption B: C3 is P3Q2. Mp=20.\nRatio C3 = (40/20) : (60/Mq) = 2 : 60/Mq.\nGiven Formula 3:2. So 2 / (60/Mq) = 3/2.\n2 * Mq / 60 = 1.5 => Mq = 1.5 * 30 = 45.\nCorrect. (B is True).\n\nOption C: C2 is PQ.\nRatio C2 = (44.4/Mp) : (55.6/Mq) = 1:1.\n=> Mp/Mq = 44.4/55.6 ≈ 0.8.\nCheck Compound 1: 50% P, 50% Q.\nRatio C1 = (50/Mp) : (50/Mq) = Mq/Mp = 1/0.8 = 1.25 = 5:4.\nFormula P5Q4.\nCorrect. (C is True).\n\nOption D: Mp=70, Mq=35.\nC1: (50/70) : (50/35) = 1/70 : 2/70 = 1:2.\nFormula PQ2.\nOption says P2Q.\nIncorrect. (D is False).",
+      "concept_tags": [
+        "empirical_formula",
+        "stoichiometry",
+        "law_of_multiple_proportions"
+      ],
+      "formula_tags": [
+        "MoleRatio = MassRatio / AtomicMassRatio"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Calculation errors in ratios",
+        "Inverting the mole ratio (P:Q vs Q:P)"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2021_Chem_4",
+      "year": 2021,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Mole Concept",
+      "question_text": "Reaction of x g of Sn with HCl quantitatively produced a salt. Entire amount of the salt reacted with y g of nitrobenzene in the presence of required amount of HCl to produce 1.29 g of an organic salt quantitatively. \nThe value of x is ______.\n(Molar masses: H=1, C=12, N=14, O=16, Cl=35, Sn=119)",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "3.57",
+      "solution_text": "Step 1: Reaction of tin with hydrochloric acid.\nSn + 2HCl → SnCl2 + H2.\nThus, stannous chloride (SnCl2) is formed quantitatively.\n\nStep 2: Reduction of nitrobenzene in acidic medium.\nIn acidic solution, nitrobenzene is reduced by Sn²⁺ ions, which are oxidized to Sn⁴⁺.\nThe reduction of one nitro group involves a 6-electron transfer:\nPhNO2 + 6H+ + 6e− → PhNH2 + 2H2O.\nEach Sn²⁺ → Sn⁴⁺ oxidation provides 2 electrons, so 3 moles of Sn²⁺ are required per mole of nitrobenzene.\n\nOverall stoichiometry:\nPhNO2 + 3SnCl2 + 6HCl → PhNH2 + 3SnCl4 + 2H2O.\nIn acidic medium, aniline forms its salt, PhNH3Cl.\n\nStep 3: Calculate moles of organic salt formed.\nMolar mass of PhNH3Cl = 129 g mol⁻¹.\nMoles of PhNH3Cl = 1.29 g / 129 g mol⁻¹ = 0.01 mol.\n\nStep 4: Calculate moles and mass of tin used.\nMoles of Sn required = 3 × 0.01 = 0.03 mol.\nMass of Sn = 0.03 × 119 = 3.57 g.\n\nTherefore, the value of x is 3.57 g.",
+      "concept_tags": [
+        "stoichiometry",
+        "redox_titration_principles",
+        "organic_reduction"
+      ],
+      "formula_tags": [
+        "R-NO2 + 6[H] -> R-NH2 + 2H2O",
+        "n(Sn) = 3 * n(PhNO2)"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Forgetting the 6-electron transfer in nitrobenzene reduction requires 3 Sn atoms (2e- each)",
+        "Using standard atomic mass for Cl (35.5) instead of given (35), though here it simplifies to integer 129"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2021_Chem_5",
+      "year": 2021,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Mole Concept",
+      "question_text": "Based on the previous reaction (Q4), the value of y (mass of nitrobenzene) is ______.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "1.23",
+      "solution_text": "From Q4 solution:\nMoles of Organic Salt (Aniline Hydrochloride) produced = 0.01 mol.\nStoichiometry PhNO2 : PhNH3Cl is 1:1.\nMoles of Nitrobenzene (y) = 0.01 mol.\n\nCalculate Mass y:\nMolar Mass of Nitrobenzene (C6H5NO2) = (6*12 + 5*1) + 14 + 2*16\n= 77 + 14 + 32 = 123 g/mol.\n\nMass y = 0.01 mol * 123 g/mol = 1.23 g.\n\nValue of y is 1.23.",
+      "concept_tags": [
+        "stoichiometry",
+        "molar_mass_calculation"
+      ],
+      "formula_tags": [
+        "Mass = Moles * MM"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": [
+        "Calculation error in molar mass"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2020_Chem_6",
+      "year": 2020,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Mole Concept",
+      "question_text": "Aluminium reacts with sulfuric acid to form aluminium sulfate and hydrogen. What is the volume of hydrogen gas in liters (L) produced at 300 K and 1.0 atm pressure, when 5.4 g of aluminium and 50.0 mL of 5.0 M sulfuric acid are combined for the reaction? \n(Use molar mass of aluminium = 27.0 g mol^-1, R = 0.082 atm L mol^-1 K^-1)",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "6.15",
+      "solution_text": "Reaction: 2Al + 3H2SO4 -> Al2(SO4)3 + 3H2.\n\nStep 1: Calculate moles of reactants.\nMoles Al = 5.4 g / 27 g/mol = 0.2 mol.\nMoles H2SO4 = Molarity * Volume = 5.0 M * 0.050 L = 0.25 mol.\n\nStep 2: Determine Limiting Reagent.\nStoichiometric ratio required: 3 mol H2SO4 per 2 mol Al (Ratio 1.5).\nActual ratio: 0.25 mol H2SO4 / 0.2 mol Al = 1.25.\nSince 1.25 < 1.5, H2SO4 is the Limiting Reagent.\n\nStep 3: Calculate moles of H2 produced.\nFrom stoichiometry: 3 mol H2SO4 produces 3 mol H2 (1:1).\nMoles H2 = Moles H2SO4 = 0.25 mol.\n\nStep 4: Calculate Volume using Ideal Gas Law.\nPV = nRT.\nV = nRT / P\nV = (0.25 * 0.082 * 300) / 1.0\nV = 0.25 * 24.6\nV = 6.15 L.\n\nAnswer: 6.15.",
+      "concept_tags": [
+        "limiting_reagent",
+        "ideal_gas_law",
+        "stoichiometry"
+      ],
+      "formula_tags": [
+        "PV = nRT"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": [
+        "Identifying Al as limiting reagent by comparing absolute moles (0.2 < 0.25) instead of stoichiometric ratio"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2018_Chem_7",
+      "year": 2018,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Mole Concept",
+      "question_text": "The ammonia prepared by treating ammonium sulphate with calcium hydroxide is completely used by NiCl2.6H2O to form a stable coordination compound. Assume that both the reactions are 100% complete. If 1584 g of ammonium sulphate and 952 g of NiCl2.6H2O are used in the preparation, the combined weight in grams of gypsum and the nickel-ammonia coordination compound thus produced is _______. \n(Atomic weights: H=1, N=14, O=16, S=32, Cl=35.5, Ca=40, Ni=59)",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "2992",
+      "solution_text": "Reaction 1: Preparation of ammonia.\n(NH4)2SO4 + Ca(OH)2 → 2NH3 + CaSO4 + 2H2O.\nIn aqueous medium, calcium sulfate is assumed to crystallize as gypsum (CaSO4·2H2O).\nThus, 1 mol of (NH4)2SO4 produces 2 mol NH3 and 1 mol CaSO4·2H2O.\n\nReaction 2: Formation of nickel–ammonia complex.\nNiCl2·6H2O + 6NH3 → [Ni(NH3)6]Cl2 + 6H2O.\nThus, 1 mol of NiCl2·6H2O consumes 6 mol NH3.\n\nStep 1: Calculate moles of reactants.\nMolar mass of (NH4)2SO4 = 132 g mol⁻¹.\nMoles of (NH4)2SO4 = 1584 / 132 = 12 mol.\n\nMolar mass of NiCl2·6H2O = 238 g mol⁻¹.\nMoles of NiCl2·6H2O = 952 / 238 = 4 mol.\n\nStep 2: Check ammonia balance.\nNH3 produced = 2 × 12 = 24 mol.\nNH3 required = 6 × 4 = 24 mol.\nThus, both reactions proceed completely with no limiting reagent mismatch.\n\nStep 3: Calculate mass of products.\nGypsum (CaSO4·2H2O):\nMoles = 12 mol.\nMolar mass = 172 g mol⁻¹.\nMass = 12 × 172 = 2064 g.\n\nNickel–ammonia complex [Ni(NH3)6]Cl2:\nMoles = 4 mol.\nMolar mass = 232 g mol⁻¹.\nMass = 4 × 232 = 928 g.\n\nCombined mass of products = 2064 + 928 = 2992 g.",
+      "concept_tags": [
+        "stoichiometry",
+        "coordination_compounds",
+        "limiting_reagent_chain_reaction"
+      ],
+      "formula_tags": [
+        "Mass = Moles * MM"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Forgetting water of crystallization in Gypsum mass calculation",
+        "Miscalculating molar mass of the coordination complex"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2014_Chem_8",
+      "year": 2014,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Mole Concept",
+      "question_text": "If the value of Avogadro number is 6.023 × 10^23 mol^-1 and the value of Boltzmann constant is 1.380 × 10^-23 J K^-1, then the number of significant digits in the calculated value of the universal gas constant is _______.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "4",
+      "solution_text": "Universal Gas Constant R = k * Na.\nGiven:\nk = 1.380 × 10^-23 (4 significant figures).\nNa = 6.023 × 10^23 (4 significant figures).\n\nWhen multiplying, the result should retain the same number of significant figures as the factor with the least number of significant figures.\nBoth have 4.\n\nCalculation: R = (1.380) * (6.023) * 10^0.\nR ≈ 8.31174.\nResult with 4 sig figs: 8.312.\n\nThe number of significant digits is 4.\n\nAnswer: 4.",
+      "concept_tags": [
+        "significant_figures",
+        "fundamental_constants_relation"
+      ],
+      "formula_tags": [
+        "R = k * Na"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": [
+        "Confusing decimal places with significant figures",
+        "Performing the calculation and counting digits of the raw output without rounding rule"
+      ]
+    }
+  ]
+  

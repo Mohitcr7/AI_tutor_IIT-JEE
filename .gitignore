@@ -3,20 +3,17 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.env
+*.egg-info/
+
+# Virtual environments
 .venv/
 venv/
 
-# Vector stores (DO NOT PUSH# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# Secrets — never commit these
 .env
-.venv/
-venv/
+.streamlit/secrets.toml
 
-# Vector stores (DO NOT PUSH)
+# Vector store (rebuild with: python embeddings/build_concept_store.py)
 vectorstore/
 
 # OS
@@ -27,3 +24,6 @@ vectorstore/
 
 # Logs
 *.log
+
+# Unused syllabus reference CSVs (not referenced by the app)
+*_syllabus.csv

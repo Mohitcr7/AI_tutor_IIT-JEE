@@ -1,0 +1,8 @@
+# Core runtime dependencies for the JEE AI Tutor.
+# Pinned to the versions this project was built and tested against.
+
+google-genai==2.10.0          # Google Gemini API client (LLM)
+chromadb==1.4.0               # persistent vector store
+sentence-transformers==5.2.0  # local embedding model (all-MiniLM-L6-v2)
+streamlit==1.59.0             # web UI
+pydantic==2.12.5              # structured-output schema validation

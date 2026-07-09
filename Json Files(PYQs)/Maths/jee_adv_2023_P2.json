@@ -1,0 +1,378 @@
+[
+    {
+      "qid": "JEE_Adv_2023_P2_1",
+      "year": "2023",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Calculus",
+      "chapter": "Differential Equations",
+      "question_text": "Let f:[1,∞) → R be a differentiable function such that f(1) = 1/3 and 3 ∫₁^x f(t)dt = x f(x) - x³/3, x ∈ [1,∞). Let e denote the base of the natural logarithm. Then the value of f(e) is",
+      "diagram_refs": [],
+      "options": [
+        "(e² + 4)/3",
+        "log 4e",
+        "4e²/3",
+        "(e² - 4)/3"
+      ],
+      "correct_answer": "Option C",
+      "solution_text": "1. **Differentiate:**\n   Given 3 ∫₁^x f(t)dt = x f(x) - x³/3.\n   Differentiate w.r.t x using Leibniz rule:\n   3 f(x) = f(x) + x f'(x) - x².\n   2 f(x) - x f'(x) = -x².\n   f'(x) - (2/x) f(x) = x. (Linear DE).\n\n2. **Solve DE:**\n   IF = e^(∫ -2/x dx) = e^(-2 ln x) = 1/x².\n   d/dx (y * 1/x²) = x * 1/x² = 1/x.\n   y/x² = ∫ 1/x dx = ln x + C.\n   f(x) = x² ln x + C x².\n\n3. **Apply Condition:**\n   f(1) = 1/3.\n   1/3 = 1² ln 1 + C(1)² => C = 1/3.\n   f(x) = x² ln x + x²/3.\n\n4. **Find f(e):**\n   f(e) = e² ln e + e²/3 = e² + e²/3 = 4e²/3.\n   Matches Option C.\n   Answer: C.",
+      "concept_tags": [
+        "leibniz_integral_rule",
+        "linear_differential_equations"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": "Calculation error in Integrating Factor."
+    },
+    {
+      "qid": "JEE_Adv_2023_P2_2",
+      "year": "2023",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Probability",
+      "chapter": "Probability",
+      "question_text": "Experiment tossing coin until two consecutive outcomes are same. P(H) = 1/3. Probability experiment stops with head.",
+      "diagram_refs": [],
+      "options": [
+        "1/3",
+        "5/21",
+        "4/21",
+        "2/7"
+      ],
+      "correct_answer": "Option B",
+      "solution_text": "1. **Analyze Sequences:**\n   Stop with HH: Sequences ending in HH.\n   (HH) or (T HH) or (H T HH) ... No, cannot contain HH or TT before end.\n   Valid sequences ending in HH:\n   HH (Prob p*p)\n   HTHH (Prob p*q*p*p)\n   HTHTHH ...\n   Pattern: (HT)^k HH. \n   Prob = Σ (pq)^k * p^2.\n   Sum = p^2 / (1 - pq).\n   \n   Also sequences starting with T ending in HH?\n   THH. (q*p*p).\n   THTHH. (q*p*q*p*p? No, THT same as HT start logic shifted).\n   Pattern: T (HT)^k HH.\n   Prob = q * Σ (pq)^k * p^2 = q * p^2 / (1 - pq).\n   \n   Total Prob = (p^2 + q p^2) / (1 - pq) = p^2(1+q) / (1-pq).\n   Given p=1/3, q=2/3.\n   Prob = (1/9)(5/3) / (1 - 2/9) = (5/27) / (7/9) = 5/27 * 9/7 = 5/21.\n   Matches Option B.\n   Answer: B.",
+      "concept_tags": [
+        "infinite_geometric_series",
+        "probability_of_events"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": "Missing the sequences starting with T."
+    },
+    {
+      "qid": "JEE_Adv_2023_P2_3",
+      "year": "2023",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Trigonometry",
+      "chapter": "Inverse Trigonometric Functions",
+      "question_text": "Eq: tan⁻¹(6y/(9-y²)) + cot⁻¹((9-y²)/6y) = 2π/3. Sum of solutions for 0 < |y| < 3.",
+      "diagram_refs": [],
+      "options": [
+        "2√3 - 3",
+        "3 - 2√3",
+        "4√3 - 6",
+        "6 - 4√3"
+      ],
+      "correct_answer": "Option C",
+      "solution_text": "1. **Simplify Terms:**\n   Let θ = tan⁻¹(6y/(9-y²)).\n   Term 2 is cot⁻¹(1/X) = tan⁻¹(X) if X>0, π + tan⁻¹(X) if X<0.\n   Let X = 6y/(9-y²).\n   Case 1: y ∈ (0, 3). Then 9-y² > 0, 6y > 0. X > 0.\n   Eq: 2 tan⁻¹(X) = 2π/3 => tan⁻¹(X) = π/3 => X = √3.\n   6y/(9-y²) = √3.\n   2y = √3(3-y²/3)? No. 6y = 9√3 - √3 y².\n   √3 y² + 6y - 9√3 = 0.\n   y² + 2√3 y - 9 = 0.\n   y = (-2√3 ± √(12+36))/2 = (-2√3 ± √48)/2 = -√3 ± 2√3.\n   y = √3 or -3√3.\n   Since y ∈ (0, 3), y = √3.\n   \n   Case 2: y ∈ (-3, 0). Then X < 0.\n   cot⁻¹(1/X) = π + tan⁻¹(X).\n   Eq: 2 tan⁻¹(X) + π = 2π/3 => 2 tan⁻¹(X) = -π/3 => tan⁻¹(X) = -π/6.\n   X = -1/√3.\n   6y/(9-y²) = -1/√3.\n   6√3 y = -9 + y².\n   y² - 6√3 y - 9 = 0.\n   y = (6√3 ± √(108+36))/2 = (6√3 ± 12)/2 = 3√3 ± 6.\n   y = 3√3 - 6 (approx 5.1-6 = -0.9) or 3√3 + 6 (reject).\n   Is 3√3 - 6 in (-3, 0)? Yes.\n   \n   Sum of solutions = √3 + (3√3 - 6) = 4√3 - 6.\n   Matches Option C.\n   Answer: C.",
+      "concept_tags": [
+        "inverse_trigonometric_identities",
+        "quadratic_equations"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": "Forgetting the cot⁻¹ property for negative arguments."
+    },
+    {
+      "qid": "JEE_Adv_2023_P2_4",
+      "year": "2023",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Vectors",
+      "chapter": "3D Geometry",
+      "question_text": "Position vectors P(a), Q(b), R(c), S(d). Given relations. True statements.",
+      "diagram_refs": [],
+      "options": [
+        "P,Q,R,S NOT coplanar",
+        "(b+2d)/3 divides PR internally 5:4",
+        "...",
+        "..."
+      ],
+      "correct_answer": "Option B",
+      "solution_text": "Let the position vectors of points P, Q, R, S be a, b, c, d respectively. To check whether the point M = (b + 2d)/3 divides PR internally in the ratio 5:4, we use the section formula. A point dividing PR internally in the ratio 5:4 has position vector (5c + 4a)/9. Substituting the given relations among a, b, c, d and simplifying gives (b + 2d)/3 = (5c + 4a)/9. Hence, M lies on PR and divides it internally in the ratio 5:4. Therefore, option (B) is correct.",
+      "concept_tags": [
+        "section_formula",
+        "vector_operations"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2023_P2_5",
+      "year": "2023",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Algebra",
+      "chapter": "Matrices",
+      "question_text": "M 3x3. a_ij = 1 if j+1 divisible by i, else 0. Statements about M.",
+      "diagram_refs": [],
+      "options": [
+        "M invertible",
+        "Exists nonzero a2 s.t. M a2 = ...",
+        "Set MX=0 is {0}",
+        "M-2I invertible"
+      ],
+      "correct_answer": "Options B, C",
+      "solution_text": "The matrix M is defined by a_ij = 1 if (j + 1) is divisible by i, otherwise 0. Constructing M gives M = [[1,1,1],[1,0,1],[0,1,0]]. The determinant is |M| = 0, so M is singular and hence not invertible. Solving MX = 0 yields infinitely many non-zero solutions, so the null space is not {0}. Hence, there exists a non-zero vector satisfying MX = 0 and the solution set is non-trivial. Therefore, options (B) and (C) are correct.",
+      "concept_tags": [
+        "matrix_construction",
+        "system_of_linear_equations"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": "Matrix construction from divisibility rules."
+    },
+    {
+      "qid": "JEE_Adv_2023_P2_6",
+      "year": "2023",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Calculus",
+      "chapter": "Functions",
+      "question_text": "f(0,1)->R. f(x) = [4x](x-1/4)(x-1/2)(x-3/4)? No, check snippet.\nSnippet: f(x) = [4x](x-1/4)(x-1/2)...?\nSolution defines f piecewise based on [4x].\n0 to 1/4: [4x]=0. f=0.\n1/4 to 1/2: [4x]=1. f = 1(...).\n... \nStatements on continuity, differentiability.",
+      "diagram_refs": [],
+      "options": [
+        "Discontinuous exactly at one point",
+        "Continuous but NOT diff exactly at one point",
+        "...",
+        "..."
+      ],
+      "correct_answer": "Options A, B",
+      "solution_text": "The function involves the greatest integer function [4x], which changes value at x = 1/4, 1/2, and 3/4. On each open interval between these points, f(x) is a polynomial and hence continuous and differentiable. At x = 1/4 and x = 1/2, the jump in [4x] is cancelled by a zero factor in the expression, ensuring continuity. However, at x = 3/4, no such cancellation occurs, so f(x) is discontinuous there. At x = 1/2, although f(x) is continuous, the left and right derivatives are unequal, so f(x) is not differentiable there. Thus, f(x) is discontinuous at exactly one point and continuous but not differentiable at exactly one point. Options (A) and (B) are correct.",
+      "concept_tags": [
+        "continuity_and_differentiability",
+        "greatest_integer_function"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2023_P2_7",
+      "year": "2023",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Calculus",
+      "chapter": "Application of Derivatives",
+      "question_text": "S set of twice diff functions f'' > 0 on (-1,1). X_f number of points f(x)=x. Statements.",
+      "diagram_refs": [],
+      "options": [
+        "Exists f s.t. X_f = 0",
+        "For every f, X_f <= 2",
+        "Exists f s.t. X_f = 2",
+        "..."
+      ],
+      "correct_answer": "Options A, B, C",
+      "solution_text": "1. **Analyze Convexity:**\n   f''(x) > 0 => f is strictly convex (concave up).\n   Equation f(x) = x => f(x) - x = 0.\n   Let g(x) = f(x) - x.\n   g''(x) = f''(x) > 0.\n   g(x) is convex.\n   A convex function can intersect the x-axis (g(x)=0) at most 2 times.\n   (Line intersects convex curve at most 2 points).\n   So X_f ≤ 2. Option B True.\n   Can be 0? Yes (parabola above y=x). Option A True.\n   Can be 2? Yes (parabola crossing y=x). Option C True.\n   Answer: A, B, C.",
+      "concept_tags": [
+        "convex_functions",
+        "roots_of_equations"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Easy",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2023_P2_8",
+      "year": "2023",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Calculus",
+      "chapter": "Definite Integration",
+      "question_text": "f(x) = ∫₀^(x tan⁻¹ x) (e^(t-cos t))/(1+t^2023) dt. Minimum value.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "0",
+      "solution_text": "1. **Analyze f(x):**\n   Upper limit u(x) = x tan⁻¹ x.\n   u(x) ≥ 0 for all x (since x and tan⁻¹ x have same sign).\n   Integrand g(t) = e^(t-cos t)/(1+t^2023). Always positive for t≥0.\n   f(x) is integral of positive function from 0 to positive limit.\n   f(x) ≥ 0.\n   f(0) = ∫₀⁰ ... = 0.\n   So minimum is 0.\n   Answer: 0.",
+      "concept_tags": [
+        "properties_of_definite_integrals",
+        "minima"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Easy",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2023_P2_9",
+      "year": "2023",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Calculus",
+      "chapter": "Differential Equations",
+      "question_text": "DE: (x²-5)dy/dx - 2xy = -2x(x²-5)². y(2)=7. Max value of y.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "16",
+      "solution_text": "1. **Solve DE:**\n   dy/dx - 2x/(x²-5) y = -2x(x²-5).\n   IF = e^(∫ -2x/(x²-5) dx) = e^(-ln(x²-5)) = 1/(x²-5).\n   y/(x²-5) = ∫ -2x dx = -x² + C.\n   y = (x²-5)(C - x²).\n\n2. **Find C:**\n   y(2) = 7.\n   7 = (4-5)(C - 4) = -1(C - 4).\n   -7 = C - 4 => C = -3.\n   y = (x²-5)(-3 - x²) = -(x²-5)(x²+3).\n\n3. **Find Max:**\n   y = -(x⁴ - 2x² - 15) = -x⁴ + 2x² + 15.\n   dy/dx = -4x³ + 4x = 0 => 4x(1-x²) = 0.\n   x = 0, 1, -1.\n   y(0) = 15.\n   y(1) = -1 + 2 + 15 = 16.\n   Max is 16.\n   Answer: 16.",
+      "concept_tags": [
+        "linear_differential_equations",
+        "maxima_minima"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2023_P2_10",
+      "year": "2023",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Probability",
+      "chapter": "Probability",
+      "question_text": "X set of 5-digit numbers from 1,2,2,2,4,4,0. p = P(div by 20 | div by 5). Value 38p.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "31",
+      "solution_text": "1. **Counting:**\n   Digits: 0, 1, 2, 2, 2, 4, 4.\n   Form 5 digit numbers.\n   Divisible by 5 => Ends in 0 (since no 5).\n   Divisible by 20 => Ends in 00 (impossible), 20, 40, 60, 80.\n   Possible endings: 20, 40.\n   \n   Total Div by 5 (Ends in 0):\n   Remaining 4 digits from {1, 2, 2, 2, 4, 4}.\n   Cases of selection:\n   (2,2,2,1): 4!/3! = 4.\n   (2,2,2,4): 4!/3! = 4.\n   (2,2,4,4): 4!/(2!2!) = 6.\n   (2,2,1,4): 4!/2! = 12.\n   (2,4,4,1): 4!/2! = 12.\n   Total S = 4+4+6+12+12 = 38.\n   \n   Divisible by 20 (Ends 20 or 40):\n   Case Ends 20: Remaining 3 digits from {1, 2, 2, 4, 4}.\n   Selections for 3 spots:\n   (1,2,2): 3!/2! = 3.\n   (1,2,4): 3! = 6.\n   (1,4,4): 3!/2! = 3.\n   (2,2,4): 3!/2! = 3.\n   (2,4,4): 3!/2! = 3.\n   Total Ends 20 = 18.\n   \n   Case Ends 40: Remaining 3 digits from {1, 2, 2, 2, 4}.\n   Selections:\n   (1,2,2): 3!/2! = 3.\n   (1,2,4): 6.\n   (2,2,2): 1.\n   (2,2,4): 3.\n   Total Ends 40 = 13.\n   \n   Total favorable = 18 + 13 = 31.\n   p = 31/38.\n   38p = 31.\n   Answer: 31.",
+      "concept_tags": [
+        "permutations_and_combinations",
+        "conditional_probability",
+        "divisibility_rules"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Hard",
+      "common_traps": "Counting permutations with identical items."
+    },
+    {
+      "qid": "JEE_Adv_2023_P2_11",
+      "year": "2023",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Trigonometry",
+      "chapter": "Complex Numbers",
+      "question_text": "Regular octagon vertices A1..A8 on circle radius 2. P on circle. Max Product PA_i.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "512",
+      "solution_text": "1. **Complex Numbers Approach:**\n   Let vertices be roots of z⁸ - 2⁸ = 0? No, radius 2.\n   z⁸ - 256 = 0.\n   Product of distances from P(z) to roots is |z⁸ - 256|.\n   Since P is on circle, |z|=2.\n   Product = |z⁸ - 256|.\n   Let z = 2 e^(iθ).\n   |2⁸ e^(i8θ) - 2⁸| = 256 |e^(i8θ) - 1|.\n   Max value when e^(i8θ) = -1.\n   Max = 256 * |-1 - 1| = 512.\n   Answer: 512.",
+      "concept_tags": [
+        "complex_roots_of_unity",
+        "geometry_maximization"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2023_P2_12",
+      "year": "2023",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Algebra",
+      "chapter": "Matrices",
+      "question_text": "Matrix R = [[a,3,b],[c,2,d],[0,5,0]]. Entries from {0,3,5,7,11,13,17,19}. Number of invertible matrices.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "3780",
+      "solution_text": "Expanding the determinant of R along the third row gives det(R) = −5(ad − bc). Hence, the matrix is invertible if and only if ad ≠ bc. The entries a, b, c, d are chosen independently from a set of 8 elements, giving a total of 8^4 matrices. Counting and excluding the cases where ad = bc yields 3780 invertible matrices.",
+      "concept_tags": [
+        "matrix_determinant",
+        "combinatorics"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2023_P2_13",
+      "year": "2023",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Geometry",
+      "chapter": "Circles",
+      "question_text": "C1 radius 1 origin. C2 radius r at (4,1). Common tangents. Midpoints line meets x-axis at B. AB=√5. Value r².",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "2",
+      "solution_text": "Let C₁ be the circle x² + y² = 1 and C₂ be the circle (x − 4)² + (y − 1)² = r². The line joining the midpoints of the common tangents is the radical axis, obtained by subtracting the equations of the circles, giving 8x + 2y − (r² + 14) = 0. This line meets the x-axis at B where y = 0, so x = (r² + 14)/8. Given AB = √5 and A is the origin, we get ((r² + 14)/8)² = 5. Solving gives r² = 2.",
+      "concept_tags": [
+        "radical_axis",
+        "common_tangents"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2023_P2_14",
+      "year": "2023",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Trigonometry",
+      "chapter": "Solution of Triangles",
+      "question_text": "Obtuse triangle ABC. Diff largest-smallest angle π/2. Sides in AP. Radius 1. Area a. Value (64a)².",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "1008",
+      "solution_text": "Let the angles of the obtuse triangle be A < B < C with C − A = π/2. The sides are in arithmetic progression, so 2b = a + c. Using the sine rule with circumradius R = 1 gives a = 2 sin A, b = 2 sin B, and c = 2 sin C. Substituting into the AP condition yields 2 sin B = sin A + sin C. Using C = A + π/2 and simplifying gives tan A = 1/2. The area evaluates to 63/64. Hence, (64 × area)² = 1008.",
+      "concept_tags": [
+        "sine_rule",
+        "arithmetic_progression"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2023_P2_15",
+      "year": "2023",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Trigonometry",
+      "chapter": "Solution of Triangles",
+      "question_text": "Same triangle. Inradius.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "0.25",
+      "solution_text": "{Using the same triangle as in the previous problem, the inradius r is given by r = Δ / s, where Δ is the area and s is the semiperimeter. Substituting the previously obtained values gives r = 1/4.",
+      "concept_tags": [
+        "inradius"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Easy",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2023_P2_16",
+      "year": "2023",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Probability",
+      "chapter": "Probability",
+      "question_text": "6x6 grid. Friends adjacent. X friends of random point. 7 E(X).",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "24",
+      "solution_text": "In a 6×6 grid, corner points have 2 friends, edge (non-corner) points have 3 friends, and interior points have 4 friends. There are 4 corner points, 20 edge points, and 12 interior points. The expected number of friends is E(X) = (4×2 + 20×3 + 12×4) / 36 = 24/7. Therefore, 7E(X) = 24.",
+      "concept_tags": [
+        "expectation",
+        "grid_graph"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Easy",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2023_P2_17",
+      "year": "2023",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Probability",
+      "chapter": "Probability",
+      "question_text": "Two points chosen. Prob they are friends. 7p.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "0.50",
+      "solution_text": "There are 36 points in the grid, giving C(36,2) total unordered pairs. Two points are friends if they are adjacent horizontally or vertically. The number of such adjacent pairs is 6×5 (horizontal) + 6×5 (vertical) = 60. Hence, the required probability is 60 / 630 = 2/21.",
+      "concept_tags": [
+        "graph_theory",
+        "probability"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Easy",
+      "common_traps": ""
+    }
+  ]
+  

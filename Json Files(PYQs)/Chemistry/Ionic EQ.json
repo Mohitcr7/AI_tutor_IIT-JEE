@@ -1,0 +1,227 @@
+[
+    {
+      "qid": "JEE_Adv_2023_Chem_1",
+      "year": 2023,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Ionic Equilibrium",
+      "question_text": "On decreasing the pH from 7 to 2, the solubility of a sparingly soluble salt MX of a weak acid HX increased from 10^-4 mol L^-1 to 10^-3 mol L^-1. The pKa of HX is _______.",
+      "diagram_refs": [],
+      "options": [
+        "A) 3",
+        "B) 4",
+        "C) 5",
+        "D) 2"
+      ],
+      "correct_answer": "B",
+      "solution_text": "Let solubility be S.\nAt pH = 7 (neutral): MX(s) ⇌ M+ + X-.\nS1 = 10^-4 M.\nSince HX is a weak acid, X- can hydrolyze: X- + H+ ⇌ HX.\nHowever, at pH 7, unless pKa is very high, [X-] ≈ S1. If we assume negligible hydrolysis at pH 7 for this salt type in typical problems (or S1 = sqrt(Ksp)), let's check Ksp.\nKsp = [M+][X-] = S1 * S1 = (10^-4)^2 = 10^-8.\n\nAt pH = 2 ([H+] = 10^-2 M): Solubility S2 = 10^-3 M.\nMass balance: S2 = [M+] = [X-] + [HX].\nKsp = [M+][X-] => [X-] = Ksp / [M+] = 10^-8 / 10^-3 = 10^-5 M.\nNow substitute into mass balance:\n10^-3 = 10^-5 + [HX].\n[HX] = 10^-3 - 10^-5 ≈ 10^-3 (since 10^-5 is negligible compared to 10^-3).\n\nEquilibrium for weak acid: HX ⇌ H+ + X-.\nKa = [H+][X-] / [HX].\nSubstitute values at pH 2:\n[H+] = 10^-2.\n[X-] = 10^-5.\n[HX] = 10^-3.\n\nKa = (10^-2 * 10^-5) / 10^-3\nKa = 10^-7 / 10^-3 = 10^-4.\n\npKa = -log(Ka) = -log(10^-4) = 4.\n\nMatches Option B.",
+      "concept_tags": [
+        "solubility_pH_effect",
+        "common_ion_effect",
+        "weak_acid_equilibrium"
+      ],
+      "formula_tags": [
+        "Ksp = [M+][X-]",
+        "Ka = [H+][X-]/[HX]",
+        "S = [X-] + [HX]"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Ignoring the hydrolysis of the anion X- at low pH",
+        "Assuming [X-] equals S2 at low pH"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2022_Chem_2",
+      "year": 2022,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Ionic Equilibrium",
+      "question_text": "A solution is prepared by mixing 0.01 mol each of H2CO3, NaHCO3, Na2CO3, and NaOH in 100 mL of water. pH of the resulting solution is _______. \nGiven pKa1 and pKa2 of H2CO3 are 6.37 and 10.32, respectively. log 2 = 0.30.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "10.02",
+      "solution_text": "Moles added: \nH2CO3: 10 mmol (0.01 mol in 100 mL? No, just 0.01 mol. Let's work in mmol for easier handling if volume was relevant, but absolute moles work too. 0.01 mol = 10 mmol).\nNaHCO3: 10 mmol.\nNa2CO3: 10 mmol.\nNaOH: 10 mmol.\n\nReactions occur due to the strong base NaOH reacting with the acids.\nOrder of reaction: NaOH reacts with strongest acid first.\nAcidity order: H2CO3 > HCO3-.\n\nStep 1: NaOH reacts with H2CO3.\nNaOH + H2CO3 -> NaHCO3 + H2O.\nStart: 10 mmol NaOH, 10 mmol H2CO3.\nEnd: 0 mmol NaOH, 0 mmol H2CO3. NaHCO3 produced = 10 mmol.\n\nUpdated composition:\nNaHCO3 = 10 (initial) + 10 (produced) = 20 mmol.\nNa2CO3 = 10 mmol (initial).\nH2CO3 = 0 mmol.\nNaOH = 0 mmol.\n\nThe resulting solution contains a mixture of HCO3- (20 mmol) and CO3^2- (10 mmol).\nThis forms a buffer solution corresponding to the second dissociation step of carbonic acid (HCO3- ⇌ H+ + CO3^2-).\n\npH = pKa2 + log( [Salt] / [Acid] )\npH = 10.32 + log( [CO3^2-] / [HCO3-] )\npH = 10.32 + log( 10 / 20 )\npH = 10.32 + log( 1/2 )\npH = 10.32 - log 2\npH = 10.32 - 0.30\npH = 10.02.\n\nAnswer: 10.02.",
+      "concept_tags": [
+        "buffer_solution_pH",
+        "acid_base_neutralization",
+        "sequential_neutralization"
+      ],
+      "formula_tags": [
+        "pH = pKa + log([A-]/[HA])"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Reacting NaOH with everything or in wrong order",
+        "Ignoring the initial amount of NaHCO3 when calculating final moles"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2022_Chem_3",
+      "year": 2022,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Ionic Equilibrium",
+      "question_text": "Concentration of H2SO4 and Na2SO4 in a solution is 1 M and 1.8 × 10^-2 M, respectively. Molar solubility of PbSO4 in the same solution is X × 10^-Y M expressed in scientific notation. The value of Y is _______. \nGiven Solubility product of PbSO4 Ksp = 1.6 × 10^-8. For H2SO4, Ka1 is very large and Ka2 = 1.2 × 10^-2.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "6",
+      "solution_text": "Solution contains:\nH2SO4 = 1 M (Strong acid in 1st step: H+ = 1 M, HSO4- = 1 M).\nNa2SO4 = 1.8 × 10^-2 M (Fully dissociates: Na+ = 3.6×10^-2, SO4^2- = 1.8×10^-2).\n\nWe need to find equilibrium concentration of SO4^2- to determine solubility of PbSO4.\nThe equilibrium is governed by HSO4- dissociation:\nHSO4- ⇌ H+ + SO4^2-   (Ka2 = 1.2 × 10^-2).\n\nInitial concentrations for this equilibrium:\n[HSO4-] = 1 M (from H2SO4).\n[H+] = 1 M (from H2SO4).\n[SO4^2-] = 1.8 × 10^-2 M (from Na2SO4).\n\nCalculate Reaction Quotient Q = [H+][SO4^2-] / [HSO4-] = (1)(0.018) / 1 = 0.018.\nKa2 = 0.012.\nSince Q > Ka2 (0.018 > 0.012), reaction shifts BACKWARD to reduce [SO4^2-].\n\nLet change be 'x'.\n[HSO4-] = 1 + x ≈ 1.\n[H+] = 1 - x ≈ 1.\n[SO4^2-] = 0.018 - x.\n\nKa2 = [H+][SO4^2-] / [HSO4-] = 1 * (0.018 - x) / 1.\n0.012 = 0.018 - x.\nx = 0.018 - 0.012 = 0.006.\n\nEquilibrium [SO4^2-] = 0.018 - 0.006 = 0.012 M = 1.2 × 10^-2 M.\n\nNow consider solubility of PbSO4:\nPbSO4(s) ⇌ Pb^2+ + SO4^2-.\nKsp = [Pb^2+][SO4^2-].\nLet solubility be S = [Pb^2+].\n1.6 × 10^-8 = S * (1.2 × 10^-2).\nS = (1.6 × 10^-8) / (1.2 × 10^-2).\nS = (1.6/1.2) × 10^-6.\nS = (4/3) × 10^-6 = 1.33 × 10^-6 M.\n\nQuestion asks for format X × 10^-Y.\nX = 1.33 (or 4/3), Y = 6.\nValue of Y is 6.",
+      "concept_tags": [
+        "common_ion_effect",
+        "solubility_product",
+        "simultaneous_equilibria"
+      ],
+      "formula_tags": [
+        "Ka2 = [H+][SO4]/[HSO4]",
+        "Ksp = [Pb][SO4]"
+      ],
+      "difficulty_level": "Hard",
+      "common_traps": [
+        "Ignoring the shift in HSO4-/SO4^2- equilibrium due to common ion",
+        "Assuming [SO4^2-] is just the sum of initial concentrations"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2020_Chem_4",
+      "year": 2020,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Ionic Equilibrium",
+      "question_text": "5.00 mL of 0.10 M oxalic acid solution taken in a conical flask is titrated against NaOH from a burette using phenolphthalein indicator. The volume of NaOH required for the appearance of permanent faint pink color is tabulated below for five experiments: 12.5, 10.5, 9.0, 9.0, 9.0 mL. What is the concentration, in molarity, of the NaOH solution?",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "0.11",
+      "solution_text": "1. Identify the concordant volume: The readings are 12.5, 10.5, 9.0, 9.0, 9.0. The consistent value is 9.0 mL. This is the correct volume of NaOH used.\n\n2. Reaction: Oxalic Acid (H2C2O4) is a diprotic acid. Phenolphthalein indicates the completion of the reaction with strong base (neutralizing both protons).\nH2C2O4 + 2NaOH -> Na2C2O4 + 2H2O.\n\n3. Equivalence calculation:\nMoles of H2C2O4 = Molarity * Volume = 0.10 M * 5.00 mL = 0.50 mmol.\nMoles of H+ = 2 * Moles of H2C2O4 = 2 * 0.50 = 1.0 mmol.\n\nAt endpoint, Moles of OH- = Moles of H+.\nMolarity_NaOH * Volume_NaOH = 1.0 mmol.\nM_NaOH * 9.0 mL = 1.0 mmol.\nM_NaOH = 1.0 / 9.0 = 0.1111... M.\n\nRounding to two decimals: 0.11 M.",
+      "concept_tags": [
+        "titration_calculation",
+        "concordant_readings",
+        "stoichiometry_acid_base"
+      ],
+      "formula_tags": [
+        "M1V1 * n1 = M2V2 * n2"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": [
+        "Taking the average of all readings including outliers (12.5, 10.5) instead of concordant ones",
+        "Forgetting n-factor of oxalic acid is 2"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2020_Chem_6",
+      "year": 2020,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Ionic Equilibrium",
+      "question_text": "An acidified solution of 0.05 M Zn^2+ is saturated with 0.1 M H2S. What is the minimum molar concentration (M) of H+ required to prevent the precipitation of ZnS? \nUse Ksp(ZnS) = 1.25 × 10^-22 and Overall dissociation constant of H2S, K_NET = K1K2 = 1 × 10^-21.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "0.2",
+      "solution_text": "To prevent precipitation, the ionic product must not exceed Ksp.\n[Zn^2+][S^2-] <= Ksp.\nGiven [Zn^2+] = 0.05 M.\n0.05 * [S^2-] <= 1.25 × 10^-22.\n[S^2-] <= (1.25 × 10^-22) / 0.05\n[S^2-] <= 25 × 10^-22\n[S^2-] <= 2.5 × 10^-21 M.\n\nThe concentration of sulfide ion is controlled by H2S equilibrium in acidic medium.\nH2S ⇌ 2H+ + S^2-.\nK_NET = [H+]^2 [S^2-] / [H2S].\nGiven [H2S] = 0.1 M (saturated).\n1 × 10^-21 = [H+]^2 * (2.5 × 10^-21) / 0.1.\n\nSolve for [H+]:\n[H+]^2 = (1 × 10^-21 * 0.1) / (2.5 × 10^-21)\n[H+]^2 = (10^-22) / (2.5 × 10^-21)\n[H+]^2 = 1 / 25\n[H+]^2 = 0.04.\n\n[H+] = sqrt(0.04) = 0.2 M.\n\nThe minimum concentration of H+ required is 0.2 M.",
+      "concept_tags": [
+        "precipitation_condition",
+        "common_ion_effect_sulfides",
+        "solubility_product"
+      ],
+      "formula_tags": [
+        "Ksp = [Zn][S]",
+        "K_NET = [H]^2[S]/[H2S]"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Calculation errors with powers of 10",
+        "Forgetting to square [H+] in the K_NET expression"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2018_Chem_7",
+      "year": 2018,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Ionic Equilibrium",
+      "question_text": "The solubility of a salt of weak acid AB at pH 3 is Y × 10^-3 mol L^-1. The value of Y is _______. \nGiven that the value of solubility product of AB (Ksp) = 2 × 10^-10 and the value of ionization constant of HB (Ka) = 1 × 10^-8.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "4.47",
+      "solution_text": "Salt AB dissociates: AB(s) ⇌ A+ + B-.\nSince HB is a weak acid, B- reacts with H+:\nB- + H+ ⇌ HB.\n\nSolubility S = [A+].\nMass balance for B: S = [B-] + [HB].\n\nFrom Ka = [H+][B-] / [HB], we have [HB] = [H+][B-] / Ka.\nSubstitute into mass balance:\nS = [B-] + [H+][B-]/Ka = [B-] (1 + [H+]/Ka).\nSo [B-] = S / (1 + [H+]/Ka).\n\nKsp = [A+][B-] = S * [S / (1 + [H+]/Ka)] = S^2 / (1 + [H+]/Ka).\n\nGiven:\nKsp = 2 × 10^-10.\npH = 3 => [H+] = 10^-3 M.\nKa = 1 × 10^-8.\n\nCalculate term (1 + [H+]/Ka):\n1 + (10^-3 / 10^-8) = 1 + 10^5 ≈ 10^5 (since 1 is negligible).\n\nSubstitute back:\n2 × 10^-10 = S^2 / 10^5.\nS^2 = 2 × 10^-10 * 10^5 = 2 × 10^-5 = 20 × 10^-6.\nS = sqrt(20) × 10^-3.\nS ≈ 4.47 × 10^-3 M.\n\nGiven S = Y × 10^-3.\nY = 4.47.",
+      "concept_tags": [
+        "solubility_in_acidic_buffer",
+        "hydrolysis_effect_on_solubility"
+      ],
+      "formula_tags": [
+        "S = sqrt(Ksp * (1 + [H+]/Ka))"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Neglecting the 1 in (1 + [H+]/Ka) when [H+]/Ka is small (though here it's large, so neglecting it is fine, but understanding the formula is key)"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2015_Chem_9",
+      "year": 2015,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Ionic Equilibrium",
+      "question_text": "When 100 mL of 1.0 M HCl was mixed with 100 mL of 1.0 M NaOH in an insulated beaker at constant pressure, a temperature increase of 5.7 °C was measured. (Expt 1: Enthalpy of neutralization = 57.0 kJ/mol). \nIn Expt 2, 100 mL of 2.0 M acetic acid (Ka = 2.0 × 10^-5) was mixed with 100 mL of 1.0 M NaOH under identical conditions, where a temperature rise of 5.6 °C was measured. \nHeat capacity = 4.2 J g^-1 K^-1, Density = 1.0 g mL^-1.\nEnthalpy of dissociation (in kJ mol^-1) of acetic acid obtained from Expt-2 is:",
+      "diagram_refs": [],
+      "options": [
+        "A) 1.0",
+        "B) 10.0",
+        "C) 24.5",
+        "D) 51.4"
+      ],
+      "correct_answer": "A",
+      "solution_text": "1. Calculate Calorimeter Constant / Heat Capacity from Expt 1:\nHeat released q1 = mass * C * ΔT.\nTotal volume = 200 mL, Mass = 200 g.\nq1 = 200 * 4.2 * 5.7 = 4788 J.\nMoles neutralized = 0.1 mol (100mL * 1M).\nΔH_neutralization_strong = -q1 / moles = -4788 / 0.1 = -47880 J/mol = -47.88 kJ/mol.\nWait, question SAYS standard enthalpy is 57.0 kJ/mol. The experiment measures 5.7C rise. Let's calculate the effective heat capacity or verify. \nIf ΔH = -57 kJ/mol, then for 0.1 mol, q should be 5700 J.\nExperimental q_obs = 4788 J.\nDifference implies heat absorbed by calorimeter or deviations. However, the problem says \"this experiment could be used to measure the calorimeter constant\". \nLet's assume the experimental setup relates temperature rise to heat efficiently via calibration. \nScaling factor: 5.7°C corresponds to 57 kJ/mol for 0.1 mol reaction.\nSo 5.7 K <=> 5700 J heat released (theoretical). \n\nExpt 2: Acetic Acid (Weak) + NaOH (Strong).\nMoles CH3COOH = 100 mL * 2.0 M = 0.2 mol.\nMoles NaOH = 100 mL * 1.0 M = 0.1 mol.\nLimiting reagent is NaOH (0.1 mol). Reaction neutralizes 0.1 mol.\nTemperature rise = 5.6 °C.\n\nLet's use proportionality directly.\n5.7 °C corresponds to Strong-Strong (57 kJ/mol release).\n5.6 °C corresponds to Weak-Strong (ΔH_weak_neut).\n\nΔH_weak_neut / ΔH_strong_neut = 5.6 / 5.7 ? \nAssuming heat capacities are identical (200g water in both). Yes.\nΔH_weak_neut = (5.6 / 5.7) * 57.0 = 56.0 kJ/mol.\n\nWe know: ΔH_weak_neut = ΔH_strong_neut + ΔH_dissociation.\nMagnitude of energy released is less for weak acid because some energy is used for dissociation.\nEnergy Released_weak = 56.0 kJ/mol.\nEnergy Released_strong = 57.0 kJ/mol.\n\nHeat released = |ΔH|.\n56.0 = 57.0 - ΔH_dissociation (Since dissociation is endothermic, it consumes heat).\nOr formally: ΔH_neut_weak = -56.0.\nΔH_neut_strong = -57.0.\n-56.0 = -57.0 + ΔH_dissociation.\nΔH_dissociation = 57.0 - 56.0 = 1.0 kJ/mol.\n\nAnswer: 1.0.",
+      "concept_tags": [
+        "enthalpy_of_neutralization",
+        "calorimetry",
+        "hess_law"
+      ],
+      "formula_tags": [
+        "ΔH_weak = ΔH_strong + ΔH_dissociation"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Confusing signs of enthalpy (released vs absorbed)",
+        "Calculating moles incorrectly (0.2 mol acid vs 0.1 mol base)"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2015_Chem_10",
+      "year": 2015,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Ionic Equilibrium",
+      "question_text": "The pH of the solution after Expt-2 (Q9) is:",
+      "diagram_refs": [],
+      "options": [
+        "A) 2.8",
+        "B) 4.7",
+        "C) 5.0",
+        "D) 7.0"
+      ],
+      "correct_answer": "B",
+      "solution_text": "Reaction: CH3COOH + NaOH -> CH3COONa + H2O.\nInitial Moles:\nCH3COOH = 200 mmol (100 mL * 2 M).\nNaOH = 100 mmol (100 mL * 1 M).\n\nNaOH is limiting.\nFinal Moles:\nCH3COONa (Salt) = 100 mmol.\nCH3COOH (Remaining Acid) = 200 - 100 = 100 mmol.\nNaOH = 0.\n\nThis forms an acidic buffer solution.\npH = pKa + log( [Salt] / [Acid] ).\nVolume cancels out.\npH = pKa + log( 100 / 100 ).\npH = pKa + log 1.\npH = pKa.\n\nGiven Ka = 2.0 × 10^-5.\npKa = 5 - log 2 = 5 - 0.30 = 4.7.\n\npH = 4.7.\n\nAnswer: B.",
+      "concept_tags": [
+        "buffer_solution_pH",
+        "Henderson_Hasselbalch_equation"
+      ],
+      "formula_tags": [
+        "pH = pKa + log(S/A)"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": [
+        "Calculating concentration incorrectly by forgetting total volume is 200mL (though it cancels here)",
+        "Misidentifying the solution as just salt hydrolysis instead of buffer"
+      ]
+    }
+  ]
+  

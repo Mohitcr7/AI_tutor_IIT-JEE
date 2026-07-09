@@ -1,0 +1,211 @@
+[
+    {
+      "qid": "JEE_Adv_2023_Chem_1",
+      "year": 2023,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Surface Chemistry",
+      "question_text": "Consider the following statements related to colloids.\nI. Lyophobic colloids are not formed by simple mixing of dispersed phase and dispersion medium.\nII. For emulsions, both the dispersed phase and the dispersion medium are liquid.\nIII. Micelles are produced by dissolving a surfactant in any solvent at any temperature.\nIV. Tyndall effect can be observed from a colloidal solution with dispersed phase having the same refractive index as that of the dispersion medium.\nThe option with the correct set of statements is:",
+      "diagram_refs": [],
+      "options": [
+        "A) I and II",
+        "B) II and III",
+        "C) III and IV",
+        "D) II and IV"
+      ],
+      "correct_answer": "A",
+      "solution_text": "Analysis of Statements:\nI. Lyophobic colloids (liquid-hating) are unstable and require special methods (chemical, electrical, etc.) for preparation. They cannot be formed by simple mixing. (Correct).\nII. Emulsions are liquid-liquid colloidal systems. (Correct).\nIII. Micelle formation requires specific conditions: Concentration > Critical Micelle Concentration (CMC) and Temperature > Kraft Temperature. It doesn't happen in 'any' solvent at 'any' temperature. (Incorrect).\nIV. Tyndall effect (scattering of light) is significant only when there is a large difference in the refractive indices of the dispersed phase and the dispersion medium. If refractive indices are same, no scattering occurs. (Incorrect).\n\nCorrect set: I and II.\nOption A.",
+      "concept_tags": [
+        "classification_of_colloids",
+        "micelle_formation_conditions",
+        "properties_of_colloids"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Easy",
+      "common_traps": [
+        "Overlooking the specific conditions for micelle formation (Kraft temp, CMC)",
+        "Misunderstanding the condition for Tyndall effect regarding refractive indices"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2022_Chem_2",
+      "year": 2022,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Surface Chemistry",
+      "question_text": "The correct options related to adsorption processes is/are:\n(A) Chemisorption results in a unimolecular layer.\n(B) The enthalpy change during physisorption is in the range of 100 to 140 kJ mol^-1.\n(C) Chemisorption is an endothermic process.\n(D) Lowering the temperature favors physisorption processes.",
+      "diagram_refs": [],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "A, D",
+      "solution_text": "(A) Chemisorption involves chemical bond formation, which saturates the surface valencies. Hence, it forms a unimolecular layer. (Correct).\n(B) Enthalpy of physisorption is low (20-40 kJ mol^-1) due to weak van der Waals forces. 100-140 kJ/mol is typical for chemisorption. (Incorrect).\n(C) Adsorption is generally exothermic (ΔH < 0) because surface energy decreases. Chemisorption is also initially exothermic (though it may require activation energy, the overall process is exothermic). However, some sources might label it activated, but 'endothermic' as a general characteristic is incorrect. (Incorrect).\n(D) Physisorption is exothermic and involves weak forces. According to Le Chatelier's principle, low temperature favors exothermic processes. (Correct).\n\nCorrect options: A, D.",
+      "concept_tags": [
+        "adsorption_isotherms",
+        "physisorption_vs_chemisorption",
+        "thermodynamics_of_adsorption"
+      ],
+      "formula_tags": [
+        "ΔG = ΔH - TΔS"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": [
+        "Confusing activation energy requirement with endothermic nature",
+        "Mixing up enthalpy ranges for physisorption and chemisorption"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2021_Chem_3",
+      "year": 2021,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Surface Chemistry",
+      "question_text": "The correct statements related to colloids is/are:\n(A) The process of precipitating colloidal sol by an electrolyte is called peptization.\n(B) Colloidal solution freezes at higher temperature than the true solution at the same concentration.\n(C) Surfactants form micelle above critical micelle concentration (CMC). CMC depends on temperature.\n(D) Micelles are macromolecular colloids.",
+      "diagram_refs": [],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "B, C",
+      "solution_text": "(A) Precipitation by electrolyte is called Coagulation or Flocculation. Peptization is the reverse process (converting precipitate to colloid). (Incorrect).\n(B) Colligative properties (like ΔTf) depend on the number of particles. For same mass/concentration, colloidal particles are aggregates (larger, fewer) compared to true solution particles (smaller, more). Fewer particles => Smaller ΔTf (Freezing Point Depression). Smaller depression means freezing point is higher (closer to pure solvent). (Correct).\n(C) Micelles form only above CMC. CMC is temperature dependent (Kraft temperature relation). (Correct).\n(D) Micelles are Associated Colloids, not Macromolecular. Macromolecular colloids involve large molecules (like proteins, polymers) naturally in colloidal range. Micelles are aggregates of small molecules. (Incorrect).\n\nCorrect options: B, C.",
+      "concept_tags": [
+        "properties_of_colloids",
+        "colligative_properties_of_colloids",
+        "associated_colloids"
+      ],
+      "formula_tags": [
+        "ΔTf ∝ 1/MolarMass_aggregate"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Confusing Associated Colloids (Micelles) with Macromolecular Colloids",
+        "Misinterpreting 'Freezes at higher temperature' (Lower depression = Higher freezing point)"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2019_Chem_4",
+      "year": 2019,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Surface Chemistry",
+      "question_text": "Molar conductivity (Λm) of aqueous solution of sodium stearate, which behaves as a strong electrolyte, is recorded at varying concentration (c) of sodium stearate. Which one of the following plots provides the correct representation of micelle formation in the solution? (CMC is marked with an arrow).",
+      "diagram_refs": ["JEE_Adv_2019_Chem_4_plots.png"],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "C",
+      "solution_text": "Behavior of Surfactant Electrolyte (Sodium Stearate):\nBelow CMC: Behaves as a strong electrolyte. Λm decreases with sqrt(c) slowly (Debye-Huckel-Onsager behavior for strong electrolytes).\nAt CMC: Micelles form. Many ions aggregate to form a large particle (micelle) with high charge but also high viscous drag and lower mobility per unit charge compared to free ions. Also, counter-ion binding reduces effective charge.\nResult: There is a sharp break (kink) in the conductivity curve at CMC. The molar conductivity decreases more rapidly after CMC due to association.\n\nPlot Analysis:\n- Plot must show decrease.\n- At CMC, the slope should become steeper (drop faster) or show a discontinuity in slope.\n- Option C shows a gradual decrease followed by a steeper decrease after CMC.\n\nStandard representation: Λm vs sqrt(c) has a break at CMC. The value drops sharply.\nOption C matches this profile best among typical representations (or Λm vs c).\n\nAnswer: C.",
+      "concept_tags": [
+        "conductance_of_electrolytes",
+        "micelle_properties",
+        "critical_micelle_concentration"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Expecting conductivity to increase due to larger particle size (ignoring mobility and counter-ion effects)"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2017_Chem_5",
+      "year": 2017,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Surface Chemistry",
+      "question_text": "The correct statements about surface properties is/are:\n(A) Cloud is an emulsion type of colloid in which liquid is dispersed phase and gas is dispersion medium.\n(B) Adsorption is accompanied by decrease in enthalpy and decrease in entropy of the system.\n(C) Brownian motion of colloidal particles does not depend on the size of the particles but depends on viscosity of the solution.\n(D) The critical temperatures of ethane and nitrogen are 563 K and 126 K, respectively. The adsorption of ethane will be more than that of nitrogen on same amount of activated charcoal at a given temperature.",
+      "diagram_refs": [],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "B, D",
+      "solution_text": "(A) Cloud is liquid dispersed in gas. This is called an Aerosol, not an Emulsion (liquid in liquid). (Incorrect).\n(B) Adsorption is spontaneous (ΔG < 0). Surface randomness decreases (gas to surface), so ΔS < 0. For ΔG = ΔH - TΔS to be negative when ΔS is negative, ΔH must be negative (Exothermic). So Enthalpy and Entropy both decrease. (Correct).\n(C) Brownian motion depends on size of particles (smaller particles move faster) AND viscosity (less viscous -> faster). Statement says 'does not depend on size'. (Incorrect).\n(D) Higher Critical Temperature (Tc) implies stronger intermolecular forces (easier liquefaction). Gases with higher Tc are adsorbed more strongly (Physisorption). Ethane (563 K) > Nitrogen (126 K). So Adsorption of Ethane > Nitrogen. (Correct).\n\nCorrect options: B, D.",
+      "concept_tags": [
+        "thermodynamics_of_adsorption",
+        "factors_affecting_adsorption",
+        "classification_of_colloids"
+      ],
+      "formula_tags": [
+        "Adsorption ∝ Tc"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": [
+        "Misclassifying Cloud as Emulsion (Liquid-Liquid) instead of Aerosol (Liquid-Gas)",
+        "Forgetting the dependence of Brownian motion on particle size"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2016_Chem_6",
+      "year": 2016,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Surface Chemistry",
+      "question_text": "The qualitative sketches I, II and III given below show the variation of surface tension with molar concentration of three different aqueous solutions of KCl, CH3OH and CH3(CH2)11OSO3-Na+ at room temperature. The correct assignment of the sketches is:",
+      "diagram_refs": ["JEE_Adv_2016_Chem_6_sketches.png"],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "D",
+      "solution_text": "Analysis of Solutes:\n1. KCl: Inorganic electrolyte. Increasing concentration of simple salts usually increases surface tension slightly (due to hydration forces pulling water bulk). Or stays nearly constant. (Sketch II or I? Usually slight increase or constant).\n2. CH3OH (Methanol): Organic solvent, miscible. Lowers surface tension of water (breaking H-bonds, surface active). (Sketch I or III? Gradual decrease).\n3. CH3(CH2)11OSO3Na (SDS - Sodium Dodecyl Sulfate): Strong Surfactant. Drastically lowers surface tension even at low concentrations until CMC is reached. (Sketch III - Steep decrease).\n\nMatching Sketches to Solutes:\n- Sketch with sharp decrease (lowest surface tension): Surfactant (SDS). -> III.\n- Sketch with gradual decrease: Alcohol (Methanol). -> I (Wait, look at options. Option D says I=Methanol? Let's check sketch shapes. If I is decreasing, II is increasing/constant, III is steep decrease).\n\nLet's re-read the options mapping:\n(A) I: KCl... (KCl shouldn't decrease ST significantly). Unlikely.\n(D) I: CH3OH (Decreases), II: KCl (Increases/Constant), III: Surfactant (Steep decrease). This fits theory best.\n\nKCl increases ST (Type II).\nCH3OH decreases ST (Type I).\nSurfactant decreases ST drastically (Type III).\n\nAssignment: I = CH3OH, II = KCl, III = SDS.\nOption D.",
+      "concept_tags": [
+        "surface_tension",
+        "surfactants",
+        "effect_of_solutes_on_surface_tension"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Not knowing that inorganic salts (like KCl) can increase surface tension of water slightly"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2015_Chem_7",
+      "year": 2015,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Surface Chemistry",
+      "question_text": "When O2 is adsorbed on a metallic surface, electron transfer occurs from the metal to O2. The TRUE statement(s) regarding this adsorption is/are:\n(A) O2 is physisorbed\n(B) heat is released\n(C) occupancy of π*2p of O2 is increased\n(D) bond length of O2 is increased",
+      "diagram_refs": [],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "B, C, D",
+      "solution_text": "Scenario: Electron transfer from Metal to O2.\nThis implies Chemisorption (chemical reaction/bond formation involving electron transfer). Not Physisorption. (A is False).\n\n(B) Adsorption (Chemisorption included) is exothermic. Heat is released. (Correct).\n(C) Electron transfer to O2 means O2 accepts electrons. The Lowest Unoccupied Molecular Orbital (LUMO) of O2 is the antibonding π*2p orbital. Incoming electrons enter here. Occupancy increases. (Correct).\n(D) Adding electrons to antibonding orbitals decreases Bond Order. Bond Order ∝ (Nb - Na). Increasing Na decreases Bond Order. Lower Bond Order implies longer Bond Length. (Correct).\n\nCorrect Options: B, C, D.",
+      "concept_tags": [
+        "chemisorption_mechanism",
+        "molecular_orbital_theory",
+        "bond_parameters"
+      ],
+      "formula_tags": [
+        "BondOrder = (Nb - Na)/2"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Failing to connect 'electron transfer' with 'antibonding orbital population' and its effect on bond length"
+      ]
+    }
+  ]
+  

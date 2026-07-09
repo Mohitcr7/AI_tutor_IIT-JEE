@@ -1,0 +1,209 @@
+[
+    {
+      "qid": "JEE_Adv_2023_Chem_1",
+      "year": 2023,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Liquid Solutions",
+      "question_text": "50 mL of 0.2 molal urea solution (density 1.012 g mL^-1 at 300 K) is mixed with 250 mL of a solution containing 0.06 g of urea. Both the solutions were prepared in the same solvent. The osmotic pressure in Torr of the resulting solution at 300 K is _______.\n[Use: Molar mass of urea = 60 g mol^-1; gas constant, R = 62 L Torr K^-1 mol^-1; Assume, Δ_mix H = 0, Δ_mix V = 0]",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "682",
+      "solution_text": "Solution 1: 50 mL of 0.2 molal urea, d = 1.012 g/mL.\nMass of solution = Volume * Density = 50 mL * 1.012 g/mL = 50.6 g.\n0.2 molal means 0.2 moles urea in 1 kg (1000 g) solvent.\nMass of solution containing 0.2 mol urea = 1000 g solvent + (0.2 * 60) g urea = 1012 g.\nIn 50.6 g of solution, amount of urea:\nMoles_urea = (0.2 mol) * (50.6 g / 1012 g) = 0.2 * 0.05 = 0.01 mol.\nMass of urea = 0.01 * 60 = 0.6 g.\n\nSolution 2: 250 mL containing 0.06 g urea.\nMoles_urea = 0.06 g / 60 g/mol = 0.001 mol.\n\nMixture:\nTotal Moles Urea = 0.01 + 0.001 = 0.011 mol.\nTotal Volume = 50 mL + 250 mL = 300 mL = 0.3 L (assuming volumes additive as ΔV_mix=0).\n\nMolarity (C) = Total Moles / Total Volume (L) = 0.011 / 0.3 = 0.0366... M.\n\nOsmotic Pressure (π) = CRT.\nR = 62 L Torr K^-1 mol^-1, T = 300 K.\nπ = (0.011 / 0.3) * 62 * 300.\nπ = 0.011 * 62 * (300 / 0.3)\nπ = 0.011 * 62 * 1000\nπ = 11 * 62\nπ = 682 Torr.\n\nAnswer: 682.",
+      "concept_tags": [
+        "osmotic_pressure",
+        "molality_to_molarity_conversion",
+        "concentration_of_mixture"
+      ],
+      "formula_tags": [
+        "π = CRT",
+        "Molality = n_solute / Mass_solvent_kg"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Confusing molality with molarity directly without density conversion",
+        "Adding volumes without checking unit consistency (though mL to L is standard)"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2022_Chem_2",
+      "year": 2022,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Liquid Solutions",
+      "question_text": "An aqueous solution is prepared by dissolving 0.1 mol of an ionic salt in 1.8 kg of water at 35 °C. The salt remains 90% dissociated in the solution. The vapour pressure of the solution is 59.724 mm of Hg. Vapor pressure of water at 35 °C is 60.000 mm of Hg. The number of ions present per formula unit of the ionic salt is _______.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "5",
+      "solution_text": "Relative Lowering of Vapour Pressure (RLVP):\n(P° - P) / P° = i * n_solute / n_solvent (for dilute solution).\n\nP° = 60.000 mmHg, P = 59.724 mmHg.\nLowering = 60.000 - 59.724 = 0.276 mmHg.\nRLVP = 0.276 / 60.000.\n\nMoles of solute (salt) n2 = 0.1 mol.\nMoles of solvent (water) n1 = 1.8 kg / 18 g/mol = 1800 g / 18 = 100 mol.\n\nFormula: RLVP = i * (n2 / n1).\n0.276 / 60 = i * (0.1 / 100).\n0.0046 = i * 0.001.\ni = 4.6.\n\nVan't Hoff factor i relates to degree of dissociation α and number of ions n (let's use 'x' for ions per formula unit to avoid confusion with moles):\ni = 1 + (x - 1)α.\nGiven α = 0.90 (90% dissociated).\n4.6 = 1 + (x - 1)(0.9).\n3.6 = (x - 1)(0.9).\nx - 1 = 3.6 / 0.9 = 4.\nx = 5.\n\nNumber of ions per formula unit is 5.",
+      "concept_tags": [
+        "relative_lowering_vapour_pressure",
+        "vant_hoff_factor",
+        "degree_of_dissociation"
+      ],
+      "formula_tags": [
+        "(P°-P)/P° = i(n2/n1)",
+        "i = 1 + (n-1)α"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Using the exact Raoult's law formula (n2/(n1+n2)) leads to complex algebra, though dilute approximation works well here",
+        "Calculation errors in RLVP ratio"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2021_Chem_3",
+      "year": 2021,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Liquid Solutions",
+      "question_text": "The boiling point of water in a 0.1 molal silver nitrate solution (solution A) is x °C. ... The value of x is ______.\n[Use: Kb = 0.5 K kg mol^-1; BP of pure water = 100 °C; AgNO3 dissociates completely]",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "100.1",
+      "solution_text": "Solution A: 0.1 m AgNO3.\nAgNO3 -> Ag+ + NO3- (completely dissociated, i=2).\nΔTb = i * Kb * m.\nΔTb = 2 * 0.5 * 0.1 = 0.1 °C.\n\nBoiling Point of A = BP_pure + ΔTb = 100 + 0.1 = 100.1 °C.\n\nx = 100.1.",
+      "concept_tags": [
+        "elevation_in_boiling_point",
+        "vant_hoff_factor"
+      ],
+      "formula_tags": [
+        "ΔTb = i Kb m"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": [
+        "Forgetting i=2 for AgNO3"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2021_Chem_4",
+      "year": 2021,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Liquid Solutions",
+      "question_text": "... To this solution A (0.1 m AgNO3), an equal volume of 0.1 molal aqueous barium chloride solution is added to make a new solution B. The difference in the boiling points of water in the two solutions A and B is y × 10^-2 °C. The value of y is ______.\n[Assume densities equal to water, salts dissociate completely]",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "2.5",
+      "solution_text": "Solution A: 0.1 m AgNO3. (Volume V)\nSolution Added: 0.1 m BaCl2. (Volume V)\nAssuming density = 1 g/mL for all, molality ≈ molarity for dilute, and mixing equal volumes halves the initial concentrations.\n\nBefore reaction:\n[AgNO3] = 0.1/2 = 0.05 m.\n[BaCl2] = 0.1/2 = 0.05 m.\n\nReaction: 2AgNO3 + BaCl2 -> 2AgCl(s) + Ba(NO3)2.\nAg+ + Cl- -> AgCl(ppt).\n\nInitial Moles (proportional to m):\nAg+ = 0.05.\nNO3- = 0.05.\nBa2+ = 0.05.\nCl- = 2 * 0.05 = 0.10.\n\nPrecipitation:\nAg+ (0.05) reacts with Cl- (0.05 required). Ag+ is limiting.\nRemaining Ions in Solution B:\nAg+ = 0.\nCl- = 0.10 - 0.05 = 0.05 m.\nBa2+ = 0.05 m (spectator).\nNO3- = 0.05 m (spectator).\n\nTotal molality of ions in B (m_total):\nm_total = [Cl-] + [Ba2+] + [NO3-] = 0.05 + 0.05 + 0.05 = 0.15 m.\n(Note: AgCl precipitates and does not contribute to BP elevation).\n\nCalculate ΔTb for B:\nΔTb_B = Kb * m_total (i=1 for the sum of ions).\nΔTb_B = 0.5 * 0.15 = 0.075 °C.\nBP_B = 100 + 0.075 = 100.075 °C.\n\nDifference in BP between A and B:\nBP_A = 100.1 °C (from Q3).\nDiff = BP_A - BP_B = 100.1 - 100.075 = 0.025 °C.\n\nGiven difference = y × 10^-2.\n0.025 = 2.5 × 10^-2.\ny = 2.5.",
+      "concept_tags": [
+        "colligative_properties_reaction",
+        "precipitation_reaction",
+        "boiling_point_difference"
+      ],
+      "formula_tags": [
+        "ΔTb = Kb * Σ(m_ions)"
+      ],
+      "difficulty_level": "Hard",
+      "common_traps": [
+        "Not accounting for the precipitation of AgCl reducing the ion count",
+        "Forgetting to halve concentrations upon mixing equal volumes"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2020_Chem_5",
+      "year": 2020,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Liquid Solutions",
+      "question_text": "Liquids A and B form ideal solution for all compositions of A and B at 25°C. Two such solutions with 0.25 and 0.50 mole fractions of A have the total vapor pressures of 0.3 and 0.4 bar, respectively. What is the vapor pressure of pure liquid B in bar?",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "0.2",
+      "solution_text": "Raoult's Law for Ideal Solution: P_total = P_A° X_A + P_B° X_B.\nLet P_A° and P_B° be vapor pressures of pure A and B.\nX_B = 1 - X_A.\nEquation: P_total = P_A° X_A + P_B° (1 - X_A) = (P_A° - P_B°) X_A + P_B°.\n\nCase 1: X_A = 0.25, P_total = 0.3.\n0.3 = 0.25 P_A° + 0.75 P_B°   --- (1)\n\nCase 2: X_A = 0.50, P_total = 0.4.\n0.4 = 0.50 P_A° + 0.50 P_B°   --- (2)\n\nMultiply (1) by 2:\n0.6 = 0.50 P_A° + 1.50 P_B°   --- (3)\n\nSubtract (2) from (3):\n(0.6 - 0.4) = (1.50 P_B° - 0.50 P_B°)\n0.2 = 1.0 P_B°\nP_B° = 0.2 bar.\n\n(For check: P_A°: 0.4 = 0.5 P_A° + 0.1 => 0.3 = 0.5 P_A° => P_A° = 0.6 bar).\n\nAnswer for pure B: 0.2.",
+      "concept_tags": [
+        "raoults_law",
+        "ideal_solution",
+        "vapor_pressure_calculation"
+      ],
+      "formula_tags": [
+        "P_total = PA°XA + PB°XB"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": [
+        "Calculation errors when solving simultaneous equations"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2019_Chem_6",
+      "year": 2019,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Liquid Solutions",
+      "question_text": "On dissolving 0.5 g of a non-volatile non-ionic solute to 39 g of benzene, its vapor pressure decreases from 650 mm Hg to 640 mm Hg. The depression of freezing point of benzene in K upon addition of the solute is _______. \nGiven data: Molar mass and the molal freezing point depression constant of benzene are 78 g mol^-1 and 5.12 K kg mol^-1, respectively.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "1.03",
+      "solution_text": "1. Determine Molar Mass of Solute (M2) from RLVP:\n(P° - P) / P° = n2 / n1 (Approximation for dilute, or n2/(n1+n2)).\nLet's use n2/n1 for simplicity or exact formula if needed. 650 -> 640 is small change.\n(650 - 640) / 650 = 10 / 650 = 1/65.\nn1 (Benzene) = 39 g / 78 g/mol = 0.5 mol.\n\nUsing (P° - P) / P = n2 / n1 (Alternative form derived from exact P°/P = (n1+n2)/n1):\n(650 - 640) / 640 = 10 / 640 = 1/64 = n2 / n1.\nn2 = n1 / 64 = 0.5 / 64 mol.\n\n2. Calculate Molality (m):\nm = n2 / Mass_solvent_kg\nm = (0.5 / 64) / (39 / 1000)\nm = (0.5 * 1000) / (64 * 39)\nm = 500 / 2496 ≈ 0.200 mol/kg.\n\nAlternative check using RLVP standard form:\n(P°-P)/P° = X2 = n2/(n1+n2) = 1/65.\nn2/(0.5+n2) = 1/65 => 65n2 = 0.5 + n2 => 64n2 = 0.5 => n2 = 0.5/64.\nSame result.\n\n3. Calculate Freezing Point Depression ΔTf:\nΔTf = Kf * m\nΔTf = 5.12 * (500 / 2496)\nΔTf = 5.12 * 0.2003\nΔTf ≈ 1.025 K.\n\nRounding to two decimals: 1.03.",
+      "concept_tags": [
+        "relative_lowering_vapour_pressure",
+        "depression_in_freezing_point",
+        "colligative_properties_relation"
+      ],
+      "formula_tags": [
+        "(P°-P)/P = n2/n1",
+        "ΔTf = Kf m"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Using the wrong denominator in RLVP formula (P° vs P) without checking if dilute approx applies (Here 10/650 vs 10/640 makes small difference, but P is safer for n2/n1 relation)"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2018_Chem_7",
+      "year": 2018,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Liquid Solutions",
+      "question_text": "Liquids A and B form ideal solution over the entire range of composition. At temperature T, equimolar binary solution of liquids A and B has vapour pressure 45 Torr. At the same temperature, a new solution of A and B having mole fractions xA and xB, respectively, has vapour pressure of 22.5 Torr. The value of xA/xB in the new solution is _______. \nGiven that the vapour pressure of pure liquid A is 20 Torr at temperature T.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "19",
+      "solution_text": "P_A° = 20 Torr.\n\nFirst Solution (Equimolar):\nX_A = 0.5, X_B = 0.5.\nP_total = 45 Torr.\n45 = 0.5 P_A° + 0.5 P_B°\n45 = 0.5 (20) + 0.5 P_B°\n45 = 10 + 0.5 P_B°\n35 = 0.5 P_B°\nP_B° = 70 Torr.\n\nSecond Solution:\nP_total = 22.5 Torr.\nLet mole fractions be xA and xB (where xB = 1 - xA).\n22.5 = xA P_A° + (1 - xA) P_B°\n22.5 = 20 xA + 70 (1 - xA)\n22.5 = 20 xA + 70 - 70 xA\n22.5 = 70 - 50 xA\n50 xA = 70 - 22.5\n50 xA = 47.5\nxA = 47.5 / 50 = 0.95.\n\nxB = 1 - 0.95 = 0.05.\n\nRatio xA / xB = 0.95 / 0.05 = 19.\n\nAnswer: 19.",
+      "concept_tags": [
+        "raoults_law",
+        "mole_fraction_calculation"
+      ],
+      "formula_tags": [
+        "P = PA°xA + PB°xB"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Calculation error in P_B° or xA"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2018_Chem_8",
+      "year": 2018,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Liquid Solutions",
+      "question_text": "The plot given below shows P-T curves ... for two solvents X and Y and isomolal solutions of NaCl in these solvents. NaCl completely dissociates in both... On addition of equal number of moles a non-volatile solute S ... the elevation of boiling point of solvent X is three times that of solvent Y. Solute S is known to undergo dimerization in these solvents. If the degree of dimerization is 0.7 in solvent Y, the degree of dimerization in solvent X is _______.",
+      "diagram_refs": ["JEE_Adv_2018_Chem_8_graph.png"],
+      "options": [],
+      "correct_answer": "0.05",
+      "solution_text": "1. Determine ratio of Kb for X and Y from NaCl data:\nGraph data (from text description): \nSolvent X: BP = 360 K (curve 1), Solution X (NaCl): BP = 362 K (curve 2). ΔTb_X(NaCl) = 2 K.\nSolvent Y: BP = 367 K (curve 3), Solution Y (NaCl): BP = 368 K (curve 4). ΔTb_Y(NaCl) = 1 K.\nNaCl dissociates completely (i=2).\nIsomolal solutions means m is same.\nΔTb_X = i Kb_X m => 2 = 2 * Kb_X * m.\nΔTb_Y = i Kb_Y m => 1 = 2 * Kb_Y * m.\nRatio: 2/1 = (2 Kb_X m) / (2 Kb_Y m) => Kb_X / Kb_Y = 2.\nSo Kb_X = 2 Kb_Y.\n\n2. Solute S dimerization:\nS undergoes dimerization: 2S -> S2.\ni = 1 + (1/n - 1)α = 1 + (1/2 - 1)α = 1 - 0.5α.\n\nCondition: Equal moles of S in equal amount of solvent => Molality m is same for S in both X and Y.\nGiven: ΔTb_X(S) = 3 * ΔTb_Y(S).\n\ni_X * Kb_X * m = 3 * (i_Y * Kb_Y * m).\ni_X * (2 Kb_Y) = 3 * i_Y * Kb_Y.\n2 i_X = 3 i_Y.\n\nGiven degree of dimerization in Y (α_Y) = 0.7.\ni_Y = 1 - 0.5(0.7) = 1 - 0.35 = 0.65.\n\nSubstitute i_Y:\n2 i_X = 3 * 0.65 = 1.95.\ni_X = 1.95 / 2 = 0.975.\n\nFind α_X:\ni_X = 1 - 0.5 α_X.\n0.975 = 1 - 0.5 α_X.\n0.5 α_X = 1 - 0.975 = 0.025.\nα_X = 0.025 / 0.5 = 0.05.\n\nAnswer: 0.05.",
+      "concept_tags": [
+        "elevation_in_boiling_point",
+        "vant_hoff_factor_association",
+        "comparative_colligative_properties"
+      ],
+      "formula_tags": [
+        "i = 1 + (1/n - 1)α",
+        "ΔTb = i Kb m"
+      ],
+      "difficulty_level": "Hard",
+      "common_traps": [
+        "Forgetting to calculate Kb ratio from the first part (NaCl data)",
+        "Using dissociation formula instead of association for solute S"
+      ]
+    }
+  ]
+  

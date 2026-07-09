@@ -1,0 +1,356 @@
+[
+    {
+      "qid": "JEE_Adv_2020_P1_1",
+      "year": "2020",
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Mechanics",
+      "chapter": "System of Particles and Rotational Motion",
+      "question_text": "A football of radius R is kept on a hole of radius r (r < R) made on a plank kept horizontally. One end of the plank is now lifted so that it gets tilted making an angle θ from the horizontal as shown in the figure below. The maximum value of θ so that the football does not start rolling down the plank satisfies (figure is schematic and not drawn to scale) -",
+      "diagram_refs": ["JEE_Adv_2020_P1_1.png"],
+      "options": [
+        "sin θ = r / R",
+        "tan θ = r / R",
+        "sin θ = r / 2R",
+        "cos θ = r / 2R"
+      ],
+      "correct_answer": "sin θ = r / R",
+      "solution_text": "1. **Analyze Forces at Rolling Point:**\n   The football will start rolling about the lower edge of the hole (contact point P).\n   At the verge of rolling, the normal reaction at the upper edge becomes zero.\n   The torque due to gravity about the lower edge P balances the stabilizing torque? \n   Actually, for the football to *not* roll out, the line of action of gravity (mg) must fall within the base (between the contact points).\n   Limiting condition: The vertical line from Center of Mass (C) passes exactly through the lower contact point P.\n\n2. **Geometry:**\n   Let C be the center of the football. CP = R.\n   The hole has radius r. So the horizontal distance from center to contact point (in the plank frame) is r.\n   Wait, hole radius r means diameter 2r? Yes. Distance between contact points is 2r.\n   Distance from axis of hole to contact point is r.\n   In the triangle formed by Center C, Contact point P, and the center of the hole O':\n   CP = R. O'P = r. Angle CO'P = 90 deg.\n   Angle α (semi-vertical angle of the cone of contact) is given by sin α = r/R.\n\n3. **Tilt Condition:**\n   When plank is tilted by θ, the normal to the plank tilts by θ from vertical.\n   The gravity vector mg makes angle θ with the normal to the plank.\n   For the ball to be on the verge of toppling/rolling over the edge P, the gravity vector must align with the line CP.\n   Therefore, the angle θ must equal the angle α.\n   sin θ = sin α = r / R.\n\n   Answer: sin θ = r / R.",
+      "concept_tags": [
+        "toppling",
+        "equilibrium_of_rigid_bodies",
+        "torque"
+      ],
+      "formula_tags": [
+        "sin θ = r/R"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": "Confusing the hole radius r with the distance from the center of mass to the pivot in a non-standard geometry."
+    },
+    {
+      "qid": "JEE_Adv_2020_P1_2",
+      "year": "2020",
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Electromagnetism",
+      "chapter": "Electromagnetic Induction",
+      "question_text": "A light disc made of aluminium (a nonmagnetic material) is kept horizontally and is free to rotate about its axis as shown in the figure. A strong magnet is held vertically at a point above the disc away from its axis. On revolving the magnet about the axis of the disc, the disc will (figure is schematic and not drawn to scale)-",
+      "diagram_refs": ["JEE_Adv_2020_P1_2.png"],
+      "options": [
+        "rotate in the direction opposite to the direction of magnet's motion",
+        "rotate in the same direction as the direction of magnet's motion",
+        "not rotate and its temperature will remain unchanged",
+        "not rotate but its temperature will slowly rise"
+      ],
+      "correct_answer": "rotate in the same direction as the direction of magnet's motion",
+      "solution_text": "1. **Lenz's Law Application:**\n   Moving the magnet creates a changing magnetic flux through the sectors of the aluminium disc.\n   According to Lenz's Law, eddy currents are induced in the disc to oppose the *relative* motion between the magnet and the disc.\n   \n2. **Relative Motion:**\n   The magnet moves with velocity v_m.\n   To reduce the relative velocity (v_m - v_disc), the disc must move in the *same* direction as the magnet.\n   If it moved opposite, relative velocity would increase. If stationary, relative velocity is max.\n   By rotating in the same direction, the disc tries to catch up with the magnet, minimizing the flux change.\n   \n   Conclusion: The disc rotates in the direction of the magnet's motion.\n\n   Answer: rotate in the same direction as the direction of magnet's motion.",
+      "concept_tags": [
+        "lenzs_law",
+        "eddy_currents",
+        "electromagnetic_induction"
+      ],
+      "formula_tags": [
+        "ε = -dΦ/dt"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": "Thinking the force is repulsive and thus causes rotation in the opposite direction (drag force acts to reduce relative speed)."
+    },
+    {
+      "qid": "JEE_Adv_2020_P1_4",
+      "year": "2020",
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Electromagnetism",
+      "chapter": "Moving Charges and Magnetism",
+      "question_text": "A circular coil of radius R and N turns has negligible resistance. As shown in the schematic figure, its two ends are connected to two wires and it is hanging by those wires with its plane being vertical. The wires are connected to a capacitor with charge Q through a switch. The coil is in a horizontal uniform magnetic field B₀ parallel to the plane of the coil. When the switch is closed, the capacitor gets discharged through the coil in a very short time. By the time the capacitor is discharged fully, magnitude of the angular momentum gained by the coil will be (assume that the discharge time is so short that the coil has hardly rotated during this time)-",
+      "diagram_refs": ["JEE_Adv_2020_P1_4.png"],
+      "options": [
+        "NQ B₀ R²",
+        "π NQ B₀ R²",
+        "2π NQ B₀ R²",
+        "4π NQ B₀ R²"
+      ],
+      "correct_answer": "π NQ B₀ R²",
+      "solution_text": "1. **Torque on Coil:**\n   Torque τ = M × B.\n   Magnetic Moment M = N I A = N I (π R²).\n   Angle between M (normal to coil) and B is 90 degrees (since B is parallel to plane).\n   τ = N I (π R²) B₀ sin 90° = π N I R² B₀.\n\n2. **Angular Impulse:**\n   Change in Angular Momentum ΔL = ∫ τ dt.\n   ΔL = ∫ (π N I R² B₀) dt.\n   Since π, N, R, B₀ are constants (short time, coil hasn't rotated significantly so angle stays 90):\n   ΔL = π N R² B₀ ∫ I dt.\n\n3. **Charge Flow:**\n   ∫ I dt = Total charge flowed = Q (capacitor discharges completely).\n   ΔL = π N R² B₀ Q.\n\n   Answer: π NQ B₀ R².",
+      "concept_tags": [
+        "torque_on_current_loop",
+        "angular_impulse",
+        "magnetic_moment"
+      ],
+      "formula_tags": [
+        "τ = MB sin θ",
+        "L = ∫τ dt",
+        "Q = ∫I dt"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": "Forgetting that the integral of current over time is the total charge Q."
+    },
+    {
+      "qid": "JEE_Adv_2020_P1_6",
+      "year": "2020",
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Mechanics",
+      "chapter": "Fluids",
+      "question_text": "An open-ended U-tube of uniform cross-sectional area contains water (density 10³ kg m⁻³). Initially the water level stands at 0.29 m from the bottom in each arm. Kerosene oil (a water-immiscible liquid) of density 800 kg m⁻³ is added to the left arm until its length is 0.1 m, as shown in the schematic figure below. The ratio h₁ / h₂ of the heights of the liquid in the two arms is-",
+      "diagram_refs": ["JEE_Adv_2020_P1_6.png"],
+      "options": [
+        "15/14",
+        "35/33",
+        "7/6",
+        "5/4"
+      ],
+      "correct_answer": "35/33",
+      "solution_text": "1. **Volume Conservation:**\n   Initial total length of water = 0.29 + 0.29 = 0.58 m.\n   Final state: Water in left arm (h1 - 0.1) + Water in right arm (h2).\n   Wait, h1 is total height in left arm (Kerosene + Water). h2 is height in right arm (Water).\n   Length of Kerosene = 0.1 m.\n   Height of water in left arm = h1 - 0.1.\n   Total length of water: (h1 - 0.1) + h2 = 0.58.\n   h1 + h2 = 0.68.  (Equation 1)\n\n2. **Pressure Balance at Bottom:**\n   Pressure at bottom of left arm = Pressure at bottom of right arm.\n   P_atm + ρ_k g (0.1) + ρ_w g (h1 - 0.1) = P_atm + ρ_w g h2.\n   800(0.1) + 1000(h1 - 0.1) = 1000 h2.\n   80 + 1000 h1 - 100 = 1000 h2.\n   1000 h1 - 20 = 1000 h2.\n   1000 (h1 - h2) = 20.\n   h1 - h2 = 0.02. (Equation 2)\n\n3. **Solve Equations:**\n   h1 + h2 = 0.68\n   h1 - h2 = 0.02\n   Adding: 2 h1 = 0.70 => h1 = 0.35 m.\n   Subtracting: 2 h2 = 0.66 => h2 = 0.33 m.\n\n4. **Calculate Ratio:**\n   Ratio = h1 / h2 = 0.35 / 0.33 = 35 / 33.\n\n   Answer: 35/33.",
+      "concept_tags": [
+        "hydrostatic_pressure",
+        "pascals_law",
+        "fluid_statics"
+      ],
+      "formula_tags": [
+        "P = P₀ + ρgh",
+        "V_initial = V_final"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": "Incorrectly setting up the volume conservation equation or mixing up the densities."
+    },
+    {
+      "qid": "JEE_Adv_2020_P1_8",
+      "year": "2020",
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Thermodynamics",
+      "chapter": "Thermal Properties of Matter",
+      "question_text": "The filament of a light bulb has surface area 64 mm². The filament can be considered as a black body at temperature 2500 K emitting radiation like a point source when viewed from far. At night the light bulb is observed from a distance of 100 m. Assume the pupil of the eyes of the observer to be circular with radius 3 mm. Then (Take Stefan-Boltzmann constant... Wien's constant...)",
+      "diagram_refs": [],
+      "options": [
+        "power radiated by the filament is in the range 642 W to 645 W",
+        "radiated power entering into one eye of the observer is in the range 3.15 × 10⁻⁸ W to 3.25 × 10⁻⁸ W",
+        "the wavelength corresponding to the maximum intensity of light is 1160 nm",
+        "taking the average wavelength... total number of photons... in range 2.75 × 10¹¹ to 2.85 × 10¹¹"
+      ],
+      "correct_answer": "Options B, C, D",
+      "solution_text": "1. **Total Power Radiated:**\n   P = σ A T⁴.\n   A = 64 mm² = 64 × 10⁻⁶ m².\n   T = 2500 K.\n   P = 5.67 × 10⁻⁸ × 64 × 10⁻⁶ × (2500)⁴.\n   2500⁴ = (2.5 × 10³)⁴ = 39.0625 × 10¹².\n   P = 5.67 × 64 × 39.0625 × 10⁻² = 5.67 × 64 × 390.625? No.\n   10⁻⁸ * 10⁻⁶ * 10¹² = 10⁻².\n   Calculation: 5.67 * 64 * 39.06 ≈ 14175.\n   P ≈ 14175 × 10⁻² = 141.75 W.\n   Option A (642-645 W) is Incorrect.\n\n2. **Power Entering Eye:**\n   Distance d = 100 m.\n   Pupil radius r = 3 mm = 3 × 10⁻³ m.\n   Area of pupil A_eye = π r² = π (3 × 10⁻³)² = 9π × 10⁻⁶ m².\n   Intensity at eye I = P / (4πd²) = 141.75 / (4π * 100²).\n   Power_eye = I * A_eye = [ 141.75 / (4π * 10⁴) ] * [ 9π × 10⁻⁶ ].\n   Power_eye = (141.75 * 9 / 4) × 10⁻¹⁰ = (318.9 / 4) × 10⁻¹⁰ ? No.\n   141.75 / 4 = 35.43.\n   35.43 * 9 = 318.9.\n   Power_eye = 318.9 × 10⁻¹⁰ = 3.189 × 10⁻⁸ W.\n   Range 3.15 to 3.25 × 10⁻⁸. Option B is Correct.\n\n3. **Wavelength of Max Intensity:**\n   λ_m T = b.\n   λ_m = 2.90 × 10⁻³ / 2500 = 2.9 × 10⁻³ / (2.5 × 10³).\n   λ_m = 1.16 × 10⁻⁶ m = 1160 nm.\n   Option C is Correct.\n\n4. **Number of Photons:**\n   Avg λ = 1740 nm.\n   Energy per photon E = hc/λ = (6.63e-34 * 3e8) / (1740e-9).\n   E ≈ 1.989e-25 / 1740e-9 ≈ 1.143 × 10⁻¹⁹ J.\n   Number of photons N = Power_eye / E.\n   N = 3.189 × 10⁻⁸ / 1.143 × 10⁻¹⁹.\n   N ≈ 2.79 × 10¹¹.\n   Range 2.75 to 2.85 × 10¹¹. Option D is Correct.\n\n   Answer: B, C, D.",
+      "concept_tags": [
+        "stefan_boltzmann_law",
+        "wiens_displacement_law",
+        "photon_flux"
+      ],
+      "formula_tags": [
+        "P = σAT⁴",
+        "λmax T = b",
+        "E = hc/λ"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": "Calculation errors in the high power of temperature or unit conversions."
+    },
+    {
+      "qid": "JEE_Adv_2020_P1_10",
+      "year": "2020",
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Electromagnetism",
+      "chapter": "Electrostatics",
+      "question_text": "A uniform electric field, E = - 400 √3 ŷ NC⁻¹ is applied in a region. A charged particle of mass m carrying positive charge q is projected in this region with an initial speed of 2√10 × 10⁶ ms⁻¹. This particle is aimed to hit a target T, which is 5 m away from its entry point into the field as shown schematically in the figure. Take q/m = 10¹⁰ Ckg⁻¹. Then-",
+      "diagram_refs": ["JEE_Adv_2020_P1_10.png"],
+      "options": [
+        "the particle will hit T if projected at an angle 45° from the horizontal",
+        "the particle will hit T if projected either at an angle 30° or 60° from the horizontal",
+        "time taken by the particle to hit T could be √(5/6) μs",
+        "time taken by the particle to hit T is √(5/3) μs"
+      ],
+      "correct_answer": "Options B, C",
+      "solution_text": "1. **Analyze Motion:**\n   E field is downwards (-y direction). F = qE downwards.\n   Acceleration a = qE/m = (q/m) * 400√3 = 10¹⁰ * 400√3 = 4√3 × 10¹² m/s².\n   This is equivalent to 'g' in projectile motion.\n   Range R = 5 m.\n   Initial speed u = 2√10 × 10⁶ m/s.\n   u² = 40 × 10¹².\n\n2. **Range Formula:**\n   R = u² sin 2θ / a.\n   5 = (40 × 10¹²) sin 2θ / (4√3 × 10¹²).\n   5 = (10 / √3) sin 2θ.\n   sin 2θ = 5√3 / 10 = √3 / 2.\n   2θ = 60° or 120°.\n   θ = 30° or 60°.\n   Option B is Correct. Option A is Incorrect.\n\n3. **Time of Flight:**\n   T = 2u sin θ / a.\n   Case 1 (θ = 30°): T1 = 2(2√10 × 10⁶)(0.5) / (4√3 × 10¹²).\n   T1 = (2√10 × 10⁶) / (4√3 × 10¹²) = (√10 / 2√3) × 10⁻⁶ = √(10/12) μs = √(5/6) μs.\n   Case 2 (θ = 60°): T2 = 2(2√10 × 10⁶)(√3/2) / (4√3 × 10¹²).\n   T2 = (2√30 × 10⁶) / (4√3 × 10¹²) = (√30 / 2√3) × 10⁻⁶ = √(10) / 2 μs = √(10/4) μs = √(5/2) μs.\n   Option C mentions √(5/6) μs. Correct.\n   Option D mentions √(5/3) μs. Incorrect.\n\n   Answer: B, C.",
+      "concept_tags": [
+        "projectile_motion_in_electric_field",
+        "kinematics_2d"
+      ],
+      "formula_tags": [
+        "R = u²sin2θ/a",
+        "T = 2usinθ/a"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": "Forgetting the two possible angles for a given range in projectile motion."
+    },
+    {
+      "qid": "JEE_Adv_2020_P1_11",
+      "year": "2020",
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Electromagnetism",
+      "chapter": "Current Electricity",
+      "question_text": "Shown in the figure is a semicircular metallic strip that has thickness t and resistivity ρ. Its inner radius is R₁ and outer radius is R₂. If a voltage V₀ is applied between its two ends, a current I flows in it. In addition, it is observed that a transverse voltage ΔV develops between its inner and outer surfaces due to purely kinetic effects of moving electrons (ignore any role of the magnetic field due to the current). Then (figure is schematic and not drawn to scale)-",
+      "diagram_refs": ["JEE_Adv_2020_P1_11.png"],
+      "options": [
+        "I = V₀t ln(R₂/R₁) / (πρ)",
+        "the outer surface is at a higher voltage than the inner surface",
+        "the outer surface is at a lower voltage than the inner surface",
+        "ΔV ∝ I²"
+      ],
+      "correct_answer": "Options A, C, D",
+      "solution_text": "1. **Current Calculation (Resistance):**\n   Consider a differential semicircular strip of radius r, width dr, thickness t.\n   Length L = πr.\n   Area of cross-section A = t dr.\n   Resistance of this strip dR = ρ(πr) / (t dr).\n   All such strips are in PARALLEL (same voltage V₀ across ends).\n   1/R_eq = ∫ (1/dR) = ∫ [t dr / (ρ π r)] from R₁ to R₂.\n   1/R_eq = (t / πρ) ∫ (1/r) dr = (t / πρ) ln(R₂/R₁).\n   I = V₀ / R_eq = V₀ [ (t / πρ) ln(R₂/R₁) ].\n   I = V₀ t ln(R₂/R₁) / (πρ).\n   Option A is Correct.\n\n2. **Transverse Voltage (Kinetic Effect):**\n   Electrons move in circular paths of radius r.\n   They require centripetal force F_c = m v_d² / r.\n   This force is provided by the transverse electric field E_r created by charge accumulation (Hall-like effect but due to mass/inertia).\n   e E_r = m v_d² / r.\n   E_r = m v_d² / (e r).\n   Direction: Electrons turn along the curve. Centripetal force is inwards. Electric force must be inwards (towards center).\n   Force on electron (-e) is F = -e E. \n   If F is inwards, E must be OUTWARDS (radially outward).\n   E points from Inner (r smaller) to Outer (r larger)? No, E points Outward means High Potential at Inner, Low Potential at Outer.\n   Wait, let's check signs.\n   Force inwards (towards center). Electron has negative charge.\n   F = qE => F_in = (-e) * E.\n   For F_in to be positive (inwards), E must be negative (Outwards). \n   So E vector points radially Outward.\n   Potential decreases in direction of E.\n   So V_inner > V_outer.\n   Option C: Outer surface is at lower voltage. Correct.\n   Option B: Incorrect.\n\n3. **Dependence of ΔV on I:**\n   ΔV = ∫ E_r dr = ∫ (m v_d² / er) dr.\n   We need v_d in terms of I.\n   Current density J = I / Area? No, J varies with r.\n   For the elementary strip, dI = V₀ / dR = V₀ t dr / (ρ π r).\n   dI = n e v_d (Area) = n e v_d (t dr).\n   v_d = dI / (n e t dr) = [ V₀ t dr / (ρ π r) ] / (n e t dr).\n   v_d = V₀ / (n e ρ π r) = C / r (where C is constant).\n   Or simply v_d ∝ 1/r.\n   And I ∝ V₀.\n   So v_d ∝ I / r.\n   E_r ∝ v_d² / r ∝ (I/r)² / r = I² / r³.\n   ΔV = ∫ E_r dr ∝ I² ∫ (1/r³) dr.\n   So ΔV ∝ I².\n   Option D is Correct.\n\n   Answer: A, C, D.",
+      "concept_tags": [
+        "electrical_resistance",
+        "drude_model",
+        "circular_motion_of_charges"
+      ],
+      "formula_tags": [
+        "R = ρL/A",
+        "F_c = mv²/r",
+        "V = ∫ E dl"
+      ],
+      "difficulty_level": "Hard",
+      "common_traps": "Incorrectly identifying the direction of the transverse electric field or assuming the strips are in series."
+    },
+    {
+      "qid": "JEE_Adv_2020_P1_12",
+      "year": "2020",
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Thermodynamics",
+      "chapter": "Kinetic Theory of Gases",
+      "question_text": "As shown schematically in the figure, two vessels contain water solutions (at temperature T) of potassium permanganate (KMnO₄) of different concentrations n₁ and n₂ (n₁ > n₂) molecules per unit volume with Δn = (n₁ - n₂) ≪ n₁. When they are connected by a tube of small length l and cross-sectional area S, KMnO₄ starts to diffuse... viscous force -βv... Neglecting (Δn)²...",
+      "diagram_refs": ["JEE_Adv_2020_P1_12.png"],
+      "options": [
+        "the force causing the molecules to move across the tube is Δn k_B T S",
+        "force balance implies n₁ β v l = Δn k_B T",
+        "total number of molecules going across the tube per sec is (Δn k_B T S) / β l",
+        "rate of molecules getting transferred... does not change with time"
+      ],
+      "correct_answer": "Options A, B, C",
+      "solution_text": "1. **Driving Force:**\n   Ideal Gas analogy: P = n k_B T.\n   Pressure difference ΔP = (n₁ - n₂) k_B T = Δn k_B T.\n   Force F_drive = ΔP * Area = Δn k_B T S.\n   Option A is Correct.\n\n2. **Force Balance (Viscous):**\n   Viscous force on one molecule = βv.\n   Total viscous force = (Number of molecules in tube) * βv.\n   Number of molecules N_tube = (Average density) * Volume.\n   Avg density ≈ n₁ (since Δn ≪ n₁).\n   Volume = S * l.\n   Total Viscous Force = (n₁ S l) * βv.\n   Equating forces: Δn k_B T S = n₁ S l β v.\n   Δn k_B T = n₁ β v l.\n   Option B is Correct.\n\n3. **Flow Rate:**\n   Rate of molecules dN/dt = Flux * Area = (n v) * S.\n   Here density n ≈ n₁. Speed v from balance eq.\n   v = Δn k_B T / (n₁ β l).\n   Rate = n₁ * [ Δn k_B T / (n₁ β l) ] * S.\n   Rate = Δn k_B T S / (β l).\n   Option C is Correct.\n\n4. **Time Dependence:**\n   As diffusion proceeds, n₁ decreases and n₂ increases.\n   Δn = n₁ - n₂ decreases.\n   Since Rate ∝ Δn, the rate decreases with time.\n   Option D is Incorrect.\n\n   Answer: A, B, C.",
+      "concept_tags": [
+        "diffusion",
+        "viscosity",
+        "ideal_gas_equation"
+      ],
+      "formula_tags": [
+        "P = nkT",
+        "F = ΔP A"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": "Confusing the number of molecules involved in the viscous drag (bulk fluid in tube) with the concentration difference."
+    },
+    {
+      "qid": "JEE_Adv_2020_P1_13",
+      "year": "2020",
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Mechanics",
+      "chapter": "Laws of Motion",
+      "question_text": "Put a uniform meter scale horizontally on your extended index fingers with the left one at 0.00 cm and the right one at 90.00 cm. When you attempt to move both the fingers slowly towards the center, initially only the left finger slips... After some distance, the left finger stops and the right one starts slipping. Then the right finger stops at a distance x_R from the center (50.00 cm) of the scale and the left one starts slipping again. This happens because of the difference in the frictional forces on the two fingers. If the coefficients of static and dynamic friction between the fingers and the scale are 0.40 and 0.32, respectively, the value of x_R (in cm) is",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "25.60",
+      "solution_text": "1. **Initial State:**\n   Scale Length L = 100 cm. Center of Mass (CM) at 50 cm.\n   Left Finger (L) at 0 cm (d_L = 50 cm from CM).\n   Right Finger (R) at 90 cm (d_R = 40 cm from CM).\n   Normal forces: N_L * 50 = N_R * 40 => 5 N_L = 4 N_R => N_L = 0.8 N_R.\n   Since N_L < N_R, Max Static Friction f_s,L < f_s,R.\n   So Left finger slips first. Right stays static.\n   Left finger moves closer. N_L increases, N_R decreases.\n\n2. **First Stop (Left stops, Right starts):**\n   Occurs when Kinetic Friction on Left = Static Friction on Right.\n   μ_k N_L = μ_s N_R.\n   Let Left finger be at distance x_L from CM.\n   Torque Balance: N_L * x_L = N_R * 40 => N_L / N_R = 40 / x_L.\n   Substitute into friction eq: μ_k (40/x_L) N_R = μ_s N_R.\n   0.32 * 40 / x_L = 0.40.\n   x_L = 0.32 * 40 / 0.40 = 32 cm.\n   So Left finger stops at 32 cm from center.\n\n3. **Second Motion (Right moves, Left static):**\n   Right finger moves closer. N_R increases, N_L decreases.\n   Stops when Kinetic Friction on Right = Static Friction on Left.\n   μ_k N_R = μ_s N_L.\n   Right finger is at distance x_R.\n   Torque Balance: N_L * 32 = N_R * x_R => N_R / N_L = 32 / x_R.\n   Substitute: μ_k N_R = μ_s N_L => μ_k (32/x_R) N_L? No.\n   μ_k N_R = μ_s N_L.\n   N_R = (μ_s / μ_k) N_L = (0.40 / 0.32) N_L = 1.25 N_L.\n   From Torque: N_R = (32 / x_R) N_L.\n   So 1.25 = 32 / x_R.\n   x_R = 32 / 1.25 = 32 * (4/5) = 128 / 5 = 25.6 cm.\n\n   Answer: 25.60.",
+      "concept_tags": [
+        "friction",
+        "static_vs_kinetic_friction",
+        "torque_equilibrium"
+      ],
+      "formula_tags": [
+        "f = μN",
+        "Στ = 0"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": "Mixing up the coefficients of static and kinetic friction or the normal force relations during the different phases of motion."
+    },
+    {
+      "qid": "JEE_Adv_2020_P1_15",
+      "year": "2020",
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Mechanics",
+      "chapter": "Simple Harmonic Motion",
+      "question_text": "One end of a spring of negligible unstretched length and spring constant k is fixed at the origin (0,0). A point particle of mass m carrying a positive charge q is attached at its other end... When a point dipole p pointing towards the charge q is fixed at the origin, the spring gets stretched to a length l and attains a new equilibrium... If the point mass is now displaced slightly by Δl ≪ l... it oscillates at frequency 1/δ √(k/m). The value of δ is",
+      "diagram_refs": ["JEE_Adv_2020_P1_15.png"],
+      "options": [],
+      "correct_answer": "3.14",
+      "solution_text": "1. **Equilibrium Condition:**\n   Spring Force F_s = k l.\n   Electric Force (Dipole-Point Charge) F_e = | q E |.\n   Field of dipole on axis: E = 2kp_dipole / r³. (Here p_dipole is 'p').\n   Wait, electrostatic constant is 1/4πε₀. Let's use K_e.\n   F_e = q * (2 K_e p) / l³.\n   Equilibrium: k l = 2 K_e p q / l³.  (Eq 1).\n\n2. **Small Displacement:**\n   Displace by x (x = Δl).\n   Restoring Force F_net = F_s' - F_e'.\n   F_s' = k(l + x).\n   F_e' = 2 K_e p q / (l + x)³ = (2 K_e p q / l³) * (1 + x/l)⁻³.\n   Using Binomial approx: F_e' ≈ (k l) * (1 - 3x/l) = k l - 3 k x.\n   F_net = k(l + x) - (k l - 3 k x).\n   F_net = k l + k x - k l + 3 k x = 4 k x.\n\n3. **Frequency of Oscillation:**\n   Effective spring constant k_eff = 4k.\n   Angular frequency ω = √(k_eff / m) = √(4k / m) = 2√(k/m).\n   Frequency f = ω / 2π = (2√(k/m)) / 2π = (1/π) √(k/m).\n\n4. **Compare with Form:**\n   Given f = 1/δ √(k/m).\n   So δ = π.\n   Value of δ ≈ 3.14.\n\n   Answer: 3.14.",
+      "concept_tags": [
+        "simple_harmonic_motion",
+        "taylor_series_approximation",
+        "dipole_field"
+      ],
+      "formula_tags": [
+        "F_restoring = -k_eff x",
+        "f = (1/2π)√(k/m)",
+        "E_dipole = 2kp/r³"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": "Incorrect differentiation of the force term or forgetting the 1/2π factor in frequency."
+    },
+    {
+      "qid": "JEE_Adv_2020_P1_16",
+      "year": "2020",
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Thermodynamics",
+      "chapter": "Thermodynamics",
+      "question_text": "Consider one mole of helium gas enclosed in a container at initial pressure P₁ and volume V₁. It expands isothermally to volume 4V₁. After this, the gas expands adiabatically and its volume becomes 32V₁. The work done by the gas during isothermal and adiabatic expansion processes are W_iso and W_adia, respectively. If the ratio W_iso / W_adia = f ln 2, then f is",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "1.77",
+      "solution_text": "1. **Process 1: Isothermal Expansion:**\n   State A (P₁, V₁) -> State B (P₂, 4V₁).\n   Isothermal Work W_iso = nRT ln(V₂/V₁) = P₁V₁ ln(4) = 2 P₁V₁ ln 2.\n   Pressure at B: P₂ = P₁ (V₁/4V₁) = P₁/4.\n\n2. **Process 2: Adiabatic Expansion:**\n   State B (P₁/4, 4V₁) -> State C (P₃, 32V₁).\n   Helium is monoatomic, γ = 5/3.\n   Adiabatic Work W_adia = (P₂V₂ - P₃V₃) / (γ - 1).\n   Find P₃: P₂ V₂^γ = P₃ V₃^γ.\n   (P₁/4) (4V₁)^(5/3) = P₃ (32V₁)^(5/3).\n   P₃ = (P₁/4) * (4/32)^(5/3) = (P₁/4) * (1/8)^(5/3).\n   (1/8)^(5/3) = ( (1/2)³ )^(5/3) = (1/2)⁵ = 1/32.\n   P₃ = (P₁/4) * (1/32) = P₁ / 128.\n   Calculate W_adia:\n   P₂V₂ = (P₁/4)(4V₁) = P₁V₁.\n   P₃V₃ = (P₁/128)(32V₁) = P₁V₁ / 4.\n   W_adia = (P₁V₁ - P₁V₁/4) / (5/3 - 1) = (3/4 P₁V₁) / (2/3) = (3/4 * 3/2) P₁V₁ = 9/8 P₁V₁.\n\n3. **Ratio:**\n   Ratio = W_iso / W_adia = (2 P₁V₁ ln 2) / (9/8 P₁V₁).\n   Ratio = (16 / 9) ln 2.\n   Given Ratio = f ln 2.\n   f = 16 / 9.\n   Value = 1.777...\n\n   Answer: 1.77.",
+      "concept_tags": [
+        "isothermal_process",
+        "adiabatic_process",
+        "work_done_by_gas"
+      ],
+      "formula_tags": [
+        "W_iso = nRT ln(Vf/Vi)",
+        "W_adia = (PiVi - PfVf)/(γ-1)",
+        "PV^γ = C"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": "Mistaking the adiabatic index γ for helium or calculation errors in the power laws."
+    },
+    {
+      "qid": "JEE_Adv_2020_P1_17",
+      "year": "2020",
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Waves",
+      "chapter": "Waves",
+      "question_text": "A stationary tuning fork is in resonance with an air column in a pipe. If the tuning fork is moved with a speed of 2 ms⁻¹ in front of the open end of the pipe and parallel to it, the length of the pipe should be changed for the resonance to occur with the moving tuning fork. If the speed of sound in air is 320 ms⁻¹, the smallest value of the percentage change required in the length of the pipe is",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "0.62",
+      "solution_text": "1. **Initial Resonance:**\n   Frequency f₀.\n   Resonance condition: f₀ = v / 4L (Fundamental).\n   Or f₀ = n v / 4L.\n\n2. **Moving Fork (Doppler Effect):**\n   Fork moves parallel to the open end? \"In front of the open end... and parallel to it\".\n   Wait. If it moves *parallel* to the pipe opening face (transverse to axis), there is NO Doppler shift along the axis? \n   Or \"parallel to it\" means parallel to the pipe axis?\n   \"In front of the open end... and parallel to it\". Usually means parallel to the pipe axis.\n   Assuming motion is along the line joining source and pipe opening (or parallel to axis).\n   Source speed u = 2 m/s.\n   Apparent frequency f' = f₀ * v / (v - u) (Approaching) or v / (v + u) (Receding).\n   To get resonance again, we change L to L'.\n   f' = v / 4L'.\n\n3. **Calculate Change:**\n   Assume approaching (f' increases, L' must decrease).\n   f' = f₀ (320 / 318).\n   v / 4L' = (v / 4L) * (320 / 318).\n   L / L' = 320 / 318.\n   L' / L = 318 / 320.\n   % Change = (L' - L)/L * 100 = (318/320 - 1) * 100 = (-2 / 320) * 100.\n   = -0.625 %.\n   Magnitude = 0.625.\n   If receding: f' = f₀ (320 / 322).\n   L' / L = 322 / 320.\n   % Change = (2/320) * 100 = 0.625 %.\n   Smallest value is asked. 0.625.\n   Rounding to 2 decimal places: 0.62 or 0.63.\n\n   Answer: 0.62.",
+      "concept_tags": [
+        "doppler_effect",
+        "resonance_column",
+        "standing_waves"
+      ],
+      "formula_tags": [
+        "f' = f(v/v±u)",
+        "f = v/4L"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": "Misinterpreting the direction of motion relative to the pipe axis."
+    },
+    {
+      "qid": "JEE_Adv_2020_P1_18",
+      "year": "2020",
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Electromagnetism",
+      "chapter": "Electrostatics",
+      "question_text": "A circular disc of radius R carries surface charge density σ(r) = σ₀ (1 - r/R), where σ₀ is a constant and r is the distance from the center. Electric flux through a large spherical surface that encloses the charged disc completely is φ₀. Electric flux through another spherical surface of radius R/4 and concentric with the disc is φ. Then the ratio φ₀ / φ is",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "6.40",
+      "solution_text": "1. **Total Charge Q_total (for φ₀):**\n   Q = ∫ σ(r) dA = ∫₀ᴿ σ₀ (1 - r/R) (2πr dr).\n   = 2πσ₀ ∫ (r - r²/R) dr.\n   = 2πσ₀ [ r²/2 - r³/3R ]₀ᴿ.\n   = 2πσ₀ [ R²/2 - R²/3 ] = 2πσ₀ (R²/6) = πσ₀R²/3.\n   Flux φ₀ = Q_total / ε₀.\n\n2. **Enclosed Charge q_enc (for φ):**\n   Radius R/4.\n   q = ∫₀ᴿ/⁴ σ₀ (1 - r/R) (2πr dr).\n   = 2πσ₀ [ r²/2 - r³/3R ]₀ᴿ/⁴.\n   = 2πσ₀ [ (R/4)²/2 - (R/4)³/3R ].\n   = 2πσ₀ [ R²/32 - R²/192 ].\n   = 2πσ₀ R² [ 1/32 - 1/192 ].\n   LCM of 32 and 192: 32 * 6 = 192.\n   Bracket = (6 - 1) / 192 = 5 / 192.\n   q = 2πσ₀ R² (5 / 192) = 10 π σ₀ R² / 192 = 5 π σ₀ R² / 96.\n   Flux φ = q / ε₀.\n\n3. **Ratio:**\n   Ratio = φ₀ / φ = Q_total / q.\n   = (πσ₀R²/3) / (5 π σ₀ R² / 96).\n   = (1/3) / (5/96) = 96 / 15.\n   = 32 / 5.\n   = 6.4.\n\n   Answer: 6.40.",
+      "concept_tags": [
+        "gauss_law",
+        "integration_of_charge_density",
+        "electric_flux"
+      ],
+      "formula_tags": [
+        "Φ = Q_enc/ε₀",
+        "Q = ∫ σ dA"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": "Integration errors or algebraic mistakes in calculating the ratio."
+    }
+  ]

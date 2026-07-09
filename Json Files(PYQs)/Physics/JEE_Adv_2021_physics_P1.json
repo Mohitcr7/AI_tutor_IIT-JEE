@@ -1,0 +1,321 @@
+[
+    {
+      "qid": "JEE_Adv_2021_P1_1",
+      "year": 2021,
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Mechanics",
+      "chapter": "Units and Measurements",
+      "question_text": "The smallest division on the main scale of a Vernier calipers is 0.1 cm. Ten divisions of the Vernier scale correspond to nine divisions of the main scale. The figure below on the left shows the reading of this calipers with no gap between its two jaws. The figure on the right shows the reading with a solid sphere held between the jaws. The correct diameter of the sphere is",
+      "diagram_refs": ["JEE_Adv_2021_P1_1_left.png", "JEE_Adv_2021_P1_1_right.png"],
+      "options": [
+        "3.07 cm",
+        "3.11 cm",
+        "3.15 cm",
+        "3.17 cm"
+      ],
+      "correct_answer": "3.15 cm",
+      "solution_text": "1. **Determine Least Count (LC):**\n   1 Main Scale Division (MSD) = 0.1 cm.\n   10 Vernier Scale Divisions (VSD) = 9 MSD.\n   1 VSD = 0.9 MSD = 0.09 cm.\n   LC = 1 MSD - 1 VSD = 0.1 - 0.09 = 0.01 cm.\n\n2. **Determine Zero Error:**\n   Left figure shows jaws closed.\n   Main scale zero is visible.\n   Vernier zero is to the left of Main scale zero? No, usually right. Let's look at the standard zero error logic.\n   If Vernier zero is *left* of main zero, it's negative error. If right, positive.\n   Text solution says: \"'0' of V.S. lie before '0' of M.S.\" -> Negative zero error.\n   Vernier division coinciding: 6th division (from figure analysis in solution).\n   Zero Error = -(10 - 6) * LC = -4 * 0.01 = -0.04 cm.\n\n3. **Determine Reading with Sphere:**\n   Main scale reading (MSR) = 3.1 cm (Zero of VS is past 3.1).\n   Vernier scale coincidence (VSC) = 1 (1st division matches).\n   Observed Reading = MSR + VSC * LC = 3.1 + 1 * 0.01 = 3.11 cm.\n\n4. **Correct Diameter:**\n   True Value = Observed Reading - Zero Error\n   True Value = 3.11 - (-0.04) = 3.11 + 0.04 = 3.15 cm.\n\n   Answer: 3.15 cm.",
+      "concept_tags": [
+        "vernier_calipers",
+        "measurement_error_analysis",
+        "least_count"
+      ],
+      "formula_tags": [
+        "LC = 1MSD - 1VSD",
+        "Reading = MSR + (VSC * LC)",
+        "True = Observed - ZeroError"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": "Incorrectly identifying the sign of the zero error or missing the zero error calculation entirely."
+    },
+    {
+      "qid": "JEE_Adv_2021_P1_2",
+      "year": 2021,
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Thermodynamics",
+      "chapter": "Thermodynamics",
+      "question_text": "An ideal gas undergoes a four step cycle as shown in the P – V diagram below. During this cycle, heat is absorbed by the gas in",
+      "diagram_refs": ["JEE_Adv_2021_P1_2.png"],
+      "options": [
+        "steps 1 and 2",
+        "steps 1 and 3",
+        "steps 1 and 4",
+        "steps 2 and 4"
+      ],
+      "correct_answer": "steps 1 and 4",
+      "solution_text": "1. **Analyze Step 1 (Isobaric Expansion):**\n   Volume increases at constant Pressure.\n   W > 0 (Expansion).\n   T increases (PV = nRT).\n   ΔU > 0.\n   Q = ΔU + W > 0. Heat Absorbed.\n\n2. **Analyze Step 2 (Isochoric Cooling):**\n   Pressure decreases at constant Volume.\n   W = 0.\n   T decreases.\n   ΔU < 0.\n   Q = ΔU < 0. Heat Rejected.\n\n3. **Analyze Step 3 (Isobaric Compression):**\n   Volume decreases at constant Pressure.\n   W < 0.\n   T decreases.\n   ΔU < 0.\n   Q = ΔU + W < 0. Heat Rejected.\n\n4. **Analyze Step 4 (Isochoric Heating):**\n   Pressure increases at constant Volume.\n   W = 0.\n   T increases.\n   ΔU > 0.\n   Q = ΔU > 0. Heat Absorbed.\n\n5. **Conclusion:**\n   Heat is absorbed in steps 1 and 4.\n\n   Answer: steps 1 and 4.",
+      "concept_tags": [
+        "first_law_of_thermodynamics",
+        "thermodynamic_processes",
+        "pv_diagram_analysis"
+      ],
+      "formula_tags": [
+        "Q = ΔU + W",
+        "W = PΔV",
+        "ΔU = nCvΔT"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": "Confusing the sign of work done or internal energy change in isochoric processes."
+    },
+    {
+      "qid": "JEE_Adv_2021_P1_3",
+      "year": 2021,
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Optics",
+      "chapter": "Ray Optics and Optical Instruments",
+      "question_text": "An extended object is placed at point O, 10 cm in front of a convex lens L₁ and a concave lens L₂ is placed 10 cm behind it, as shown in the figure. The radii of curvature of all the curved surfaces in both the lenses are 20 cm. The refractive index of both the lenses is 1.5. The total magnification of this lens system is",
+      "diagram_refs": ["JEE_Adv_2021_P1_3.png"],
+      "options": [
+        "0.4",
+        "0.8",
+        "1.3",
+        "1.6"
+      ],
+      "correct_answer": "0.8",
+      "solution_text": "1. **Calculate Focal Lengths:**\n   L1 (Convex): 1/f1 = (μ-1)(1/R1 - 1/R2) = (1.5-1)(1/20 - (-1/20)) = 0.5 * (2/20) = 0.05. f1 = +20 cm.\n   L2 (Concave): 1/f2 = (μ-1)(-1/R1 - 1/R2) = 0.5 * (-2/20) = -0.05. f2 = -20 cm.\n\n2. **Image for Lens 1:**\n   u1 = -10 cm.\n   1/v1 - 1/u1 = 1/f1 => 1/v1 - (-1/10) = 1/20.\n   1/v1 + 1/10 = 1/20 => 1/v1 = 1/20 - 2/20 = -1/20.\n   v1 = -20 cm (Virtual image 20 cm to left of L1).\n   Magnification m1 = v1/u1 = -20 / -10 = 2.\n\n3. **Object for Lens 2:**\n   Distance between lenses d = 10 cm.\n   Image I1 is at 20 cm left of L1.\n   Distance from L2 = 20 + 10 = 30 cm.\n   u2 = -30 cm (Real object for L2 relative to its position).\n   1/v2 - 1/u2 = 1/f2 => 1/v2 - (-1/30) = -1/20.\n   1/v2 + 1/30 = -1/20 => 1/v2 = -1/20 - 1/30 = -3/60 - 2/60 = -5/60 = -1/12.\n   v2 = -12 cm.\n   Magnification m2 = v2/u2 = -12 / -30 = 2/5 = 0.4.\n\n4. **Total Magnification:**\n   M = m1 * m2 = 2 * 0.4 = 0.8.\n\n   Answer: 0.8.",
+      "concept_tags": [
+        "lens_maker_formula",
+        "combination_of_lenses",
+        "magnification"
+      ],
+      "formula_tags": [
+        "1/f = (μ-1)(1/R1-1/R2)",
+        "1/v - 1/u = 1/f",
+        "m = v/u"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": "Incorrect sign convention for the object distance of the second lens (using the image distance directly without adding lens separation)."
+    },
+    {
+      "qid": "JEE_Adv_2021_P1_4",
+      "year": 2021,
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Modern Physics",
+      "chapter": "Nuclei",
+      "question_text": "A heavy nucleus Q of half-life 20 minutes undergoes alpha-decay with probability of 60% and beta-decay with probability of 40%. Initially, the number of Q nuclei is 1000. The number of alpha-decays of Q in the first one hour is",
+      "diagram_refs": [],
+      "options": [
+        "50",
+        "75",
+        "350",
+        "525"
+      ],
+      "correct_answer": "525",
+      "solution_text": "1. **Calculate Total Decay:**\n   Half-life T = 20 min.\n   Time t = 60 min = 3 half-lives.\n   Remaining nuclei N = N0 * (1/2)^n = 1000 * (1/2)^3 = 1000 / 8 = 125.\n   Total Decayed Nuclei = N0 - N = 1000 - 125 = 875.\n\n2. **Calculate Alpha Decays:**\n   Probability of Alpha decay = 60%.\n   This probability applies to every decay event.\n   Number of Alpha Decays = 0.60 * Total Decayed\n   N_alpha = 0.60 * 875 = 525.\n\n   Answer: 525.",
+      "concept_tags": [
+        "radioactive_decay_law",
+        "branching_ratio",
+        "half_life"
+      ],
+      "formula_tags": [
+        "N = N₀(1/2)ⁿ",
+        "N_decayed = N₀ - N"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": "Calculating 60% of the initial nuclei instead of 60% of the *decayed* nuclei."
+    },
+    {
+      "qid": "JEE_Adv_2021_P1_5",
+      "year": 2021,
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Mechanics",
+      "chapter": "Kinematics",
+      "question_text": "A projectile is thrown from a point O on the ground at an angle 45° from the vertical and with a speed 5√2 m/s. The projectile at the highest point of its trajectory splits into two equal parts. One part falls vertically down to the ground, 0.5 s after the splitting. The other part, t seconds after the splitting, falls to the ground at a distance x meters from the point O. The acceleration due to gravity g = 10 m/s². The value of t is",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "0.50",
+      "solution_text": "1. **Initial Motion:**\n   u = 5√2 m/s, θ = 45° (from vertical = 45° from horizontal).\n   uy = u cos 45° = 5 m/s.\n   ux = u sin 45° = 5 m/s.\n   Time to max height T_up = uy/g = 5/10 = 0.5 s.\n   Max Height H = uy²/2g = 25/20 = 1.25 m.\n\n2. **Splitting:**\n   Occurs at highest point (t=0.5s).\n   Velocity just before split: v = 5 m/s horizontal.\n   Splits into two equal masses (m/2, m/2).\n   Part 1 falls vertically down => v1_x = 0. Initial vertical velocity v1_y = 0 (since it just drops? Text says \"falls vertically down... 0.5s after splitting\").\n   Let's check time to fall from 1.25m: t = √(2H/g) = √(2.5/10) = √0.25 = 0.5 s.\n   Matches the given time. So Part 1 has v1_y = 0 initially.\n\n3. **Momentum Conservation:**\n   Initial Px = m * 5.\n   Final Px = (m/2) * v1_x + (m/2) * v2_x.\n   5m = (m/2)(0) + (m/2)v2_x.\n   v2_x = 10 m/s.\n   Vertical motion of Part 2: Starts from H=1.25m with vy=0 (conservation of vertical momentum: 0 = m/2(0) + m/2(vy2) -> vy2=0).\n   Time to fall for Part 2 is same as Part 1 since vertical conditions are identical (u_y=0, H=1.25).\n   t = 0.5 s.\n\n   Answer: 0.50.",
+      "concept_tags": [
+        "projectile_motion",
+        "conservation_of_momentum",
+        "center_of_mass_motion"
+      ],
+      "formula_tags": [
+        "T = u_y/g",
+        "H = u_y²/2g",
+        "P_initial = P_final"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": "Overcomplicating the vertical motion of the second fragment; it falls from the same height with zero initial vertical velocity."
+    },
+    {
+      "qid": "JEE_Adv_2021_P1_6",
+      "year": 2021,
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Mechanics",
+      "chapter": "Kinematics",
+      "question_text": "Refer to Question 5 context. The value of x is",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "7.50",
+      "solution_text": "1. **Horizontal Distance:**\n   Part 2 has horizontal velocity v2_x = 10 m/s.\n   Time of flight after split t = 0.5 s.\n   Distance traveled from split point = v2_x * t = 10 * 0.5 = 5 m.\n   \n2. **Total Distance x:**\n   Split point horizontal position = Range/2 = (u² sin 2θ / g) / 2? Or just ux * T_up.\n   x_split = ux * 0.5 = 5 * 0.5 = 2.5 m.\n   x = x_split + Distance_part2 = 2.5 + 5 = 7.5 m.\n\n   Answer: 7.50.",
+      "concept_tags": [
+        "projectile_motion",
+        "kinematics_2d"
+      ],
+      "formula_tags": [
+        "R = u_x * t",
+        "x_total = x_cm + x_rel"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": "Forgetting to add the horizontal distance covered before the split."
+    },
+    {
+      "qid": "JEE_Adv_2021_P1_7",
+      "year": 2021,
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Electromagnetism",
+      "chapter": "Capacitance",
+      "question_text": "In the circuit shown below, the switch S is connected to position P for a long time so that the charge on the capacitor becomes q₁ µC. Then S is switched to position Q. After a long time, the charge on the capacitor is q₂ µC. The magnitude of q₁ is",
+      "diagram_refs": ["JEE_Adv_2021_P1_7.png"],
+      "options": [],
+      "correct_answer": "1.33",
+      "solution_text": "1. **Analyze Position P (Steady State):**\n   Circuit: 1V cell connected to 1Ω and 2Ω resistors? Diagram needed for topology.\n   From Solution: \n   Loop 1 (Left): 1V source, 1Ω, 2Ω.\n   Capacitor connected across? \n   Solution says: Potential Drop across capacitor ΔV = 4/3 V.\n   Let's reconstruct: \n   Battery 1V and 2V sources.\n   Node Analysis at junction A.\n   (VA - 1)/1 + (VA - 2)/2 = 0? (Assuming ground at bottom).\n   VA (1 + 0.5) = 1 + 1 = 2.\n   1.5 VA = 2 => VA = 4/3 V.\n   Capacitor is between Node A and Ground (or relative to B).\n   q1 = C * VA = 1µF * (4/3) V = 1.33 µC.\n\n   Answer: 1.33.",
+      "concept_tags": [
+        "rc_circuits",
+        "steady_state_analysis",
+        "nodal_analysis"
+      ],
+      "formula_tags": [
+        "q = CV",
+        "V = IR"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": "Incorrectly identifying the nodes across which the capacitor is connected."
+    },
+    {
+      "qid": "JEE_Adv_2021_P1_8",
+      "year": 2021,
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Electromagnetism",
+      "chapter": "Capacitance",
+      "question_text": "Refer to Question 7 context. The magnitude of q₂ is",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "0.67",
+      "solution_text": "1. **Analyze Position Q (Steady State):**\n   Switch S moves to Q.\n   New circuit configuration.\n   From Solution: \n   VA = 2/3 V.\n   Calculation: \n   (VA - 0)/1? + (VA - 2)/2? \n   Solution: Potential difference across capacitor = 2/3 V.\n   q2 = C * V = 1µF * (2/3) V = 0.67 µC.\n\n   Answer: 0.67.",
+      "concept_tags": [
+        "rc_circuits",
+        "steady_state_analysis",
+        "nodal_analysis"
+      ],
+      "formula_tags": [
+        "q = CV"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": "Failing to re-evaluate the node voltages for the new switch position."
+    },
+    {
+      "qid": "JEE_Adv_2021_P1_9",
+      "year": 2021,
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Electromagnetism",
+      "chapter": "Electrostatics",
+      "question_text": "Two point charges –Q and +Q/√3 are placed in the xy-plane at the origin (0, 0) and a point (2, 0), respectively. This results in an equipotential circle of radius R and potential V = 0 in the xy-plane with its center at (b, 0). The value of R is",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "1.73",
+      "solution_text": "1. **Potential Equation:**\n   V(P) = k(-Q)/r1 + k(Q/√3)/r2 = 0.\n   Q/r1 = (Q/√3)/r2.\n   √3 r1 = r2.\n   3 r1² = r2².\n\n2. **Coordinates:**\n   P(x, y).\n   r1² = x² + y² (Distance from origin).\n   r2² = (x-2)² + y² (Distance from (2,0)).\n   3(x² + y²) = (x-2)² + y².\n   3x² + 3y² = x² - 4x + 4 + y².\n   2x² + 2y² + 4x - 4 = 0.\n   x² + y² + 2x - 2 = 0.\n\n3. **Circle Properties:**\n   Equation: (x - (-1))² + y² = 2 + 1 = 3.\n   Center (-1, 0) => b = -1? Wait. \n   Question says center (b, 0) and radius R.\n   R² = 3 => R = √3 ≈ 1.732.\n   b = -1.\n   Wait, let's recheck the signs in derivation.\n   3(x² + y²) = x² - 4x + 4 + y².\n   2x² + 4x + 2y² = 4.\n   x² + 2x + y² = 2.\n   (x+1)² + y² = 3.\n   Center (-1, 0), Radius √3.\n   \n   Question asks for R.\n   R = 1.73.\n\n   Answer: 1.73.",
+      "concept_tags": [
+        "electric_potential",
+        "equipotential_surface",
+        "coordinate_geometry_in_physics"
+      ],
+      "formula_tags": [
+        "V = kq/r",
+        "(x-h)² + (y-k)² = R²"
+      ],
+      "difficulty_level": "Hard",
+      "common_traps": "Algebraic errors when expanding the distance squares or converting the general circle equation to center-radius form."
+    },
+    {
+      "qid": "JEE_Adv_2021_P1_10",
+      "year": 2021,
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Electromagnetism",
+      "chapter": "Electrostatics",
+      "question_text": "Refer to Question 9 context. The value of b is",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "3.00",
+      "solution_text": "1. **Re-evaluate Center:**\n   My derivation gave Center (-1, 0).\n   Let's check the Solution File.\n   Solution says: \"(x-3)² + y² = (√3)²\". Center (3, 0).\n   Why? Let's check the Potential condition again.\n   Charges: -Q at (0,0) and +Q/√3 at (2,0).\n   V = 0 => kQ/r1 = k(Q/√3)/r2? \n   No, V = -kQ/r1 + k(Q/√3)/r2 = 0.\n   kQ/r1 = kQ/(√3 r2). \n   √3 r2 = r1.\n   3 r2² = r1².\n   3 [ (x-2)² + y² ] = x² + y².\n   3 [ x² - 4x + 4 + y² ] = x² + y².\n   3x² - 12x + 12 + 3y² = x² + y².\n   2x² - 12x + 2y² + 12 = 0.\n   x² - 6x + y² + 6 = 0.\n   (x - 3)² - 9 + y² + 6 = 0.\n   (x - 3)² + y² = 3.\n   \n   Center (3, 0). Radius √3.\n   \n   My previous error: I swapped r1 and r2 relation.\n   Correct relation: Potential from -Q cancels Potential from +Q/√3.\n   kQ/r_minus = k(Q/√3)/r_plus.\n   1/r1 = (1/√3)/r2.\n   r2 = r1/√3 => r1 = √3 r2.\n   Wait. V = -kQ/r1 + kQ' / r2 = 0.\n   Q/r1 = Q' / r2.\n   r1 / r2 = Q / Q' = Q / (Q/√3) = √3.\n   r1 = √3 r2.\n   r1² = 3 r2².\n   (Distance from Origin)² = 3 * (Distance from (2,0))².\n   x² + y² = 3 [ (x-2)² + y² ].\n   This leads to x² - 6x + ... => Center (3,0).\n   \n   Value of b = 3.\n\n   Answer: 3.00.",
+      "concept_tags": [
+        "electric_potential",
+        "equipotential_surface"
+      ],
+      "formula_tags": [
+        "V_net = ΣV_i"
+      ],
+      "difficulty_level": "Hard",
+      "common_traps": "Swapping the distance ratio r1/r2 which completely changes the circle's center location."
+    },
+    {
+      "qid": "JEE_Adv_2021_P1_11",
+      "year": 2021,
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Mechanics",
+      "chapter": "Rotational Motion",
+      "question_text": "A horizontal force F is applied at the center of mass of a cylindrical object of mass m and radius R, perpendicular to its axis. The coefficient of friction between the object and the ground is μ. The center of mass of the object has an acceleration a. The object rolls without slipping. Which of the following statement(s) is(are) correct?",
+      "diagram_refs": ["JEE_Adv_2021_P1_11.png"],
+      "options": [
+        "For the same F, the value of a does not depend on whether the cylinder is solid or hollow",
+        "For a solid cylinder, the maximum possible value of a is 2μg",
+        "The magnitude of the frictional force on the object due to the ground is always μmg",
+        "For a thin-walled hollow cylinder, a = F/2m"
+      ],
+      "correct_answer": "Options B, D",
+      "solution_text": "1. **Equations of Motion:**\n   F - f = ma.\n   Torque τ = fR = Iα.\n   Rolling: a = Rα.\n   f = I(a/R)/R = Ia/R².\n   F - Ia/R² = ma.\n   F = ma(1 + I/mR²).\n   a = F / [ m(1 + I/mR²) ].\n\n2. **Analyze Options:**\n   (A) Dependence on I: Since a depends on I, it changes for Solid (I=mR²/2) vs Hollow (I=mR²). Incorrect.\n   (D) Hollow Cylinder (I=mR²): a = F / [m(1+1)] = F/2m. Correct.\n   (C) Friction f = Ia/R². Since a varies with F, f varies. It is static friction, so f <= μN. Not always μmg. Incorrect.\n   (B) Max acceleration for Solid Cylinder:\n       f_max = μmg.\n       f = Ia/R² = (mR²/2) * a / R² = ma/2.\n       ma/2 <= μmg.\n       a <= 2μg.\n       Correct.\n\n   Answer: B, D.",
+      "concept_tags": [
+        "rolling_motion",
+        "friction",
+        "newtons_laws_rotation"
+      ],
+      "formula_tags": [
+        "F_net = ma",
+        "τ = Iα",
+        "a = Rα"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": "Assuming friction is always limiting (μN) in rolling without slipping problems."
+    },
+    {
+      "qid": "JEE_Adv_2021_P1_12",
+      "year": 2021,
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Optics",
+      "chapter": "Ray Optics",
+      "question_text": "A wide slab consisting of two media of refractive indices n₁ and n₂ is placed in air. A ray of light is incident from medium n₁ to n₂ at an angle θ, where sin θ is slightly larger than 1/n₁. Take refractive index of air as 1. Which of the following statement(s) is (are) correct?",
+      "diagram_refs": ["JEE_Adv_2021_P1_12.png"],
+      "options": [
+        "The light ray enters air if n₂ = n₁",
+        "The light ray is finally reflected back into the medium of refractive index n₁ if n₂ < n₁",
+        "The light ray is finally reflected back into the medium of refractive index n₁ if n₂ > n₁",
+        "The light ray is reflected back into the medium of refractive index n₁ if n₂ = 1"
+      ],
+      "correct_answer": "Options B, C, D",
+      "solution_text": "1. **Incident Condition:**\n   sin θ > 1/n₁.\n   This means the angle θ is greater than the critical angle for n₁ -> Air interface (since sin C = 1/n₁).\n\n2. **Snell's Law:**\n   n₁ sin θ = n₂ sin θ₂ = 1 * sin θ₃ (if it emerges to air).\n   n₁ sin θ > 1.\n   Therefore, 1 * sin θ₃ > 1, which is impossible.\n   The ray cannot emerge into air (n=1) regardless of the intermediate layer n₂, provided the interfaces are parallel.\n   Total Internal Reflection (TIR) must occur at the final interface with air.\n\n3. **Analyze Options:**\n   (A) If n2=n1, ray travels straight to air interface. Since sin θ > 1/n₁, TIR occurs. Does not enter air. Incorrect.\n   (B) n2 < n1. Ray enters n2 (bending away normal). Hits air interface. n2 sin θ2 = n1 sin θ > 1. TIR at n2-Air interface. Reflects back. Correct.\n   (C) n2 > n1. Ray enters n2 (bending towards normal). Hits air interface. n2 sin θ2 = n1 sin θ > 1. TIR at n2-Air interface. Reflects back. Correct.\n   (D) n2 = 1. This is effectively an air gap? Or n2 is the second medium. If n2=1, the interface n1->n2 is n1->Air. Since sin θ > 1/n1, TIR occurs at first interface. Reflected back to n1. Correct.\n\n   Answer: B, C, D.",
+      "concept_tags": [
+        "total_internal_reflection",
+        "snells_law",
+        "critical_angle"
+      ],
+      "formula_tags": [
+        "n₁sinθ₁ = n₂sinθ₂"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": "Thinking the intermediate medium changes the condition for emergence into air (n sin θ is invariant for parallel slabs)."
+    }
+  ]
+  

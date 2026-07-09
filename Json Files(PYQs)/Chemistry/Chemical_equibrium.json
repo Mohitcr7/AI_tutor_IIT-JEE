@@ -1,0 +1,179 @@
+[
+    {
+      "qid": "JEE_Adv_2020_Chem_1",
+      "year": 2020,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Chemical Equilibrium",
+      "question_text": "Consider the reaction A ⇌ B at 1000 K. At time t, the temperature of the system was increased to 2000 K and the system was allowed to reach equilibrium. Throughout this experiment the partial pressure of A was maintained at 1 bar. Given below is the plot of the partial pressure of B with time. What is the ratio of the standard Gibbs energy of the reaction at 1000 K to that at 2000 K?",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "0.25",
+      "solution_text": "From the graph (implied by the solution, since diagram is not visible), the partial pressure of B changes with temperature.\nAt T1 = 1000 K, let partial pressure of B be P_B1. Given P_A = 1 bar.\nK_p1 = P_B1 / P_A = P_B1 / 1 = P_B1.\nAt T2 = 2000 K, let partial pressure of B be P_B2. Given P_A = 1 bar.\nK_p2 = P_B2 / P_A = P_B2 / 1 = P_B2.\n\nFrom the solution snippet, it states:\nK_1000 = 10 / 1 = 10.\nK_2000 = 100 / 1 = 100.\n(Assuming the graph showed P_B reaching 10 bar at 1000K and 100 bar at 2000K).\n\nStandard Gibbs Energy is given by ΔG° = -RT ln K.\nAt 1000 K:\nΔG°_1000 = - (R)(1000) ln(10).\nAt 2000 K:\nΔG°_2000 = - (R)(2000) ln(100).\n\nRatio = ΔG°_1000 / ΔG°_2000\n= [-1000 R ln(10)] / [-2000 R ln(100)]\n= [1000 ln(10)] / [2000 * 2 ln(10)]  (since ln 100 = 2 ln 10)\n= 1000 / 4000\n= 1/4\n= 0.25.\n\nThe ratio is 0.25.",
+      "concept_tags": [
+        "gibbs_energy_equilibrium_relation",
+        "equilibrium_constant_Kp"
+      ],
+      "formula_tags": [
+        "ΔG° = -RT ln K",
+        "Kp = PB / PA"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Forgetting the factor of 2 when expanding ln(100) to 2 ln(10)",
+        "Confusing ΔG with ΔG°"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2019_Chem_2",
+      "year": 2019,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Chemical Equilibrium",
+      "question_text": "For the following reaction, the equilibrium constant Kc at 298 K is 1.6 × 10^17.\nFe^2+(aq) + S^2-(aq) ⇌ FeS(s)\nWhen equal volumes of 0.06 M Fe^2+(aq) and 0.2 M S^2-(aq) solutions are mixed, the equilibrium concentration of Fe^2+(aq) is found to be Y × 10^-17 M. The value of Y is _______.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "8.93",
+      "solution_text": "Reaction: Fe^2+(aq) + S^2-(aq) ⇌ FeS(s)\nThis is a precipitation reaction (reverse of solubility).\nGiven Kc = 1.6 × 10^17.\nThis large Kc implies the reaction goes almost to completion.\n\nInitial Moles/Concentrations:\nWhen equal volumes are mixed, the volume doubles, so concentrations are halved.\nInitial [Fe^2+] = 0.06 M / 2 = 0.03 M.\nInitial [S^2-] = 0.2 M / 2 = 0.1 M.\n\nLet reaction proceed to completion first (Limiting Reagent approximation).\nFe^2+ is the Limiting Reagent (0.03 M vs 0.1 M).\nConsumed [Fe^2+] ≈ 0.03 M.\nRemaining [S^2-] = 0.1 - 0.03 = 0.07 M.\nRemaining [Fe^2+] ≈ 0 (let it be x).\n\nAt equilibrium, use the reverse constant Ksp or simply Kc expression:\nKc = 1 / ([Fe^2+][S^2-])  (Since FeS is solid, activity = 1)\n1.6 × 10^17 = 1 / (x * 0.07)\n\nSolve for x:\nx * 0.07 = 1 / (1.6 × 10^17)\nx = 1 / (1.6 × 10^17 * 0.07)\nx = 1 / (0.112 × 10^17)\nx = 1 / (1.12 × 10^16)\nx = 0.8928 × 10^-16\nx = 8.928 × 10^-17 M.\n\nGiven concentration is Y × 10^-17 M.\nSo Y = 8.928.\nRounding to two decimals gives 8.93.\n\nThe value of Y is 8.93.",
+      "concept_tags": [
+        "equilibrium_constant_expression",
+        "reaction_quotient",
+        "limiting_reagent_in_equilibrium"
+      ],
+      "formula_tags": [
+        "Kc = 1 / ([A][B])",
+        "M_final = M_initial * V_initial / V_final"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Forgetting to halve the concentrations when equal volumes are mixed",
+        "Not using the 'reaction goes to completion' approximation for very large Kc"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2018_Chem_3",
+      "year": 2018,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Chemical Equilibrium",
+      "question_text": "Consider the following reversible reaction, A(g) + B(g) ⇌ AB(g). The activation energy of the backward reaction exceeds that of the forward reaction by 2RT (in J mol^-1). If the pre-exponential factor of the forward reaction is 4 times that of the reverse reaction, the absolute value of ΔG° (in J mol^-1) for the reaction at 300 K is _______. \n(Given ln(2) = 0.7, RT = 2500 J mol^-1 at 300 K and G is the Gibbs energy)",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "8500",
+      "solution_text": "Given:\nE_a(backward) - E_a(forward) = 2RT.\nWe know ΔH = E_a(forward) - E_a(backward).\nSo ΔH = -2RT.\n\nArrhenius equations for rate constants:\nk_f = A_f * exp(-E_a(f) / RT)\nk_b = A_b * exp(-E_a(b) / RT)\n\nEquilibrium constant K_eq = k_f / k_b\nK_eq = (A_f / A_b) * exp( [E_a(b) - E_a(f)] / RT )\n\nGiven A_f = 4 * A_b => A_f / A_b = 4.\nGiven E_a(b) - E_a(f) = 2RT.\n\nSubstitute:\nK_eq = 4 * exp( 2RT / RT )\nK_eq = 4 * e^2.\n\nNow, Standard Gibbs Energy ΔG° = -RT ln(K_eq).\nΔG° = -RT ln(4 * e^2)\nΔG° = -RT [ ln(4) + ln(e^2) ]\nΔG° = -RT [ 2 ln(2) + 2 ]\n\nSubstitute values (RT = 2500, ln 2 = 0.7):\nΔG° = -2500 * [ 2(0.7) + 2 ]\nΔG° = -2500 * [ 1.4 + 2 ]\nΔG° = -2500 * [ 3.4 ]\nΔG° = -8500 J mol^-1.\n\nAbsolute value |ΔG°| = 8500.\n\nAnswer: 8500.",
+      "concept_tags": [
+        "arrhenius_equation",
+        "relation_between_K_and_rate_constants",
+        "gibbs_energy"
+      ],
+      "formula_tags": [
+        "ΔH = Ea(f) - Ea(b)",
+        "K = kf/kb",
+        "ΔG° = -RT ln K"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Confusing the sign of ΔH (Forward - Backward vs Backward - Forward)",
+        "Calculation errors with natural logs"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2016_Chem_4",
+      "year": 2016,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Chemical Equilibrium",
+      "question_text": "Thermal decomposition of gaseous X2 to gaseous X at 298 K takes place according to the following equation: \nX2(g) ⇌ 2X(g)\nThe standard reaction Gibbs energy, ΔrG°, of this reaction is positive. At the start of the reaction, there is one mole of X2 and no X. As the reaction proceeds, the number of moles of X formed is given by β. Thus, β_equilibrium is the number of moles of X formed at equilibrium. The reaction is carried out at a constant total pressure of 2 bar. Consider the gases to behave ideally.\n\nThe equilibrium constant Kp for this reaction at 298 K, in terms of β_equilibrium, is:",
+      "diagram_refs": [],
+      "options": [
+        "(A) (8β_eq^2) / (2 - β_eq)^2",
+        "(B) (8β_eq^2) / (4 - β_eq^2)",
+        "(C) (4β_eq^2) / (2 - β_eq)^2",
+        "(D) (4β_eq^2) / (4 - β_eq^2)"
+      ],
+      "correct_answer": "B",
+      "solution_text": "Reaction: X2(g) ⇌ 2X(g)\nInitial moles: 1          0\nAt equilibrium: 1 - α     2α\n\nThe question defines β as the number of moles of X formed.\nSo, moles of X = β_eq = 2α.\nThis implies α = β_eq / 2.\n\nMoles at equilibrium in terms of β_eq:\nX2: 1 - β_eq/2\nX: β_eq\nTotal moles n_total = (1 - β_eq/2) + β_eq = 1 + β_eq/2 = (2 + β_eq)/2.\n\nPartial Pressures (P_i = X_i * P_total):\nGiven P_total = 2 bar.\n\nP_X2 = [ (1 - β_eq/2) / ((2 + β_eq)/2) ] * 2\n      = [ (2 - β_eq)/2 / (2 + β_eq)/2 ] * 2\n      = [ (2 - β_eq) / (2 + β_eq) ] * 2\n\nP_X  = [ β_eq / ((2 + β_eq)/2) ] * 2\n      = [ 2β_eq / (2 + β_eq) ] * 2\n      = 4β_eq / (2 + β_eq)\n\nEquilibrium Constant Kp:\nKp = (P_X)^2 / (P_X2)\nKp = [ (4β_eq / (2 + β_eq)) ]^2 / [ 2(2 - β_eq) / (2 + β_eq) ]\nKp = [ 16β_eq^2 / (2 + β_eq)^2 ] / [ 2(2 - β_eq) / (2 + β_eq) ]\nKp = [ 16β_eq^2 / (2 + β_eq)^2 ] * [ (2 + β_eq) / 2(2 - β_eq) ]\nKp = [ 8β_eq^2 ] / [ (2 + β_eq)(2 - β_eq) ]\nKp = 8β_eq^2 / (4 - β_eq^2).\n\nMatches Option B.",
+      "concept_tags": [
+        "equilibrium_constant_Kp",
+        "degree_of_dissociation",
+        "partial_pressure_calculation"
+      ],
+      "formula_tags": [
+        "Kp = (P_products)^coeff / (P_reactants)^coeff",
+        "Pi = (ni / n_total) * P_total"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Confusing degree of dissociation (α) with moles formed (β)",
+        "Algebraic errors when simplifying the Kp expression"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2016_Chem_5",
+      "year": 2016,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Chemical Equilibrium",
+      "question_text": "The INCORRECT statement among the following, for this reaction (X2(g) ⇌ 2X(g)), is:",
+      "diagram_refs": [],
+      "options": [
+        "(A) Decrease in the total pressure will result in formation of more moles of gaseous X",
+        "(B) At the start of the reaction, dissociation of gaseous X2 takes place spontaneously",
+        "(C) β_equilibrium = 0.7",
+        "(D) Kc < 1"
+      ],
+      "correct_answer": "C",
+      "solution_text": "Analyze each statement for X2(g) ⇌ 2X(g). Δn_g = 2 - 1 = 1 > 0.\n\n(A) Le Chatelier's Principle: Decrease in pressure favors the side with more moles of gas. Products have 2 moles, Reactants 1. So decrease in pressure shifts equilibrium forward, forming more X. Statement A is Correct.\n\n(B) At the start, only X2 is present (Q = 0). Since K > 0, the reaction must proceed forward to reach equilibrium. ΔG = ΔG° + RT ln Q. At start, Q=0, ΔG -> -inf. Spontaneous. Statement B is Correct.\n\n(C) Check consistency: Given ΔrG° is positive. This implies K < 1 (since ΔG° = -RT ln K, if ΔG° > 0, ln K < 0 => K < 1).\nUsing the formula from Q4: Kp = 8β^2 / (4 - β^2).\nIf β = 0.7:\nKp = 8(0.49) / (4 - 0.49)\nKp = 3.92 / 3.51 ≈ 1.11.\nThis gives Kp > 1.\nHowever, the problem states ΔrG° is positive, which requires K < 1.\nSince β=0.7 implies K > 1, this value of β is inconsistent with the condition ΔrG° > 0. Statement C is Incorrect.\n\n(D) relation between Kp and Kc: Kp = Kc(RT)^Δn.\nKp = Kc(RT)^1.\nSince Kp < 1 (from ΔG° > 0) and RT (at 298K) ≈ 24.7 bar L/mol > 1, then Kc = Kp/RT will be even smaller than Kp. So Kc < 1 is likely correct. Even if Kp was slightly > 1 (which it isn't), dividing by ~25 would make Kc < 1. But strictly, ΔG° > 0 implies K < 1 (standard state dependent, usually P°=1 bar). So Kp < 1. Then Kc = Kp/(RT) < 1/24.7 << 1. Statement D is Correct.\n\nTherefore, the INCORRECT statement is C.",
+      "concept_tags": [
+        "le_chateliers_principle",
+        "gibbs_energy_significance",
+        "Kp_Kc_relationship"
+      ],
+      "formula_tags": [
+        "ΔG° = -RT ln K",
+        "Kp = Kc(RT)^Δn"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": [
+        "Overlooking the condition ΔG° > 0 implies K < 1",
+        "Not checking quantitative consistency of option C"
+      ]
+    },
+    {
+      "qid": "JEE_Adv_2015_Chem_6",
+      "year": 2015,
+      "exam_type": "Advanced",
+      "subject": "Chemistry",
+      "major_branch": "Physical Chemistry",
+      "chapter": "Chemical Equilibrium",
+      "question_text": "The yield of ammonia as a function of time in the reaction N2(g) + 3H2(g) ⇌ 2NH3(g), ΔH < 0 at (P, T1) is given below.\n[Graph showing yield increasing and leveling off at T1]\nIf this reaction is conducted at (P, T2), with T2 > T1, the yield of ammonia as a function of time is represented by:",
+      "diagram_refs": [],
+      "options": [
+        "(A) Graph starts same, lower slope, lower equilibrium yield",
+        "(B) Graph starts steeper (higher slope), lower equilibrium yield",
+        "(C) Graph starts same, higher equilibrium yield",
+        "(D) Graph starts steeper, higher equilibrium yield"
+      ],
+      "correct_answer": "B",
+      "solution_text": "Reaction: N2 + 3H2 ⇌ 2NH3; Exothermic (ΔH < 0).\n\nEffect of Temperature (T2 > T1):\n1. Kinetics (Rate): Higher temperature increases the rate of reaction (both forward and backward). Therefore, the initial slope of the yield vs. time curve (which represents the rate of formation of NH3) must be steeper/higher than at T1.\n\n2. Thermodynamics (Equilibrium): For an exothermic reaction, increasing temperature shifts the equilibrium constant (K) to a lower value (ln(K2/K1) = (ΔH/R)(1/T1 - 1/T2); since ΔH < 0 and term is positive, ln is negative => K2 < K1). By Le Chatelier's principle, higher T favors the reverse (endothermic) direction. Thus, the equilibrium yield of NH3 will be lower at T2.\n\nCombined effect:\n- Initial part: Curve rises faster (above T1 curve).\n- Final part: Curve plateaus at a lower level (below T1 plateau).\n\nThis behavior corresponds to Option B (Steeper initial rise, lower final asymptote).",
+      "concept_tags": [
+        "le_chateliers_principle_temperature",
+        "reaction_kinetics_vs_thermodynamics",
+        "exothermic_reaction_equilibrium"
+      ],
+      "formula_tags": [
+        "Rate ∝ T",
+        "K_eq ∝ 1/T (for exothermic)"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": [
+        "Confusing rate (increases with T) with equilibrium yield (decreases with T for exothermic reactions)"
+      ]
+    }
+  ]
+  

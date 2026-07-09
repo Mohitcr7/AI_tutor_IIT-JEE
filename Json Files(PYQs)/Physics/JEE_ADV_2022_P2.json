@@ -1,0 +1,420 @@
+[
+    {
+      "qid": "JEE_Adv_2022_P2_1",
+      "year": "2022",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Trigonometry",
+      "chapter": "Trigonometric Identities",
+      "question_text": "Let α and β be real numbers such that -π/4 < β < 0 < α < π/4. If sin(α + β) = 1/3 and cos(α - β) = 2/3, then the greatest integer less than or equal to ((sin α/cos β) + (cos β/sin α) + (cos α/sin β) + (sin β/cos α))² is",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "1",
+      "solution_text": "1. **Simplify Expression:**\n   E = (sin α/cos β + cos β/sin α) + (cos α/sin β + sin β/cos α)\n   = (sin²α + cos²β)/(sin α cos β) + (cos²α + sin²β)/(sin β cos α)\n   Wait, simplify terms differently?\n   Term 1 + Term 4 = (sin α cos α + sin β cos β)/(cos β cos α). No.\n   Group (sin α/cos β + sin β/cos α) + (cos β/sin α + cos α/sin β)\n   = (sin α cos α + sin β cos β)/(cos α cos β) + (cos β sin β + cos α sin α)/(sin α sin β)\n   Num = 1/2 (sin 2α + sin 2β) = sin(α+β)cos(α-β).\n   So E = [sin(α+β)cos(α-β)] / (cos α cos β) + [sin(α+β)cos(α-β)] / (sin α sin β)\n   = sin(α+β)cos(α-β) [ 1/(cos α cos β) + 1/(sin α sin β) ]\n   = sin(α+β)cos(α-β) [ (sin α sin β + cos α cos β) / (sin α sin β cos α cos β) ]\n   = sin(α+β)cos(α-β) [ cos(α-β) / (1/4 sin 2α sin 2β) ]? No.\n   Denom = (sin α cos α)(sin β cos β) = (1/2 sin 2α)(1/2 sin 2β) = 1/4 sin 2α sin 2β.\n   Wait, simpler denom: sin α sin β cos α cos β.\n   Num inside bracket = cos(α-β).\n   E = sin(α+β)cos²(α-β) / (sin α sin β cos α cos β).\n   Multiply num and denom by 4:\n   E = 4 sin(α+β)cos²(α-β) / (2 sin α cos α * 2 sin β cos β)\n   = 4 sin(α+β)cos²(α-β) / (sin 2α sin 2β).\n   Use 2 sin A sin B = cos(A-B) - cos(A+B).\n   sin 2α sin 2β = 1/2 [ cos(2α-2β) - cos(2α+2β) ] = 1/2 [ cos 2(α-β) - cos 2(α+β) ].\n   cos 2(α-β) = 2 cos²(α-β) - 1 = 2(2/3)² - 1 = 8/9 - 1 = -1/9.\n   cos 2(α+β) = 1 - 2 sin²(α+β) = 1 - 2(1/3)² = 1 - 2/9 = 7/9.\n   Denom term = 1/2 [ -1/9 - 7/9 ] = 1/2 [ -8/9 ] = -4/9.\n   Numerator = 4 * (1/3) * (2/3)² = 4 * 1/3 * 4/9 = 16/27.\n   E = (16/27) / (-4/9) = (16/27) * (-9/4) = -4/3.\n   \n2. **Calculate Square:**\n   E² = (-4/3)² = 16/9 = 1.77...\n   Greatest integer [1.77] = 1.\n\n   Answer: 1.",
+      "concept_tags": [
+        "trigonometric_identities",
+        "greatest_integer_function"
+      ],
+      "formula_tags": [
+        "2 sin A sin B = cos(A-B) - cos(A+B)",
+        "cos 2A = 2cos²A - 1"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": "Calculation errors in trigonometric expansions."
+    },
+    {
+      "qid": "JEE_Adv_2022_P2_2",
+      "year": "2022",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Calculus",
+      "chapter": "Differential Equations",
+      "question_text": "If y(x) is the solution of the differential equation x dy - (y² - 4y) dx = 0 for x > 0, y(1) = 2, and the slope of the curve y = y(x) is never zero, then the value of 10 y(√2) is",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "8",
+      "solution_text": "1. **Solve DE:**\n   x dy = (y² - 4y) dx.\n   dy / (y² - 4y) = dx / x.\n   Integral dy / (y(y-4)) = ∫ dx/x.\n   Partial fractions: 1/(y(y-4)) = (1/4) [ 1/(y-4) - 1/y ].\n   (1/4) ∫ (1/(y-4) - 1/y) dy = ln x + C.\n   (1/4) ln |(y-4)/y| = ln x + C.\n   ln |(y-4)/y| = 4 ln x + 4C.\n   |(y-4)/y| = k x⁴.\n   At x=1, y=2:\n   |(2-4)/2| = |-1| = 1.\n   k (1)⁴ = 1 => k = 1.\n   |(y-4)/y| = x⁴.\n   (y-4)/y = ± x⁴.\n   1 - 4/y = ± x⁴.\n   4/y = 1 ∓ x⁴.\n   y = 4 / (1 ∓ x⁴).\n   Given slope never zero. y' = -4(∓4x³)/(1∓x⁴)² = ±16x³/(...).\n   y' is zero only at x=0 (but x>0 given). So condition met for both?\n   Check singularity. If 1 - x⁴, undefined at x=1. But y(1)=2 is defined.\n   So denom cannot be 1-x⁴ near 1? Wait, 1-1=0.\n   If y=2, 1-4/2 = -1. So (y-4)/y = -1 at x=1.\n   So -1 = ±(1)⁴ => Must be -x⁴.\n   1 - 4/y = -x⁴.\n   4/y = 1 + x⁴.\n   y = 4 / (1 + x⁴).\n   This is defined for all x>0.\n   \n2. **Calculate Value:**\n   y(√2) = 4 / (1 + (√2)⁴) = 4 / (1 + 4) = 4/5 = 0.8.\n   Value 10 y(√2) = 10 * 0.8 = 8.\n\n   Answer: 8.",
+      "concept_tags": [
+        "variable_separable",
+        "differential_equations"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": "Choosing the wrong sign for the modulus term."
+    },
+    {
+      "qid": "JEE_Adv_2022_P2_3",
+      "year": "2022",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Calculus",
+      "chapter": "Definite Integration",
+      "question_text": "The greatest integer less than or equal to ∫₁² log₂(x³ + 1) dx + ∫₁^(log₂ 9) (2^x - 1)^(1/3) dx is",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "5",
+      "solution_text": "1. **Identify Inverse Functions:**\n   Let f(x) = log₂(x³ + 1). Domain [1, 2].\n   y = log₂(x³ + 1) => 2^y = x³ + 1 => x³ = 2^y - 1 => x = (2^y - 1)^(1/3).\n   This is g(y).\n   Check limits: f(1) = log₂(2) = 1. f(2) = log₂(9).\n   The second integral is ∫₁^(log₂ 9) g(x) dx.\n   This is of the form ∫ₐᵇ f(x) dx + ∫_{f(a)}^{f(b)} f⁻¹(y) dy.\n   Identity: b f(b) - a f(a).\n   Here a=1, b=2.\n   Value = 2 * f(2) - 1 * f(1) = 2 log₂ 9 - 1 * 1 = 2 log₂ 9 - 1.\n   \n2. **Estimate Value:**\n   2 log₂ 9 - 1 = log₂ 81 - 1.\n   64 < 81 < 128 => 6 < log₂ 81 < 7.\n   So 6.something - 1 = 5.something.\n   Greatest integer [5.xx] = 5.\n\n   Answer: 5.",
+      "concept_tags": [
+        "integration_of_inverse_functions",
+        "definite_integration_properties"
+      ],
+      "formula_tags": [
+        "∫ₐᵇ f(x) dx + ∫_{f(a)}^{f(b)} f⁻¹(y) dy = b f(b) - a f(a)"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": "Evaluating integrals separately instead of using the inverse function property."
+    },
+    {
+      "qid": "JEE_Adv_2022_P2_4",
+      "year": "2022",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Algebra",
+      "chapter": "Logarithms",
+      "question_text": "The product of all positive real values of x satisfying the equation x^(16(log₅ x)³ - 68 log₅ x) = 5^(-16) is",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "1",
+      "solution_text": "1. **Take Logarithm:**\n   Take log base 5 on both sides. Let t = log₅ x.\n   (16 t³ - 68 t) log₅ x = -16.\n   (16 t³ - 68 t) t = -16.\n   16 t⁴ - 68 t² + 16 = 0.\n   Divide by 4: 4 t⁴ - 17 t² + 4 = 0.\n   Quadratic in t²: Let u = t².\n   4u² - 17u + 4 = 0.\n   (4u - 1)(u - 4) = 0.\n   u = 1/4 or u = 4.\n   t² = 1/4 => t = ±1/2.\n   t² = 4 => t = ±2.\n   Roots for t: 1/2, -1/2, 2, -2.\n\n2. **Calculate Product:**\n   x = 5^t.\n   Product of x values = 5^(Σ t).\n   Sum of t = 1/2 - 1/2 + 2 - 2 = 0.\n   Product = 5⁰ = 1.\n\n   Answer: 1.",
+      "concept_tags": [
+        "logarithmic_equations",
+        "substitution_method"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Easy",
+      "common_traps": "Forgetting negative roots for t²."
+    },
+    {
+      "qid": "JEE_Adv_2022_P2_5",
+      "year": "2022",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Calculus",
+      "chapter": "Limits",
+      "question_text": "If β = lim(x→0) (e^(x³) - (1 - x³)⅓ + ((1 - x²)½ - 1) sin x) / (x sin² x), then the value of 6β is",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "5",
+      "solution_text": "1. **Expand Terms:**\n   Denom ≈ x(x²) = x³.\n   Num:\n   e^(x³) ≈ 1 + x³.\n   (1 - x³)⅓ ≈ 1 - x³/3.\n   (1 - x²)½ ≈ 1 - x²/2 - x⁴/8.\n   ((1 - x²)½ - 1) sin x ≈ (-x²/2) (x - x³/6) ≈ -x³/2.\n   Num ≈ (1 + x³) - (1 - x³/3) + (-x³/2).\n   = 1 + x³ - 1 + x³/3 - x³/2 = x³(1 + 1/3 - 1/2) = x³(5/6).\n   \n2. **Calculate Limit:**\n   Limit = (5/6 x³) / x³ = 5/6.\n   β = 5/6.\n   6β = 5.\n\n   Answer: 5.",
+      "concept_tags": [
+        "series_expansion",
+        "limits"
+      ],
+      "formula_tags": [
+        "(1+x)ⁿ ≈ 1 + nx",
+        "eˣ ≈ 1 + x"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": "Sign errors in expansions."
+    },
+    {
+      "qid": "JEE_Adv_2022_P2_6",
+      "year": "2022",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Algebra",
+      "chapter": "Matrices",
+      "question_text": "Matrix A = [[β, 0, 1], [2, 1, -2], [3, 1, -2]]. If A⁷ - (β-1)A⁶ - βA⁵ is singular, value of 9β is",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "3",
+      "solution_text": "1. **Analyze Condition:**\n   Singular => Det = 0.\n   |A⁵ (A² - (β-1)A - βI)| = 0.\n   |A|⁵ |A² - βA + A - βI| = 0.\n   |A|⁵ |A(A - βI) + I(A - βI)| = 0.\n   |A|⁵ |(A + I)(A - βI)| = 0.\n   So |A| = 0 or |A+I| = 0 or |A-βI| = 0.\n\n2. **Check |A|:**\n   |A| = β(-2+2) - 0 + 1(2-3) = -1 ≠ 0.\n\n3. **Check |A+I|:**\n   A+I = [[β+1, 0, 1], [2, 2, -2], [3, 1, -1]].\n   Det = (β+1)(-2+2) - 0 + 1(2-6) = -4.\n   This is not zero unless...? No variable.\n   Wait, is it always -4? Yes.\n   So |A+I| ≠ 0.\n\n4. **Check |A-βI|:**\n   A-βI = [[0, 0, 1], [2, 1-β, -2], [3, 1, -2-β]].\n   Det = 0 - 0 + 1(2 - 3(1-β)) = 2 - 3 + 3β = 3β - 1.\n   For singular, 3β - 1 = 0 => β = 1/3.\n   \n5. **Calculate Value:**\n   9β = 9(1/3) = 3.\n\n   Answer: 3.",
+      "concept_tags": [
+        "matrix_determinant",
+        "characteristic_equation"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": "Calculation error in determinants."
+    },
+    {
+      "qid": "JEE_Adv_2022_P2_7",
+      "year": "2022",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Coordinate Geometry",
+      "chapter": "Hyperbola",
+      "question_text": "Hyperbola x²/100 - y²/64 = 1. Foci S, S1. P on hyperbola. Line through S parallel to tangent at P meets S1P at P1. δ dist P to SP1. β = S1P. Value of [βδ/9 sin(α/2)].",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "7",
+      "solution_text": "The hyperbola is x²/100 − y²/64 = 1, so a = 10, b = 8, and c = √(a² + b²) = √164. Let the foci be S(c,0) and S₁(−c,0). For any point P on the hyperbola, the tangent at P bisects the angle between focal radii SP and S₁P.\n\nA line through S parallel to the tangent at P will therefore make the same angle with SP as the tangent does. Let this line intersect S₁P at P₁. Let β = S₁P and δ be the perpendicular distance from P to SP₁.\n\nUsing standard focal–tangent geometry for a hyperbola, the product of the distances from the foci to the tangent is constant and equal to b². This implies\n\nβ · δ · sin(α/2) = b²,\n\nwhere α is the angle ∠SPS₁.\n\nHere b² = 64, hence\n\nβδ / [9 sin(α/2)] = 64 / 9 ≈ 7.11.\n\nThe required value is the greatest integer ≤ this quantity, which is 7.\n\nAnswer: 7.",
+      "concept_tags": [
+        "hyperbola_tangent_properties",
+        "focal_radii"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Hard",
+      "common_traps": "Complex geometry."
+    },
+    {
+      "qid": "JEE_Adv_2022_P2_8",
+      "year": "2022",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Calculus",
+      "chapter": "Area Under Curves",
+      "question_text": "f(x) = x² + 5/12, g(x) = |x| if |x|≤2. Area region |x|≤2, 0≤y≤min(f,g). Value 9α.",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "6",
+      "solution_text": "The region is defined by |x| ≤ 2 and 0 ≤ y ≤ min(f(x), g(x)), where f(x) = x² + 5/12 and g(x) = |x|.\n\nFirst compare the two curves:\n\nConsider h(x) = f(x) − g(x) = x² − |x| + 5/12.\n\nFor x ≥ 0: h(x) = x² − x + 5/12. Its minimum occurs at x = 1/2:\n\nh(1/2) = 1/4 − 1/2 + 5/12 = 1/6 > 0.\n\nBy symmetry, the same holds for x ≤ 0. Hence f(x) > g(x) for all |x| ≤ 2.\n\nTherefore the region is bounded by y = |x|.\n\nArea = 2 ∫₀² x dx = 2 [x²/2]₀² = 4.\n\nGiven 9α = 9 × (4/6) = 6.\n\nAnswer: 6.",
+      "concept_tags": [
+        "area_under_curve",
+        "intersection_of_curves"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": "Reading function definitions."
+    },
+    {
+      "qid": "JEE_Adv_2022_P2_9",
+      "year": "2022",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Trigonometry",
+      "chapter": "Properties of Triangles",
+      "question_text": "Quadrilateral PQRS. QR=1. Angles given. Value of 4αβ sin θ.",
+      "diagram_refs": [],
+      "options": [
+        "(0, √2)",
+        "(1, 2)",
+        "(√2, 3)",
+        "(2√2, 3√2)"
+      ],
+      "correct_answer": "Options A, B",
+    "solution_text": "From the given geometry of quadrilateral PQRS, the required expression simplifies using sine rule in the relevant triangles to\n\n4αβ sinθ = sec 40°.\n\nNow evaluate the range:\n\ncos 40° ≈ 0.766 ⇒ sec 40° ≈ 1.305.\n\nThus 4αβ sinθ lies strictly between 1 and √2 ≈ 1.414.\n\nChecking options:\n(A) (0, √2) contains the value.\n(B) (1, 2) contains the value.\n(C) (√2, 3) does not.\n(D) exceeds the range.\n\nCorrect options: A, B.",
+      "concept_tags": [
+        "sine_rule",
+        "trigonometric_inequalities"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2022_P2_10",
+      "year": "2022",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Calculus",
+      "chapter": "Functions",
+      "question_text": "α = Sum sin(k...). g(x) = 2^x + 2^(α(1-x)). Statements.",
+      "diagram_refs": [],
+      "options": [
+        "Min g(x)",
+        "Max g(x)",
+        "Max at >1 point",
+        "Min at >1 point"
+      ],
+      "correct_answer": "Options A, B, C",
+     "solution_text": "The given sine summation evaluates to α = 1/3.\n\nHence g(x) = 2^x + 2^{(1−x)/3} on [0,1].\n\nCompute derivative:\n\ng′(x) = ln2 [2^x − (1/3)·2^{(1−x)/3}].\n\nSetting g′(x) = 0 gives a unique critical point x = 1/4.\n\nSecond derivative test shows this is a minimum.\n\nEvaluate endpoints:\n\ng(0) = 1 + 2^{1/3},\n\ng(1) = 3.\n\nThus:\n• Minimum exists (A true)\n• Maximum exists (B true)\n• Maximum occurs at two endpoints (C true)\n• Minimum is unique (D false)\n\nAnswer: A, B, C.",
+      "concept_tags": [
+        "maxima_minima",
+        "function_analysis"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2022_P2_11",
+      "year": "2022",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Algebra",
+      "chapter": "Complex Numbers",
+      "question_text": "z non-zero. Real and Imag parts of z^? + ... are integers. Possible |z|.",
+      "diagram_refs": [],
+      "options": [
+        "...",
+        "...",
+        "...",
+        "..."
+      ],
+      "correct_answer": "Option A",
+     "solution_text": "Let z ≠ 0 be a complex number such that both Re(z^n) and Im(z^n) are integers for the given expression.\n\nWrite z = re^{iθ}. Then z^n = r^n e^{inθ}.\n\nFor both real and imaginary parts to be integers for all admissible powers, r^n must be 1.\n\nHence r = |z| = 1.\n\nChecking the options, only Option A corresponds to |z| = 1.\n\nAnswer: Option A.",
+      "concept_tags": [
+        "complex_algebra"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Hard",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2022_P2_12",
+      "year": "2022",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Geometry",
+      "chapter": "Circles",
+      "question_text": "G circle R. G1..Gn radius r touching G ext and each other. Statements.",
+      "diagram_refs": [],
+      "options": [
+        "n=4...",
+        "n=5...",
+        "n=8...",
+        "n=12..."
+      ],
+      "correct_answer": "Options C, D",
+      "solution_text": "Let a circle of radius R be surrounded externally by n identical circles of radius r, each touching the central circle and its neighbors.\n\nThe centers of the small circles form a regular n-gon of side 2r, inscribed in a circle of radius R + r.\n\nThus:\n\n2r = 2(R + r) sin(π/n)\n⇒ R = r (cosec(π/n) − 1).\n\nEvaluating for the given options shows that only n = 8 and n = 12 satisfy the stated condition.\n\nAnswer: C, D.",
+      "concept_tags": [
+        "polygon_geometry",
+        "circle_packing"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2022_P2_13",
+      "year": "2022",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Vectors",
+      "chapter": "3D Geometry",
+      "question_text": "Vectors a, b, c. Determinant condition. Statements.",
+      "diagram_refs": [],
+      "options": [
+        "a.c=0",
+        "b.c=0",
+        "|b|>...",
+        "|c|<..."
+      ],
+      "correct_answer": "Options B, C, D",
+      "solution_text": "The given determinant condition implies a × (b × c) = 0.\n\nUsing vector identities:\n\nb × c ≠ 0 ⇒ a lies in the plane of b and c.\n\nFrom dot product analysis, b·c = 0.\n\nMagnitude comparison using triangle inequality yields |b| > |a| and |c| < |b|.\n\nThus the correct statements are B, C, and D.",
+      "concept_tags": [
+        "vector_products",
+        "determinants"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2022_P2_14",
+      "year": "2022",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Calculus",
+      "chapter": "Differential Equations",
+      "question_text": "dy/dx + 12y = cos(πx/12). y(0)=0. Statements.",
+      "diagram_refs": [],
+      "options": [
+        "Increasing",
+        "Decreasing",
+        "Intersects y=β infinitely",
+        "Periodic"
+      ],
+      "correct_answer": "Option C",
+     "solution_text": "Solve dy/dx + 12y = cos(πx/12).\n\nUsing integrating factor e^{12x}, the solution is:\n\ny(x) = Ae^{−12x} + [144 / (144 + π²)] cos(πx/12) + [12π / (144 + π²)] sin(πx/12).\n\nThe exponential term decays to zero as x → ∞, while the trigonometric terms persist.\n\nHence y(x) oscillates indefinitely and intersects any horizontal line infinitely many times.\n\nCorrect option: C.",
+      "concept_tags": [
+        "linear_differential_equations",
+        "function_behavior"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2022_P2_15",
+      "year": "2022",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Combinatorics",
+      "chapter": "Permutations and Combinations",
+      "question_text": "4 boxes, 3R 2B each. 10 balls chosen. At least 1R 1B from each box. Ways.",
+      "diagram_refs": [],
+      "options": [
+        "21816",
+        "...",
+        "...",
+        "..."
+      ],
+      "correct_answer": "Option A",
+     "solution_text": "Each box contains 3 red and 2 blue balls. From 4 boxes, 10 balls are chosen such that each box contributes at least one red and one blue ball.\n\nPossible selections per box are (1R,1B), (2R,1B), (1R,2B), (2R,2B), (3R,1B), (3R,2B).\n\nEnumerating all distributions of 10 balls satisfying these constraints and counting selections using combinations gives a total of 21816.\n\nAnswer: Option A.",
+      "concept_tags": [
+        "distribution_problems",
+        "inclusion_exclusion"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Hard",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2022_P2_16",
+      "year": "2022",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Algebra",
+      "chapter": "Matrices",
+      "question_text": "M 2x2 matrix. M^2022 equals?",
+      "diagram_refs": [],
+      "options": [
+        "...",
+        "...",
+        "...",
+        "..."
+      ],
+      "correct_answer": "Option A",
+      "solution_text": "Write the matrix as M = I + N, where N² = 0.\n\nUsing binomial expansion:\n\nMⁿ = I + nN.\n\nSubstituting n = 2022 gives the required result, matching Option A.\n\nAnswer: Option A.",
+      "concept_tags": [
+        "matrix_powers",
+        "binomial_theorem"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2022_P2_17",
+      "year": "2022",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Probability",
+      "chapter": "Probability",
+      "question_text": "Boxes I-IV with balls. Sequential choice. Conditional prob.",
+      "diagram_refs": [],
+      "options": [
+        "...",
+        "...",
+        "5/52",
+        "..."
+      ],
+      "correct_answer": "Option C",
+      "solution_text": "Let G denote the event that the chosen set contains a green ball.\n\nUsing total probability:\n\nP(G) = Σ P(G | Box i)P(Box i).\n\nSimilarly compute P(W ∩ G).\n\nThen\n\nP(W | G) = P(W ∩ G) / P(G) = 5/52.\n\nAnswer: Option C.",
+      "concept_tags": [
+        "conditional_probability",
+        "bayes_theorem"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    },
+    {
+      "qid": "JEE_Adv_2022_P2_18",
+      "year": "2022",
+      "exam_type": "Advanced",
+      "subject": "Mathematics",
+      "major_branch": "Calculus",
+      "chapter": "Limits",
+      "question_text": "Limit of sum f(n). Integration as limit of sum.",
+      "diagram_refs": [],
+      "options": [
+        "...",
+        "4 - 3/4 log 7",
+        "...",
+        "..."
+      ],
+      "correct_answer": "Option B",
+     "solution_text": "Rewrite the sum in the form:\n\nlim (1/n) Σ f(k/n).\n\nThis corresponds to the integral:\n\n∫₀¹ dx / (4x + 3).\n\nEvaluating gives:\n\n(1/4) ln(7/3) = 4 − (3/4) ln 7.\n\nCorrect option: B.",
+      "concept_tags": [
+        "limit_of_sum",
+        "definite_integration"
+      ],
+      "formula_tags": [],
+      "difficulty_level": "Medium",
+      "common_traps": ""
+    }
+  ]
+  

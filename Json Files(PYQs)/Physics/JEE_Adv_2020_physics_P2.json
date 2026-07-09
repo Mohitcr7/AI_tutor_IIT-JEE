@@ -1,0 +1,133 @@
+[
+    {
+      "qid": "JEE_Adv_2020_P2_2",
+      "year": 2020,
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Mechanics",
+      "chapter": "Fluids",
+      "question_text": "A train with cross-sectional area S_t is moving with speed v_t inside a long tunnel of cross-sectional area S_0 (S_0 = 4S_t). Assume that almost all the air (density ρ) in front of the train flows back between its sides and the walls of the tunnel. Also, the air flow with respect to the train is steady and laminar. Take the ambient pressure and that inside the train to be p_0. If the pressure in the region between the sides of the train and the tunnel walls is p, then p_0 - p = (7 / 2N) ρ v_t². The value of N is",
+      "diagram_refs": [],
+      "options": [],
+      "correct_answer": "9",
+      "solution_text": "1. **Reference Frame:**\n   Switch to Train's Frame. Train is stationary.\n   Tunnel walls move back with speed v_t.\n   Air far ahead moves towards train with speed v_t (relative to train).\n   \n2. **Continuity Equation:**\n   Ideally, air entering = air passing through gap.\n   Incoming Air Velocity relative to train: v_in = v_t.\n   Area_in = S_0 (Tunnel area).\n   Gap Area = S_0 - S_t = 4S_t - S_t = 3S_t.\n   Velocity in Gap relative to train: v_gap.\n   Wait, in train frame, incoming air fills S_0? No, air *in front* is pushed. \n   Let's use Earth Frame or Continuity properly.\n   Continuity: Volume flow of air displaced by train = Volume flow through gap.\n   A_train * v_train = A_gap * v_air_rel_ground?\n   S_t * v_t = (3S_t) * v_back.\n   v_back (speed of air backwards w.r.t ground) = v_t / 3.\n   Velocity of air in gap w.r.t Train = v_t + v_back = v_t + v_t/3 = 4v_t/3.\n   \n   Alternative (Train Frame):\n   Flow incoming: Area S_0 - S_t = 3S_t? No. \n   Consider stream tube relative to train.\n   Air from full tunnel cross section S_0 cannot pass? Question says \"all air in front flows back\".\n   So effectively, Area_in = S_0. Speed = v_t.\n   Area_out = Gap = S_0 - S_t. Speed = v_gap.\n   S_0 * v_t = (S_0 - S_t) * v_gap.\n   4S_t * v_t = 3S_t * v_gap.\n   v_gap = (4/3) v_t.\n\n3. **Bernoulli's Equation (Train Frame):**\n   P_0 + 1/2 ρ v_t² = p + 1/2 ρ v_gap².\n   P_0 - p = 1/2 ρ (v_gap² - v_t²).\n   P_0 - p = 1/2 ρ [ (16/9) v_t² - v_t² ].\n   P_0 - p = 1/2 ρ v_t² [ 7/9 ].\n   P_0 - p = (7 / 18) ρ v_t².\n\n4. **Compare with Expression:**\n   Given form: (7 / 2N) ρ v_t².\n   7 / 18 = 7 / 2N.\n   2N = 18.\n   N = 9.\n\n   Answer: 9.",
+      "concept_tags": [
+        "bernoullis_principle",
+        "equation_of_continuity",
+        "relative_velocity_in_fluids"
+      ],
+      "formula_tags": [
+        "A₁v₁ = A₂v₂",
+        "P + 1/2ρv² = Constant"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": "Incorrectly applying continuity equation without considering the correct reference frame velocities."
+    },
+    {
+      "qid": "JEE_Adv_2020_P2_3",
+      "year": 2020,
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Electromagnetism",
+      "chapter": "Electrostatics",
+      "question_text": "Two large circular discs separated by a distance of 0.01 m are connected to a battery via a switch as shown in the figure. Charged oil drops of density 900 kg m⁻³ are released through a tiny hole at the center of the top disc. Once some oil drops achieve terminal velocity, the switch is closed to apply a voltage of 200 V across the discs. As a result, an oil drop of radius 8 × 10⁻⁷ m stops moving vertically and floats between the discs. The number of electrons present in this oil drop is (neglect buoyancy, g = 10 ms⁻², e = 1.6 × 10⁻¹⁹ C)",
+      "diagram_refs": ["JEE_Adv_2020_P2_3.png"],
+      "options": [],
+      "correct_answer": "6",
+      "solution_text": "1. **Condition for Floating:**\n   Electric Force upwards = Gravitational Force downwards.\n   qE = mg.\n   \n2. **Calculate Quantities:**\n   E = V / d = 200 / 0.01 = 20,000 V/m.\n   Mass m = Volume * Density = (4/3) π r³ * ρ.\n   r = 8 × 10⁻⁷ m.\n   ρ = 900 kg/m³.\n   m = (4/3) * π * (8 × 10⁻⁷)³ * 900.\n   m ≈ 4.188 * 512 × 10⁻²¹ * 900.\n   m ≈ 1.93 × 10⁻¹⁵ kg (Approximation).\n\n   q = mg / E = (m * 10) / 20000 = m / 2000.\n   \n   Let's Calculate precisely:\n   q = [ (4/3) * π * (8e-7)³ * 900 * 10 ] / 20000\n   q = [ 4 * π * 512e-21 * 300 * 10 ] / 20000  (Since 900/3 = 300)\n   q = [ 12000 * π * 512e-21 ] / 20000\n   q = 0.6 * π * 512e-21.\n   q ≈ 0.6 * 3.14159 * 512e-21 ≈ 965e-21 C ≈ 9.65e-19 C.\n\n3. **Number of Electrons:**\n   n = q / e.\n   n = 9.65e-19 / 1.6e-19.\n   n ≈ 6.03.\n   Integer value N = 6.\n\n   Answer: 6.",
+      "concept_tags": [
+        "millikan_oil_drop_experiment",
+        "equilibrium_of_charges",
+        "electric_field"
+      ],
+      "formula_tags": [
+        "F_e = qE",
+        "F_g = mg"
+      ],
+      "difficulty_level": "Easy",
+      "common_traps": "Calculation errors with powers of 10 or forgetting to calculate mass from density and radius."
+    },
+    {
+      "qid": "JEE_Adv_2020_P2_5",
+      "year": 2020,
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Electromagnetism",
+      "chapter": "Electrostatics",
+      "question_text": "A point charge q of mass m is suspended vertically by a string of length l. A point dipole of dipole moment p is now brought towards q from infinity so that the charge moves away. The final equilibrium position of the system... is shown in the figure below. If the work done in bringing the dipole to this position is N × (mgh), then the value of N is",
+      "diagram_refs": ["JEE_Adv_2020_P2_5.png"],
+      "options": [],
+      "correct_answer": "2",
+      "solution_text": "1. **Initial and Final States:**\n   Initially, the point charge q hangs vertically at rest under gravity, and the dipole is at infinity. The total potential energy of the system is taken as zero.\n\n   The dipole is slowly brought to a finite position, causing the charge to shift sideways and rise by a vertical height h, reaching a new static equilibrium.\n\n2. **Forces at Final Equilibrium:**\n   At equilibrium, three forces act on the charge:\n   - Weight mg (downward),\n   - Tension T in the string,\n   - Electric force F due to the dipole.\n\n   Resolving forces shows that the electric force produces the horizontal displacement, while the vertical rise of the charge increases its gravitational potential energy by mgh.\n\n3. **Work Done by External Agent:**\n   Since the dipole is brought quasistatically from infinity, the work done equals the total increase in potential energy of the system.\n\n   The increase in potential energy has two contributions:\n   - Gravitational potential energy of the charge: mgh,\n   - Electrostatic potential energy of interaction between the charge and the dipole.\n\n4. **Energy Balance:**\n   From the equilibrium condition, the electrostatic potential energy stored in the charge–dipole system at the final position is equal to mgh.\n\n   Hence, the total work done is:\n   W = mgh + mgh = 2mgh.\n\n5. **Final Result:**\n   The work done is W = N × (mgh), with N = 2.\n\n   **Answer: 2**",
+      "concept_tags": [
+        "electric_dipole",
+        "work_energy_theorem",
+        "equilibrium_of_forces"
+      ],
+      "formula_tags": [
+        "W = ΔU",
+        "U = qV"
+      ],
+      "difficulty_level": "Hard",
+      "common_traps": "Neglecting the gravitational potential energy change or incorrectly estimating the electric potential energy term."
+    },
+    {
+      "qid": "JEE_Adv_2020_P2_7",
+      "year": 2020,
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Mechanics",
+      "chapter": "Fluids",
+      "question_text": "A beaker of radius r is filled with water (refractive index 4/3) up to a height H as shown in the figure on the left. The beaker is kept on a horizontal table rotating with angular speed ω. This makes the water surface curved so that the difference in the height of water level at the center and at the circumference of the beaker is h (h ≪ H, h ≪ r), as shown in the figure on the right. Take this surface to be approximately spherical with a radius of curvature R. Which of the following is/are correct? (g is the acceleration due to gravity)",
+      "diagram_refs": ["JEE_Adv_2020_P2_7_left.png", "JEE_Adv_2020_P2_7_right.png"],
+      "options": [
+        "R = (h² + r²) / 2h",
+        "R = 3r² / 2h",
+        "Apparent depth ... 3H/4 (1 + ...)",
+        "Apparent depth ... 3H/4 (1 - ...)"
+      ],
+      "correct_answer": "Options A, D",
+      "solution_text": "1. **Shape of the Rotating Water Surface:**\n   When the beaker rotates with angular speed ω, the free surface of water assumes a parabolic shape given by\n   y = (ω²x²)/(2g).\n\n   The height difference between the center and the rim is:\n   h = (ω²r²)/(2g).\n\n2. **Radius of Curvature of the Surface:**\n   Approximating the surface as a spherical segment with sagitta h and half-chord r,\n   R² = (R − h)² + r².\n\n   Simplifying,\n   2Rh = h² + r²\n   ⇒ R = (h² + r²)/(2h).\n\n   Hence, Option A is correct.\n\n3. **Refraction at the Curved Surface:**\n   The curved water–air interface acts as a refracting surface.\n   Using the refraction formula:\n   μ₂/v − μ₁/u = (μ₂ − μ₁)/R,\n\n   where:\n   - μ₁ = 4/3 (water),\n   - μ₂ = 1 (air),\n   - u ≈ −H (object depth),\n   - R is positive (center of curvature lies in air).\n\n   Substituting,\n   1/v + (4/3)/H = −1/(3R).\n\n4. **Apparent Depth:**\n   Solving for v and retaining terms up to first order in h (since h ≪ r, H),\n   the apparent depth becomes:\n   D_app ≈ (3H/4) (1 − (ω²H)/(4g)).\n\n   This matches Option D.\n\n5. **Conclusion:**\n   The correct options are A and D.\n\n   **Answer: Options A, D**",
+      "concept_tags": [
+        "refraction_at_curved_surface",
+        "rotating_fluids",
+        "radius_of_curvature"
+      ],
+      "formula_tags": [
+        "h = ω²r²/2g",
+        "μ₂/v - μ₁/u = (μ₂-μ₁)/R"
+      ],
+      "difficulty_level": "Hard",
+      "common_traps": "Incorrect sign convention for the radius of curvature or the object distance in the refraction formula."
+    },
+    {
+      "qid": "JEE_Adv_2020_P2_9",
+      "year": 2020,
+      "exam_type": "Advanced",
+      "subject": "Physics",
+      "major_branch": "Mechanics",
+      "chapter": "Rotational Motion",
+      "question_text": "A rod of mass m and length L, pivoted at one of its ends, is hanging vertically. A bullet of the same mass moving at speed v strikes the rod horizontally at a distance x from its pivoted end and gets embedded in it. The combined system now rotates with angular speed ω about the pivot. The maximum angular speed ω_M is achieved for x = x_M. Then",
+      "diagram_refs": ["JEE_Adv_2020_P2_9.png"],
+      "options": [
+        "ω = 3vx / (L² + 3x²)",
+        "ω = 12vx / (L² + 12x²)",
+        "x_M = L / √3",
+        "ω_M = v / 2L √3"
+      ],
+      "correct_answer": "Options A, C, D",
+      "solution_text": "1. **Angular Momentum Conservation:**\n   The rod is pivoted at one end, so angular momentum about the pivot is conserved during the collision.\n\n   Initial angular momentum:\n   L_i = m v x.\n\n   Final angular momentum:\n   L_f = I_total ω,\n\n   where:\n   I_total = I_rod + I_bullet = (mL²/3) + mx².\n\n   Equating,\n   m v x = (mL²/3 + mx²) ω.\n\n2. **Angular Speed After Collision:**\n   Solving for ω:\n   ω = 3vx / (L² + 3x²).\n\n   Hence, Option A is correct.\n\n3. **Condition for Maximum Angular Speed:**\n   To find the maximum angular speed, differentiate ω with respect to x and set the derivative to zero:\n   dω/dx = 0.\n\n   This gives:\n   L² − 3x² = 0\n   ⇒ x = L/√3.\n\n   Hence, Option C is correct.\n\n4. **Maximum Angular Speed:**\n   Substituting x = L/√3 into ω:\n   ω_M = (√3 v)/(2L).\n\n   This matches Option D.\n\n5. **Final Answer:**\n   The correct options are A, C, and D.\n\n   **Answer: Options A, C, D**",
+      "concept_tags": [
+        "conservation_of_angular_momentum",
+        "rotational_inertia",
+        "optimization_calculus"
+      ],
+      "formula_tags": [
+        "L = Iω",
+        "I = I_rod + I_point"
+      ],
+      "difficulty_level": "Medium",
+      "common_traps": "Applying conservation of linear momentum instead of angular momentum, or failing to differentiate the angular velocity expression correctly."
+    }
+  ]
+  

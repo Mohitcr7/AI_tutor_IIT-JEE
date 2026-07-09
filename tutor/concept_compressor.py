@@ -1,66 +1,39 @@
 # tutor/concept_compressor.py
 
-from typing import List, Dict
+from typing import Dict, List
 
 
 def compress_concepts(
     retrieved_concepts: List[Dict],
-    max_concepts: int = 2
+    max_concepts: int = 2,
 ) -> List[Dict]:
     """
-    Compress retrieved concepts into a focused teaching set.
+    Reduce retrieved concepts to a focused teaching set.
 
-    Purpose:
-    - Select a primary concept for explanation
-    - Optionally include supporting concepts
-    - Remove semantic noise
+    Picks the closest-matching concept as the primary, then adds up to
+    `max_concepts - 1` supporting concepts from the same subject and chapter.
 
     Args:
-        retrieved_concepts (List[Dict]):
-            Output from retrieve_relevant_concepts(), each dict contains:
-            {
-                "subject": str,
-                "chapter": str,
-                "concept": str,
-                "score": float,
-                "questions": List[str],
-                "common_traps": List[str]
-            }
-
-        max_concepts (int):
-            Maximum number of concepts to retain (default: 2)
+        retrieved_concepts: output of retrieve_relevant_concepts(); each dict
+            carries a `distance` field (cosine distance, lower is closer).
+        max_concepts: maximum number of concepts to keep.
 
     Returns:
-        List[Dict]:
-            Compressed list of concepts ordered by teaching priority
+        Concepts ordered by teaching priority (primary first).
     """
-
     if not retrieved_concepts:
         return []
 
-    # ----------------------------------------------------
-    # 1️⃣ Sort by semantic relevance (lower score = closer)
-    # ----------------------------------------------------
-    sorted_concepts = sorted(
-        retrieved_concepts,
-        key=lambda x: x.get("score", float("inf"))
-    )
+    # Rank by semantic distance (lower = closer). The retriever populates
+    # `distance`; fall back to +inf so any mis-shaped entry sorts last.
+    ranked = sorted(retrieved_concepts, key=lambda c: c.get("distance", float("inf")))
 
-    # ----------------------------------------------------
-    # 2️⃣ Select primary concept
-    # ----------------------------------------------------
-    primary = sorted_concepts[0]
-
+    primary = ranked[0]
     compressed = [primary]
 
-    # ----------------------------------------------------
-    # 3️⃣ Select supporting concepts (same subject & chapter)
-    # ----------------------------------------------------
-    for concept in sorted_concepts[1:]:
+    for concept in ranked[1:]:
         if len(compressed) >= max_concepts:
             break
-
-        # Keep concepts only if they are pedagogically aligned
         if (
             concept["subject"] == primary["subject"]
             and concept["chapter"] == primary["chapter"]

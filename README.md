@@ -1,557 +1,249 @@
 # 🧠 AI Tutor for IIT-JEE
 
-> A concept-aware, retrieval-augmented AI tutor built using gold-standard engineered JEE PYQs, designed to explain why solutions work, highlight common traps, and suggest targeted practice—exactly the way a top IIT coach would teach.
+> A concept-aware, retrieval-augmented tutor for JEE Advanced. It explains the
+> *why* behind a concept, flags the exam-hall traps students fall for, and walks
+> through real past-year questions step by step — teaching through their
+> verified solutions rather than inventing new ones.
 
-[![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![LangChain](https://img.shields.io/badge/LangChain-LCEL-green.svg)](https://github.com/langchain-ai/langchain)
-[![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector%20DB-orange.svg)](https://www.trychroma.com/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![Gemini API](https://img.shields.io/badge/LLM-Gemini%20API-4285F4.svg)](https://ai.google.dev/)
+[![ChromaDB](https://img.shields.io/badge/Vector%20DB-ChromaDB-orange.svg)](https://www.trychroma.com/)
+[![Streamlit](https://img.shields.io/badge/UI-Streamlit-FF4B4B.svg)](https://streamlit.io/)
 
 ---
 
 ## 🎯 Overview
 
-This project goes beyond traditional answer-generation systems. Instead of treating past year questions (PYQs) as plain text, we **engineer them into structured pedagogical knowledge**, enabling:
+Most "ask-an-LLM" tutors generate answers from the model's memory, which is
+risky on an exam where a wrong sign or formula is fatal. This project takes the
+opposite approach: it stores **curated, verified exam knowledge** and uses the
+LLM to *teach* it, not to recall it.
 
-- **Accurate concept-level explanations** that explain the "why" behind solutions
-- **Explicit common mistake diagnosis** with exam-focused error patterns
-- **Reliable semantic retrieval** using sentence embeddings
-- **Multi-subject coverage** across Physics, Chemistry, and Mathematics
+Two hand-engineered datasets drive everything:
 
-### Core Philosophy
-**High-quality structured knowledge + LLMs = trustworthy AI tutor**
+1. **Concept graphs** — the teaching backbone (`Subject → Chapter → concept`,
+   each with formulas, common traps, and links to real questions).
+2. **A past-year-question (PYQ) corpus** — real JEE Advanced questions, each with
+   options, the correct answer, and a **verified worked solution**.
 
-Rather than asking LLMs to generate knowledge, we give them *curated, verified exam knowledge* to amplify through explanation.
+A student's question is answered by *retrieving* the relevant concept and real
+questions, then making **one structured LLM call** that produces a concept
+explanation, the exam traps, and step-by-step walkthroughs of real problems.
 
----
+### Core principle
 
-## ✨ Key Features
+**Verified structured knowledge + retrieval + LLM = a tutor that teaches, not one that guesses.**
 
-✅ **Concept-Based Explanation** — Queries are matched to underlying concepts, not keywords  
-✅ **Gold-Standard PYQs** — Teaching material sourced from JEE Advanced past papers (2015-2023)  
-✅ **Common Trap Awareness** — Explicit annotation of exam-hall mistakes and misconceptions  
-✅ **Practice Suggestions** — Recommends similar problems for targeted reinforcement  
-✅ **Modular Architecture** — Retrieval, prompting, and generation are cleanly separated  
-✅ **Multi-Subject Support** — Unified framework for Physics, Chemistry, and Mathematics  
-
----
-
-## 🧠 System Architecture
-
-```
-┌─────────────────────────────────────────────────────────┐
-│  Student Query: "Why does Gibbs free energy determine   │
-│  if a reaction is spontaneous?"                         │
-└──────────────────────┬──────────────────────────────────┘
-                       │
-                       ▼
-        ┌──────────────────────────────┐
-        │ Query Embedding (HF Sentence │
-        │      Transformers)           │
-        └──────────────┬───────────────┘
-                       │
-                       ▼
-        ┌──────────────────────────────┐
-        │   ChromaDB Vector Search     │
-        │ (Semantic Similarity)        │
-        └──────────────┬───────────────┘
-                       │
-                       ▼
-        ┌──────────────────────────────┐
-        │   Relevant Concept Graphs    │
-        │  (Thermodynamics, Entropy)   │
-        └──────────────┬───────────────┘
-                       │
-        ┌──────────────┴──────────────┐
-        │                             │
-        ▼                             ▼
-    ┌─────────────┐         ┌──────────────────┐
-    │ PYQ Context │         │ Concept Relations│
-    │   (2017-    │         │  (Prerequisites, │
-    │   2023)     │         │   Applications)  │
-    └──────┬──────┘         └────────┬─────────┘
-           │                         │
-           └────────────┬────────────┘
-                        │
-                        ▼
-        ┌─────────────────────────────────┐
-        │  Chunked Tutor Inference        │
-        │  ────────────────────────────   │
-        │  1. Concept Explanation         │
-        │  2. Common Traps & Mistakes     │
-        │  3. Similar Practice Problems   │
-        └────────────┬────────────────────┘
-                     │
-                     ▼
-        ┌──────────────────────────────┐
-        │  LLM Response Generation     │
-        │  (Claude / GPT-4)            │
-        └──────────────┬───────────────┘
-                       │
-                       ▼
-        ┌──────────────────────────────┐
-        │  Verified Explanation with   │
-        │  Traps & Practice            │
-        └──────────────────────────────┘
-```
+The LLM never invents a past-year question, and when it walks through a problem
+it teaches *through the provided verified solution* — it does not re-derive the
+answer (which would reintroduce the hallucination risk on the exact math you
+curated). If a solution looks wrong, it is told to say so rather than silently
+change it.
 
 ---
 
-## 🧪 Gold-Standard PYQ Engineering
+## ✨ Key features
 
-### The Problem with Raw PYQs
-
-Treating past year questions as plain text leads to:
-- Hidden concept assumptions
-- Implicit error patterns
-- Shallow LLM-generated explanations
-- High hallucination risk
-
-### Our Solution: Structured Knowledge
-
-Each PYQ is manually engineered into a **machine-interpretable instructional unit**:
-
-```json
-{
-  "qid": "JEE_Adv_2017_Chem_7",
-  "subject": "Chemistry",
-  "chapter": "Thermodynamics",
-  "year": 2017,
-  
-  "concept_tags": [
-    "second_law_of_thermodynamics",
-    "entropy_of_surroundings",
-    "gibbs_free_energy"
-  ],
-  
-  "formula_tags": [
-    "ΔG = ΔH − TΔS",
-    "ΔS_surroundings = −ΔH/T",
-    "ΔG_universe = ΔG_system + ΔG_surroundings"
-  ],
-  
-  "solution_text": "Step-by-step reasoning aligned with JEE Advanced standards...",
-  
-  "common_traps": [
-    {
-      "trap": "Sign confusion in entropy of surroundings",
-      "error": "Students write ΔS_surr = +ΔH/T instead of −ΔH/T",
-      "explanation": "Surroundings absorb heat lost by system (negative sign)"
-    },
-    {
-      "trap": "Entropy decrease = spontaneous",
-      "error": "Assuming negative ΔS means unfavorable",
-      "explanation": "Must consider ΔH and T; ΔG = ΔH − TΔS governs spontaneity"
-    }
-  ],
-  
-  "difficulty_level": "Medium",
-  "marks": 4
-}
-```
-
-### What This Enables
-
-| Feature | Benefit |
-|---------|---------|
-| **Explicit concept tags** | Precise semantic retrieval independent of keywords |
-| **Exam-grade solutions** | Reasoning-focused explanations verified by domain experts |
-| **Common trap annotation** | Error-aware tutoring with misconception correction |
-| **Formula linking** | Clear mapping between concepts and mathematical expressions |
-| **Structured metadata** | Low hallucination risk; LLM amplifies, doesn't generate |
+- **Concept-first retrieval** — questions are matched to underlying concepts via
+  semantic search, not keywords.
+- **Teach-through-solution walkthroughs** — real PYQs explained step by step,
+  grounded in their verified solutions.
+- **Attempt-then-reveal UI** — the question is shown first; the approach hint and
+  full walkthrough sit behind expanders, so the student struggles first.
+- **Explicit trap awareness** — the mistakes JEE deliberately exploits, per
+  concept and per problem.
+- **One structured LLM call** — explanation + traps + worked examples returned as
+  a validated schema, not free-form text to parse.
+- **Self-contained** — local embeddings + on-disk vector store; the only external
+  dependency at runtime is the Gemini API.
 
 ---
 
-## 🧩 Concept Graph Architecture
+## 🧩 How it works
 
-Structured PYQs are aggregated into **concept graphs** that serve as the tutor's knowledge backbone:
+### Build phase (offline, run once)
 
 ```
-Thermodynamics (Master Concept)
-├── First Law of Thermodynamics
-│   ├── Concept: Energy conservation
-│   ├── Formulas: ΔU = Q − W
-│   ├── PYQs: 2015_Chem_5, 2018_Chem_3, 2020_Chem_4
-│   ├── Prerequisites: Heat, Work, Internal Energy
-│   └── Traps: Sign convention confusion
-│
-├── Second Law of Thermodynamics
-│   ├── Concept: Entropy and spontaneity
-│   ├── Formulas: ΔS_universe > 0, ΔG = ΔH − TΔS
-│   ├── PYQs: 2017_Chem_7, 2019_Chem_8, 2022_Chem_6
-│   ├── Prerequisites: First Law, Entropy definition
-│   ├── Applications: Gibbs Free Energy, Equilibrium
-│   └── Traps: Entropy sign errors, neglecting surroundings
-│
-└── Gibbs Free Energy
-    ├── Concept: Spontaneity at constant T, P
-    ├── Formulas: ΔG = ΔH − TΔS, ΔG° = −RT ln(K)
-    ├── PYQs: 2017_Chem_7, 2021_Chem_5
-    ├── Prerequisites: Enthalpy, Entropy, Second Law
-    ├── Applications: Equilibrium prediction, Le Chatelier
-    └── Traps: Ignoring temperature dependence
+ data/concept_graph_*.json          Json Files(PYQs)/*_PYQs.json
+          │                                   │
+          ▼                                   ▼
+ build_concept_documents.py         build_pyq_documents.py
+          └──────────────┬────────────────────┘
+                         ▼
+              build_concept_store.py
+      embed each document with all-MiniLM-L6-v2 (384-d),
+      write to ChromaDB (cosine HNSW)
+                         │
+                         ▼
+        vectorstore/chroma_concepts/
+        ├── "jee_concepts"  (concept nodes)
+        └── "jee_pyqs"      (questions + verified solutions)
 ```
 
-**Query Example:**
-- **Query:** "Why does equilibrium shift for exothermic reactions?"
-- **Semantic Match:** Concept graph retrieves "Le Chatelier's Principle + Gibbs Free Energy"
-- **Returned Context:** 5-6 PYQs on equilibrium shifts with common mistakes annotated
+Each record is split into an embedded **document** (a compact semantic summary,
+what you search against) and **metadata** (the full payload — solutions, traps,
+formulas — carried alongside but not embedded). Lists are JSON-encoded because
+ChromaDB metadata holds only primitives, and decoded again on retrieval.
+
+### Query phase (runtime, per question)
+
+```
+Student question  (+ optional subject filter)
+        │
+        ▼
+retrieve_relevant_concepts ──▶ compress_concepts  (pick the primary concept)
+        │
+        ▼
+collect candidate PYQs = concept's curated links  +  semantic matches
+        │
+        ▼
+build one prompt: concept context + candidate questions WITH verified solutions
+        │
+        ▼
+generate_tutor_response()  ──▶ ONE Gemini call, structured output:
+        │                        { concept_explanation, common_traps[],
+        │                          worked_examples[] }
+        ▼
+resolve each worked example's qid → full question (text + solution)
+        │
+        ▼
+Streamlit renders: concept → traps → attempt-then-reveal practice
+```
+
+The response is validated against a Pydantic schema, so the app gets typed
+objects rather than text to parse.
 
 ---
 
-## 🔍 Retrieval System
+## 🗂️ Data
 
-### Embedding Model
-- **Encoder:** `sentence-transformers/all-MiniLM-L6-v2`
-- **Dimension:** 384-d vectors
-- **Training:** Fine-tuned on JEE concept similarity pairs
-- **Strength:** Semantic matching, not keyword-based
+| Dataset | What it contains | Count |
+|---------|------------------|-------|
+| **Concept graphs** (`data/`) | Physics + Chemistry + Maths concepts, each with formulas, common traps, and linked question ids | ~657 concepts |
+| **PYQ corpus** (`Json Files(PYQs)/`) | JEE Advanced questions with options, answer, verified solution, concept/formula tags, difficulty | 220 questions |
 
-### Vector Store
-- **Database:** ChromaDB (persistent SQLite + HNSW index)
-- **Index Type:** HNSW (Hierarchical Navigable Small World)
-- **Metadata Filtering:** Subject, chapter, difficulty level, year
-- **Query Type:** Cosine similarity with optional metadata constraints
-
-### Search Capability
-
-```python
-# The system understands conceptual similarity
-queries = [
-    "Why does equilibrium shift for exothermic reactions?",
-    "How temperature affects spontaneity",
-    "When is entropy unfavorable but reaction is spontaneous?"
-]
-# All three retrieve thermodynamics/Gibbs free energy concepts
-```
+Every question id referenced by the concept graphs resolves to a full question in
+the corpus, which is what makes "here's the concept, and here are the real
+questions that test it" possible.
 
 ---
 
-## 🧠 Tutor Inference: Chunked Reasoning
-
-To avoid token overflow and maximize reasoning quality, tutor responses are generated in **three focused chunks**:
-
-### 1️⃣ Concept Explanation
-Explains the core concept clearly, grounded in the student's query and retrieved PYQ examples.
-
-```
-Gibbs Free Energy determines spontaneity because:
-- ΔG < 0 → reaction is spontaneous (can occur)
-- ΔG > 0 → reaction is non-spontaneous (cannot occur)
-- ΔG = 0 → system is at equilibrium
-
-Formula: ΔG = ΔH − TΔS
-
-This incorporates both enthalpy (ΔH) and entropy (ΔS), weighted by temperature (T).
-```
-
-### 2️⃣ Common Traps & Misconceptions
-Explicitly lists the exam-hall mistakes that catch students, with explanations of why they're wrong.
-
-```
-❌ Trap 1: "Entropy must always increase for a reaction to be spontaneous"
-✅ Correction: ΔS_SYSTEM can be negative if TΔS_SURROUNDINGS > ΔH
-   Example: Freezing water at −5°C: ΔS_system < 0, but ΔG < 0 (spontaneous)
-
-❌ Trap 2: "Exothermic reactions are always spontaneous"
-✅ Correction: Must also consider entropy. ΔH < 0 doesn't guarantee ΔG < 0.
-   Example: Diamond formation from coal is ΔH < 0 but ΔG > 0 (non-spontaneous at 25°C)
-```
-
-### 3️⃣ Suggested Practice Problems
-Recommends similar PYQs from the concept graph for targeted reinforcement.
-
-```
-Similar problems to deepen understanding:
-1. JEE Adv 2017 Q7 (Entropy of surroundings calculation)
-2. JEE Adv 2020 Q4 (Temperature-dependent spontaneity)
-3. JEE Adv 2022 Q6 (Le Chatelier's at non-standard conditions)
-
-Try these before checking solutions!
-```
-
-### Benefits
-- **More readable** — Chunked structure improves clarity
-- **More controllable** — Each chunk can be debugged/modified independently
-- **Easier to extend** — Can add chunks for step-by-step solutions, formula derivations, etc.
-
----
-
-## 🏗️ Project Structure
+## 🏗️ Project structure
 
 ```
 ai_tutor/
+├── app.py                          # Streamlit UI (attempt-then-reveal)
 ├── data/
-│   ├── concept_graph_Physics.json      # Structured concept graphs
-│   ├── concept_graph_Chemistry.json
-│   └── concept_graph_Maths.json
-│
+│   └── concept_graph_*.json        # concept graphs (P / C / M)
+├── Json Files(PYQs)/
+│   └── {Physics,Chemistry,Maths}/  # PYQ corpus (aggregated *_PYQs.json)
+├── embeddings/
+│   ├── build_concept_documents.py  # concept graph → documents
+│   ├── build_pyq_documents.py      # PYQ corpus → documents
+│   └── build_concept_store.py      # build both ChromaDB collections
 ├── retrieval/
-│   └── concept_retriever.py            # ChromaDB vector search wrapper
-│
+│   └── concept_retriever.py        # semantic retrieval (concepts + PYQs)
 ├── tutor/
-│   ├── tutor_inference.py              # Main chunked reasoning logic
-│   ├── tutor_prompt_template.py        # Prompt engineering for each chunk
-│   └── concept_compressor.py           # Optional: compress retrieved context
-│
+│   ├── tutor_inference.py          # orchestration
+│   ├── tutor_prompt_template.py    # single structured prompt
+│   └── concept_compressor.py       # rank/focus retrieved concepts
 ├── llm/
-│   └── llm_client.py                   # LLM API client (Claude/GPT-4)
-│
-├── vectorstore/
-│   └── chroma_concepts/                # Persistent ChromaDB storage
-│
-└── README.md
+│   └── llm_client.py               # Gemini API + Pydantic output schema
+├── vectorstore/                    # persisted store (gitignored; auto-built)
+├── requirements.txt
+├── .env.example
+└── DEPLOY.md
 ```
 
 ---
 
-## 🚀 Quick Start
-
-### Installation
+## 🚀 Quick start
 
 ```bash
-# Clone repository
-git clone https://github.com/yourusername/ai-tutor-jee.git
-cd ai-tutor-jee
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
+# 1. Environment
+python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
+
+# 2. API key
+cp .env.example .env          # then edit .env and paste your Gemini API key
+
+# 3. Build the vector store (~1 min; downloads the embedding model once)
+python embeddings/build_concept_store.py
+
+# 4. Run
+streamlit run app.py
 ```
 
-### Initialize Vector Store
+> **API key:** the tutor calls the **Google Gemini API**. Get a **free** key at
+> [aistudio.google.com/apikey](https://aistudio.google.com/apikey) — the free
+> tier is generous but rate-limited (requests per minute/day). If you skip step
+> 3, the app builds the store automatically on first question.
 
-```bash
-# Load concept graphs and build vector embeddings
-python scripts/init_vectorstore.py
+### Configuration
 
-# This creates: vectorstore/chroma_concepts/
-# Contains embeddings for all PYQ concepts
-```
+| Variable | Purpose | Default |
+|----------|---------|---------|
+| `GEMINI_API_KEY` | Google Gemini API key (required) | — |
+| `TUTOR_MODEL` | Override the model | `gemini-2.5-flash-lite` |
 
-### Query the Tutor
-
-```python
-from tutor.tutor_inference import JEETutor
-
-# Initialize tutor
-tutor = JEETutor(
-    subject="Chemistry",
-    model="claude-3-sonnet"  # or gpt-4
-)
-
-# Ask a question
-response = tutor.explain(
-    query="Why does Gibbs free energy determine spontaneity?",
-    difficulty_level="medium"
-)
-
-print(response["concept_explanation"])
-print(response["common_traps"])
-print(response["practice_suggestions"])
-```
-
-### Example Output
-
-```
-📚 CONCEPT EXPLANATION
-────────────────────────────────────────
-Gibbs Free Energy (G = H − TS) combines both enthalpy and entropy 
-in a temperature-dependent way. At constant T and P, ΔG < 0 indicates 
-spontaneity because it represents the maximum useful work available.
-
-The entropy term (−TΔS) becomes more significant at higher temperatures, 
-which is why some endothermic reactions become spontaneous when heated.
-
-⚠️ COMMON TRAPS
-────────────────────────────────────────
-❌ Trap: "A negative ΔS always makes a reaction non-spontaneous"
-✅ Reality: Even ΔS < 0 can give ΔG < 0 if ΔH << 0 and T is small
-   Example: Freezing water below 0°C is spontaneous despite ΔS_system < 0
-
-❌ Trap: "All exothermic reactions are spontaneous"
-✅ Reality: Must consider both ΔH and ΔS terms
-   Example: Combustion at room temp is spontaneous (ΔG < 0)
-            but diamond oxidation is not (ΔG > 0) despite ΔH < 0
-
-📖 PRACTICE PROBLEMS
-────────────────────────────────────────
-• JEE Adv 2017 Q7 — Calculate ΔG and predict spontaneity
-• JEE Adv 2020 Q4 — Temperature dependence of ΔG
-• JEE Adv 2022 Q6 — Entropy of surroundings calculation
-```
+Flash-Lite is the fastest and most free-tier-friendly; step up to
+`gemini-2.5-flash` or `gemini-2.5-pro` for deeper reasoning (tighter free-tier
+limits).
 
 ---
 
-## 📋 Tech Stack
+## 📦 Tech stack
 
-| Component | Technology | Purpose |
-|-----------|-----------|---------|
-| **Language** | Python 3.8+ | Core implementation |
-| **LLM Integration** | LangChain (LCEL) | Structured prompt chains |
-| **Embeddings** | Sentence Transformers | Semantic similarity |
-| **Vector DB** | ChromaDB | Persistent concept storage |
-| **LLM** | Claude 3 / GPT-4 | Response generation |
-| **Data Format** | JSON | Concept graph storage |
-| **Async** | asyncio | Concurrent API calls |
-
----
-
-## 📌 Current Scope
-
-### ✅ Implemented
-- Concept-based retrieval and explanation
-- Application via gold-standard PYQs
-- Common mistake awareness and correction
-- Multi-subject support (Physics, Chemistry, Maths)
-- Semantic similarity search
-- Chunked response generation
-
-### 🚧 Planned (v2.0)
-- **Error Diagnosis Engine** — Step-by-step mistake detection
-- **Student Mastery Tracking** — Concept understanding score
-- **Difficulty-Adaptive Generation** — Auto-adjust explanation complexity
-- **Hallucination Evaluation Metrics** — Verify LLM outputs against ground truth
-- **Web UI** — Interactive student dashboard
-- **Performance Analytics** — Track student progress over time
+| Component | Technology |
+|-----------|-----------|
+| LLM | Google Gemini API (`gemini-2.5-flash-lite` by default) |
+| Structured output | Pydantic schema via Gemini `response_schema` |
+| Embeddings | `sentence-transformers/all-MiniLM-L6-v2` (local, 384-d) |
+| Vector store | ChromaDB (persistent, cosine HNSW) |
+| UI | Streamlit |
+| Data format | JSON (concept graphs + PYQ corpus) |
 
 ---
 
-## 🎓 Data: Gold-Standard PYQ Corpus
+## 🚢 Deployment
 
-The tutor is trained on **manually curated PYQs** from JEE Advanced:
-
-| Subject | Chapters Covered | PYQs (2015-2023) | Concept Nodes |
-|---------|------------------|------------------|---------------|
-| **Physics** | Mechanics, Thermodynamics, Waves, Optics, Modern Physics | ~150 | ~180 |
-| **Chemistry** | Atomic Structure, Thermodynamics, Equilibrium, Electrochemistry, Organic | ~180 | ~210 |
-| **Maths** | Calculus, Algebra, Trigonometry, Coordinate Geometry, Matrices | ~160 | ~200 |
-
-Each PYQ is annotated with:
-- Core concepts tested
-- Common student mistakes
-- Step-by-step solution reasoning
-- Related formulas and prerequisites
-- Difficulty level and marks allocation
+The app is a single Streamlit process and deploys cleanly to Streamlit Community
+Cloud or Hugging Face Spaces. The vector store builds itself on first boot from
+the committed source JSON, so it does not need to be committed. See
+[DEPLOY.md](DEPLOY.md) for step-by-step instructions and the operational
+must-dos (free-tier rate limits, per-user rate limiting) before opening it to
+students.
 
 ---
 
-## 📊 Performance & Benchmarks
+## 🔐 Limitations & honesty
 
-### Retrieval Quality
-- **Precision@5:** 92% (correct concept retrieved in top 5 results)
-- **Semantic match success:** 87% (even with paraphrased queries)
-- **Latency:** <200ms for vector search
-
-### Explanation Quality
-- **Concept coverage:** 95% (explains the "why" for majority of queries)
-- **Trap identification:** 88% (correctly identifies exam-hall misconceptions)
-- **Hallucination rate:** <5% (LLM rarely generates incorrect facts)
-
-### User Studies (Early Feedback)
-- **Clarity score:** 4.3/5.0 (explanations are easy to understand)
-- **Helpfulness score:** 4.1/5.0 (improves concept understanding)
-- **Mistake awareness:** 4.5/5.0 (effective at highlighting traps)
+- **No evaluation harness yet.** Retrieval quality and explanation correctness
+  are not yet measured on a held-out set. This is the top priority next step —
+  no performance metrics are claimed until they can be reproduced.
+- **Embedding model.** `all-MiniLM-L6-v2` is small and general-purpose; a stronger
+  embedder is likely the highest-leverage retrieval upgrade, to be decided by the
+  eval set rather than by guess.
+- **Corpus coverage.** 220 engineered questions and ~657 concepts across P-C-M;
+  broad but not exhaustive.
+- **Explanation prose is model-generated.** Worked examples are grounded in
+  verified solutions, but the concept explanation itself is the model reasoning
+  from the retrieved context — the main surface an eval set should check.
+- **No auth or rate limiting yet.** Add per-user throttling before public use.
 
 ---
 
-## 🔐 Limitations & Transparency
+## 🗺️ Roadmap
 
-### Known Limitations
-- **Coverage:** Currently supports ~400 core JEE concepts; edge cases may not be covered
-- **Real-time updates:** PYQs are from 2015-2023; future trends may not be reflected
-- **LLM dependency:** Explanation quality depends on underlying LLM (Claude/GPT-4)
-- **Adaptive learning:** No student progress tracking yet; treats all users identically
-- **Step-by-step solutions:** Response is concept + traps + practice; not full derivation
-
-### Design Trade-offs
-- **Quality over quantity:** Manually curated PYQs (slower) vs. auto-scraped (error-prone)
-- **Semantic relevance:** Embedding-based retrieval sometimes retrieves adjacent concepts
-- **Token efficiency:** Chunked response (3 parts) vs. single comprehensive answer
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! Areas where help is needed:
-
-### High Impact
-1. **Expand PYQ Corpus** — Engineer more past year questions into concept graphs
-2. **Validate Explanations** — Test tutor responses against domain expert annotations
-3. **Improve Prompts** — Optimize prompt templates for clarity and accuracy
-
-### Development
-4. **Add Web UI** — Flask/React interface for student interaction
-5. **Student Tracking** — Backend for tracking concept mastery
-6. **Performance Optimization** — Faster retrieval and inference
-
-### Testing
-7. **Unit Tests** — Increase coverage for retrieval and inference modules
-8. **Integration Tests** — End-to-end query → response workflows
-9. **Benchmarking** — Compare embedding models and LLM performance
-
-### Documentation
-10. **Tutorials** — Step-by-step guides for using the tutor
-11. **API Docs** — Detailed documentation of public methods
-12. **Research Papers** — Publish findings on RAG for education
-
-**See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.**
+- [ ] Evaluation set (target concept per query) → measured retrieval + answer quality
+- [ ] Stronger embedding model, chosen by eval
+- [ ] Per-user rate limiting and simple auth
+- [ ] Student progress / concept-mastery tracking
+- [ ] Expand the PYQ corpus and concept coverage
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — see [LICENSE](LICENSE) file for details.
-
-The gold-standard PYQ corpus is curated for educational purposes. JEE Advanced questions are sourced from official IIT-JEE publications.
-
----
-
-## 🔗 Related Work
-
-- **RAG Systems:** Lewis et al. (2020) — Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks
-- **Semantic Embeddings:** Reimers & Gurevych (2019) — Sentence-BERT
-- **Educational AI:** Koedinger et al. (2013) — The Learning Dashboard
-
----
-
-## 📞 Contact & Support
-
-- **Issues & Bugs:** [GitHub Issues](https://github.com/Mohitcr7/ai-tutor-jee/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/Mohitcr7/ai-tutor-jee/discussions)
-- **Email:** c_manil@ar.iitr.ac.in
-
----
-
-## 🎉 Acknowledgments
-
-- **JEE Advanced PYQ Data:** IIT-JEE official publications
-- **Embedding Model:** Sentence Transformers community
-- **Vector Database:** Chroma team
-- **LLM Providers:** Anthropic (Claude), OpenAI (GPT-4)
-
----
-
-## 📈 Roadmap
-
-### Q1 2026
-- [ ] Expand Chemistry corpus to 250+ PYQs
-- [ ] Implement student progress tracking
-- [ ] Beta web UI launch
-
-### Q2 2026
-- [ ] Add error diagnosis engine
-- [ ] Integrate with major EdTech platforms
-- [ ] Publish research paper on RAG for JEE
-
-### Q3 2026
-- [ ] Adaptive difficulty generation
-- [ ] Multi-language support (Hindi)
-- [ ] Mobile app (iOS/Android)
-
----
-
-**Built with ❤️ for JEE aspirants. Star this repo if it helped you! ⭐**
+MIT — intended for educational use. JEE Advanced questions are sourced from
+official IIT-JEE publications. (Add a `LICENSE` file if you publish this.)
