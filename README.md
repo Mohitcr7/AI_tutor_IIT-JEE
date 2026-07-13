@@ -10,6 +10,8 @@
 [![ChromaDB](https://img.shields.io/badge/Vector%20DB-ChromaDB-orange.svg)](https://www.trychroma.com/)
 [![Streamlit](https://img.shields.io/badge/UI-Streamlit-FF4B4B.svg)](https://streamlit.io/)
 
+**Built by [Mohit Chauhan](https://github.com/Mohitcr7)** — Applied AI · RAG · Python
+
 ---
 
 ## 🎯 Overview
@@ -240,6 +242,16 @@ students.
 - [ ] Per-user rate limiting and simple auth
 - [ ] Student progress / concept-mastery tracking
 - [ ] Expand the PYQ corpus and concept coverage
+
+---
+
+## 👤 Author
+
+**Mohit Chauhan** — [github.com/Mohitcr7](https://github.com/Mohitcr7)
+
+Interested in Data Science / AI Engineering roles. Built this end to end:
+knowledge engineering, the RAG retrieval layer, the structured LLM pipeline,
+and the deployment.
 
 ---
 
